@@ -1,0 +1,41 @@
+{
+  "email_provider": "none",
+  "providers": {
+    "sendgrid": {
+      "api_key": "YOUR_SENDGRID_API_KEY",
+      "enabled": false
+    },
+    "aws_ses": {
+      "access_key_id": "YOUR_AWS_ACCESS_KEY",
+      "secret_access_key": "YOUR_AWS_SECRET",
+      "region": "us-east-1",
+      "enabled": false
+    },
+    "smtp": {
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "username": "your-email@gmail.com",
+      "password": "your-app-password",
+      "enabled": false
+    }
+  },
+  "newsletter": {
+    "from_name": "Robotics Newsletter",
+    "from_email": "newsletter@yourdomain.com",
+    "reply_to": "reply@yourdomain.com",
+    "subject_template": "🤖 Newsletter Robotica - {date}"
+  },
+  "recipients": {
+    "subscribers": [
+      "subscriber1@example.com"
+    ],
+    "admin": [
+      "admin@yourdomain.com"
+    ]
+  },
+  "delivery": {
+    "auto_send": false,
+    "require_approval": true,
+    "send_test_first": true
+  }
+}

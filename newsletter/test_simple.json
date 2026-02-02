@@ -1,0 +1,14 @@
+{
+  "personalizations": [{
+    "to": [
+      {"email": "nadir.balena@gmail.com"},
+      {"email": "italiainfinanza@gmail.com"}
+    ]
+  }],
+  "from": {"email": "nadir.balena@gmail.com", "name": "Robotics Newsletter Test"},
+  "subject": "Test Email - Robotics Newsletter",
+  "content": [{
+    "type": "text/plain",
+    "value": "This is a test email from your Robotics Newsletter system.\n\nIf you received this, the system is working correctly!\n\nTime: 2025-02-02 18:10 UTC\nSystem: OpenClaw Automation"
+  }]
+}

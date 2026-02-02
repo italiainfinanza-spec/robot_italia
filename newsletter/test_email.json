@@ -1,0 +1,11 @@
+{
+  "personalizations": [{
+    "to": [{"email": "nadir.balena@gmail.com"}]
+  }],
+  "from": {"email": "nadir.balena@gmail.com", "name": "Robotics Newsletter Italia"},
+  "subject": "🤖 Newsletter Robotica - Test Email",
+  "content": [{
+    "type": "text/plain",
+    "value": "🤖 NEWSLETTER ROBOTICA - Edizione di Test\n📅 02 February 2026\n\nCiao Nadir!\n\nQuesta è una email di test dal tuo sistema automatizzato.\n\n🎯 Highlights della settimana:\n1. Figure AI Helix 02 - Robot cucina autonomo\n2. Vention $110M funding con Nvidia\n3. Tesla/SpaceX merger talks\n\n💼 Investor Spotlight:\n• Robotica umanoide in crescita\n• Opportunità in cobots industriali\n• Fondo strategico: diversificare tra maturi e startup\n\n---\n✅ Sistema funzionante!\n📅 Prossima newsletter: Giovedì 7:30 AM UTC\n🤖 Powered by OpenClaw Automation"
+  }]
+}

@@ -1,0 +1,19 @@
+{
+  "slack": {
+    "enabled": false,
+    "webhook_url": "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+  },
+  "discord": {
+    "enabled": false,
+    "webhook_url": "https://discord.com/api/webhooks/YOUR/WEBHOOK"
+  },
+  "telegram": {
+    "enabled": false,
+    "bot_token": "YOUR_BOT_TOKEN",
+    "chat_id": "YOUR_CHAT_ID"
+  },
+  "email_admin": {
+    "enabled": true,
+    "recipients": ["admin@example.com"]
+  }
+}

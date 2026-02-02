@@ -1,0 +1,42 @@
+{
+  "email_provider": "sendgrid",
+  "providers": {
+    "sendgrid": {
+      "api_key": "${SENDGRID_API_KEY}",
+      "enabled": true
+    },
+    "aws_ses": {
+      "access_key_id": "${AWS_ACCESS_KEY_ID}",
+      "secret_access_key": "${AWS_SECRET_ACCESS_KEY}",
+      "region": "us-east-1",
+      "enabled": false
+    },
+    "smtp": {
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "username": "${SMTP_USERNAME}",
+      "password": "${SMTP_PASSWORD}",
+      "enabled": false
+    }
+  },
+  "newsletter": {
+    "from_name": "Robotics Newsletter Italia",
+    "from_email": "nadir.balena@gmail.com",
+    "reply_to": "nadir.balena@gmail.com",
+    "subject_template": "🤖 Newsletter Robotica - {date}"
+  },
+  "recipients": {
+    "subscribers": [
+      "nadir.balena@gmail.com",
+      "italiainfinanza@gmail.com"
+    ],
+    "admin": [
+      "nadir.balena@gmail.com"
+    ]
+  },
+  "delivery": {
+    "auto_send": false,
+    "require_approval": true,
+    "send_test_first": true
+  }
+}

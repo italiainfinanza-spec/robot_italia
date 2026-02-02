@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotica Weekly - Il Futuro della Robotica, Ogni Giorno</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #1e293b;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 40px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .robot-icon {
+            font-size: 5rem;
+            margin-bottom: 30px;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 15px 40px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background-color: white;
+            color: #667eea;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .btn-secondary:hover {
+            background-color: white;
+            color: #667eea;
+        }
+        
+        /* Problem/Solution */
+        .problem-solution {
+            padding: 80px 20px;
+            background-color: #f8fafc;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .problem-box {
+            background-color: #fee2e2;
+            border-left: 4px solid #ef4444;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        .solution-box {
+            background-color: #dcfce7;
+            border-left: 4px solid #22c55e;
+            padding: 30px;
+            border-radius: 8px;
+        }
+        
+        .problem-box h3, .solution-box h3 {
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        
+        /* Features */
+        .features {
+            padding: 80px 20px;
+        }
+        
+        .features h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        .feature-card h3 {
+            margin-bottom: 15px;
+            color: #1e293b;
+        }
+        
+        /* Pricing */
+        .pricing {
+            padding: 80px 20px;
+            background-color: #f8fafc;
+        }
+        
+        .pricing h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+        }
+        
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .pricing-card {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            text-align: center;
+            position: relative;
+        }
+        
+        .pricing-card.premium {
+            border: 3px solid #667eea;
+            transform: scale(1.05);
+        }
+        
+        .badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 5px 20px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .pricing-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+        
+        .price {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #667eea;
+            margin: 20px 0;
+        }
+        
+        .price span {
+            font-size: 1rem;
+            color: #64748b;
+            font-weight: 400;
+        }
+        
+        .pricing-card ul {
+            list-style: none;
+            text-align: left;
+            margin: 30px 0;
+        }
+        
+        .pricing-card li {
+            padding: 10px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .pricing-card li:before {
+            content: "✓";
+            color: #22c55e;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .btn-pricing {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: opacity 0.3s ease;
+        }
+        
+        .btn-pricing:hover {
+            opacity: 0.9;
+        }
+        
+        /* FAQ */
+        .faq {
+            padding: 80px 20px;
+        }
+        
+        .faq h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+        }
+        
+        .faq-item {
+            max-width: 700px;
+            margin: 0 auto 20px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            padding: 20px;
+            background-color: #f8fafc;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        
+        .faq-answer {
+            padding: 20px;
+            border-top: 1px solid #e2e8f0;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #1e293b;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        .social-links {
+            margin: 20px 0;
+        }
+        
+        .social-links a {
+            color: white;
+            font-size: 1.5rem;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .pricing-card.premium {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="robot-icon">🤖</div>
+        <h1>Robotica Weekly</h1>
+        <p>Il Futuro della Robotica, Ogni Giorno.<br>Notizie, analisi di mercato e opportunità di investimento nel settore robotics.</p>
+        <div class="cta-buttons">
+            <a href="#signup-free" class="btn btn-primary">📧 Iscriviti GRATIS</a>
+            <a href="#pricing" class="btn btn-secondary">⭐ Passa a Premium €4.99</a>
+        </div>
+    </section>
+    
+    <!-- Problem/Solution -->
+    <section class="problem-solution">
+        <div class="container">
+            <div class="problem-box">
+                <h3>❌ Il Problema</h3>
+                <p>Il settore robotics cresce del <strong>25% all'anno</strong> e supererà i $200 miliardi entro il 2030. Ma gli investitori italiani <strong>non hanno fonti affidabili</strong> per seguire questo trend esplosivo. Le notizie sono sparse, in inglese, e senza analisi di mercato.</p>
+            </div>
+            <div class="solution-box">
+                <h3>✅ La Soluzione</h3>
+                <p><strong>Robotica Weekly</strong> porta le migliori opportunità di investimento <strong>direttamente nella tua email</strong>. Analisi giornaliere, top 10 azioni, entry points, e ETF consigliati - tutto in italiano e ottimizzato per mobile.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features -->
+    <section class="features">
+        <h2>Cosa Ricevi</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Analisi di Mercato Giornaliera</h3>
+                <p>Trend, sentiment e opportunità nel settore robotics, tutti i giorni alle 7:30 AM.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📈</div>
+                <h3>Top 10 Azioni Robotics</h3>
+                <p>Le migliori azioni per market cap con performance, target price e analisi tecnica.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔗</div>
+                <h3>Integrazione TradingView</h3>
+                <p>Clicca su qualsiasi azione per aprire il grafico su TradingView con indicatori tecnici.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>Entry Points & Price Targets</h3>
+                <p>Saprai esattamente quando entrare e a che prezzo, con livelli di supporto e resistenza.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📈</div>
+                <h3>ETF Consigliati</h3>
+                <p>ROBO, BOTZ, IRBO e altri ETF robotics analizzati per diversificare il portafoglio.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📱</div>
+                <h3>Mobile-First Design</h3>
+                <p>Perfetta da leggere sul telefono durante il tragitto per lavoro. 5 minuti e sei aggiornato.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+        <h2>Scegli il Tuo Piano</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>FREE</h3>
+                <div class="price">€0<span>/mese</span></div>
+                <ul>
+                    <li>Newsletter settimanale (2x)</li>
+                    <li>Top 5 azioni recap</li>
+                    <li>News principali</li>
+                    <li>Accesso archivio base</li>
+                </ul>
+                <a href="#" class="btn-pricing">Iscriviti Gratis</a>
+            </div>
+            <div class="pricing-card premium">
+                <span class="badge">POPOLARE</span>
+                <h3>PREMIUM</h3>
+                <div class="price">€4.99<span>/mese</span></div>
+                <ul>
+                    <li><strong>TUTTI I GIORNI</strong> alle 7:30 AM</li>
+                    <li>Top 10 azioni + Market Cap</li>
+                    <li>Entry points e price targets</li>
+                    <li>Analisi ETF dettagliata</li>
+                    <li>TradingView integration</li>
+                    <li>Supporto prioritario</li>
+                </ul>
+                <a href="#" class="btn-pricing">Passa a Premium</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ -->
+    <section class="faq">
+        <h2>Domande Frequenti</h2>
+        <div class="faq-item">
+            <div class="faq-question">📅 Quando arriva la newsletter?</div>
+            <div class="faq-answer">La versione FREE arriva Lunedì e Giovedì alle 7:30 AM. La PREMIUM tutti i giorni alla stessa ora, perfetta per leggere durante il tragitto.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">💰 Posso cancellare quando voglio?</div>
+            <div class="faq-answer">Sì! Nessun vincolo. Puoi cancellare l'abbonamento Premium in qualsiasi momento con un click.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">📊 I dati sono in tempo reale?</div>
+            <div class="faq-answer">I prezzi sono aggiornati alla chiusura del mercato precedente. Per dati in tempo reale ti indirizziamo su TradingView con un click.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">🇮🇹 È tutto in italiano?</div>
+            <div class="faq-answer">Sì! Tutto il contenuto è in italiano, compresi i report di analisi e le spiegazioni dei trend di mercato.</div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p><strong>Robotica Weekly</strong> © 2026</p>
+        <p>Il tuo assistente per investire nel futuro della robotica</p>
+        <div class="social-links">
+            <a href="#">🐦</a>
+            <a href="#">💼</a>
+            <a href="#">📸</a>
+            <a href="#">▶️</a>
+        </div>
+        <p style="margin-top: 20px; font-size: 0.9rem; opacity: 0.7;">
+            ⚠️ Disclaimer: Questa newsletter è a scopo informativo e non costituisce consulenza finanziaria.
+        </p>
+    </footer>
+</body>
+</html>
