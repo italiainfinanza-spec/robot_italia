@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { memo, useState } from 'react'
 import { useSortable } from '@dnd-kit/sortable'
 import { CSS } from '@dnd-kit/utilities'
 import { GripVertical, X, Edit2, Calendar, Tag, User } from 'lucide-react'
@@ -20,7 +20,7 @@ const priorityColors = {
   high: 'bg-red-600',
 }
 
-export function TaskCard({ task, onUpdate, onDelete }: TaskCardProps) {
+export const TaskCard = memo(function TaskCard({ task, onUpdate, onDelete }: TaskCardProps) {
   const [isEditing, setIsEditing] = useState(false)
   const [editTitle, setEditTitle] = useState(task.title)
   const [editDescription, setEditDescription] = useState(task.description || '')
@@ -199,4 +199,4 @@ export function TaskCard({ task, onUpdate, onDelete }: TaskCardProps) {
       </div>
     </div>
   )
-}
+})
