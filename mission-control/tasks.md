@@ -204,14 +204,202 @@
 
 ---
 
-## 📋 BACKLOG (Future Tasks)
+## 🆕 ACTIVE TASKS - FASE 2 (Just Assigned)
 
-### TASK-007b: Advanced SEO Setup ⏳
-- Create OG image for social sharing
-- Generate XML sitemap
-- Setup Google Analytics 4
-- Connect Search Console
-- Create legal pages (Privacy, Terms, Cookie)
+### TASK-011: Fix Admin Dashboard Deploy 🔥 IN PROGRESS
+**Status:** in_progress  
+**Assignee:** Marty  
+**Created:** 2026-02-03  
+**Due:** Feb 4, 2026  
+**Priority:** HIGH
+
+**Description:** Fix Vercel auth issue and verify all static files loaded correctly
+
+**Checklist:**
+- [ ] Fix Vercel auth (accesso pubblico)
+- [ ] Verifica file statici caricati
+- [ ] Test Kanban drag-drop
+- [ ] Test Agent SOUL viewer
+
+---
+
+### TASK-012: Newsletter Automation API 📧 ASSIGNED
+**Status:** assigned  
+**Assignee:** Marty  
+**Created:** 2026-02-03  
+**Due:** Feb 5, 2026  
+**Priority:** HIGH
+
+**Description:** Create API endpoint for sending newsletters with SendGrid integration
+
+---
+
+### TASK-013: Subscriber Management System 👥 ASSIGNED
+**Status:** assigned  
+**Assignee:** Marty  
+**Created:** 2026-02-03  
+**Due:** Feb 7, 2026  
+**Priority:** HIGH
+
+**Description:** Supabase database for subscribers with Free/Premium segmentation
+
+---
+
+### TASK-007b: Advanced SEO Setup 📈 ASSIGNED
+**Status:** assigned  
+**Assignee:** Vision  
+**Created:** 2026-02-03  
+**Due:** Feb 4, 2026  
+**Priority:** HIGH
+
+**Description:** Advanced SEO setup with OG images, sitemap, GA4, Search Console
+
+---
+
+### TASK-014: Marketing Analytics Dashboard 📊 ASSIGNED
+**Status:** assigned  
+**Assignee:** Vision  
+**Created:** 2026-02-03  
+**Due:** Feb 6, 2026  
+**Priority:** HIGH
+
+**Description:** Tracking conversions, metrics dashboard, A/B testing framework
+
+---
+
+### TASK-015: Content Marketing Strategy 📝 ASSIGNED
+**Status:** assigned  
+**Assignee:** Vision  
+**Created:** 2026-02-03  
+**Due:** Feb 8, 2026  
+**Priority:** MEDIUM
+
+**Description:** Keyword research, pillar content, backlink acquisition plan
+
+---
+
+### TASK-016: Newsletter #002 - Physical AI 🤖 ASSIGNED
+**Status:** assigned  
+**Assignee:** Loki  
+**Created:** 2026-02-03  
+**Due:** Feb 5, 2026  
+**Priority:** HIGH
+
+**Description:** Research and write about NVIDIA Physical AI platform
+
+---
+
+### TASK-017: Legal Pages Content ⚖️ ASSIGNED
+**Status:** assigned  
+**Assignee:** Loki  
+**Created:** 2026-02-03  
+**Due:** Feb 6, 2026  
+**Priority:** HIGH
+
+**Description:** Privacy Policy, Terms of Service, Cookie Policy, Disclaimer
+
+---
+
+### TASK-018: Marketing Copy Kit 🎯 ASSIGNED
+**Status:** assigned  
+**Assignee:** Loki  
+**Created:** 2026-02-03  
+**Due:** Feb 7, 2026  
+**Priority:** HIGH
+
+**Description:** 10 Ads headlines, landing page variants, welcome emails, social templates
+
+---
+
+### TASK-019: QA Newsletter #002 ✅ ASSIGNED
+**Status:** assigned  
+**Assignee:** Shuri  
+**Created:** 2026-02-03  
+**Due:** Feb 5, 2026  
+**Priority:** MEDIUM
+
+**Description:** Review content accuracy, test email rendering, GDPR check
+
+---
+
+### TASK-020: User Journey Mapping 🗺️ ASSIGNED
+**Status:** assigned  
+**Assignee:** Shuri  
+**Created:** 2026-02-03  
+**Due:** Feb 8, 2026  
+**Priority:** MEDIUM
+
+**Description:** Map subscription funnel, identify friction points, UX optimization
+
+---
+
+### TASK-021: Competitor Analysis Report 🔍 ASSIGNED
+**Status:** assigned  
+**Assignee:** Shuri  
+**Created:** 2026-02-03  
+**Due:** Feb 10, 2026  
+**Priority:** MEDIUM
+
+**Description:** Analyze 5 competitor newsletters, SWOT analysis, pricing comparison
+
+---
+
+### TASK-022: Deep Research - Physical AI 🔬 ASSIGNED
+**Status:** assigned  
+**Assignee:** Fury  
+**Created:** 2026-02-03  
+**Due:** Feb 4, 2026  
+**Priority:** HIGH
+
+**Description:** NVIDIA Physical AI, Figure AI vs Tesla vs Boston Dynamics, funding rounds
+
+---
+
+### TASK-023: Italian Robotics Ecosystem 🇮🇹 ASSIGNED
+**Status:** assigned  
+**Assignee:** Fury  
+**Created:** 2026-02-03  
+**Due:** Feb 7, 2026  
+**Priority:** MEDIUM
+
+**Description:** Map Italian startups, investors, tax incentives, events 2025
+
+---
+
+### TASK-024: Market Trends Q1 2025 📈 ASSIGNED
+**Status:** assigned  
+**Assignee:** Fury  
+**Created:** 2026-02-03  
+**Due:** Feb 10, 2026  
+**Priority:** MEDIUM
+
+**Description:** Analyst predictions, IPO pipeline, M&A forecast, AI Act EU updates
+
+---
+
+### TASK-025: Business Plan Finalization 💼 IN PROGRESS
+**Status:** in_progress  
+**Assignee:** Jarvis  
+**Created:** 2026-02-03  
+**Due:** Feb 5, 2026  
+**Priority:** HIGH
+
+**Description:** Revenue projections, CAC analysis, LTV calculations, break-even analysis
+
+---
+
+### TASK-026: Campaign Launch Strategy 🚀 ASSIGNED
+**Status:** assigned  
+**Assignee:** Jarvis  
+**Created:** 2026-02-03  
+**Due:** Feb 7, 2026  
+**Priority:** HIGH
+
+**Description:** Timeline campagna lancio, budget allocation, KPIs, risk assessment
+
+---
+
+## 📋 BACKLOG (Future Tasks)
 
 ### TASK-008: Create Legal Pages ⚖️
 - Privacy Policy
@@ -225,9 +413,37 @@
 - Landing page A/B test
 - Referral program implementation
 
-### TASK-010: Hire Friday (Developer) 👨‍💻
-- Add 6th agent for technical tasks
-- Specializes in: Code, deployment, automation
+### TASK-010: Build Interactive Admin Dashboard ✅ COMPLETED
+**Status:** done
+**Assignee:** Marty
+**Created:** 2026-02-03
+**Completed:** 2026-02-03
+**Priority:** HIGH
+
+**Description:** Create a modern, interactive admin dashboard for Mission Control with real-time task management, agent status viewer, and project timeline visualization.
+
+**Tech Stack:** Next.js 14+, React 18+, TypeScript, Tailwind CSS, @dnd-kit
+
+**Features Built:**
+- ✅ Kanban drag-and-drop task board
+- ✅ Agent SOUL viewer (click to see agent details)
+- ✅ Gantt chart timeline view
+- ✅ Real-time updates (30s refresh)
+- ✅ Dark theme with custom color palette
+- ✅ Mobile responsive design
+- ✅ localStorage persistence
+- ✅ Stats dashboard (total/completed/in-progress/high-priority tasks)
+
+**Deployed URL:** https://robotica-admin-901q97dal-nadirs-projects-563ec239.vercel.app
+
+**Code Location:** `/home/ubuntu/.openclaw/workspace/admin-dashboard/`
+
+**Quality Notes:**
+- TypeScript strict mode enabled
+- Component-based architecture
+- Error boundaries implemented
+- Accessible UI patterns
+- Performance optimized with React.memo and useCallback
 
 ---
 
