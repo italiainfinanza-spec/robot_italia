@@ -3,8 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robotica Weekly - Il Futuro della Robotica, Ogni Giorno</title>
-    <meta name="description" content="Newsletter quotidiana sul mondo della robotica. Scopri opportunità di investimento, trend di mercato e analisi del settore.">
+    <title>Robotica Weekly | Newsletter Investimenti Robotica - Opportunità di Mercato</title>
+    <meta name="description" content="Newsletter quotidiana sul mondo della robotica. Scopri opportunità di investimento, trend di mercato, azioni robotics e funding. Analisi esclusive per investitori.">
+    <meta name="keywords" content="newsletter robotica, investimenti robotica, azioni robotics, startup robotica, funding robotica, ETF robotics, mercato robotica">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Robotica Weekly">
+    <link rel="canonical" href="https://roboticaweekly.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://roboticaweekly.com">
+    <meta property="og:title" content="Robotica Weekly - Newsletter Investimenti Robotica">
+    <meta property="og:description" content="Scopri opportunità di investimento nel settore robotica prima che diventino mainstream. Newsletter quotidiana con analisi di mercato.">
+    <meta property="og:image" content="https://roboticaweekly.com/og-image.png">
+    <meta property="og:locale" content="it_IT">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://roboticaweekly.com">
+    <meta property="twitter:title" content="Robotica Weekly - Newsletter Investimenti Robotica">
+    <meta property="twitter:description" content="Scopri opportunità di investimento nel settore robotica prima che diventino mainstream. Newsletter quotidiana con analisi di mercato.">
+    <meta property="twitter:image" content="https://roboticaweekly.com/og-image.png">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Robotica Weekly",
+        "description": "Newsletter quotidiana sul mondo della robotica e opportunità di investimento",
+        "url": "https://roboticaweekly.com",
+        "email": "info@roboticaweekly.com",
+        "sameAs": [
+            "https://twitter.com/roboticaweekly",
+            "https://linkedin.com/company/roboticaweekly"
+        ],
+        "offers": {
+            "@type": "Offer",
+            "name": "Premium Subscription",
+            "price": "4.99",
+            "priceCurrency": "EUR",
+            "description": "Newsletter giornaliera con analisi di mercato e opportunità di investimento"
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Robotica Weekly Newsletter",
+        "description": "Newsletter quotidiana sul settore robotica con analisi di investimento",
+        "brand": {
+            "@type": "Brand",
+            "name": "Robotica Weekly"
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "name": "Free Plan",
+                "price": "0",
+                "priceCurrency": "EUR"
+            },
+            {
+                "@type": "Offer",
+                "name": "Premium Plan",
+                "price": "4.99",
+                "priceCurrency": "EUR",
+                "description": "Newsletter giornaliera completa"
+            }
+        ]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Quando arriva la newsletter?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Tutti i giorni alle 7:30 del mattino, direttamente nella tua inbox. Per gli utenti Premium, la versione giornaliera. Per Free, il riassunto settimanale ogni lunedì."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Posso cancellarmi quando voglio?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Certo! Nessun vincolo, puoi cancellare l'abbonamento in qualsiasi momento. Per il piano Free, basta un click. Per Premium, hai accesso fino alla fine del periodo pagato."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "E se non mi piace?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Offriamo 14 giorni di garanzia soddisfatti o rimborsati su Premium. Se la newsletter non ti convince, ti rimborsiamo al 100%, no questions asked."
+                }
+            }
+        ]
+    }
+    </script>
+    
     <style>
         * {
             margin: 0;
@@ -361,9 +468,9 @@
 <body>
     <!-- Hero -->
     <section class="hero">
-        <div class="robot-icon">🤖</div>
-        <h1>Robotica Weekly</h1>
-        <p>Il Futuro della Robotica, Ogni Giorno. Scopri opportunità di investimento nel settore robotics prima che diventino mainstream.</p>
+        <div class="robot-icon" role="img" aria-label="Robot icon">🤖</div>
+        <h1>Robotica Weekly — Newsletter sul Settore Robotica</h1>
+        <p>Il Futuro della Robotica, Ogni Giorno. Scopri opportunità di investimento nel settore robotics, azioni in crescita e startup prima che diventino mainstream.</p>
         <div class="cta-buttons">
             <a href="#pricing" class="btn btn-primary">Inizia Ora</a>
             <a href="#preview" class="btn btn-secondary">Vedi Esempio</a>
@@ -377,23 +484,25 @@
             <p class="section-subtitle">Il settore robotics cresce del 25% all'anno. Non perdere l'opportunità.</p>
             
             <div class="cards">
-                <div class="card">
-                    <div class="card-icon">📈</div>
-                    <h3>Analisi di Mercato</h3>
+                <article class="card">
+                    <div class="card-icon" role="img" aria-label="Chart icon">📈</div>
+                    <h3>Analisi di Mercato Robotica</h3>
                     <p>Tracking giornaliero delle azioni robotics, ETF e startup. Dati aggiornati in tempo reale con analisi tecnica.</p>
                 </div>
                 
-                <div class="card">
-                    <div class="card-icon">💰</div>
-                    <h3>Funding & Deal</h3>
+                </article>
+                <article class="card">
+                    <div class="card-icon" role="img" aria-label="Money icon">💰</div>
+                    <h3>Funding & Deal Startup Robotica</h3>
                     <p>Tutti i funding round, acquisizioni e IPO del settore. Scopri chi investe e dove va il denaro.</p>
                 </div>
                 
-                <div class="card">
-                    <div class="card-icon">🚀</div>
-                    <h3>Opportunità Early</h3>
-                    <p>Identifichiamo trend prima che esplodano. Entra prima della massa e massimizza i tuoi ritorni.</p>
-                </div>
+                </article>
+                <article class="card">
+                    <div class="card-icon" role="img" aria-label="Rocket icon">🚀</div>
+                    <h3>Opportunità Early Stage</h3>
+                    <p>Identifichiamo trend nel settore robotica prima che esplodano. Entra prima della massa e massimizza i tuoi ritorni su investimenti in robotics.</p>
+                </article>
             </div>
         </div>
     </section>

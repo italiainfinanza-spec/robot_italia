@@ -467,16 +467,16 @@
                 <div class="stat-label">Active Agents</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value">6</div>
-                <div class="stat-label">Open Tasks</div>
+                <div class="stat-value">4</div>
+                <div class="stat-label">Total Tasks</div>
             </div>
             <div class="stat-card">
                 <div class="stat-value">1</div>
                 <div class="stat-label">In Progress</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value">1</div>
-                <div class="stat-label">Completed Today</div>
+                <div class="stat-value">6</div>
+                <div class="stat-label">Completed</div>
             </div>
         </div>
         
@@ -488,31 +488,31 @@
                 <div class="agent-card active">
                     <div class="agent-name">🎯 Jarvis</div>
                     <div class="agent-role">Squad Lead</div>
-                    <span class="agent-status status-active">Active</span>
+                    <span class="agent-status status-active">Coordinating</span>
                 </div>
                 
-                <div class="agent-card idle">
+                <div class="agent-card active">
                     <div class="agent-name">🔍 Shuri</div>
                     <div class="agent-role">Product Analyst</div>
-                    <span class="agent-status status-idle">Awaiting Task</span>
+                    <span class="agent-status status-active">QA Complete</span>
                 </div>
                 
-                <div class="agent-card idle">
+                <div class="agent-card active">
                     <div class="agent-name">📚 Fury</div>
                     <div class="agent-role">Researcher</div>
-                    <span class="agent-status status-idle">Awaiting Task</span>
+                    <span class="agent-status status-active">Research Done</span>
                 </div>
                 
                 <div class="agent-card active">
                     <div class="agent-name">✍️ Loki</div>
                     <div class="agent-role">Content Writer</div>
-                    <span class="agent-status status-active">Working</span>
+                    <span class="agent-status status-active">Content Ready</span>
                 </div>
                 
-                <div class="agent-card idle">
+                <div class="agent-card active">
                     <div class="agent-name">📈 Vision</div>
                     <div class="agent-role">SEO/Marketing</div>
-                    <span class="agent-status status-idle">Awaiting Task</span>
+                    <span class="agent-status status-active">Building UI</span>
                 </div>
             </aside>
             
@@ -528,23 +528,7 @@
                     <div class="column col-inbox">
                         <div class="column-header">
                             <span>Inbox</span>
-                            <span class="task-count">2</span>
-                        </div>
-                        
-                        <div class="task-card priority-medium">
-                            <div class="task-title">Deploy Newsletter Website</div>
-                            <div class="task-meta">
-                                <span class="task-assignee">Unassigned</span>
-                                <span>Due: Feb 5</span>
-                            </div>
-                        </div>
-                        
-                        <div class="task-card priority-medium">
-                            <div class="task-title">Create Mission Control UI</div>
-                            <div class="task-meta">
-                                <span class="task-assignee">Unassigned</span>
-                                <span>Due: Feb 6</span>
-                            </div>
+                            <span class="task-count">0</span>
                         </div>
                     </div>
                     
@@ -552,15 +536,7 @@
                     <div class="column col-assigned">
                         <div class="column-header">
                             <span>Assigned</span>
-                            <span class="task-count">1</span>
-                        </div>
-                        
-                        <div class="task-card priority-high">
-                            <div class="task-title">Research Robotics Market</div>
-                            <div class="task-meta">
-                                <span class="task-assignee">@Fury</span>
-                                <span>Due: Feb 4</span>
-                            </div>
+                            <span class="task-count">0</span>
                         </div>
                     </div>
                     
@@ -571,11 +547,11 @@
                             <span class="task-count">1</span>
                         </div>
                         
-                        <div class="task-card priority-high">
-                            <div class="task-title">Create Content Tools</div>
+                        <div class="task-card priority-medium">
+                            <div class="task-title">Create Mission Control UI</div>
                             <div class="task-meta">
-                                <span class="task-assignee">@Loki</span>
-                                <span>Due: Feb 3</span>
+                                <span class="task-assignee">@Vision</span>
+                                <span>Due: Feb 6</span>
                             </div>
                         </div>
                     </div>
@@ -592,13 +568,53 @@
                     <div class="column col-done">
                         <div class="column-header">
                             <span>Done</span>
-                            <span class="task-count">1</span>
+                            <span class="task-count">6</span>
                         </div>
                         
                         <div class="task-card">
                             <div class="task-title">Setup Multi-Agent System</div>
                             <div class="task-meta">
                                 <span class="task-assignee">@Jarvis</span>
+                                <span>✓ Done</span>
+                            </div>
+                        </div>
+                        
+                        <div class="task-card">
+                            <div class="task-title">Create Content Tools</div>
+                            <div class="task-meta">
+                                <span class="task-assignee">@Loki</span>
+                                <span>✓ Done</span>
+                            </div>
+                        </div>
+                        
+                        <div class="task-card">
+                            <div class="task-title">Research Robotics Market</div>
+                            <div class="task-meta">
+                                <span class="task-assignee">@Fury</span>
+                                <span>✓ Done</span>
+                            </div>
+                        </div>
+                        
+                        <div class="task-card">
+                            <div class="task-title">Deploy Newsletter Website</div>
+                            <div class="task-meta">
+                                <span class="task-assignee">@Jarvis</span>
+                                <span>✓ Done</span>
+                            </div>
+                        </div>
+                        
+                        <div class="task-card">
+                            <div class="task-title">Write First Premium Newsletter</div>
+                            <div class="task-meta">
+                                <span class="task-assignee">@Loki</span>
+                                <span>✓ Done</span>
+                            </div>
+                        </div>
+                        
+                        <div class="task-card">
+                            <div class="task-title">QA Review Newsletter</div>
+                            <div class="task-meta">
+                                <span class="task-assignee">@Shuri</span>
                                 <span>✓ Done</span>
                             </div>
                         </div>
@@ -611,50 +627,50 @@
                 <h2>📡 Activity Feed</h2>
                 
                 <div class="activity-item">
-                    <div class="activity-avatar">✍️</div>
+                    <div class="activity-avatar">📈</div>
                     <div class="activity-content">
-                        <div class="activity-text"><strong>Loki</strong> created 5 content templates</div>
-                        <div class="activity-time">2 minutes ago</div>
-                    </div>
-                </div>
-                
-                <div class="activity-item">
-                    <div class="activity-avatar">🎯</div>
-                    <div class="activity-content">
-                        <div class="activity-text"><strong>Jarvis</strong> assigned TASK-003 to Fury</div>
-                        <div class="activity-time">5 minutes ago</div>
-                    </div>
-                </div>
-                
-                <div class="activity-item">
-                    <div class="activity-avatar">📚</div>
-                    <div class="activity-content">
-                        <div class="activity-text"><strong>Fury</strong> reported HEARTBEAT_OK</div>
-                        <div class="activity-time">15 minutes ago</div>
+                        <div class="activity-text"><strong>Vision</strong> updated Mission Control UI</div>
+                        <div class="activity-time">Just now</div>
                     </div>
                 </div>
                 
                 <div class="activity-item">
                     <div class="activity-avatar">🔍</div>
                     <div class="activity-content">
-                        <div class="activity-text"><strong>Shuri</strong> reported HEARTBEAT_OK</div>
-                        <div class="activity-time">17 minutes ago</div>
+                        <div class="activity-text"><strong>Shuri</strong> approved newsletter (Score: 9/10)</div>
+                        <div class="activity-time">2 hours ago</div>
+                    </div>
+                </div>
+                
+                <div class="activity-item">
+                    <div class="activity-avatar">✍️</div>
+                    <div class="activity-content">
+                        <div class="activity-text"><strong>Loki</strong> completed premium newsletter</div>
+                        <div class="activity-time">4 hours ago</div>
+                    </div>
+                </div>
+                
+                <div class="activity-item">
+                    <div class="activity-avatar">📚</div>
+                    <div class="activity-content">
+                        <div class="activity-text"><strong>Fury</strong> delivered robotics market research</div>
+                        <div class="activity-time">6 hours ago</div>
                     </div>
                 </div>
                 
                 <div class="activity-item">
                     <div class="activity-avatar">🎯</div>
                     <div class="activity-content">
-                        <div class="activity-text"><strong>Jarvis</strong> completed TASK-001</div>
-                        <div class="activity-time">30 minutes ago</div>
+                        <div class="activity-text"><strong>Jarvis</strong> deployed website to Vercel</div>
+                        <div class="activity-time">8 hours ago</div>
                     </div>
                 </div>
                 
                 <div class="activity-item">
-                    <div class="activity-avatar">🤖</div>
+                    <div class="activity-avatar">🚀</div>
                     <div class="activity-content">
-                        <div class="activity-text">Multi-agent system activated</div>
-                        <div class="activity-time">45 minutes ago</div>
+                        <div class="activity-text">Website live at vercel.app</div>
+                        <div class="activity-time">8 hours ago</div>
                     </div>
                 </div>
             </aside>
