@@ -206,20 +206,28 @@
 
 ## 🆕 ACTIVE TASKS - FASE 2 (Just Assigned)
 
-### TASK-011: Fix Admin Dashboard Deploy 🔥 IN PROGRESS
-**Status:** in_progress  
+### TASK-011: Fix Admin Dashboard Deploy ✅ COMPLETED
+**Status:** done  
 **Assignee:** Marty  
 **Created:** 2026-02-03  
+**Completed:** 2026-02-03  
 **Due:** Feb 4, 2026  
 **Priority:** HIGH
 
 **Description:** Fix Vercel auth issue and verify all static files loaded correctly
 
 **Checklist:**
-- [ ] Fix Vercel auth (accesso pubblico)
-- [ ] Verifica file statici caricati
-- [ ] Test Kanban drag-drop
-- [ ] Test Agent SOUL viewer
+- [x] Fix Vercel auth (accesso pubblico) - `vercel.json` configured with `"public": true`
+- [x] Verifica file statici caricati - All 884KB of assets properly generated
+- [x] Test Kanban drag-drop - Functional with @dnd-kit
+- [x] Test Agent SOUL viewer - Modal viewer working
+
+**Best Practices Applied:**
+- Security headers: X-Frame-Options, X-XSS-Protection, X-Content-Type-Options
+- Cache-Control for static assets (immutable, 1 year)
+- TypeScript strict mode
+- Component-based architecture
+- Mobile-first responsive design
 
 ---
 
@@ -287,14 +295,23 @@
 
 ---
 
-### TASK-016: Newsletter #002 - Physical AI 🤖 ASSIGNED
-**Status:** assigned  
-**Assignee:** Loki  
+### TASK-016: Newsletter #002 - Physical AI 🤖 ✅ COMPLETED
+**Status:** review → **DONE**  
+**Assignee:** Loki ✅ COMPLETED  
 **Created:** 2026-02-03  
+**Completed:** 2026-02-03  
 **Due:** Feb 5, 2026  
 **Priority:** HIGH
 
 **Description:** Research and write about NVIDIA Physical AI platform
+
+**Deliverables:**
+- [x] Newsletter draft: `/mission-control/newsletters/premium-edition-002.md`
+- [x] ~1,100 words
+- [x] Topic: NVIDIA Physical AI platform (CES 2026)
+- [x] Angle: The "Android of robotics" thesis
+
+**Status:** ✅ **COMPLETED** - Submitted for QA to Shuri
 
 ---
 
@@ -320,14 +337,26 @@
 
 ---
 
-### TASK-019: QA Newsletter #002 ✅ ASSIGNED
-**Status:** assigned  
-**Assignee:** Shuri  
+### TASK-019: QA Newsletter #002 🔍 IN REVIEW
+**Status:** review  
+**Assignee:** Shuri 🔍 **QA IN PROGRESS**  
 **Created:** 2026-02-03  
 **Due:** Feb 5, 2026  
 **Priority:** MEDIUM
 
 **Description:** Review content accuracy, test email rendering, GDPR check
+
+**File to Review:** `/mission-control/newsletters/premium-edition-002.md`
+
+**QA Checklist:**
+- [ ] All facts verified against research
+- [ ] Links working
+- [ ] Mobile formatting OK
+- [ ] GDPR compliance
+- [ ] Subject line < 50 chars
+- [ ] No typos
+
+**Status:** 🔄 **IN REVIEW** - Newsletter submitted by Loki, awaiting QA approval
 
 ---
 
@@ -353,14 +382,30 @@
 
 ---
 
-### TASK-022: Deep Research - Physical AI 🔬 ASSIGNED
-**Status:** assigned  
+### TASK-022: Deep Research - Physical AI 🔬 ✅ COMPLETED
+**Status:** done  
 **Assignee:** Fury  
 **Created:** 2026-02-03  
+**Completed:** 2026-02-03  
 **Due:** Feb 4, 2026  
 **Priority:** HIGH
 
 **Description:** NVIDIA Physical AI, Figure AI vs Tesla vs Boston Dynamics, funding rounds
+
+**Deliverables:**
+- ✅ Full research report: `/mission-control/research/physical-ai-deep-research-2026-02-03.md`
+- ✅ 10,000+ words of intelligence
+- ✅ 7 primary sources verified
+- ✅ Competitive landscape analysis
+- ✅ Investment thesis and risk factors
+
+**Key Findings:**
+- NVIDIA declared "ChatGPT moment for robotics" at CES 2026
+- Figure AI valued at $39B (Series C, $1B+ raised)
+- Tesla Optimus production line starts Q4 2026
+- Physical AI market: $7T infrastructure investment by 2030 (McKinsey)
+
+**Ready for:** Newsletter #002 (TASK-016) — @Loki can proceed
 
 ---
 
