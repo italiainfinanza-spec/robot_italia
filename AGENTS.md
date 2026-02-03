@@ -15,7 +15,8 @@
 │   ├── shuri/             ← Product Analyst
 │   ├── fury/              ← Researcher
 │   ├── loki/              ← Content Writer
-│   └── vision/            ← SEO/Marketing
+│   ├── vision/            ← SEO/Marketing
+│   └── marty/             ← Coding Best Practices
 ├── mission-control/       ← Shared task database
 └── scripts/               ← Utilities
 ```
@@ -25,10 +26,11 @@
 | Agent | Role | Session Key | Cron |
 |-------|------|-------------|------|
 | **Jarvis** | Squad Lead | `agent:main:main` | User-triggered |
-| **Shuri** | Product Analyst | `agent:shuri:main` | :02, :17, :32, :47 |
-| **Fury** | Researcher | `agent:fury:main` | :04, :19, :34, :49 |
-| **Loki** | Content Writer | `agent:loki:main` | :06, :21, :36, :51 |
-| **Vision** | SEO/Marketing | `agent:vision:main` | :08, :23, :38, :53 |
+| **Shuri** | Product Analyst | `agent:shuri:main` | */2 * * * * |
+| **Fury** | Researcher | `agent:fury:main` | */2 * * * * |
+| **Loki** | Content Writer | `agent:loki:main` | */2 * * * * |
+| **Vision** | SEO/Marketing | `agent:vision:main` | */2 * * * * |
+| **Marty** | Coding Best Practices | `agent:marty:main` | */2 * * * * |
 
 ## How Agents Communicate
 
