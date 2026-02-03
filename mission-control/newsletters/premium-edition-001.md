@@ -37,7 +37,7 @@ Oggi parliamo del più grande round di funding della storia dei robot umanoidi. 
 |---|---|
 | **Ammontare** | Oltre $1 miliardo |
 | **Valutazione** | $39 miliardi |
-| **Lead Investors** | Parkway Venture Capital, NVIDIA, Brookfield |
+| **Lead Investors** | Parkway Venture Capital, NVIDIA, Brookfield, Intel Capital |
 | **Focus** | Robot umanoidi per logistica e manufacturing |
 | **Clienti** | BMW (già in deployment) |
 
@@ -49,7 +49,7 @@ Oggi parliamo del più grande round di funding della storia dei robot umanoidi. 
 
 ### 💰 [1] FieldAI: $405M per l'AI hardware-agnostic
 
-FieldAI ha raccolto $405M in Series B+ da Bezos Expeditions, Khosla Ventures e NVIDIA NVentures. La loro tecnologia permette di addestrare qualsiasi robot con lo stesso modello AI — un "cervello universale" per la robotica.
+FieldAI ha raccolto $405M in Series B+ da Bezos Expeditions, Khosla Ventures, NVIDIA NVentures e Temasek. La loro tecnologia permette di addestrare qualsiasi robot con lo stesso modello AI — un "cervello universale" per la robotica.
 
 📈 **Sentiment:** Molto positivo  
 💰 **Round:** $405M Series B+  
@@ -209,7 +209,8 @@ Hai domande? Suggerimenti? Un titolo da analizzare? **Rispondi a questa email.**
 *Hai ricevuto questa email perché sei un abbonato Premium a Robotica Weekly.*
 
 **Robotica Weekly** — Il Futuro della Robotica, Ogni Giorno  
-📧 support@roboticaweekly.com | 🌐 roboticaweekly.com
+📧 support@roboticaweekly.com | 🌐 roboticaweekly.com  
+📍 Via Monte Napoleone 8, 20121 Milano, Italy
 
 [Annulla iscrizione] | [Privacy Policy] | [Aggiorna preferenze]
 
