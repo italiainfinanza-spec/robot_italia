@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 1200px;
+            height: 630px;
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0d9488 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Background grid pattern */
+        .grid {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+        }
+        
+        /* Floating elements */
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.3;
+        }
+        
+        .orb-1 {
+            width: 400px;
+            height: 400px;
+            background: #0d9488;
+            top: -100px;
+            right: -100px;
+        }
+        
+        .orb-2 {
+            width: 300px;
+            height: 300px;
+            background: #3b82f6;
+            bottom: -50px;
+            left: -50px;
+        }
+        
+        /* Main content */
+        .content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            padding: 60px;
+        }
+        
+        .logo {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+        
+        .brand {
+            font-size: 72px;
+            font-weight: 800;
+            color: #ffffff;
+            letter-spacing: -2px;
+            margin-bottom: 10px;
+            text-shadow: 0 4px 30px rgba(0,0,0,0.3);
+        }
+        
+        .brand span {
+            color: #2dd4bf;
+        }
+        
+        .tagline {
+            font-size: 36px;
+            color: rgba(255,255,255,0.9);
+            font-weight: 500;
+            margin-bottom: 40px;
+        }
+        
+        .highlight {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 16px 32px;
+            border-radius: 50px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .highlight-icon {
+            font-size: 28px;
+        }
+        
+        .highlight-text {
+            font-size: 24px;
+            color: #ffffff;
+            font-weight: 600;
+        }
+        
+        /* Footer stats */
+        .stats {
+            position: absolute;
+            bottom: 40px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: #2dd4bf;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: rgba(255,255,255,0.6);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    
+    <div class="content">
+        <div class="logo">🤖</div>
+        <h1 class="brand">Robotica <span>Weekly</span></h1>
+        <p class="tagline">Newsletter sugli investimenti in robotica</p>
+        <div class="highlight">
+            <span class="highlight-icon">📈</span>
+            <span class="highlight-text">Azioni, Startup & Trend 2026</span>
+        </div>
+    </div>
+    
+    <div class="stats">
+        <div class="stat">
+            <div class="stat-value">Quotidiana</div>
+            <div class="stat-label">Premium</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value">Analisi</div>
+            <div class="stat-label">Esclusive</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value">Investire</div>
+            <div class="stat-label">Prima</div>
+        </div>
+    </div>
+</body>
+</html>
