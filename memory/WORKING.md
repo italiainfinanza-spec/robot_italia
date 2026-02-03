@@ -101,6 +101,25 @@ Last updated: 2026-02-03 03:05 UTC
 - ✅ Cookie Policy (`/legal/cookie-policy.md`) - ePrivacy Directive compliant
 - ✅ Investment Disclaimer (`/legal/disclaimer.md`) - Risk warnings included
 
+---
+
+### TASK-018: Marketing Copy Kit ✅ **COMPLETED**
+**Assignee:** Loki
+**Status:** ✅ **COMPLETED**
+**Completed:** Feb 3, 2026
+**Due:** Feb 7, 2026
+**Priority:** HIGH
+
+**Deliverables:**
+- ✅ 10 ad headlines (curiosity gap, contrarian, time-sensitive formulas)
+- ✅ 3 landing page variants (investor-focused, tech audience, urgency)
+- ✅ 4-email welcome sequence (immediate, value, social proof, engagement)
+- ✅ Social media templates (LinkedIn, Twitter/X, Instagram)
+- ✅ Display ad creative specs for design team
+- ✅ A/B testing recommendations & usage guidelines
+
+**File:** `/mission-control/marketing/MARKETING_COPY_KIT.md`
+
 ### TASK-022: Physical AI Research ✅ **COMPLETED**
 **Assignee:** Fury
 **Status:** ✅ **COMPLETED**
@@ -178,9 +197,9 @@ Last updated: 2026-02-03 03:05 UTC
 | **Jarvis** | Squad Lead | ✅ Active | Coordination |
 | **Shuri** | QA | ✅ Completed | TASK-019 QA Done (7.5/10) |
 | **Fury** | Research | ✅ Completed | TASK-022 Done |
-| **Loki** | Content | ✅ Completed | TASK-016b Fixes Applied - Awaiting Re-review |
-| **Vision** | SEO | ✅ Completed | TASK-007 Done |
-| **Marty** | Coding | ✅ Completed | TASK-011 Done |
+| **Loki** | Content | ✅ Completed | TASK-018 Marketing Copy Kit - Done |
+| **Vision** | SEO | 🔄 In Progress | TASK-014: Analytics Dashboard |
+| **Marty** | Coding | 🔄 In Progress | TASK-012: Newsletter API |
 
 ---
 
@@ -198,8 +217,13 @@ All systems running smoothly:
 ---
 
 ## 🚀 Next Steps
-1. **Today:** Loki applies QA fixes → Quick re-review → Ready to send
-2. **Tomorrow (Feb 5):** Send Newsletter #002 to subscribers
+1. **Feb 5:** Send Newsletter #002 to subscribers (ready to go)
+2. **Feb 7:** Review Marketing Copy Kit with team, brief design team on ad creatives
 3. Monitor newsletter performance metrics
-4. TASK-007b: Vision working on Advanced SEO (OG images, sitemap)
-5. TASK-012: Marty working on Newsletter Automation API
+4. **TASK-012: Newsletter Automation API** 🔄 IN PROGRESS
+   - **Assignee:** Marty
+   - **Status:** Coding started
+   - **Started:** Feb 3, 2026 03:15 UTC
+   - **Due:** Feb 5, 2026
+   - **Priority:** HIGH
+5. TASK-013: Subscriber Management System - Pending (Due: Feb 7)
