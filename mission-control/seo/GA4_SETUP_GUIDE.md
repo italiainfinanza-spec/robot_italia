@@ -1,43 +1,44 @@
-# Google Analytics 4 Setup Guide - Robotica Weekly
+# Google Analytics 4 (GA4) Setup Guide
+## Robotica Weekly
+
+---
 
 ## Overview
-Questa guida illustra come configurare Google Analytics 4 per tracciare le performance del sito Robotica Weekly.
+Google Analytics 4 is essential for tracking website traffic, user behavior, and conversion goals. This guide walks you through setting up GA4 for Robotica Weekly.
 
-## Prerequisiti
-- Accesso a un account Google
-- Proprietà del dominio roboticaweekly.com
+---
 
-## Step 1: Creare l'Account GA4
+## Step 1: Create GA4 Property
 
-1. Vai su [Google Analytics](https://analytics.google.com)
-2. Clicca "Inizia a misurare"
-3. Inserisci i dettagli:
-   - **Nome account**: Robotica Weekly
-   - **Nome proprietà**: Robotica Weekly Website
-   - **Fuso orario**: Italy (Rome) GMT+1
-   - **Valuta**: Euro (€)
-4. Clicca "Avanti"
+1. Go to [Google Analytics](https://analytics.google.com/)
+2. Sign in with your Google account
+3. Click "Admin" (gear icon) in bottom left
+4. Click "+ Create Property"
+5. Enter:
+   - **Property name:** Robotica Weekly
+   - **Reporting time zone:** Europe/Rome (or your timezone)
+   - **Currency:** Euro (EUR)
+6. Click "Next"
+7. Select industry: "Finance" or "Technology"
+8. Select business size: "Small" (1-10 employees)
+9. Click "Create"
 
-## Step 2: Configurare la Proprietà
+---
 
-1. Seleziona:
-   - **Categoria settore**: Finanza / Investimenti
-   - **Dimensione azienda**: Piccola
-2. Accetta i termini di servizio
+## Step 2: Set Up Data Stream
 
-## Step 3: Ottenere il Tracking ID
+1. Choose "Web" as your platform
+2. Enter website URL: `https://roboticaweekly.com`
+3. Enter stream name: "Robotica Weekly Website"
+4. Enable "Enhanced measurement" (recommended)
+5. Click "Create stream"
+6. Copy the **Measurement ID** (looks like `G-XXXXXXXXXX`)
 
-1. Vai su **Admin** → **Data Streams**
-2. Clicca "Web"
-3. Inserisci:
-   - **URL sito**: https://roboticaweekly.com
-   - **Nome stream**: Robotica Weekly Web
-4. Clicca "Crea stream"
-5. Copia il **Measurement ID** (formato: G-XXXXXXXXXX)
+---
 
-## Step 4: Installare il Codice di Tracciamento
+## Step 3: Install GA4 Tracking Code
 
-Aggiungi questo codice nell'`<head>` del file `index.html`, subito dopo il tag `<meta charset>`:
+Add this code to the `<head>` section of your `index.html`, just before the closing `</head>` tag:
 
 ```html
 <!-- Google tag (gtag.js) -->
@@ -50,97 +51,158 @@ Aggiungi questo codice nell'`<head>` del file `index.html`, subito dopo il tag `
 </script>
 ```
 
-**Nota**: Sostituisci `G-XXXXXXXXXX` con il tuo Measurement ID reale.
-
-## Step 5: Eventi di Tracciamento Consigliati
-
-Aggiungi questi eventi personalizzati nel `<script>` dopo la configurazione base:
-
-### Tracciamento Iscrizione Newsletter
-```javascript
-// Quando l'utente si iscrive
-gtag('event', 'newsletter_signup', {
-  'event_category': 'engagement',
-  'event_label': 'premium_plan',
-  'value': 4.99
-});
-```
-
-### Tracciamento Clic CTA Premium
-```javascript
-// Quando clicca su "Abbonati Ora"
-gtag('event', 'cta_click', {
-  'event_category': 'conversion',
-  'event_label': 'premium_cta',
-  'value': 1
-});
-```
-
-### Tracciamento Scroll
-```javascript
-// Tracciamento scroll 50% e 90%
-gtag('event', 'scroll', {
-  'event_category': 'engagement',
-  'event_label': 'depth_50_percent'
-});
-```
-
-## Step 6: Verifica dell'Installazione
-
-1. Installa l'estensione [Google Analytics Debugger](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna)
-2. Apri il sito in una nuova scheda
-3. Apri Console DevTools (F12)
-4. Verifica che veda gli eventi GA4
-
-## Step 7: Configurare Obiettivi (Conversioni)
-
-In GA4, vai su **Configura** → **Eventi** → **Crea evento**:
-
-### Evento Conversione: Iscrizione Newsletter
-- **Nome evento**: `newsletter_signup`
-- **Segna come conversione**: ✅ Sì
-
-### Evento Conversione: Clic CTA Premium
-- **Nome evento**: `cta_click`
-- **Parametro**: `event_label` = `premium_cta`
-- **Segna come conversione**: ✅ Sì
-
-## Step 8: Dashboard Personalizzata
-
-Crea una dashboard con questi widget:
-
-1. **Utenti attivi** (ultimi 30 minuti)
-2. **Sessioni totali** (ultimi 7 giorni)
-3. **Tasso di conversione** iscrizioni
-4. **Pagine più viste**
-5. **Fonti di traffico**
-6. **Dispositivi utilizzati**
-
-## Metriche Chiave da Monitorare
-
-| Metrica | Target Mensile | Azione se sotto |
-|---------|----------------|-----------------|
-| Utenti unici | 5,000 | Aumentare SEO/Ads |
-| Tasso iscrizione | >5% | Ottimizzare CTA |
-| Tempo sul sito | >2 min | Migliorare contenuto |
-| Bounce rate | <60% | Migliorare UX |
-| Conversioni | >250 | Test A/B landing |
-
-## Integrazione con Google Ads (Futuro)
-
-Quando attiverai campagne Ads:
-1. Vai su **Admin** → **Collega a Google Ads**
-2. Seleziona l'account Google Ads
-3. Abilita il remarketing automatico
-
-## Risorse Utili
-
-- [Guida ufficiale GA4](https://support.google.com/analytics/topic/9303319)
-- [Event Reference](https://developers.google.com/analytics/devguides/collection/ga4/reference/events)
-- [Google Tag Manager](https://tagmanager.google.com) (consigliato per gestione avanzata)
+**Replace `G-XXXXXXXXXX` with your actual Measurement ID.**
 
 ---
 
-**Ultimo aggiornamento**: 2026-02-03  
-**Responsabile**: Vision (SEO/Marketing)  
-**Prossima revisione**: 2026-03-03
+## Step 4: Configure Events
+
+### Automatic Events (Enabled by Default)
+- page_view
+- scroll
+- click
+- file_download
+
+### Custom Events to Track
+
+Add this script after the GA4 code to track newsletter subscriptions:
+
+```html
+<script>
+// Track subscription button clicks
+document.querySelectorAll('.btn-primary').forEach(button => {
+  button.addEventListener('click', function() {
+    gtag('event', 'subscription_click', {
+      'plan': this.textContent.includes('Premium') ? 'premium' : 'free',
+      'location': 'hero_section'
+    });
+  });
+});
+
+// Track pricing section views
+const pricingObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      gtag('event', 'pricing_viewed');
+    }
+  });
+});
+pricingObserver.observe(document.getElementById('pricing'));
+</script>
+```
+
+---
+
+## Step 5: Set Up Conversion Goals
+
+### Goal 1: Free Subscription Click
+1. Go to Admin → Events → "Create event"
+2. Event name: `free_subscription_click`
+3. Click "Mark as conversion"
+
+### Goal 2: Premium Subscription Click
+1. Event name: `premium_subscription_click`
+2. Click "Mark as conversion"
+
+### Goal 3: Pricing Section View
+1. Event name: `pricing_viewed`
+2. Click "Mark as conversion"
+
+---
+
+## Step 6: Configure Audiences
+
+Create these audiences for remarketing:
+
+### Audience 1: All Users
+- **Condition:** All users who visited website
+- **Membership duration:** 30 days
+
+### Audience 2: Engaged Users
+- **Condition:** Users who spent > 60 seconds OR viewed > 2 pages
+- **Membership duration:** 90 days
+
+### Audience 3: Pricing Viewers (High Intent)
+- **Condition:** Users who triggered `pricing_viewed` event
+- **Membership duration:** 180 days
+
+---
+
+## Step 7: Link to Google Ads (Future)
+
+When you start running ads:
+1. Go to Admin → Google Ads Links
+2. Click "Link"
+3. Select your Google Ads account
+4. Enable "Auto-tagging"
+5. Enable "Personalized advertising"
+
+---
+
+## Step 8: Verify Installation
+
+1. Install [Google Tag Assistant](https://chromewebstore.google.com/detail/tag-assistant-legacy-by-g/kejbdjndbnbjgmefkgdddjlbokphdefk) Chrome extension
+2. Visit your website
+3. Click the Tag Assistant icon
+4. Verify "Global site tag (gtag.js)" is detected
+5. Check that your Measurement ID matches
+
+---
+
+## Key Metrics to Monitor
+
+| Metric | What It Tells You | Target |
+|--------|------------------|--------|
+| **Users** | Unique visitors | Growth 10% weekly |
+| **Sessions** | Total visits | Track trends |
+| **Bounce Rate** | % who leave immediately | < 50% |
+| **Avg. Session Duration** | Engagement quality | > 2 min |
+| **Conversion Rate** | % who click subscribe | > 2% |
+| **Traffic Sources** | Where users come from | Diversify |
+
+---
+
+## Monthly Review Checklist
+
+- [ ] Check user growth trend
+- [ ] Analyze top traffic sources
+- [ ] Review conversion funnel
+- [ ] Identify top-performing pages
+- [ ] Check mobile vs desktop split
+- [ ] Review geographic distribution
+- [ ] Export monthly report
+
+---
+
+## Privacy Compliance (GDPR)
+
+**Required:** Add cookie consent before GA4 loads
+
+```html
+<!-- Add this BEFORE the GA4 script -->
+<script>
+// Check for consent
+if (localStorage.getItem('cookieConsent') === 'accepted') {
+  // Load GA4
+  var script = document.createElement('script');
+  script.async = true;
+  script.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX';
+  document.head.appendChild(script);
+}
+</script>
+```
+
+---
+
+## Resources
+
+- [GA4 Help Center](https://support.google.com/analytics/topic/9143232)
+- [GA4 Demo Account](https://support.google.com/analytics/answer/6367342)
+- [Event Reference](https://developers.google.com/analytics/devguides/collection/ga4/reference/events)
+
+---
+
+**Status:** ⏳ Awaiting Google Account Setup  
+**Priority:** HIGH - Set up before first marketing campaign  
+**Owner:** Vision (SEO/Marketing)  
+**Due:** Before Feb 5, 2026
