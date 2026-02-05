@@ -13,6 +13,56 @@
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
     
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BZNDJ30KWM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-BZNDJ30KWM', {
+            'send_page_view': true,
+            'anonymize_ip': true,
+            'allow_google_signals': true,
+            'enhanced_measurement': {
+                'scrolls': true,
+                'outbound_clicks': true,
+                'site_search': true,
+                'video_engagement': false,
+                'file_downloads': true
+            }
+        });
+        
+        // Custom event tracking
+        function trackEvent(eventName, parameters) {
+            gtag('event', eventName, parameters);
+        }
+        
+        // Track subscription buttons
+        document.addEventListener('DOMContentLoaded', function() {
+            // Track CTA button clicks
+            var ctaButtons = document.querySelectorAll('.btn-primary');
+            ctaButtons.forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    trackEvent('cta_click', {
+                        'button_text': btn.textContent.trim(),
+                        'location': 'homepage'
+                    });
+                });
+            });
+            
+            // Track pricing card interactions
+            var pricingCards = document.querySelectorAll('.pricing-card');
+            pricingCards.forEach(function(card) {
+                card.addEventListener('click', function() {
+                    var planName = card.querySelector('h3') ? card.querySelector('h3').textContent : 'Unknown';
+                    trackEvent('pricing_card_click', {
+                        'plan': planName
+                    });
+                });
+            });
+        });
+    </script>
+    
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://roboticaweekly.com">
