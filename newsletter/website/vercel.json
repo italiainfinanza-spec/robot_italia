@@ -1,6 +1,13 @@
 {
   "public": true,
   "github": {
-    "enabled": false
-  }
+    "enabled": true,
+    "autoJobCancelation": true
+  },
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "framework": null,
+  "rewrites": [
+    { "source": "/landing", "destination": "/landing-senior.html" }
+  ]
 }
