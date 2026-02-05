@@ -1,8 +1,7 @@
 {
   "public": true,
   "github": {
-    "enabled": true,
-    "autoJobCancelation": true
+    "enabled": false
   },
   "buildCommand": null,
   "outputDirectory": ".",
