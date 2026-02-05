@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robotica Weekly | Newsletter Investimenti Robotica 2026 - Azioni & Startup</title>
-    <meta name="description" content="Newsletter quotidiana sul settore robotica e investimenti. Scopri azioni robotics, startup in funding, trend 2026 e opportunità di mercato. Analisi esclusive per investitori.">
-    <meta name="keywords" content="newsletter robotica, investimenti robotica, azioni robotics, startup robotica, funding robotica, ETF robotics, mercato robotica 2026, robotica investire, azioni robotica, physical AI">
+    <title>Robotica Weekly | L'Intelligenza Robotica Globale, in Italiano</title>
+    <meta name="description" content="La rassegna settimanale per imprenditori e investitori che vogliono anticipare il futuro dell'automazione. Dai laboratori di Shenzhen alle fabbriche della Silicon Valley, direttamente nella tua inbox.">
+    <meta name="keywords" content="newsletter robotica italia, investimenti robotica pmi, automazione industria italiana, embodied ai europa">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Robotica Weekly">
     <link rel="canonical" href="https://roboticaweekly.com">
     
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://roboticaweekly.com">
+    <meta property="og:title" content="Robotica Weekly | L'Intelligenza Robotica Globale, in Italiano">
+    <meta property="og:description" content="La rassegna settimanale per imprenditori e investitori. Dai laboratori di Shenzhen alla tua inbox.">
+    <meta property="og:image" content="https://roboticaweekly.com/og-image.png">
     
     <!-- Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BZNDJ30KWM"></script>
@@ -19,691 +23,567 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-BZNDJ30KWM', {
-            'send_page_view': true,
-            'anonymize_ip': true,
-            'allow_google_signals': true,
-            'enhanced_measurement': {
-                'scrolls': true,
-                'outbound_clicks': true,
-                'site_search': true,
-                'video_engagement': false,
-                'file_downloads': true
-            }
-        });
-        
-        // Custom event tracking
-        function trackEvent(eventName, parameters) {
-            gtag('event', eventName, parameters);
-        }
-        
-        // Track subscription buttons
-        document.addEventListener('DOMContentLoaded', function() {
-            // Track CTA button clicks
-            var ctaButtons = document.querySelectorAll('.btn-primary');
-            ctaButtons.forEach(function(btn) {
-                btn.addEventListener('click', function() {
-                    trackEvent('cta_click', {
-                        'button_text': btn.textContent.trim(),
-                        'location': 'homepage'
-                    });
-                });
-            });
-            
-            // Track pricing card interactions
-            var pricingCards = document.querySelectorAll('.pricing-card');
-            pricingCards.forEach(function(card) {
-                card.addEventListener('click', function() {
-                    var planName = card.querySelector('h3') ? card.querySelector('h3').textContent : 'Unknown';
-                    trackEvent('pricing_card_click', {
-                        'plan': planName
-                    });
-                });
-            });
-        });
-    </script>
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://roboticaweekly.com">
-    <meta property="og:title" content="Robotica Weekly - Newsletter Investimenti Robotica 2026">
-    <meta property="og:description" content="Scopri azioni robotics e startup prima che esplodano. Newsletter quotidiana con trend 2026, funding e analisi di mercato.">
-    <meta property="og:image" content="https://roboticaweekly.com/og-image.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:locale" content="it_IT">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://roboticaweekly.com">
-    <meta property="twitter:title" content="Robotica Weekly - Newsletter Investimenti Robotica 2026">
-    <meta property="twitter:description" content="Scopri azioni robotics e startup prima che esplodano. Newsletter quotidiana con trend 2026, funding e analisi di mercato.">
-    <meta property="twitter:image" content="https://roboticaweekly.com/og-image.png">
-    
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Robotica Weekly",
-        "url": "https://roboticaweekly.com",
-        "description": "Newsletter quotidiana sul settore robotica e opportunità di investimento",
-        "inLanguage": "it-IT",
-        "publisher": {
-            "@type": "Organization",
-            "name": "Robotica Weekly",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://roboticaweekly.com/favicon.svg"
-            }
-        },
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://roboticaweekly.com/search?q={search_term_string}"
-            },
-            "query-input": "required name=search_term_string"
-        }
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Robotica Weekly",
-        "description": "Newsletter quotidiana sul mondo della robotica e opportunità di investimento",
-        "url": "https://roboticaweekly.com",
-        "email": "info@roboticaweekly.com",
-        "sameAs": [
-            "https://twitter.com/roboticaweekly",
-            "https://linkedin.com/company/roboticaweekly"
-        ],
-        "offers": {
-            "@type": "Offer",
-            "name": "Premium Subscription",
-            "price": "4.99",
-            "priceCurrency": "EUR",
-            "description": "Newsletter giornaliera con analisi di mercato e opportunità di investimento"
-        }
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Robotica Weekly Newsletter",
-        "description": "Newsletter quotidiana sul settore robotica con analisi di investimento",
-        "brand": {
-            "@type": "Brand",
-            "name": "Robotica Weekly"
-        },
-        "offers": [
-            {
-                "@type": "Offer",
-                "name": "Free Plan",
-                "price": "0",
-                "priceCurrency": "EUR"
-            },
-            {
-                "@type": "Offer",
-                "name": "Premium Plan",
-                "price": "4.99",
-                "priceCurrency": "EUR",
-                "description": "Newsletter giornaliera completa"
-            }
-        ]
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Quando arriva la newsletter?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Tutti i giorni alle 7:30 del mattino, direttamente nella tua inbox. Per gli utenti Premium, la versione giornaliera. Per Free, il riassunto settimanale ogni lunedì."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Posso cancellarmi quando voglio?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Certo! Nessun vincolo, puoi cancellare l'abbonamento in qualsiasi momento. Per il piano Free, basta un click. Per Premium, hai accesso fino alla fine del periodo pagato."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "E se non mi piace?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Offriamo 14 giorni di garanzia soddisfatti o rimborsati su Premium. Se la newsletter non ti convince, ti rimborsiamo al 100%, no questions asked."
-                }
-            }
-        ]
-    }
+        gtag('config', 'G-BZNDJ30KWM');
     </script>
     
     <style>
+        /* ACCESSIBILITY FIRST - Senior Friendly (55+) */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
         
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #1e293b;
+        :root {
+            /* High Contrast Colors */
+            --text-primary: #000000;
+            --text-secondary: #333333;
+            --bg-primary: #FFFFFF;
+            --bg-secondary: #F5F5F5;
+            --accent: #1a5fb4;
+            --accent-hover: #154a8c;
+            --success: #26a269;
+            --warning: #ff7800;
+            
+            /* Typography - Minimum 18px for seniors */
+            --font-base: 20px;
+            --font-large: 24px;
+            --font-xl: 32px;
+            --font-xxl: 48px;
+            
+            /* Spacing */
+            --space-sm: 16px;
+            --space-md: 24px;
+            --space-lg: 32px;
+            --space-xl: 48px;
         }
         
-        /* Hero Section */
-        .hero {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-size: var(--font-base);
+            line-height: 1.6;
+            color: var(--text-primary);
+            background-color: var(--bg-primary);
+        }
+        
+        /* HEADER */
+        .header {
+            background: linear-gradient(135deg, #1a5fb4 0%, #154a8c 100%);
             color: white;
-            padding: 100px 20px;
+            padding: var(--space-xl) var(--space-md);
             text-align: center;
         }
         
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 20px;
+        .header h1 {
+            font-size: var(--font-xxl);
             font-weight: 800;
+            margin-bottom: var(--space-md);
+            line-height: 1.2;
         }
         
-        .hero p {
-            font-size: 1.3rem;
-            margin-bottom: 40px;
-            opacity: 0.9;
+        .header-subtitle {
+            font-size: var(--font-large);
+            max-width: 800px;
+            margin: 0 auto var(--space-lg);
+            opacity: 0.95;
+        }
+        
+        /* EMAIL SIGNUP */
+        .signup-box {
+            background: white;
+            padding: var(--space-lg);
+            border-radius: 12px;
             max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
         }
         
-        .robot-icon {
-            font-size: 5rem;
-            margin-bottom: 30px;
-            animation: bounce 2s infinite;
+        .signup-box input[type="email"] {
+            width: 100%;
+            padding: 20px;
+            font-size: var(--font-large);
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: var(--space-md);
         }
         
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
+        .signup-box input[type="email"]:focus {
+            border-color: var(--accent);
+            outline: none;
         }
         
-        .cta-buttons {
+        .btn-primary {
+            display: block;
+            width: 100%;
+            padding: 20px var(--space-lg);
+            font-size: var(--font-large);
+            font-weight: 700;
+            color: white;
+            background-color: var(--accent);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            min-height: 64px; /* Large tap target */
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--accent-hover);
+        }
+        
+        /* SECTIONS */
+        .section {
+            padding: var(--space-xl) var(--space-md);
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            font-size: var(--font-xl);
+            font-weight: 700;
+            margin-bottom: var(--space-lg);
+            text-align: center;
+        }
+        
+        .pain-point {
+            background-color: #fff3e0;
+            border-left: 4px solid var(--warning);
+            padding: var(--space-lg);
+            margin-bottom: var(--space-lg);
+            font-size: var(--font-large);
+        }
+        
+        /* PRICING TABLE */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: var(--space-lg);
+            margin-top: var(--space-xl);
+        }
+        
+        .pricing-card {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: var(--space-xl);
+            border: 2px solid transparent;
+            transition: border-color 0.3s;
+        }
+        
+        .pricing-card.featured {
+            border-color: var(--accent);
+            background: linear-gradient(to bottom, #f0f7ff, var(--bg-secondary));
+        }
+        
+        .pricing-card h3 {
+            font-size: var(--font-xl);
+            margin-bottom: var(--space-sm);
+        }
+        
+        .price {
+            font-size: 48px;
+            font-weight: 800;
+            color: var(--accent);
+        }
+        
+        .price-period {
+            font-size: var(--font-base);
+            color: var(--text-secondary);
+        }
+        
+        .founder-badge {
+            display: inline-block;
+            background: var(--warning);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: var(--space-md);
+        }
+        
+        .spots-left {
+            font-size: var(--font-large);
+            color: var(--warning);
+            font-weight: 700;
+            margin: var(--space-md) 0;
+        }
+        
+        .feature-list {
+            list-style: none;
+            margin: var(--space-lg) 0;
+        }
+        
+        .feature-list li {
+            padding: 12px 0;
+            font-size: var(--font-large);
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .feature-list li:before {
+            content: "✓ ";
+            color: var(--success);
+            font-weight: 700;
+        }
+        
+        /* CONTENT PILLARS */
+        .pillars-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--space-lg);
+            margin-top: var(--space-xl);
+        }
+        
+        .pillar-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            padding: var(--space-lg);
+        }
+        
+        .pillar-card h3 {
+            font-size: var(--font-large);
+            margin-bottom: var(--space-sm);
+            color: var(--accent);
+        }
+        
+        .pillar-question {
+            font-size: var(--font-large);
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+        
+        /* TRUST BADGES */
+        .trust-section {
+            background-color: var(--bg-secondary);
+            padding: var(--space-xl) var(--space-md);
+        }
+        
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--space-lg);
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .trust-item {
             display: flex;
-            gap: 20px;
+            align-items: center;
+            gap: var(--space-md);
+            font-size: var(--font-large);
+        }
+        
+        .trust-icon {
+            font-size: 32px;
+        }
+        
+        /* NO JARGON EXAMPLE */
+        .jargon-example {
+            background: #f8f9fa;
+            padding: var(--space-lg);
+            border-radius: 12px;
+            margin: var(--space-lg) 0;
+        }
+        
+        .jargon-bad {
+            color: #dc3545;
+            text-decoration: line-through;
+            margin-bottom: var(--space-sm);
+        }
+        
+        .jargon-good {
+            color: var(--success);
+            font-weight: 600;
+        }
+        
+        /* STICKY CTA */
+        .sticky-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            padding: var(--space-md);
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+            display: none;
+            z-index: 1000;
+        }
+        
+        .sticky-cta.visible {
+            display: block;
+        }
+        
+        .sticky-cta-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: var(--space-md);
+        }
+        
+        .sticky-cta-text {
+            font-size: var(--font-large);
+            font-weight: 600;
+        }
+        
+        /* FOOTER */
+        .footer {
+            background-color: var(--text-primary);
+            color: white;
+            padding: var(--space-xl) var(--space-md);
+            text-align: center;
+        }
+        
+        .footer-cta {
+            font-size: var(--font-xl);
+            margin-bottom: var(--space-lg);
+        }
+        
+        .footer-buttons {
+            display: flex;
+            gap: var(--space-md);
             justify-content: center;
             flex-wrap: wrap;
         }
         
-        .btn {
-            padding: 15px 40px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1rem;
-            transition: all 0.3s ease;
-        }
-        
-        .btn-primary {
-            background-color: white;
-            color: #667eea;
-        }
-        
-        .btn-primary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-        }
-        
         .btn-secondary {
-            background-color: transparent;
-            color: white;
-            border: 2px solid white;
+            padding: 20px 40px;
+            font-size: var(--font-large);
+            font-weight: 700;
+            color: var(--accent);
+            background-color: white;
+            border: 2px solid var(--accent);
+            border-radius: 8px;
+            cursor: pointer;
+            min-height: 64px;
         }
         
         .btn-secondary:hover {
-            background-color: white;
-            color: #667eea;
+            background-color: var(--bg-secondary);
         }
         
-        /* Problem/Solution */
-        .problem-solution {
-            padding: 80px 20px;
-            background-color: #f8fafc;
+        .frequency-note {
+            margin-top: var(--space-lg);
+            font-size: var(--font-large);
+            opacity: 0.9;
         }
         
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-        
-        h2 {
-            font-size: 2.5rem;
-            text-align: center;
-            margin-bottom: 20px;
-            color: #1e293b;
-        }
-        
-        .section-subtitle {
-            text-align: center;
-            color: #64748b;
-            font-size: 1.2rem;
-            margin-bottom: 60px;
-        }
-        
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-        
-        .card {
-            background: white;
-            padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            transition: transform 0.3s ease;
-        }
-        
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-        }
-        
-        .card-icon {
-            font-size: 3rem;
-            margin-bottom: 20px;
-        }
-        
-        .card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 15px;
-            color: #1e293b;
-        }
-        
-        .card p {
-            color: #64748b;
-            line-height: 1.7;
-        }
-        
-        /* Newsletter Preview */
-        .preview {
-            padding: 80px 20px;
-            background: white;
-        }
-        
-        .newsletter-sample {
-            background: #f8fafc;
-            border-radius: 16px;
-            padding: 40px;
-            max-width: 700px;
-            margin: 0 auto;
-            border: 2px solid #e2e8f0;
-        }
-        
-        .newsletter-header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 30px;
-            border-radius: 12px;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        
-        .newsletter-header h3 {
-            font-size: 1.8rem;
-            margin-bottom: 10px;
-        }
-        
-        .newsletter-content h4 {
-            color: #667eea;
-            margin: 25px 0 15px 0;
-            font-size: 1.2rem;
-        }
-        
-        .newsletter-content ul {
-            margin-left: 20px;
-            color: #475569;
-        }
-        
-        .newsletter-content li {
-            margin-bottom: 10px;
-        }
-        
-        /* Pricing */
-        .pricing {
-            padding: 80px 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-        }
-        
-        .pricing h2 {
-            color: white;
-        }
-        
-        .pricing .section-subtitle {
-            color: rgba(255,255,255,0.8);
-        }
-        
-        .pricing-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        
-        .pricing-card {
-            background: white;
-            color: #1e293b;
-            padding: 40px;
-            border-radius: 16px;
-            text-align: center;
-        }
-        
-        .pricing-card.featured {
-            transform: scale(1.05);
-            box-shadow: 0 25px 50px rgba(0,0,0,0.2);
-        }
-        
-        .pricing-card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-        }
-        
-        .price {
-            font-size: 3rem;
-            font-weight: 800;
-            color: #667eea;
-            margin: 20px 0;
-        }
-        
-        .price span {
-            font-size: 1rem;
-            color: #64748b;
-            font-weight: 400;
-        }
-        
-        .pricing-card ul {
-            list-style: none;
-            margin: 30px 0;
-            text-align: left;
-        }
-        
-        .pricing-card li {
-            padding: 10px 0;
-            border-bottom: 1px solid #e2e8f0;
-        }
-        
-        .pricing-card li:before {
-            content: "✓ ";
-            color: #22c55e;
-            font-weight: bold;
-        }
-        
-        /* FAQ */
-        .faq {
-            padding: 80px 20px;
-            background: #f8fafc;
-        }
-        
-        .faq-item {
-            background: white;
-            margin-bottom: 20px;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-        }
-        
-        .faq-item h4 {
-            color: #1e293b;
-            margin-bottom: 10px;
-            font-size: 1.2rem;
-        }
-        
-        .faq-item p {
-            color: #64748b;
-            line-height: 1.7;
-        }
-        
-        /* Footer */
-        .footer {
-            background: #1e293b;
-            color: white;
-            padding: 60px 20px 30px;
-        }
-        
-        .footer-content {
-            max-width: 1000px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 40px;
-            margin-bottom: 40px;
-        }
-        
-        .footer-section h4 {
-            margin-bottom: 20px;
-            color: #667eea;
-        }
-        
-        .footer-section a {
-            color: #94a3b8;
-            text-decoration: none;
-            display: block;
-            margin-bottom: 10px;
-            transition: color 0.3s;
-        }
-        
-        .footer-section a:hover {
-            color: white;
-        }
-        
-        .footer-bottom {
-            text-align: center;
-            padding-top: 30px;
-            border-top: 1px solid #334155;
-            color: #64748b;
-        }
-        
-        /* Responsive */
+        /* RESPONSIVE */
         @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2rem;
+            :root {
+                --font-base: 18px;
+                --font-large: 20px;
+                --font-xl: 24px;
+                --font-xxl: 36px;
             }
             
-            .hero p {
-                font-size: 1.1rem;
+            .header h1 {
+                font-size: var(--font-xl);
             }
             
-            .robot-icon {
-                font-size: 3.5rem;
+            .pricing-grid {
+                grid-template-columns: 1fr;
             }
             
-            .btn {
-                padding: 12px 30px;
-                font-size: 1rem;
+            .sticky-cta-content {
+                flex-direction: column;
+                text-align: center;
             }
-            
-            h2 {
-                font-size: 2rem;
+        }
+        
+        /* ACCESSIBILITY */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation: none !important;
+                transition: none !important;
             }
-            
-            .pricing-card.featured {
-                transform: none;
-            }
+        }
+        
+        /* Focus states for keyboard navigation */
+        *:focus {
+            outline: 3px solid var(--accent);
+            outline-offset: 2px;
         }
     </style>
 </head>
 <body>
-    <!-- Hero -->
-    <section class="hero">
-        <div class="robot-icon" role="img" aria-label="Robot icon">🤖</div>
-        <h1>Robotica Weekly — Newsletter Investimenti Robotica 2026</h1>
-        <p>Il Futuro della Robotica, Ogni Giorno. Scopri opportunità di investimento nel settore robotics, azioni in crescita e startup prima che diventino mainstream.</p>
-        <div class="cta-buttons">
-            <a href="#pricing" class="btn btn-primary">Inizia Ora</a>
-            <a href="#preview" class="btn btn-secondary">Vedi Esempio</a>
+    <!-- HEADER / HERO -->
+    <header class="header">
+        <h1>L'Intelligenza Robotica Globale, in Italiano.</h1>
+        <p class="header-subtitle">
+            La rassegna settimanale per imprenditori e investitori che vogliono anticipare il futuro dell'automazione. 
+            Dai laboratori di Shenzhen alle fabbriche della Silicon Valley, direttamente nella tua inbox.
+        </p>
+        
+        <div class="signup-box">
+            <input type="email" placeholder="Il tuo indirizzo email" aria-label="Indirizzo email">
+            <button class="btn-primary" onclick="trackEvent('signup_free')">Ricevi la Prima Edizione Gratuita</button>
+            <p style="margin-top: 16px; font-size: 16px; color: #666;">📧 Ogni mercoledì mattina. No spam, mai.</p>
         </div>
-    </section>
+    </header>
 
-    <!-- Problem/Solution -->
-    <section class="problem-solution">
-        <div class="container">
-            <h2>Perché Robotica Weekly?</h2>
-            <p class="section-subtitle">Il settore robotics cresce del 25% all'anno. Non perdere l'opportunità.</p>
-            
-            <div class="cards">
-                <article class="card">
-                    <div class="card-icon" role="img" aria-label="Chart icon">📈</div>
-                    <h3>Analisi di Mercato Robotica</h3>
-                    <p>Tracking giornaliero delle azioni robotics, ETF e startup. Dati aggiornati in tempo reale con analisi tecnica.</p>
-                </article>
-                
-                <article class="card">
-                    <div class="card-icon" role="img" aria-label="Money icon">💰</div>
-                    <h3>Funding & Deal Startup Robotica</h3>
-                    <p>Tutti i funding round, acquisizioni e IPO del settore. Scopri chi investe e dove va il denaro.</p>
-                </article>
-                
-                <article class="card">
-                    <div class="card-icon" role="img" aria-label="Rocket icon">🚀</div>
-                    <h3>Opportunità Early Stage</h3>
-                    <p>Identifichiamo trend nel settore robotica prima che esplodano. Entra prima della massa e massimizza i tuoi ritorni su investimenti in robotics.</p>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- Newsletter Preview -->
-    <section class="preview" id="preview">
-        <div class="container">
-            <h2>Un Esempio della Newsletter</h2>
-            <p class="section-subtitle">Cosa ricevi ogni giorno</p>
-            
-            <div class="newsletter-sample">
-                <div class="newsletter-header">
-                    <h3>🤖 Robotica Weekly</h3>
-                    <p>3 Febbraio 2026 | Edizione #42</p>
-                </div>
-                
-                <div class="newsletter-content">
-                    <h4>📈 Trend del Giorno</h4>
-                    <p>Nvidia NVDA +8.4% dopo annuncio partnership robotics</p>
-                    
-                    <h4>💰 Deal della Settimana</h4>
-                    <ul>
-                        <li><strong>Vention:</strong> $110M Series D per espansione US</li>
-                        <li><strong>Figure AI:</strong> Nuovo round in chiusura</li>
-                    </ul>
-                    
-                    <h4>📊 Top 3 Azioni Robotics</h4>
-                    <ul>
-                        <li>🥇 Nvidia (NVDA): +8.4%</li>
-                        <li>🥈 Intuitive Surgical (ISRG): +2.1%</li>
-                        <li>🥉 iRobot (IRBT): -1.2%</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing -->
-    <section class="pricing" id="pricing">
-        <div class="container">
-            <h2>Scegli il tuo Piano</h2>
-            <p class="section-subtitle">Inizia gratis, upgrade quando vuoi</p>
-            
-            <div class="pricing-cards">
-                <div class="pricing-card">
-                    <h3>Free</h3>
-                    <div class="price">€0<span>/mese</span></div>
-                    <ul>
-                        <li>Newsletter settimanale</li>
-                        <li>Top 3 notizie della settimana</li>
-                        <li>Market recap</li>
-                        <li>Community Discord</li>
-                    </ul>
-                    <a href="#" class="btn btn-secondary" style="display: inline-block; margin-top: 20px; color: #667eea; border-color: #667eea;">Iscriviti Free</a>
-                </div>
-                
-                <div class="pricing-card featured">
-                    <h3>Premium</h3>
-                    <div class="price">€4.99<span>/mese</span></div>
-                    <ul>
-                        <li>Newsletter giornaliera</li>
-                        <li>Tutti i funding & deal</li>
-                        <li>Analisi entry points</li>
-                        <li>Top 10 azioni + ETF</li>
-                        <li>Early access alle opportunità</li>
-                        <li>Supporto prioritario</li>
-                    </ul>
-                    <a href="#" class="btn btn-primary" style="display: inline-block; margin-top: 20px;">Inizia Premium</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ -->
-    <section class="faq">
-        <div class="container">
-            <h2>Domande Frequenti</h2>
-            <p class="section-subtitle">Tutto quello che devi sapere</p>
-            
-            <div class="faq-item">
-                <h4>Quando arriva la newsletter?</h4>
-                <p>Tutti i giorni alle 7:30 del mattino, direttamente nella tua inbox. Per gli utenti Premium, la versione giornaliera. Per Free, il riassunto settimanale ogni lunedì.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h4>Posso cancellarmi quando voglio?</h4>
-                <p>Certo! Nessun vincolo, puoi cancellare l'abbonamento in qualsiasi momento. Per il piano Free, basta un click. Per Premium, hai accesso fino alla fine del periodo pagato.</p>
-            </div>
-            
-            <div class="faq-item">
-                <h4>E se non mi piace?</h4>
-                <p>Offriamo 14 giorni di garanzia soddisfatti o rimborsati su Premium. Se la newsletter non ti convince, ti rimborsiamo al 100%, no questions asked.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h4>Robotica Weekly</h4>
-                <p style="color: #94a3b8;">Il futuro della robotica, ogni giorno nella tua inbox.</p>
-            </div>
-            
-            <div class="footer-section">
-                <h4>Link Utili</h4>
-                <a href="/privacy.html">Privacy Policy</a>
-                <a href="/termini.html">Termini di Servizio</a>
-                <a href="/cookie.html">Cookie Policy</a>
-                <a href="/faq.html">FAQ</a>
-            </div>
-            
-            <div class="footer-section">
-                <h4>Contatti</h4>
-                <a href="mailto:info@roboticaweekly.com">info@roboticaweekly.com</a>
-                <a href="https://twitter.com/roboticaweekly" rel="noopener noreferrer">Twitter</a>
-                <a href="https://linkedin.com/company/roboticaweekly" rel="noopener noreferrer">LinkedIn</a>
-                <a href="/mission-control/index.html">Mission Control</a>
-            </div>
+    <!-- PAIN POINT SECTION -->
+    <section class="section">
+        <h2 class="section-title">Perché Robotica Weekly?</h2>
+        
+        <div class="pain-point">
+            <strong>Il Problema:</strong> Mentre l'innovazione corre veloce in Cina e negli USA, l'informazione rimane spesso bloccata dietro la barriera linguistica. <strong>Traduciamo la complessità in opportunità per l'impresa italiana.</strong>
         </div>
         
-        <div class="footer-bottom">
-            <p>&copy; 2026 Robotica Weekly. Tutti i diritti riservati.</p>
+        <p style="font-size: 22px; text-align: center; max-width: 800px; margin: 0 auto;">
+            Ogni settimana, selezioniamo le notizie che contano, le traduciamo in un italiano chiaro e ti mostriamo 
+            <strong>come applicarle al tuo business</strong> — che tu produca componenti meccanici, gestisca un magazzino o voglia semplicemente capire dove sta andando il mercato.
+        </p>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section class="section" style="background-color: #f8f9fa;">
+        <h2 class="section-title">I Nostri Piani</h2>
+        
+        <div class="pricing-grid">
+            <!-- FREE TIER -->
+            <div class="pricing-card">
+                <h3>🗞️ La Settimanale</h3>
+                <div class="price">€0 <span class="price-period">/mese</span></div>
+                <p style="color: #666; margin: 16px 0;">Per chi vuole tenersi aggiornato senza perdere tempo.</p>
+                
+                <ul class="feature-list">
+                    <li>News riassunte — I fatti importanti, in 2 minuti</li>
+                    <li>Trend emergenti — Cosa succede oggi che impatterà domani</li>
+                    <li>Eventi in Italia — Fiere, convegni e webinar</li>
+                </ul>
+                
+                <button class="btn-primary" onclick="trackEvent('signup_free_tier')">Iscriviti Gratis</button>
+            </div>
+            
+            <!-- PRO TIER -->
+            <div class="pricing-card featured">
+                <div class="founder-badge">⚡ PREZZO FONDATORE</div>
+                <h3>🔭 L'Osservatorio</h3>
+                <div class="price">€4.99 <span class="price-period">/mese</span></div>
+                <p style="text-decoration: line-through; color: #999;">Poi €9.99/mese</p>
+                
+                <p style="color: #666; margin: 16px 0;">Per chi vuole agire prima degli altri.</p>
+                
+                <div class="spots-left">⚡ 87 posti rimanenti su 100</div>
+                
+                <ul class="feature-list">
+                    <li>Analisi dei costi — ROI realistico per PMI italiane</li>
+                    <li>Round di investimento — Chi riceve fondi e perché</li>
+                    <li>Report startup — Opportunità di partnership</li>
+                    <li>Alert tecnologici — Quando conviene automatizzare</li>
+                </ul>
+                
+                <button class="btn-primary" onclick="trackEvent('signup_pro_tier')">Attiva L'Osservatorio →</button>
+                <p style="font-size: 16px; color: #666; margin-top: 12px;">✓ Prezzo bloccato per sempre ✓ Cancellabile in qualsiasi momento</p>
+            </div>
         </div>
+    </section>
+
+    <!-- CONTENT PILLARS -->
+    <section class="section">
+        <h2 class="section-title">Cosa Trovi Dentro</h2>
+        
+        <div class="pillars-grid">
+            <div class="pillar-card">
+                <h3>🗺️ Market Mapping</h3>
+                <p class="pillar-question">"Quali aziende cinesi di robotica collaborativa stanno cercando distributori in Europa?"</p>
+                <p style="margin-top: 16px;">Scopri prima degli altri chi ha bisogno di un partner italiano — e contattali mentre la concorrenza dorme.</p>
+            </div>
+            
+            <div class="pillar-card">
+                <h3>⚖️ Regulatory Watch</h3>
+                <p class="pillar-question">"Nuove direttive UE sulla sicurezza dei robot: cosa rischiano le PMI italiane?"</p>
+                <p style="margin-top: 16px;">Non lasciarti sorprendere. Ti spieghiamo le normative in termini pratici, con checklist per rimanere compliant.</p>
+            </div>
+            
+            <div class="pillar-card">
+                <h3>💰 Investment Summary</h3>
+                <p class="pillar-question">"Chi ha raccolto fondi, quanto, e perché dovrebbe interessarti?"</p>
+                <p style="margin-top: 16px;">Weekly funding table tradotto in EUR, con contesto supply chain italiano.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST BADGES -->
+    <section class="trust-section">
+        <div class="trust-grid">
+            <div class="trust-item">
+                <span class="trust-icon">✅</span>
+                <span>Scritto in un linguaggio chiaro, senza tecnicismi</span>
+            </div>
+            <div class="trust-item">
+                <span class="trust-icon">⏱️</span>
+                <span>Tempo di lettura: 5 minuti</span>
+            </div>
+            <div class="trust-item">
+                <span class="trust-icon">🇮🇹</span>
+                <span>Pensato per le PMI italiane</span>
+            </div>
+            <div class="trust-item">
+                <span class="trust-icon">🔒</span>
+                <span>Privacy garantita. Dati mai venduti.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- NO JARGON EXAMPLE -->
+    <section class="section">
+        <h2 class="section-title">No Jargon — Leggibilità Prima di Tutto</h2>
+        
+        <div class="jargon-example">
+            <p class="jargon-bad">❌ "AI-Driven Kinematics Optimization for Scalable Manufacturing Solutions"</p>
+            <p class="jargon-good">✅ "Come l'intelligenza artificiale sta cambiando le fabbriche in Cina (e cosa significa per l'Italia)"</p>
+        </div>
+        
+        <div class="jargon-example">
+            <p class="jargon-bad">❌ "Series B Funding Round for Humanoid Robotics Startup"</p>
+            <p class="jargon-good">✅ "Questa azienda di robot umanoidi ha appena ricevuto 50 milioni: perché potrebbe cercare fornitori italiani"</p>
+        </div>
+    </section>
+
+    <!-- FOOTER CTA -->
+    <footer class="footer">
+        <p class="footer-cta">Pronto a guardare il futuro prima degli altri?</p>
+        
+        <div class="footer-buttons">
+            <button class="btn-secondary" onclick="trackEvent('footer_signup_free')">Iscriviti Gratuitamente</button>
+            <button class="btn-primary" onclick="trackEvent('footer_signup_pro')" style="background: white; color: #1a5fb4;">Attiva L'Osservatorio Pro →</button>
+        </div>
+        
+        <p class="frequency-note">📅 Ogni mercoledì mattina. No spam, mai. <a href="mailto:ciao@roboticaweekly.it" style="color: #fff;">ciao@roboticaweekly.it</a></p>
     </footer>
+
+    <!-- STICKY CTA (appears on scroll) -->
+    <div class="sticky-cta" id="stickyCta">
+        <div class="sticky-cta-content">
+            <span class="sticky-cta-text">🚀 Unisciti ai 100 fondatori — €4.99/mese</span>
+            <button class="btn-primary" style="width: auto; padding: 16px 32px;" onclick="trackEvent('sticky_cta_click')">Iscriviti Ora</button>
+        </div>
+    </div>
+
+    <script>
+        // Show sticky CTA on scroll
+        window.addEventListener('scroll', function() {
+            var stickyCta = document.getElementById('stickyCta');
+            if (window.scrollY > 500) {
+                stickyCta.classList.add('visible');
+            } else {
+                stickyCta.classList.remove('visible');
+            }
+        });
+        
+        // Track events
+        function trackEvent(eventName) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', eventName, {
+                    'event_category': 'engagement',
+                    'event_label': window.location.pathname
+                });
+            }
+            console.log('Event tracked:', eventName);
+        }
+    </script>
 </body>
 </html>
