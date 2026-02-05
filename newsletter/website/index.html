@@ -4,20 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robotica Weekly | L'Intelligenza Robotica Globale, in Italiano</title>
-    <meta name="description" content="La rassegna settimanale per imprenditori e investitori che vogliono anticipare il futuro dell'automazione. Dai laboratori di Shenzhen alle fabbriche della Silicon Valley, direttamente nella tua inbox.">
-    <meta name="keywords" content="newsletter robotica italia, investimenti robotica pmi, automazione industria italiana, embodied ai europa">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Robotica Weekly">
-    <link rel="canonical" href="https://roboticaweekly.com">
+    <meta name="description" content="La rassegna settimanale per imprenditori e investitori che vogliono anticipare il futuro dell'automazione.">
     
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://roboticaweekly.com">
-    <meta property="og:title" content="Robotica Weekly | L'Intelligenza Robotica Globale, in Italiano">
-    <meta property="og:description" content="La rassegna settimanale per imprenditori e investitori. Dai laboratori di Shenzhen alla tua inbox.">
-    <meta property="og:image" content="https://roboticaweekly.com/og-image.png">
-    
-    <!-- Deploy Test #2: 2026-02-05 17:08 UTC - Repository secrets configured -->
     <!-- Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BZNDJ30KWM"></script>
     <script>
@@ -28,736 +16,353 @@
     </script>
     
     <style>
-        /* ACCESSIBILITY FIRST - Senior Friendly (55+) */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        :root {
-            /* High Contrast Colors */
-            --text-primary: #000000;
-            --text-secondary: #333333;
-            --bg-primary: #FFFFFF;
-            --bg-secondary: #F5F5F5;
-            --accent: #1a5fb4;
-            --accent-hover: #154a8c;
-            --success: #26a269;
-            --warning: #ff7800;
-            
-            /* Typography - Minimum 18px for seniors */
-            --font-base: 20px;
-            --font-large: 24px;
-            --font-xl: 32px;
-            --font-xxl: 48px;
-            
-            /* Spacing */
-            --space-sm: 16px;
-            --space-md: 24px;
-            --space-lg: 32px;
-            --space-xl: 48px;
-        }
-        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            font-size: var(--font-base);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 20px;
             line-height: 1.6;
-            color: var(--text-primary);
-            background-color: var(--bg-primary);
+            color: #000;
+            background: #fff;
         }
-        
-        /* HEADER */
         .header {
             background: linear-gradient(135deg, #1a5fb4 0%, #154a8c 100%);
             color: white;
-            padding: var(--space-xl) var(--space-md);
+            padding: 48px 24px;
             text-align: center;
         }
+        .header h1 { font-size: 48px; font-weight: 800; margin-bottom: 24px; }
+        .header-subtitle { font-size: 24px; max-width: 800px; margin: 0 auto 32px; }
         
-        .header h1 {
-            font-size: var(--font-xxl);
-            font-weight: 800;
-            margin-bottom: var(--space-md);
-            line-height: 1.2;
-        }
-        
-        .header-subtitle {
-            font-size: var(--font-large);
-            max-width: 800px;
-            margin: 0 auto var(--space-lg);
-            opacity: 0.95;
-        }
-        
-        /* EMAIL SIGNUP */
         .signup-box {
             background: white;
-            padding: var(--space-lg);
+            padding: 32px;
             border-radius: 12px;
             max-width: 600px;
             margin: 0 auto;
             box-shadow: 0 4px 20px rgba(0,0,0,0.15);
         }
-        
-        .signup-box input[type="email"] {
+        input[type="email"] {
             width: 100%;
             padding: 20px;
-            font-size: var(--font-large);
+            font-size: 20px;
             border: 2px solid #ddd;
             border-radius: 8px;
-            margin-bottom: var(--space-md);
+            margin-bottom: 16px;
         }
-        
-        .signup-box input[type="email"]:focus {
-            border-color: var(--accent);
-            outline: none;
-        }
-        
         .btn-primary {
             display: block;
             width: 100%;
-            padding: 20px var(--space-lg);
-            font-size: var(--font-large);
+            padding: 20px;
+            font-size: 22px;
             font-weight: 700;
             color: white;
-            background-color: var(--accent);
+            background: #1a5fb4;
             border: none;
             border-radius: 8px;
             cursor: pointer;
-            transition: background-color 0.3s;
-            min-height: 64px; /* Large tap target */
         }
+        .btn-primary:hover { background: #154a8c; }
+        .btn-primary:disabled { background: #999; cursor: not-allowed; }
         
-        .btn-primary:hover {
-            background-color: var(--accent-hover);
-        }
-        
-        /* SECTIONS */
-        .section {
-            padding: var(--space-xl) var(--space-md);
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
-        .section-title {
-            font-size: var(--font-xl);
-            font-weight: 700;
-            margin-bottom: var(--space-lg);
-            text-align: center;
-        }
+        .section { padding: 48px 24px; max-width: 1200px; margin: 0 auto; }
+        .section-title { font-size: 32px; font-weight: 700; margin-bottom: 32px; text-align: center; }
         
         .pain-point {
-            background-color: #fff3e0;
-            border-left: 4px solid var(--warning);
-            padding: var(--space-lg);
-            margin-bottom: var(--space-lg);
-            font-size: var(--font-large);
+            background: #fff3e0;
+            border-left: 4px solid #ff7800;
+            padding: 24px;
+            margin-bottom: 24px;
+            font-size: 22px;
         }
         
-        /* PRICING TABLE */
         .pricing-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: var(--space-lg);
-            margin-top: var(--space-xl);
+            gap: 32px;
         }
-        
         .pricing-card {
-            background: var(--bg-secondary);
+            background: #f5f5f5;
             border-radius: 12px;
-            padding: var(--space-xl);
+            padding: 32px;
             border: 2px solid transparent;
-            transition: border-color 0.3s;
         }
-        
         .pricing-card.featured {
-            border-color: var(--accent);
-            background: linear-gradient(to bottom, #f0f7ff, var(--bg-secondary));
+            border-color: #1a5fb4;
+            background: linear-gradient(to bottom, #f0f7ff, #f5f5f5);
         }
-        
-        .pricing-card h3 {
-            font-size: var(--font-xl);
-            margin-bottom: var(--space-sm);
-        }
-        
-        .price {
-            font-size: 48px;
-            font-weight: 800;
-            color: var(--accent);
-        }
-        
-        .price-period {
-            font-size: var(--font-base);
-            color: var(--text-secondary);
-        }
-        
+        .price { font-size: 48px; font-weight: 800; color: #1a5fb4; }
         .founder-badge {
             display: inline-block;
-            background: var(--warning);
+            background: #ff7800;
             color: white;
             padding: 8px 16px;
             border-radius: 20px;
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 700;
-            margin-bottom: var(--space-md);
+            margin-bottom: 16px;
         }
+        .spots-left { font-size: 18px; color: #ff7800; font-weight: 700; margin: 16px 0; }
         
-        .spots-left {
-            font-size: var(--font-large);
-            color: var(--warning);
-            font-weight: 700;
-            margin: var(--space-md) 0;
-        }
+        .feature-list { list-style: none; margin: 24px 0; }
+        .feature-list li { padding: 12px 0; font-size: 20px; border-bottom: 1px solid #ddd; }
+        .feature-list li:before { content: "✓ "; color: #26a269; font-weight: 700; }
         
-        .feature-list {
-            list-style: none;
-            margin: var(--space-lg) 0;
-        }
-        
-        .feature-list li {
-            padding: 12px 0;
-            font-size: var(--font-large);
-            border-bottom: 1px solid #ddd;
-        }
-        
-        .feature-list li:before {
-            content: "✓ ";
-            color: var(--success);
-            font-weight: 700;
-        }
-        
-        /* CONTENT PILLARS */
-        .pillars-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: var(--space-lg);
-            margin-top: var(--space-xl);
-        }
-        
-        .pillar-card {
-            background: white;
-            border: 2px solid #e0e0e0;
-            border-radius: 12px;
-            padding: var(--space-lg);
-        }
-        
-        .pillar-card h3 {
-            font-size: var(--font-large);
-            margin-bottom: var(--space-sm);
-            color: var(--accent);
-        }
-        
-        .pillar-question {
-            font-size: var(--font-large);
-            font-style: italic;
-            color: var(--text-secondary);
-        }
-        
-        /* TRUST BADGES */
-        .trust-section {
-            background-color: var(--bg-secondary);
-            padding: var(--space-xl) var(--space-md);
-        }
-        
+        .trust-section { background: #f5f5f5; padding: 48px 24px; }
         .trust-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: var(--space-lg);
+            gap: 24px;
             max-width: 1000px;
             margin: 0 auto;
         }
+        .trust-item { display: flex; align-items: center; gap: 16px; font-size: 20px; }
         
-        .trust-item {
-            display: flex;
-            align-items: center;
-            gap: var(--space-md);
-            font-size: var(--font-large);
+        .footer {
+            background: #000;
+            color: white;
+            padding: 48px 24px;
+            text-align: center;
         }
+        .footer-cta { font-size: 28px; margin-bottom: 32px; }
         
-        .trust-icon {
-            font-size: 32px;
-        }
-        
-        /* NO JARGON EXAMPLE */
-        .jargon-example {
-            background: #f8f9fa;
-            padding: var(--space-lg);
-            border-radius: 12px;
-            margin: var(--space-lg) 0;
-        }
-        
-        .jargon-bad {
-            color: #dc3545;
-            text-decoration: line-through;
-            margin-bottom: var(--space-sm);
-        }
-        
-        .jargon-good {
-            color: var(--success);
-            font-weight: 600;
-        }
-        
-        /* STICKY CTA */
         .sticky-cta {
             position: fixed;
             bottom: 0;
             left: 0;
             right: 0;
             background: white;
-            padding: var(--space-md);
+            padding: 16px;
             box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
             display: none;
             z-index: 1000;
         }
+        .sticky-cta.visible { display: block; }
         
-        .sticky-cta.visible {
-            display: block;
-        }
-        
-        .sticky-cta-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: var(--space-md);
-        }
-        
-        .sticky-cta-text {
-            font-size: var(--font-large);
+        .popup {
+            display: none;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            max-width: 400px;
+            padding: 20px 24px;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+            z-index: 999999;
+            font-size: 18px;
             font-weight: 600;
         }
+        .popup.success { background: #d4edda; color: #155724; border: 3px solid #28a745; }
+        .popup.error { background: #f8d7da; color: #721c24; border: 3px solid #dc3545; }
         
-        /* FOOTER */
-        .footer {
-            background-color: var(--text-primary);
-            color: white;
-            padding: var(--space-xl) var(--space-md);
-            text-align: center;
-        }
-        
-        .footer-cta {
-            font-size: var(--font-xl);
-            margin-bottom: var(--space-lg);
-        }
-        
-        .footer-buttons {
-            display: flex;
-            gap: var(--space-md);
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        
-        .btn-secondary {
-            padding: 20px 40px;
-            font-size: var(--font-large);
-            font-weight: 700;
-            color: var(--accent);
-            background-color: white;
-            border: 2px solid var(--accent);
-            border-radius: 8px;
-            cursor: pointer;
-            min-height: 64px;
-        }
-        
-        .btn-secondary:hover {
-            background-color: var(--bg-secondary);
-        }
-        
-        .frequency-note {
-            margin-top: var(--space-lg);
-            font-size: var(--font-large);
-            opacity: 0.9;
-        }
-        
-        /* RESPONSIVE */
-        @media (max-width: 768px) {
-            :root {
-                --font-base: 18px;
-                --font-large: 20px;
-                --font-xl: 24px;
-                --font-xxl: 36px;
-            }
-            
-            .header h1 {
-                font-size: var(--font-xl);
-            }
-            
-            .pricing-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .sticky-cta-content {
-                flex-direction: column;
-                text-align: center;
-            }
-        }
-        
-        /* ACCESSIBILITY */
-        @media (prefers-reduced-motion: reduce) {
-            * {
-                animation: none !important;
-                transition: none !important;
-            }
-        }
-        
-        /* Focus states for keyboard navigation */
-        *:focus {
-            outline: 3px solid var(--accent);
-            outline-offset: 2px;
-        }
+        label { display: flex; align-items: flex-start; gap: 12px; font-size: 16px; margin: 16px 0; cursor: pointer; }
+        input[type="checkbox"] { width: 20px; height: 20px; margin-top: 2px; }
     </style>
 </head>
 <body>
-    <!-- HEADER / HERO -->
+    <!-- POPUP -->
+    <div id="popup" class="popup">
+        <span id="popupText"></span>
+        <button onclick="closePopup()" style="margin-left: 16px; background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
+    </div>
+
+    <!-- HEADER -->
     <header class="header">
         <h1>L'Intelligenza Robotica Globale, in Italiano.</h1>
         <p class="header-subtitle">
-            La rassegna settimanale per imprenditori e investitori che vogliono anticipare il futuro dell'automazione. 
-            Dai laboratori di Shenzhen alle fabbriche della Silicon Valley, direttamente nella tua inbox.
+            La rassegna settimanale per imprenditori e investitori che vogliono anticipare il futuro dell'automazione.
         </p>
         
         <div class="signup-box">
-            <form id="signupForm" action="https://formspree.io/f/xnqevwdr" method="POST">
-                <input type="email" name="email" id="emailInput" placeholder="Il tuo indirizzo email" aria-label="Indirizzo email" required>
+            <form id="heroForm" action="https://formspree.io/f/xnqevwdr" method="POST">
+                <input type="email" name="email" placeholder="Il tuo indirizzo email" required>
                 <input type="hidden" name="tier" value="free">
                 <input type="hidden" name="source" value="hero">
-                <div style="margin: 16px 0;">
-                    <label style="display: flex; align-items: flex-start; gap: 12px; font-size: 16px; text-align: left; cursor: pointer;">
-                        <input type="checkbox" name="privacy" id="privacyCheck" required style="width: 20px; height: 20px; margin-top: 2px;">
-                        <span>Accetto la <a href="/legal/privacy-policy.html" style="color: var(--accent);">Privacy Policy</a> e ricevere la newsletter</span>
-                    </label>
-                </div>
-                <button type="submit" class="btn-primary" id="submitBtn">Ricevi la Prima Edizione Gratuita</button>
-                <p style="margin-top: 16px; font-size: 16px; color: #666;">📧 Ogni mercoledì mattina. No spam, mai.</p>
+                <label>
+                    <input type="checkbox" name="privacy" required>
+                    <span>Accetto la <a href="/legal/privacy-policy.html" style="color: #1a5fb4;">Privacy Policy</a></span>
+                </label>
+                <button type="submit" class="btn-primary">Ricevi la Prima Edizione Gratuita</button>
             </form>
-            <div id="formMessage" style="display: none; margin-top: 16px; padding: 16px; border-radius: 8px; font-size: 18px;"></div>
+            <p style="margin-top: 16px; font-size: 16px; color: #666;">📧 Ogni mercoledì mattina. No spam, mai.</p>
         </div>
     </header>
 
-    <!-- PAIN POINT SECTION -->
+    <!-- PAIN POINT -->
     <section class="section">
         <h2 class="section-title">Perché Robotica Weekly?</h2>
-        
         <div class="pain-point">
             <strong>Il Problema:</strong> Mentre l'innovazione corre veloce in Cina e negli USA, l'informazione rimane spesso bloccata dietro la barriera linguistica. <strong>Traduciamo la complessità in opportunità per l'impresa italiana.</strong>
         </div>
-        
-        <p style="font-size: 22px; text-align: center; max-width: 800px; margin: 0 auto;">
-            Ogni settimana, selezioniamo le notizie che contano, le traduciamo in un italiano chiaro e ti mostriamo 
-            <strong>come applicarle al tuo business</strong> — che tu produca componenti meccanici, gestisca un magazzino o voglia semplicemente capire dove sta andando il mercato.
-        </p>
     </section>
 
-    <!-- PRICING SECTION -->
-    <section class="section" style="background-color: #f8f9fa;">
+    <!-- PRICING -->
+    <section class="section" style="background: #f8f9fa;">
         <h2 class="section-title">I Nostri Piani</h2>
         
         <div class="pricing-grid">
-            <!-- FREE TIER -->
+            <!-- FREE -->
             <div class="pricing-card">
-                <h3>🗞️ La Settimanale</h3>
-                <div class="price">€0 <span class="price-period">/mese</span></div>
-                <p style="color: #666; margin: 16px 0;">Per chi vuole tenersi aggiornato senza perdere tempo.</p>
+                <h3 style="font-size: 28px; margin-bottom: 16px;">🗞️ La Settimanale</h3>
+                <div class="price">€0 <span style="font-size: 20px; color: #666;">/mese</span></div>
+                <p style="color: #666; margin: 16px 0;">Per chi vuole tenersi aggiornato.</p>
                 
                 <ul class="feature-list">
-                    <li>News riassunte — I fatti importanti, in 2 minuti</li>
-                    <li>Trend emergenti — Cosa succede oggi che impatterà domani</li>
-                    <li>Eventi in Italia — Fiere, convegni e webinar</li>
+                    <li>News riassunte — 2 minuti di lettura</li>
+                    <li>Trend emergenti</li>
+                    <li>Eventi in Italia</li>
                 </ul>
                 
-                <form class="pricing-form" action="https://formspree.io/f/xnqevwdr" method="POST">
-                    <input type="email" name="email" placeholder="Il tuo indirizzo email" required style="width: 100%; padding: 16px; font-size: 18px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 16px;">
+                <form action="https://formspree.io/f/xnqevwdr" method="POST">
+                    <input type="email" name="email" placeholder="Il tuo indirizzo email" required>
                     <input type="hidden" name="tier" value="free">
                     <input type="hidden" name="source" value="pricing_free">
-                    <label style="display: flex; align-items: flex-start; gap: 8px; font-size: 14px; margin-bottom: 16px; cursor: pointer;">
-                        <input type="checkbox" name="privacy" required style="width: 16px; height: 16px; margin-top: 2px;">
+                    <label style="font-size: 14px;">
+                        <input type="checkbox" name="privacy" required>
                         <span>Accetto la <a href="/legal/privacy-policy.html">Privacy Policy</a></span>
                     </label>
                     <button type="submit" class="btn-primary">Iscriviti Gratis</button>
                 </form>
             </div>
             
-            <!-- PRO TIER -->
+            <!-- PRO -->
             <div class="pricing-card featured">
                 <div class="founder-badge">⚡ PREZZO FONDATORE</div>
-                <h3>🔭 L'Osservatorio</h3>
-                <div class="price">€4.99 <span class="price-period">/mese</span></div>
+                <h3 style="font-size: 28px; margin-bottom: 16px;">🔭 L'Osservatorio</h3>
+                <div class="price">€4.99 <span style="font-size: 20px; color: #666;">/mese</span></div>
                 <p style="text-decoration: line-through; color: #999;">Poi €9.99/mese</p>
-                
-                <p style="color: #666; margin: 16px 0;">Per chi vuole agire prima degli altri.</p>
-                
                 <div class="spots-left">⚡ 87 posti rimanenti su 100</div>
                 
                 <ul class="feature-list">
-                    <li>Analisi dei costi — ROI realistico per PMI italiane</li>
-                    <li>Round di investimento — Chi riceve fondi e perché</li>
-                    <li>Report startup — Opportunità di partnership</li>
-                    <li>Alert tecnologici — Quando conviene automatizzare</li>
+                    <li>Analisi dei costi — ROI per PMI</li>
+                    <li>Round di investimento</li>
+                    <li>Report startup</li>
+                    <li>Alert tecnologici</li>
                 </ul>
                 
-                <form class="pricing-form" action="https://formspree.io/f/xnqevwdr" method="POST">
-                    <input type="email" name="email" placeholder="Il tuo indirizzo email" required style="width: 100%; padding: 16px; font-size: 18px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 16px;">
+                <form action="https://formspree.io/f/xnqevwdr" method="POST">
+                    <input type="email" name="email" placeholder="Il tuo indirizzo email" required>
                     <input type="hidden" name="tier" value="pro">
                     <input type="hidden" name="source" value="pricing_pro">
-                    <label style="display: flex; align-items: flex-start; gap: 8px; font-size: 14px; margin-bottom: 16px; cursor: pointer;">
-                        <input type="checkbox" name="privacy" required style="width: 16px; height: 16px; margin-top: 2px;">
+                    <label style="font-size: 14px;">
+                        <input type="checkbox" name="privacy" required>
                         <span>Accetto la <a href="/legal/privacy-policy.html">Privacy Policy</a></span>
                     </label>
                     <button type="submit" class="btn-primary">Attiva L'Osservatorio →</button>
                 </form>
-                <p style="font-size: 16px; color: #666; margin-top: 12px;">✓ Prezzo bloccato per sempre ✓ Cancellabile in qualsiasi momento</p>
             </div>
         </div>
     </section>
 
-    <!-- CONTENT PILLARS -->
-    <section class="section">
-        <h2 class="section-title">Cosa Trovi Dentro</h2>
-        
-        <div class="pillars-grid">
-            <div class="pillar-card">
-                <h3>🗺️ Market Mapping</h3>
-                <p class="pillar-question">"Quali aziende cinesi di robotica collaborativa stanno cercando distributori in Europa?"</p>
-                <p style="margin-top: 16px;">Scopri prima degli altri chi ha bisogno di un partner italiano — e contattali mentre la concorrenza dorme.</p>
-            </div>
-            
-            <div class="pillar-card">
-                <h3>⚖️ Regulatory Watch</h3>
-                <p class="pillar-question">"Nuove direttive UE sulla sicurezza dei robot: cosa rischiano le PMI italiane?"</p>
-                <p style="margin-top: 16px;">Non lasciarti sorprendere. Ti spieghiamo le normative in termini pratici, con checklist per rimanere compliant.</p>
-            </div>
-            
-            <div class="pillar-card">
-                <h3>💰 Investment Summary</h3>
-                <p class="pillar-question">"Chi ha raccolto fondi, quanto, e perché dovrebbe interessarti?"</p>
-                <p style="margin-top: 16px;">Weekly funding table tradotto in EUR, con contesto supply chain italiano.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- TRUST BADGES -->
+    <!-- TRUST -->
     <section class="trust-section">
         <div class="trust-grid">
-            <div class="trust-item">
-                <span class="trust-icon">✅</span>
-                <span>Scritto in un linguaggio chiaro, senza tecnicismi</span>
-            </div>
-            <div class="trust-item">
-                <span class="trust-icon">⏱️</span>
-                <span>Tempo di lettura: 5 minuti</span>
-            </div>
-            <div class="trust-item">
-                <span class="trust-icon">🇮🇹</span>
-                <span>Pensato per le PMI italiane</span>
-            </div>
-            <div class="trust-item">
-                <span class="trust-icon">🔒</span>
-                <span>Privacy garantita. Dati mai venduti.</span>
-            </div>
+            <div class="trust-item"><span style="font-size: 32px;">✅</span> <span>Linguaggio chiaro, no tecnicismi</span></div>
+            <div class="trust-item"><span style="font-size: 32px;">⏱️</span> <span>Tempo di lettura: 5 minuti</span></div>
+            <div class="trust-item"><span style="font-size: 32px;">🇮🇹</span> <span>Pensato per le PMI italiane</span></div>
+            <div class="trust-item"><span style="font-size: 32px;">🔒</span> <span>Privacy garantita</span></div>
         </div>
     </section>
 
-    <!-- NO JARGON EXAMPLE -->
-    <section class="section">
-        <h2 class="section-title">No Jargon — Leggibilità Prima di Tutto</h2>
-        
-        <div class="jargon-example">
-            <p class="jargon-bad">❌ "AI-Driven Kinematics Optimization for Scalable Manufacturing Solutions"</p>
-            <p class="jargon-good">✅ "Come l'intelligenza artificiale sta cambiando le fabbriche in Cina (e cosa significa per l'Italia)"</p>
-        </div>
-        
-        <div class="jargon-example">
-            <p class="jargon-bad">❌ "Series B Funding Round for Humanoid Robotics Startup"</p>
-            <p class="jargon-good">✅ "Questa azienda di robot umanoidi ha appena ricevuto 50 milioni: perché potrebbe cercare fornitori italiani"</p>
-        </div>
-    </section>
-
-    <!-- FOOTER CTA -->
+    <!-- FOOTER -->
     <footer class="footer" id="footer">
         <p class="footer-cta">Pronto a guardare il futuro prima degli altri?</p>
         
-        <div class="footer-signup" style="max-width: 600px; margin: 0 auto var(--space-lg);">
-            <form action="https://formspree.io/f/xnqevwdr" method="POST" style="display: flex; flex-direction: column; gap: 16px;">
-                <input type="email" name="email" placeholder="Il tuo indirizzo email" required style="padding: 20px; font-size: 20px; border-radius: 8px; border: none;">
-                <input type="hidden" name="tier" value="free">
-                <input type="hidden" name="source" value="footer">
-                <label style="display: flex; align-items: flex-start; gap: 8px; font-size: 16px; color: white; text-align: left; cursor: pointer;">
-                    <input type="checkbox" name="privacy" required style="width: 18px; height: 18px; margin-top: 2px;">
-                    <span>Accetto la <a href="/legal/privacy-policy.html" style="color: #4da6ff;">Privacy Policy</a></span>
-                </label>
-                <button type="submit" class="btn-primary" style="font-size: 22px;">Iscriviti Gratuitamente</button>
-            </form>
-        </div>
+        <form action="https://formspree.io/f/xnqevwdr" method="POST" style="max-width: 600px; margin: 0 auto 32px;">
+            <input type="email" name="email" placeholder="Il tuo indirizzo email" required style="padding: 20px; font-size: 20px; border-radius: 8px; border: none; width: 100%;">
+            <input type="hidden" name="tier" value="free">
+            <input type="hidden" name="source" value="footer">
+            <label style="color: white; justify-content: center;">
+                <input type="checkbox" name="privacy" required>
+                <span>Accetto la <a href="/legal/privacy-policy.html" style="color: #4da6ff;">Privacy Policy</a></span>
+            </label>
+            <button type="submit" class="btn-primary" style="font-size: 24px;">Iscriviti Gratuitamente</button>
+        </form>
         
-        <p class="frequency-note">📅 Ogni mercoledì mattina. No spam, mai. <a href="mailto:ciao@roboticaweekly.it" style="color: #4da6ff;">ciao@roboticaweekly.it</a></p>
+        <p style="font-size: 18px; opacity: 0.9;">📅 Ogni mercoledì mattina. No spam, mai.</p>
+        <p style="margin-top: 16px;"><a href="mailto:ciao@roboticaweekly.it" style="color: #4da6ff;">ciao@roboticaweekly.it</a></p>
     </footer>
 
-    <!-- STICKY CTA (appears on scroll) -->
+    <!-- STICKY CTA -->
     <div class="sticky-cta" id="stickyCta">
-        <div class="sticky-cta-content">
-            <span class="sticky-cta-text">🚀 Unisciti ai 100 fondatori — €4.99/mese</span>
-            <button class="btn-primary" style="width: auto; padding: 16px 32px;" onclick="scrollToSignup()">Iscriviti Ora</button>
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 16px;">
+            <span style="font-size: 20px; font-weight: 600;">🚀 Unisciti ai 100 fondatori — €4.99/mese</span>
+            <button class="btn-primary" style="width: auto; padding: 16px 32px;" onclick="scrollToFooter()">Iscriviti Ora</button>
         </div>
     </div>
 
-    <!-- POPUP NOTIFICATION -->
-    <div id="popup" style="display: none; position: fixed; top: 20px; right: 20px; max-width: 400px; padding: 20px 24px; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.2); z-index: 10000; font-size: 18px; font-weight: 600; animation: slideIn 0.3s ease;">
-        <span id="popupIcon"></span>
-        <span id="popupMessage"></span>
-        <button onclick="closePopup()" style="margin-left: 16px; background: none; border: none; font-size: 20px; cursor: pointer; opacity: 0.6;">×</button>
-    </div>
-    
-    <style>
-        @keyframes slideIn {
-            from { transform: translateX(100%); opacity: 0; }
-            to { transform: translateX(0); opacity: 1; }
-        }
-        @keyframes slideOut {
-            from { transform: translateX(0); opacity: 1; }
-            to { transform: translateX(100%); opacity: 0; }
-        }
-        .popup-success { background: #d4edda; color: #155724; border: 2px solid #28a745; }
-        .popup-error { background: #f8d7da; color: #721c24; border: 2px solid #dc3545; }
-        .popup-info { background: #cce5ff; color: #004085; border: 2px solid #007bff; }
-    </style>
-
     <script>
-        // Show sticky CTA on scroll
-        window.addEventListener('scroll', function() {
-            var stickyCta = document.getElementById('stickyCta');
-            if (window.scrollY > 500) {
-                stickyCta.classList.add('visible');
-            } else {
-                stickyCta.classList.remove('visible');
-            }
-        });
-        
-        // Track events
-        function trackEvent(eventName) {
-            if (typeof gtag !== 'undefined') {
-                gtag('event', eventName, {
-                    'event_category': 'engagement',
-                    'event_label': window.location.pathname
-                });
-            }
-            console.log('Event tracked:', eventName);
+        // POPUP
+        function showPopup(msg, type) {
+            var p = document.getElementById('popup');
+            var t = document.getElementById('popupText');
+            t.textContent = msg;
+            p.className = 'popup ' + type;
+            p.style.display = 'block';
+            setTimeout(closePopup, 6000);
         }
-        
-        // Smooth scroll to signup
-        function scrollToSignup() {
-            document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });
-            trackEvent('sticky_cta_scroll');
-        }
-        
-        // Popup notification system
-        function showPopup(message, type = 'success') {
-            const popup = document.getElementById('popup');
-            const icon = document.getElementById('popupIcon');
-            const msg = document.getElementById('popupMessage');
-            
-            popup.className = type === 'success' ? 'popup-success' : type === 'error' ? 'popup-error' : 'popup-info';
-            icon.textContent = type === 'success' ? '✅ ' : type === 'error' ? '❌ ' : 'ℹ️ ';
-            msg.textContent = message;
-            
-            popup.style.display = 'flex';
-            popup.style.animation = 'slideIn 0.3s ease';
-            
-            // Auto close after 5 seconds
-            setTimeout(closePopup, 5000);
-        }
-        
         function closePopup() {
-            const popup = document.getElementById('popup');
-            popup.style.animation = 'slideOut 0.3s ease';
-            setTimeout(() => {
-                popup.style.display = 'none';
-            }, 300);
+            document.getElementById('popup').style.display = 'none';
         }
         
-        // Handle all forms with AJAX
-        document.querySelectorAll('form').forEach(form => {
+        // STICKY CTA
+        window.addEventListener('scroll', function() {
+            var s = document.getElementById('stickyCta');
+            if (window.scrollY > 500) s.classList.add('visible');
+            else s.classList.remove('visible');
+        });
+        function scrollToFooter() {
+            document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // FORMS
+        document.querySelectorAll('form').forEach(function(form) {
             form.addEventListener('submit', function(e) {
                 e.preventDefault();
                 
-                const emailInput = form.querySelector('input[type="email"]');
-                const privacyCheck = form.querySelector('input[name="privacy"]');
-                const submitBtn = form.querySelector('button[type="submit"]');
-                const originalText = submitBtn.textContent;
+                var email = this.querySelector('input[type="email"]');
+                var privacy = this.querySelector('input[name="privacy"]');
+                var btn = this.querySelector('button[type="submit"]');
                 
-                // Validation
-                if (!emailInput.value || !emailInput.value.includes('@')) {
-                    showPopup('Per favore inserisci un indirizzo email valido', 'error');
-                    emailInput.focus();
-                    emailInput.style.borderColor = '#dc3545';
+                if (!email.value || email.value.indexOf('@') === -1) {
+                    showPopup('❌ Inserisci un indirizzo email valido', 'error');
+                    email.focus();
                     return;
                 }
                 
-                if (!privacyCheck.checked) {
-                    showPopup('Devi accettare la Privacy Policy per continuare', 'error');
-                    privacyCheck.focus();
+                if (!privacy.checked) {
+                    showPopup('❌ Devi accettare la Privacy Policy', 'error');
                     return;
                 }
                 
-                // Loading state
-                submitBtn.textContent = '⏳ Invio in corso...';
-                submitBtn.disabled = true;
+                btn.textContent = '⏳ Invio in corso...';
+                btn.disabled = true;
                 
-                const formData = new FormData(form);
-                const tier = formData.get('tier');
+                var tier = this.querySelector('input[name="tier"]').value;
+                var self = this;
                 
-                fetch(form.action, {
+                fetch(this.action, {
                     method: 'POST',
-                    body: formData,
-                    headers: {
-                        'Accept': 'application/json'
+                    body: new FormData(this),
+                    headers: { 'Accept': 'application/json' }
+                })
+                .then(function(r) {
+                    if (r.ok) {
+                        var msg = tier === 'pro' 
+                            ? 'Grazie! Ti contatteremo entro 24h per attivare L\'Osservatorio Pro.' 
+                            : 'Iscrizione completata! Controlla la tua email per confermare.';
+                        showPopup('✅ ' + msg, 'success');
+                        self.innerHTML = '<div style="padding: 24px; background: #d4edda; border-radius: 8px; color: #155724; font-size: 20px; font-weight: bold;">✅ ' + msg + '</div>';
+                    } else {
+                        throw new Error('Server error');
                     }
                 })
-                .then(response => {
-                    if (response.ok) {
-                        return response.json();
-                    }
-                    throw new Error('Network response was not ok');
-                })
-                .then(data => {
-                    // Show success
-                    const message = tier === 'pro' 
-                        ? 'Grazie! Ti contatteremo entro 24 ore per attivare L\'Osservatorio Pro.' 
-                        : 'Iscrizione completata! Controlla la tua email per confermare.';
-                    
-                    showPopup(message, 'success');
-                    
-                    // Replace form with success message
-                    form.innerHTML = '<div style="padding: 24px; background: #d4edda; border-radius: 8px; color: #155724; font-size: 20px; font-weight: 600; text-align: center;">✅ ' + message + '</div>';
-                    
-                    // Track conversion
-                    trackEvent('signup_success_' + tier);
-                    if (typeof gtag !== 'undefined') {
-                        gtag('event', 'conversion', {
-                            'send_to': 'G-BZNDJ30KWM',
-                            'value': tier === 'pro' ? 4.99 : 0,
-                            'currency': 'EUR'
-                        });
-                    }
-                })
-                .catch(error => {
-                    console.error('Form error:', error);
-                    
-                    // Reset button
-                    submitBtn.textContent = originalText;
-                    submitBtn.disabled = false;
-                    
-                    // Show error popup
-                    showPopup('Errore durante l\'iscrizione. Riprova o contattaci a ciao@roboticaweekly.it', 'error');
-                    
-                    trackEvent('signup_error');
+                .catch(function() {
+                    btn.textContent = 'Iscriviti';
+                    btn.disabled = false;
+                    showPopup('❌ Errore. Scrivi a ciao@roboticaweekly.it', 'error');
                 });
             });
         });
-        
-        // Debug: Log when page loads
-        console.log('🚀 Robotica Weekly signup forms initialized');
-        console.log('📧 Form endpoint: https://formspree.io/f/xnqevwdr');
     </script>
 </body>
 </html>
