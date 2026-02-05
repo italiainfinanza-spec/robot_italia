@@ -41,7 +41,7 @@
             margin: 0 auto;
             box-shadow: 0 4px 20px rgba(0,0,0,0.15);
         }
-        input[type="email"] {
+        input[type="email"], input[type="text"] {
             width: 100%;
             padding: 20px;
             font-size: 20px;
@@ -60,6 +60,8 @@
             border: none;
             border-radius: 8px;
             cursor: pointer;
+            text-decoration: none;
+            text-align: center;
         }
         .btn-primary:hover { background: #154a8c; }
         .btn-primary:disabled { background: #999; cursor: not-allowed; }
@@ -138,33 +140,41 @@
         }
         .sticky-cta.visible { display: block; }
         
-        .popup {
-            display: none;
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            max-width: 400px;
-            padding: 20px 24px;
-            border-radius: 12px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-            z-index: 999999;
-            font-size: 18px;
-            font-weight: 600;
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 24px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            border: 2px solid #28a745;
         }
-        .popup.success { background: #d4edda; color: #155724; border: 3px solid #28a745; }
-        .popup.error { background: #f8d7da; color: #721c24; border: 3px solid #dc3545; }
+        
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 16px;
+            border-radius: 8px;
+            font-size: 16px;
+            margin-top: 16px;
+            border: 2px solid #dc3545;
+        }
         
         label { display: flex; align-items: flex-start; gap: 12px; font-size: 16px; margin: 16px 0; cursor: pointer; }
-        input[type="checkbox"] { width: 20px; height: 20px; margin-top: 2px; }
+        input[type="checkbox"] { width: 20px; height: 20px; margin-top: 2px; flex-shrink: 0; }
+        
+        .fallback-box {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 16px;
+            font-size: 18px;
+        }
     </style>
 </head>
 <body>
-    <!-- POPUP -->
-    <div id="popup" class="popup">
-        <span id="popupText"></span>
-        <button onclick="closePopup()" style="margin-left: 16px; background: none; border: none; font-size: 24px; cursor: pointer;">×</button>
-    </div>
-
     <!-- HEADER -->
     <header class="header">
         <h1>L'Intelligenza Robotica Globale, in Italiano.</h1>
@@ -173,16 +183,24 @@
         </p>
         
         <div class="signup-box">
-            <form id="heroForm" action="https://formspree.io/f/xnqevwdr" method="POST">
-                <input type="email" name="email" placeholder="Il tuo indirizzo email" required>
+            <!-- METHOD 1: Direct Formspree -->
+            <form action="https://formspree.io/f/xnqevwdr" method="POST" onsubmit="return validateForm(this);">
+                <input type="email" name="email" placeholder="Il tuo indirizzo email" required id="heroEmail">
                 <input type="hidden" name="tier" value="free">
                 <input type="hidden" name="source" value="hero">
                 <label>
-                    <input type="checkbox" name="privacy" required>
+                    <input type="checkbox" name="privacy" required id="heroPrivacy">
                     <span>Accetto la <a href="/legal/privacy-policy.html" style="color: #1a5fb4;">Privacy Policy</a></span>
                 </label>
                 <button type="submit" class="btn-primary">Ricevi la Prima Edizione Gratuita</button>
             </form>
+            
+            <!-- Fallback -->
+            <div id="heroFallback" class="fallback-box" style="display: none;">
+                <p><strong>⚠️ Problema tecnico?</strong></p>
+                <p>Scrivici direttamente: <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20Newsletter&body=Email:%20" id="heroMailto" style="color: #1a5fb4; font-weight: bold;">ciao@roboticaweekly.it</a></p>
+            </div>
+            
             <p style="margin-top: 16px; font-size: 16px; color: #666;">📧 Ogni mercoledì mattina. No spam, mai.</p>
         </div>
     </header>
@@ -212,7 +230,7 @@
                     <li>Eventi in Italia</li>
                 </ul>
                 
-                <form action="https://formspree.io/f/xnqevwdr" method="POST">
+                <form action="https://formspree.io/f/xnqevwdr" method="POST" onsubmit="return validateForm(this);">
                     <input type="email" name="email" placeholder="Il tuo indirizzo email" required>
                     <input type="hidden" name="tier" value="free">
                     <input type="hidden" name="source" value="pricing_free">
@@ -239,7 +257,7 @@
                     <li>Alert tecnologici</li>
                 </ul>
                 
-                <form action="https://formspree.io/f/xnqevwdr" method="POST">
+                <form action="https://formspree.io/f/xnqevwdr" method="POST" onsubmit="return validateForm(this);">
                     <input type="email" name="email" placeholder="Il tuo indirizzo email" required>
                     <input type="hidden" name="tier" value="pro">
                     <input type="hidden" name="source" value="pricing_pro">
@@ -267,7 +285,7 @@
     <footer class="footer" id="footer">
         <p class="footer-cta">Pronto a guardare il futuro prima degli altri?</p>
         
-        <form action="https://formspree.io/f/xnqevwdr" method="POST" style="max-width: 600px; margin: 0 auto 32px;">
+        <form action="https://formspree.io/f/xnqevwdr" method="POST" onsubmit="return validateForm(this);" style="max-width: 600px; margin: 0 auto 32px;">
             <input type="email" name="email" placeholder="Il tuo indirizzo email" required style="padding: 20px; font-size: 20px; border-radius: 8px; border: none; width: 100%;">
             <input type="hidden" name="tier" value="free">
             <input type="hidden" name="source" value="footer">
@@ -284,85 +302,60 @@
 
     <!-- STICKY CTA -->
     <div class="sticky-cta" id="stickyCta">
-        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 16px;">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap;">
             <span style="font-size: 20px; font-weight: 600;">🚀 Unisciti ai 100 fondatori — €4.99/mese</span>
-            <button class="btn-primary" style="width: auto; padding: 16px 32px;" onclick="scrollToFooter()">Iscriviti Ora</button>
+            <a href="#footer" class="btn-primary" style="width: auto; padding: 16px 32px;" onclick="document.getElementById('footer').scrollIntoView({behavior:'smooth'}); return false;">Iscriviti Ora</a>
         </div>
     </div>
 
     <script>
-        // POPUP
-        function showPopup(msg, type) {
-            var p = document.getElementById('popup');
-            var t = document.getElementById('popupText');
-            t.textContent = msg;
-            p.className = 'popup ' + type;
-            p.style.display = 'block';
-            setTimeout(closePopup, 6000);
-        }
-        function closePopup() {
-            document.getElementById('popup').style.display = 'none';
+        // Form validation
+        function validateForm(form) {
+            var email = form.querySelector('input[type="email"]').value;
+            var privacy = form.querySelector('input[name="privacy"]').checked;
+            
+            if (!email || email.indexOf('@') === -1) {
+                alert('❌ Per favore inserisci un indirizzo email valido');
+                return false;
+            }
+            
+            if (!privacy) {
+                alert('❌ Devi accettare la Privacy Policy per continuare');
+                return false;
+            }
+            
+            // Show loading
+            var btn = form.querySelector('button[type="submit"]');
+            btn.textContent = '⏳ Invio in corso...';
+            btn.disabled = true;
+            
+            // Form will submit normally to Formspree
+            return true;
         }
         
-        // STICKY CTA
-        window.addEventListener('scroll', function() {
+        // Sticky CTA
+        window.onscroll = function() {
             var s = document.getElementById('stickyCta');
-            if (window.scrollY > 500) s.classList.add('visible');
-            else s.classList.remove('visible');
-        });
-        function scrollToFooter() {
-            document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });
-        }
+            if (window.pageYOffset > 500) {
+                s.classList.add('visible');
+            } else {
+                s.classList.remove('visible');
+            }
+        };
         
-        // FORMS
-        document.querySelectorAll('form').forEach(function(form) {
-            form.addEventListener('submit', function(e) {
-                e.preventDefault();
-                
-                var email = this.querySelector('input[type="email"]');
-                var privacy = this.querySelector('input[name="privacy"]');
-                var btn = this.querySelector('button[type="submit"]');
-                
-                if (!email.value || email.value.indexOf('@') === -1) {
-                    showPopup('❌ Inserisci un indirizzo email valido', 'error');
-                    email.focus();
-                    return;
-                }
-                
-                if (!privacy.checked) {
-                    showPopup('❌ Devi accettare la Privacy Policy', 'error');
-                    return;
-                }
-                
-                btn.textContent = '⏳ Invio in corso...';
-                btn.disabled = true;
-                
-                var tier = this.querySelector('input[name="tier"]').value;
-                var self = this;
-                
-                fetch(this.action, {
-                    method: 'POST',
-                    body: new FormData(this),
-                    headers: { 'Accept': 'application/json' }
-                })
-                .then(function(r) {
-                    if (r.ok) {
-                        var msg = tier === 'pro' 
-                            ? 'Grazie! Ti contatteremo entro 24h per attivare L\'Osservatorio Pro.' 
-                            : 'Iscrizione completata! Controlla la tua email per confermare.';
-                        showPopup('✅ ' + msg, 'success');
-                        self.innerHTML = '<div style="padding: 24px; background: #d4edda; border-radius: 8px; color: #155724; font-size: 20px; font-weight: bold;">✅ ' + msg + '</div>';
-                    } else {
-                        throw new Error('Server error');
-                    }
-                })
-                .catch(function() {
-                    btn.textContent = 'Iscriviti';
-                    btn.disabled = false;
-                    showPopup('❌ Errore. Scrivi a ciao@roboticaweekly.it', 'error');
-                });
-            });
-        });
+        // Update mailto with email
+        document.getElementById('heroEmail').onchange = function() {
+            var email = this.value;
+            var link = document.getElementById('heroMailto');
+            link.href = 'mailto:ciao@roboticaweekly.it?subject=Iscrizione%20Newsletter&body=La%20mia%20email:%20' + encodeURIComponent(email);
+        };
+        
+        // Show fallback if form fails after 10 seconds
+        setTimeout(function() {
+            document.getElementById('heroFallback').style.display = 'block';
+        }, 10000);
+        
+        console.log('✅ Robotica Weekly forms loaded');
     </script>
 </body>
 </html>
