@@ -418,9 +418,20 @@
         </p>
         
         <div class="signup-box">
-            <input type="email" placeholder="Il tuo indirizzo email" aria-label="Indirizzo email">
-            <button class="btn-primary" onclick="trackEvent('signup_free')">Ricevi la Prima Edizione Gratuita</button>
-            <p style="margin-top: 16px; font-size: 16px; color: #666;">📧 Ogni mercoledì mattina. No spam, mai.</p>
+            <form id="signupForm" action="https://formspree.io/f/xnqevwdr" method="POST">
+                <input type="email" name="email" id="emailInput" placeholder="Il tuo indirizzo email" aria-label="Indirizzo email" required>
+                <input type="hidden" name="tier" value="free">
+                <input type="hidden" name="source" value="hero">
+                <div style="margin: 16px 0;">
+                    <label style="display: flex; align-items: flex-start; gap: 12px; font-size: 16px; text-align: left; cursor: pointer;">
+                        <input type="checkbox" name="privacy" id="privacyCheck" required style="width: 20px; height: 20px; margin-top: 2px;">
+                        <span>Accetto la <a href="/legal/privacy-policy.html" style="color: var(--accent);">Privacy Policy</a> e ricevere la newsletter</span>
+                    </label>
+                </div>
+                <button type="submit" class="btn-primary" id="submitBtn">Ricevi la Prima Edizione Gratuita</button>
+                <p style="margin-top: 16px; font-size: 16px; color: #666;">📧 Ogni mercoledì mattina. No spam, mai.</p>
+            </form>
+            <div id="formMessage" style="display: none; margin-top: 16px; padding: 16px; border-radius: 8px; font-size: 18px;"></div>
         </div>
     </header>
 
@@ -455,7 +466,16 @@
                     <li>Eventi in Italia — Fiere, convegni e webinar</li>
                 </ul>
                 
-                <button class="btn-primary" onclick="trackEvent('signup_free_tier')">Iscriviti Gratis</button>
+                <form class="pricing-form" action="https://formspree.io/f/xnqevwdr" method="POST">
+                    <input type="email" name="email" placeholder="Il tuo indirizzo email" required style="width: 100%; padding: 16px; font-size: 18px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 16px;">
+                    <input type="hidden" name="tier" value="free">
+                    <input type="hidden" name="source" value="pricing_free">
+                    <label style="display: flex; align-items: flex-start; gap: 8px; font-size: 14px; margin-bottom: 16px; cursor: pointer;">
+                        <input type="checkbox" name="privacy" required style="width: 16px; height: 16px; margin-top: 2px;">
+                        <span>Accetto la <a href="/legal/privacy-policy.html">Privacy Policy</a></span>
+                    </label>
+                    <button type="submit" class="btn-primary">Iscriviti Gratis</button>
+                </form>
             </div>
             
             <!-- PRO TIER -->
@@ -476,7 +496,16 @@
                     <li>Alert tecnologici — Quando conviene automatizzare</li>
                 </ul>
                 
-                <button class="btn-primary" onclick="trackEvent('signup_pro_tier')">Attiva L'Osservatorio →</button>
+                <form class="pricing-form" action="https://formspree.io/f/xnqevwdr" method="POST">
+                    <input type="email" name="email" placeholder="Il tuo indirizzo email" required style="width: 100%; padding: 16px; font-size: 18px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 16px;">
+                    <input type="hidden" name="tier" value="pro">
+                    <input type="hidden" name="source" value="pricing_pro">
+                    <label style="display: flex; align-items: flex-start; gap: 8px; font-size: 14px; margin-bottom: 16px; cursor: pointer;">
+                        <input type="checkbox" name="privacy" required style="width: 16px; height: 16px; margin-top: 2px;">
+                        <span>Accetto la <a href="/legal/privacy-policy.html">Privacy Policy</a></span>
+                    </label>
+                    <button type="submit" class="btn-primary">Attiva L'Osservatorio →</button>
+                </form>
                 <p style="font-size: 16px; color: #666; margin-top: 12px;">✓ Prezzo bloccato per sempre ✓ Cancellabile in qualsiasi momento</p>
             </div>
         </div>
@@ -545,22 +574,30 @@
     </section>
 
     <!-- FOOTER CTA -->
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <p class="footer-cta">Pronto a guardare il futuro prima degli altri?</p>
         
-        <div class="footer-buttons">
-            <button class="btn-secondary" onclick="trackEvent('footer_signup_free')">Iscriviti Gratuitamente</button>
-            <button class="btn-primary" onclick="trackEvent('footer_signup_pro')" style="background: white; color: #1a5fb4;">Attiva L'Osservatorio Pro →</button>
+        <div class="footer-signup" style="max-width: 600px; margin: 0 auto var(--space-lg);">
+            <form action="https://formspree.io/f/xnqevwdr" method="POST" style="display: flex; flex-direction: column; gap: 16px;">
+                <input type="email" name="email" placeholder="Il tuo indirizzo email" required style="padding: 20px; font-size: 20px; border-radius: 8px; border: none;">
+                <input type="hidden" name="tier" value="free">
+                <input type="hidden" name="source" value="footer">
+                <label style="display: flex; align-items: flex-start; gap: 8px; font-size: 16px; color: white; text-align: left; cursor: pointer;">
+                    <input type="checkbox" name="privacy" required style="width: 18px; height: 18px; margin-top: 2px;">
+                    <span>Accetto la <a href="/legal/privacy-policy.html" style="color: #4da6ff;">Privacy Policy</a></span>
+                </label>
+                <button type="submit" class="btn-primary" style="font-size: 22px;">Iscriviti Gratuitamente</button>
+            </form>
         </div>
         
-        <p class="frequency-note">📅 Ogni mercoledì mattina. No spam, mai. <a href="mailto:ciao@roboticaweekly.it" style="color: #fff;">ciao@roboticaweekly.it</a></p>
+        <p class="frequency-note">📅 Ogni mercoledì mattina. No spam, mai. <a href="mailto:ciao@roboticaweekly.it" style="color: #4da6ff;">ciao@roboticaweekly.it</a></p>
     </footer>
 
     <!-- STICKY CTA (appears on scroll) -->
     <div class="sticky-cta" id="stickyCta">
         <div class="sticky-cta-content">
             <span class="sticky-cta-text">🚀 Unisciti ai 100 fondatori — €4.99/mese</span>
-            <button class="btn-primary" style="width: auto; padding: 16px 32px;" onclick="trackEvent('sticky_cta_click')">Iscriviti Ora</button>
+            <button class="btn-primary" style="width: auto; padding: 16px 32px;" onclick="scrollToSignup()">Iscriviti Ora</button>
         </div>
     </div>
 
@@ -585,6 +622,70 @@
             }
             console.log('Event tracked:', eventName);
         }
+        
+        // Smooth scroll to signup
+        function scrollToSignup() {
+            document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });
+            trackEvent('sticky_cta_scroll');
+        }
+        
+        // Handle all forms with AJAX
+        document.querySelectorAll('form').forEach(form => {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const submitBtn = form.querySelector('button[type="submit"]');
+                const originalText = submitBtn.textContent;
+                submitBtn.textContent = 'Invio in corso...';
+                submitBtn.disabled = true;
+                
+                const formData = new FormData(form);
+                const tier = formData.get('tier');
+                
+                fetch(form.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Show success message
+                    const messageDiv = document.createElement('div');
+                    messageDiv.style.cssText = 'margin-top: 16px; padding: 20px; background: #d4edda; border: 2px solid #c3e6cb; border-radius: 8px; color: #155724; font-size: 18px; font-weight: 600;';
+                    
+                    if (tier === 'pro') {
+                        messageDiv.innerHTML = '✅ Grazie! Ti contatteremo entro 24 ore per attivare L\'Osservatorio Pro.';
+                    } else {
+                        messageDiv.innerHTML = '✅ Iscrizione completata! Controlla la tua email per confermare.';
+                    }
+                    
+                    form.innerHTML = '';
+                    form.appendChild(messageDiv);
+                    
+                    // Track conversion
+                    trackEvent('signup_success_' + tier);
+                    if (typeof gtag !== 'undefined') {
+                        gtag('event', 'conversion', {
+                            'send_to': 'G-BZNDJ30KWM',
+                            'value': tier === 'pro' ? 4.99 : 0,
+                            'currency': 'EUR'
+                        });
+                    }
+                })
+                .catch(error => {
+                    submitBtn.textContent = originalText;
+                    submitBtn.disabled = false;
+                    
+                    const errorDiv = document.createElement('div');
+                    errorDiv.style.cssText = 'margin-top: 16px; padding: 16px; background: #f8d7da; border: 2px solid #f5c6cb; border-radius: 8px; color: #721c24;';
+                    errorDiv.textContent = '❌ Errore durante l\'iscrizione. Riprova o contattaci a ciao@roboticaweekly.it';
+                    form.appendChild(errorDiv);
+                    
+                    trackEvent('signup_error');
+                });
+            });
+        });
     </script>
 </body>
 </html>
