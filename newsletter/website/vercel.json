@@ -1,12 +1,24 @@
 {
   "public": true,
   "github": {
-    "enabled": false
+    "enabled": true,
+    "autoJobCancelation": true
   },
   "buildCommand": null,
   "outputDirectory": ".",
   "framework": null,
   "rewrites": [
     { "source": "/landing", "destination": "/landing-senior.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
   ]
 }
