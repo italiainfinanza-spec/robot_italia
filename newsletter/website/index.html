@@ -3,17 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; frame-src 'none';">
     <title>Robotica Weekly | L'Intelligenza Robotica Globale, in Italiano</title>
     <meta name="description" content="La rassegna settimanale per imprenditori e investitori che vogliono anticipare il futuro dell'automazione.">
-    
-    <!-- Google Analytics 4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BZNDJ30KWM"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-BZNDJ30KWM');
-    </script>
     
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -41,16 +33,9 @@
             margin: 0 auto;
             box-shadow: 0 4px 20px rgba(0,0,0,0.15);
         }
-        input[type="email"] {
-            width: 100%;
-            padding: 20px;
-            font-size: 20px;
-            border: 2px solid #ddd;
-            border-radius: 8px;
-            margin-bottom: 16px;
-        }
-        .btn-primary {
-            display: inline-block;
+        
+        .btn {
+            display: block;
             width: 100%;
             padding: 20px;
             font-size: 22px;
@@ -59,11 +44,13 @@
             background: #1a5fb4;
             border: none;
             border-radius: 8px;
-            cursor: pointer;
             text-decoration: none;
             text-align: center;
+            margin: 16px 0;
         }
-        .btn-primary:hover { background: #154a8c; }
+        .btn:hover { background: #154a8c; }
+        .btn-green { background: #28a745; }
+        .btn-green:hover { background: #218838; }
         
         .section { padding: 48px 24px; max-width: 1200px; margin: 0 auto; }
         .section-title { font-size: 32px; font-weight: 700; margin-bottom: 32px; text-align: center; }
@@ -85,10 +72,9 @@
             background: #f5f5f5;
             border-radius: 12px;
             padding: 32px;
-            border: 2px solid transparent;
         }
         .pricing-card.featured {
-            border-color: #1a5fb4;
+            border: 3px solid #1a5fb4;
             background: linear-gradient(to bottom, #f0f7ff, #f5f5f5);
         }
         .price { font-size: 48px; font-weight: 800; color: #1a5fb4; }
@@ -100,13 +86,12 @@
             border-radius: 20px;
             font-size: 14px;
             font-weight: 700;
-            margin-bottom: 16px;
         }
         .spots-left { font-size: 18px; color: #ff7800; font-weight: 700; margin: 16px 0; }
         
         .feature-list { list-style: none; margin: 24px 0; }
         .feature-list li { padding: 12px 0; font-size: 20px; border-bottom: 1px solid #ddd; }
-        .feature-list li:before { content: "✓ "; color: #26a269; font-weight: 700; }
+        .feature-list li:before { content: "✓ "; color: #28a745; font-weight: 700; }
         
         .trust-section { background: #f5f5f5; padding: 48px 24px; }
         .trust-grid {
@@ -126,28 +111,13 @@
         }
         .footer-cta { font-size: 28px; margin-bottom: 32px; }
         
-        .sticky-cta {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: white;
-            padding: 16px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
-            display: none;
-            z-index: 1000;
-        }
-        .sticky-cta.visible { display: block; }
-        
-        label { display: flex; align-items: flex-start; gap: 12px; font-size: 16px; margin: 16px 0; cursor: pointer; text-align: left; }
-        input[type="checkbox"] { width: 20px; height: 20px; margin-top: 2px; flex-shrink: 0; }
-        
-        .form-container {
-            background: #f8f9fa;
+        .email-box {
+            background: #e7f3ff;
             padding: 24px;
             border-radius: 12px;
-            margin-top: 24px;
+            margin: 24px 0;
         }
+        .email-box p { color: #333; margin-bottom: 16px; }
     </style>
 </head>
 <body>
@@ -159,30 +129,18 @@
         </p>
         
         <div class="signup-box">
-            <h2 style="color: #333; margin-bottom: 16px;">Iscriviti Gratuitamente</h2>
+            <h2 style="color: #333; margin-bottom: 16px;">Iscriviti alla Newsletter</h2>
+            <p style="color: #666; margin-bottom: 24px;">Ricevi ogni mercoledì mattina le ultime notizie sulla robotica, direttamente nella tua email.</p>
             
-            <!-- GOOGLE FORMS EMBED -->
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdV7_0H1T7E7r1v1v1v1v1v1v1v1v1v1v1v1v1v1v1v1v1v1v/viewform?embedded=true" 
-                    width="100%" 
-                    height="400" 
-                    frameborder="0" 
-                    marginheight="0" 
-                    marginwidth="0"
-                    style="border: none;">
-                Caricamento…
-            </iframe>
+            <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20Newsletter%20Robotica%20Weekly&body=Ciao%20Robotica%20Weekly%2C%0A%0Avorrei%20iscrivermi%20alla%20vostra%20newsletter%20gratuita.%0A%0AMia%20email%3A%20%5Binserisci%20qui%20la%20tua%20email%5D%0A%0AGrazie%21" 
+               class="btn btn-green">
+               📧 Iscriviti via Email
+            </a>
             
-            <!-- FALLBACK EMAIL -->
-            <div style="margin-top: 24px; padding: 20px; background: #e7f3ff; border-radius: 8px;">
-                <p style="color: #333; margin-bottom: 12px;"><strong>Problemi con il form?</strong></p>
-                <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20Newsletter%20Robotica%20Weekly&body=Ciao,%0A%0Avorrei%20iscrivermi%20alla%20newsletter.%0A%0AMia%20email:%20" 
-                   class="btn-primary" 
-                   style="background: #28a745;">
-                    📧 Iscriviti via Email
-                </a>
-            </div>
-            
-            <p style="margin-top: 16px; font-size: 16px; color: #666;">📧 Ogni mercoledì mattina. No spam, mai.</p>
+            <p style="font-size: 16px; color: #666; margin-top: 16px;">
+                📧 Ogni mercoledì mattina. No spam, mai.<br>
+                <small>Aprirà il tuo programma di posta elettronica</small>
+            </p>
         </div>
     </header>
 
@@ -211,8 +169,8 @@
                     <li>Eventi in Italia</li>
                 </ul>
                 
-                <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20Gratuita%20-%20La%20Settimanale&body=Ciao,%0A%0Avorrei%20iscrivermi%20alla%20versione%20gratuita.%0A%0AMia%20email:%20" 
-                   class="btn-primary">
+                <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20Gratuita%20-%20La%20Settimanale&body=Ciao%20Robotica%20Weekly%2C%0A%0Avorrei%20iscrivermi%20alla%20versione%20GRATUITA%20deila%20newsletter.%0A%0AMia%20email%3A%20%5Binserisci%20qui%20la%20tua%20email%5D%0A%0AGrazie%21" 
+                   class="btn">
                    Iscriviti Gratis
                 </a>
             </div>
@@ -232,8 +190,8 @@
                     <li>Alert tecnologici</li>
                 </ul>
                 
-                <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20PRO%20-%20L'Osservatorio%20€4.99&body=Ciao,%0A%0Avorrei%20iscrivermi%20alla%20versione%20PRO%20a%20€4.99/mese.%0A%0AMia%20email:%20" 
-                   class="btn-primary">
+                <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20PRO%20-%20L'Osservatorio%20€4.99&body=Ciao%20Robotica%20Weekly%2C%0A%0Avorrei%20iscrivermi%20alla%20versione%20PRO%20a%20€4.99%2Fmese.%0A%0AMia%20email%3A%20%5Binserisci%20qui%20la%20tua%20email%5D%0A%0AGrazie%21" 
+                   class="btn btn-green">
                    Attiva L'Osservatorio →
                 </a>
             </div>
@@ -251,42 +209,25 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="footer" id="footer">
+    <footer class="footer">
         <p class="footer-cta">Pronto a guardare il futuro prima degli altri?</p>
         
-        <div style="max-width: 600px; margin: 0 auto 32px;">
-            <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20Newsletter%20Robotica%20Weekly&body=Ciao,%0A%0Avorrei%20iscrivermi%20alla%20newsletter.%0A%0AMia%20email:%20" 
-               class="btn-primary" 
-               style="font-size: 24px; margin-bottom: 16px;">
-               📧 Iscriviti via Email
+        <div class="email-box" style="max-width: 600px; margin: 0 auto 32px;">
+            <p style="font-size: 20px; margin-bottom: 16px;"><strong>📧 Iscriviti via Email</strong></p>
+            <p>Clicca sul bottone qui sotto per aprire il tuo client email:</p>
+            <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20Newsletter%20Robotica%20Weekly&body=Ciao%20Robotica%20Weekly%2C%0A%0Avorrei%20iscrivermi%20alla%20vostra%20newsletter.%0A%0AMia%20email%3A%20%5Binserisci%20qui%5D%0A%0AGrazie%21" 
+               class="btn btn-green" 
+               style="font-size: 24px;">
+               Iscriviti Ora
             </a>
-            <p style="font-size: 16px; opacity: 0.8; margin-top: 16px;">
-                Ti rispondiamo entro 24 ore con conferma iscrizione
-            </p>
         </div>
         
         <p style="font-size: 18px; opacity: 0.9;">📅 Ogni mercoledì mattina. No spam, mai.</p>
-        <p style="margin-top: 16px;"><a href="mailto:ciao@roboticaweekly.it" style="color: #4da6ff;">ciao@roboticaweekly.it</a></p>
+        <p style="margin-top: 16px;">
+            <a href="/legal/privacy-policy.html" style="color: #4da6ff; margin-right: 16px;">Privacy Policy</a>
+            <a href="mailto:ciao@roboticaweekly.it" style="color: #4da6ff;">ciao@roboticaweekly.it</a>
+        </p>
     </footer>
 
-    <!-- STICKY CTA -->
-    <div class="sticky-cta" id="stickyCta">
-        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap;">
-            <span style="font-size: 20px; font-weight: 600;">🚀 Unisciti ai 100 fondatori — €4.99/mese</span>
-            <a href="#footer" class="btn-primary" style="width: auto; padding: 16px 32px;">Iscriviti Ora</a>
-        </div>
-    </div>
-
-    <script>
-        // Sticky CTA
-        window.onscroll = function() {
-            var s = document.getElementById('stickyCta');
-            if (window.pageYOffset > 500) {
-                s.classList.add('visible');
-            } else {
-                s.classList.remove('visible');
-            }
-        };
-    </script>
 </body>
 </html>
