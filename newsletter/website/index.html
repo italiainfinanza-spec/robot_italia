@@ -3,231 +3,745 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; frame-src 'none';">
     <title>Robotica Weekly | L'Intelligenza Robotica Globale, in Italiano</title>
-    <meta name="description" content="La rassegna settimanale per imprenditori e investitori che vogliono anticipare il futuro dell'automazione.">
+    <meta name="description" content="La rassegna settimanale per imprenditori e investitori che vogliono anticipare il futuro dell'automazione. Dai laboratori di Shenzhen alle fabbriche della Silicon Valley, direttamente nella tua inbox.">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://formspree.io">
     
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        /* CSS Reset & Base */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #1a5fb4;
+            --primary-dark: #154a8c;
+            --success: #26a269;
+            --warning: #ff7800;
+            --error: #dc3545;
+            --text: #1a1a1a;
+            --text-light: #4a4a4a;
+            --bg: #ffffff;
+            --bg-light: #f5f5f5;
+            --shadow: 0 4px 20px rgba(0,0,0,0.1);
+            --radius: 12px;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             font-size: 20px;
             line-height: 1.6;
-            color: #000;
-            background: #fff;
+            color: var(--text);
+            background: var(--bg);
+            -webkit-font-smoothing: antialiased;
         }
-        .header {
-            background: linear-gradient(135deg, #1a5fb4 0%, #154a8c 100%);
-            color: white;
-            padding: 48px 24px;
-            text-align: center;
-        }
-        .header h1 { font-size: 48px; font-weight: 800; margin-bottom: 24px; }
-        .header-subtitle { font-size: 24px; max-width: 800px; margin: 0 auto 32px; }
         
-        .signup-box {
-            background: white;
-            padding: 32px;
-            border-radius: 12px;
-            max-width: 600px;
+        /* Typography - Senior friendly 20px+ */
+        h1 { font-size: clamp(32px, 5vw, 48px); line-height: 1.2; }
+        h2 { font-size: clamp(28px, 4vw, 36px); }
+        h3 { font-size: clamp(24px, 3vw, 28px); }
+        
+        /* Layout */
+        .container {
+            max-width: 1200px;
             margin: 0 auto;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            padding: 0 24px;
         }
         
-        .btn {
+        /* Header */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 80px 24px 120px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .hero h1 {
+            font-weight: 800;
+            margin-bottom: 24px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .hero-subtitle {
+            font-size: 24px;
+            opacity: 0.95;
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+        
+        /* Trust badges above fold */
+        .hero-trust {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .hero-trust span::before {
+            content: "✓ ";
+            font-weight: bold;
+        }
+        
+        /* Floating Signup Card */
+        .signup-card {
+            background: white;
+            color: var(--text);
+            padding: 40px;
+            border-radius: var(--radius);
+            max-width: 560px;
+            margin: -60px auto 0;
+            position: relative;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+            z-index: 10;
+        }
+        
+        .signup-card h2 {
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+        
+        .signup-card p {
+            color: var(--text-light);
+            margin-bottom: 24px;
+            font-size: 18px;
+        }
+        
+        /* Form Styles */
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
             display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        
+        input[type="email"],
+        input[type="text"] {
             width: 100%;
-            padding: 20px;
-            font-size: 22px;
+            padding: 18px 20px;
+            font-size: 20px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            transition: border-color 0.2s;
+            font-family: inherit;
+        }
+        
+        input:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+        
+        input::placeholder {
+            color: #999;
+        }
+        
+        /* Checkbox */
+        .checkbox-group {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin: 20px 0;
+            font-size: 16px;
+            color: var(--text-light);
+            text-align: left;
+        }
+        
+        .checkbox-group input[type="checkbox"] {
+            width: 24px;
+            height: 24px;
+            margin-top: 2px;
+            flex-shrink: 0;
+            cursor: pointer;
+        }
+        
+        .checkbox-group a {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+        
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 20px 32px;
+            font-size: 20px;
             font-weight: 700;
             color: white;
-            background: #1a5fb4;
+            background: var(--success);
             border: none;
             border-radius: 8px;
+            cursor: pointer;
             text-decoration: none;
-            text-align: center;
-            margin: 16px 0;
+            transition: all 0.2s;
+            gap: 8px;
         }
-        .btn:hover { background: #154a8c; }
-        .btn-green { background: #28a745; }
-        .btn-green:hover { background: #218838; }
         
-        .section { padding: 48px 24px; max-width: 1200px; margin: 0 auto; }
-        .section-title { font-size: 32px; font-weight: 700; margin-bottom: 32px; text-align: center; }
+        .btn:hover {
+            background: #1e8b5a;
+            transform: translateY(-1px);
+        }
         
-        .pain-point {
-            background: #fff3e0;
-            border-left: 4px solid #ff7800;
-            padding: 24px;
-            margin-bottom: 24px;
-            font-size: 22px;
+        .btn-primary {
+            background: var(--primary);
+        }
+        
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+        
+        /* Form States */
+        .form-message {
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 16px;
+            font-weight: 600;
+            display: none;
+        }
+        
+        .form-message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 2px solid var(--success);
+            display: block;
+        }
+        
+        .form-message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 2px solid var(--error);
+            display: block;
+        }
+        
+        /* Sections */
+        .section {
+            padding: 80px 24px;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        
+        /* Problem/Solution */
+        .problem-box {
+            background: #fff8e1;
+            border-left: 5px solid var(--warning);
+            padding: 32px;
+            border-radius: 0 12px 12px 0;
+            margin-bottom: 32px;
+        }
+        
+        .problem-box strong {
+            color: var(--warning);
+        }
+        
+        /* Pricing */
+        .pricing-section {
+            background: var(--bg-light);
         }
         
         .pricing-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 32px;
+            max-width: 900px;
+            margin: 0 auto;
         }
+        
         .pricing-card {
-            background: #f5f5f5;
-            border-radius: 12px;
-            padding: 32px;
+            background: white;
+            padding: 40px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            position: relative;
         }
+        
         .pricing-card.featured {
-            border: 3px solid #1a5fb4;
-            background: linear-gradient(to bottom, #f0f7ff, #f5f5f5);
+            border: 3px solid var(--primary);
+            transform: scale(1.02);
         }
-        .price { font-size: 48px; font-weight: 800; color: #1a5fb4; }
-        .founder-badge {
+        
+        .pricing-card.featured::before {
+            content: "POPOLARE";
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--primary);
+            color: white;
+            padding: 6px 20px;
+            font-size: 14px;
+            font-weight: 700;
+            border-radius: 20px;
+        }
+        
+        .badge-founder {
             display: inline-block;
-            background: #ff7800;
+            background: var(--warning);
             color: white;
             padding: 8px 16px;
             border-radius: 20px;
             font-size: 14px;
             font-weight: 700;
+            margin-bottom: 16px;
         }
-        .spots-left { font-size: 18px; color: #ff7800; font-weight: 700; margin: 16px 0; }
         
-        .feature-list { list-style: none; margin: 24px 0; }
-        .feature-list li { padding: 12px 0; font-size: 20px; border-bottom: 1px solid #ddd; }
-        .feature-list li:before { content: "✓ "; color: #28a745; font-weight: 700; }
-        
-        .trust-section { background: #f5f5f5; padding: 48px 24px; }
-        .trust-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 24px;
-            max-width: 1000px;
-            margin: 0 auto;
+        .price {
+            font-size: 56px;
+            font-weight: 800;
+            color: var(--primary);
+            margin: 16px 0;
         }
-        .trust-item { display: flex; align-items: center; gap: 16px; font-size: 20px; }
         
-        .footer {
-            background: #000;
-            color: white;
-            padding: 48px 24px;
+        .price span {
+            font-size: 20px;
+            color: var(--text-light);
+            font-weight: 400;
+        }
+        
+        .price-old {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 18px;
+        }
+        
+        .spots-counter {
+            background: #fff3e0;
+            color: var(--warning);
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-weight: 700;
+            margin: 16px 0;
             text-align: center;
         }
-        .footer-cta { font-size: 28px; margin-bottom: 32px; }
         
-        .email-box {
-            background: #e7f3ff;
-            padding: 24px;
-            border-radius: 12px;
+        .feature-list {
+            list-style: none;
             margin: 24px 0;
         }
-        .email-box p { color: #333; margin-bottom: 16px; }
+        
+        .feature-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .feature-list li::before {
+            content: "✓";
+            color: var(--success);
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        /* Trust Section */
+        .trust-section {
+            background: var(--bg-light);
+        }
+        
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 32px;
+            text-align: center;
+        }
+        
+        .trust-item {
+            padding: 24px;
+        }
+        
+        .trust-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+            display: block;
+        }
+        
+        /* Footer CTA */
+        .footer-cta {
+            background: var(--text);
+            color: white;
+            text-align: center;
+            padding: 80px 24px;
+        }
+        
+        .footer-cta h2 {
+            margin-bottom: 32px;
+        }
+        
+        .footer-form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        /* Links */
+        a {
+            color: var(--primary);
+        }
+        
+        .footer-links {
+            margin-top: 32px;
+            font-size: 16px;
+            opacity: 0.8;
+        }
+        
+        .footer-links a {
+            color: #7ec8ff;
+            margin: 0 12px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            body {
+                font-size: 18px;
+            }
+            
+            .hero {
+                padding: 60px 20px 100px;
+            }
+            
+            .signup-card {
+                margin: -40px 16px 0;
+                padding: 28px;
+            }
+            
+            .pricing-card.featured {
+                transform: none;
+            }
+            
+            .section {
+                padding: 60px 20px;
+            }
+        }
+        
+        /* Accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation: none !important;
+                transition: none !important;
+            }
+        }
+        
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
+            border: 0;
+        }
     </style>
 </head>
 <body>
-    <!-- HEADER -->
-    <header class="header">
-        <h1>L'Intelligenza Robotica Globale, in Italiano.</h1>
-        <p class="header-subtitle">
-            La rassegna settimanale per imprenditori e investitori che vogliono anticipare il futuro dell'automazione.
-        </p>
-        
-        <div class="signup-box">
-            <h2 style="color: #333; margin-bottom: 16px;">Iscriviti alla Newsletter</h2>
-            <p style="color: #666; margin-bottom: 24px;">Ricevi ogni mercoledì mattina le ultime notizie sulla robotica, direttamente nella tua email.</p>
-            
-            <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20Newsletter%20Robotica%20Weekly&body=Ciao%20Robotica%20Weekly%2C%0A%0Avorrei%20iscrivermi%20alla%20vostra%20newsletter%20gratuita.%0A%0AMia%20email%3A%20%5Binserisci%20qui%20la%20tua%20email%5D%0A%0AGrazie%21" 
-               class="btn btn-green">
-               📧 Iscriviti via Email
-            </a>
-            
-            <p style="font-size: 16px; color: #666; margin-top: 16px;">
-                📧 Ogni mercoledì mattina. No spam, mai.<br>
-                <small>Aprirà il tuo programma di posta elettronica</small>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>L'Intelligenza Robotica Globale, in Italiano.</h1>
+            <p class="hero-subtitle">
+                La rassegna settimanale per imprenditori e investitori che vogliono anticipare il futuro dell'automazione.
             </p>
+            
+            <!-- Trust badges -->
+            <div class="hero-trust">
+                <span>5 minuti di lettura</span>
+                <span>Nessun tecnicismo</span>
+                <span>Per PMI italiane</span>
+                <span>Cancellabile gratis</span>
+            </div>
         </div>
     </header>
-
-    <!-- PAIN POINT -->
-    <section class="section">
-        <h2 class="section-title">Perché Robotica Weekly?</h2>
-        <div class="pain-point">
-            <strong>Il Problema:</strong> Mentre l'innovazione corre veloce in Cina e negli USA, l'informazione rimane spesso bloccata dietro la barriera linguistica. <strong>Traduciamo la complessità in opportunità per l'impresa italiana.</strong>
-        </div>
-    </section>
-
-    <!-- PRICING -->
-    <section class="section" style="background: #f8f9fa;">
-        <h2 class="section-title">I Nostri Piani</h2>
+    
+    <!-- Main Signup Card -->
+    <section class="signup-card">
+        <h2>Iscriviti Gratuitamente</h2>
+        <p>Ricevi ogni mercoledì mattina le ultime notizie sulla robotica, filtrate e tradotte per il tuo business.</p>
         
-        <div class="pricing-grid">
-            <!-- FREE -->
-            <div class="pricing-card">
-                <h3 style="font-size: 28px; margin-bottom: 16px;">🗞️ La Settimanale</h3>
-                <div class="price">€0 <span style="font-size: 20px; color: #666;">/mese</span></div>
-                <p style="color: #666; margin: 16px 0;">Per chi vuole tenersi aggiornato.</p>
-                
-                <ul class="feature-list">
-                    <li>News riassunte — 2 minuti di lettura</li>
-                    <li>Trend emergenti</li>
-                    <li>Eventi in Italia</li>
-                </ul>
-                
-                <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20Gratuita%20-%20La%20Settimanale&body=Ciao%20Robotica%20Weekly%2C%0A%0Avorrei%20iscrivermi%20alla%20versione%20GRATUITA%20deila%20newsletter.%0A%0AMia%20email%3A%20%5Binserisci%20qui%20la%20tua%20email%5D%0A%0AGrazie%21" 
-                   class="btn">
-                   Iscriviti Gratis
-                </a>
+        <form id="signupForm" action="https://formspree.io/f/xnqevwdr" method="POST">
+            <div class="form-group">
+                <label for="email">Il tuo indirizzo email</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="esempio@azienda.it" 
+                    required
+                    aria-required="true"
+                >
             </div>
             
-            <!-- PRO -->
-            <div class="pricing-card featured">
-                <div class="founder-badge">⚡ PREZZO FONDATORE</div>
-                <h3 style="font-size: 28px; margin-bottom: 16px;">🔭 L'Osservatorio</h3>
-                <div class="price">€4.99 <span style="font-size: 20px; color: #666;">/mese</span></div>
-                <p style="text-decoration: line-through; color: #999;">Poi €9.99/mese</p>
-                <div class="spots-left">⚡ 87 posti rimanenti su 100</div>
+            <input type="hidden" name="tier" value="free">
+            <input type="hidden" name="source" value="hero_main">
+            
+            <div class="checkbox-group">
+                <input type="checkbox" id="privacy" name="privacy" required aria-required="true">
+                <label for="privacy">
+                    Accetto la <a href="/legal/privacy-policy.html" target="_blank">Privacy Policy</a> 
+                    e ricevere la newsletter settimanale
+                </label>
+            </div>
+            
+            <button type="submit" class="btn" id="submitBtn">
+                📧 Ricevi la Prima Edizione Gratuita
+            </button>
+            
+            <div id="formMessage" class="form-message"></div>
+        </form>
+        
+        <p style="text-align: center; margin-top: 20px; font-size: 16px; color: #666;">
+            📬 Ogni mercoledì mattina. No spam, mai.
+        </p>
+    </section>
+    
+    <!-- Problem Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Perché Robotica Weekly?</h2>
+            
+            <div class="problem-box">
+                <strong>Il Problema:</strong> Mentre l'innovazione corre veloce in Cina e negli USA, l'informazione rimane spesso bloccata dietro la barriera linguistica. <strong>Traduciamo la complessità in opportunità per l'impresa italiana.</strong>
+            </div>
+            
+            <p style="text-align: center; font-size: 22px; max-width: 800px; margin: 0 auto;">
+                Ogni settimana, selezioniamo le notizie che contano, le traduciamo in un italiano chiaro e ti mostriamo come applicarle al tuo business — che tu produca componenti meccanici, gestisca un magazzino o voglia semplicemente capire dove sta andando il mercato.
+            </p>
+        </div>
+    </section>
+    
+    <!-- Pricing Section -->
+    <section class="section pricing-section">
+        <div class="container">
+            <h2 class="section-title">Scegli il Tuo Piano</h2>
+            
+            <div class="pricing-grid">
+                <!-- Free Plan -->
+                <div class="pricing-card">
+                    <h3>🗞️ La Settimanale</h3>
+                    <div class="price">€0 <span>/mese</span></div>
+                    <p style="color: #666; margin-bottom: 24px;">Per chi vuole tenersi aggiornato senza perdere tempo.</p>
+                    
+                    <ul class="feature-list">
+                        <li>News riassunte — 2 minuti di lettura</li>
+                        <li>Trend emergenti dal mondo</li>
+                        <li>Eventi e fiere in Italia</li>
+                        <li>Accesso completo all'archivio</li>
+                    </ul>
+                    
+                    <form action="https://formspree.io/f/xnqevwdr" method="POST" class="pricing-form">
+                        <input type="email" name="email" placeholder="Il tuo indirizzo email" required style="margin-bottom: 12px;">
+                        <input type="hidden" name="tier" value="free">
+                        <input type="hidden" name="source" value="pricing_free">
+                        <div class="checkbox-group" style="font-size: 14px; margin-bottom: 16px;">
+                            <input type="checkbox" name="privacy" required>
+                            <label>Accetto la <a href="/legal/privacy-policy.html" target="_blank">Privacy Policy</a></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Iscriviti Gratis</button>
+                    </form>
+                </div>
                 
-                <ul class="feature-list">
-                    <li>Analisi dei costi — ROI per PMI</li>
-                    <li>Round di investimento</li>
-                    <li>Report startup</li>
-                    <li>Alert tecnologici</li>
-                </ul>
-                
-                <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20PRO%20-%20L'Osservatorio%20€4.99&body=Ciao%20Robotica%20Weekly%2C%0A%0Avorrei%20iscrivermi%20alla%20versione%20PRO%20a%20€4.99%2Fmese.%0A%0AMia%20email%3A%20%5Binserisci%20qui%20la%20tua%20email%5D%0A%0AGrazie%21" 
-                   class="btn btn-green">
-                   Attiva L'Osservatorio →
-                </a>
+                <!-- Pro Plan -->
+                <div class="pricing-card featured">
+                    <span class="badge-founder">⚡ PREZZO FONDATORE</span>
+                    <h3>🔭 L'Osservatorio</h3>
+                    <div class="price-old">Poi €9.99/mese</div>
+                    <div class="price">€4.99 <span>/mese</span></div>
+                    <p style="color: #666; margin-bottom: 16px;">Per chi vuole agire prima degli altri.</p>
+                    
+                    <div class="spots-counter">
+                        ⚡ 87 posti rimanenti su 100
+                    </div>
+                    
+                    <ul class="feature-list">
+                        <li><strong>Tutto della versione Free</strong></li>
+                        <li>Analisi ROI per PMI italiane</li>
+                        <li>Round di investimento tracciati</li>
+                        <li>Report startup pronte per il mercato</li>
+                        <li>Alert tecnologici prioritari</li>
+                        <li>Supporto via email</li>
+                    </ul>
+                    
+                    <form action="https://formspree.io/f/xnqevwdr" method="POST" class="pricing-form">
+                        <input type="email" name="email" placeholder="Il tuo indirizzo email" required style="margin-bottom: 12px;">
+                        <input type="hidden" name="tier" value="pro">
+                        <input type="hidden" name="source" value="pricing_pro">
+                        <div class="checkbox-group" style="font-size: 14px; margin-bottom: 16px;">
+                            <input type="checkbox" name="privacy" required>
+                            <label>Accetto la <a href="/legal/privacy-policy.html" target="_blank">Privacy Policy</a></label>
+                        </div>
+                        <button type="submit" class="btn">Attiva L'Osservatorio →</button>
+                    </form>
+                    
+                    <p style="text-align: center; margin-top: 16px; font-size: 14px; color: #666;">
+                        ✓ Prezzo bloccato per sempre<br>
+                        ✓ Cancellabile in qualsiasi momento
+                    </p>
+                </div>
             </div>
         </div>
     </section>
-
-    <!-- TRUST -->
-    <section class="trust-section">
-        <div class="trust-grid">
-            <div class="trust-item"><span style="font-size: 32px;">✅</span> <span>Linguaggio chiaro, no tecnicismi</span></div>
-            <div class="trust-item"><span style="font-size: 32px;">⏱️</span> <span>Tempo di lettura: 5 minuti</span></div>
-            <div class="trust-item"><span style="font-size: 32px;">🇮🇹</span> <span>Pensato per le PMI italiane</span></div>
-            <div class="trust-item"><span style="font-size: 32px;">🔒</span> <span>Privacy garantita</span></div>
+    
+    <!-- Trust Section -->
+    <section class="section trust-section">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <span class="trust-icon">✅</span>
+                    <strong>Linguaggio Chiaro</strong>
+                    <p style="font-size: 16px; color: #666; margin-top: 8px;">Senza tecnicismi inutili</p>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">⏱️</span>
+                    <strong>5 Minuti di Lettura</strong>
+                    <p style="font-size: 16px; color: #666; margin-top: 8px;">Rapida e concisa</p>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">🇮🇹</span>
+                    <strong>Per le PMI Italiane</strong>
+                    <p style="font-size: 16px; color: #666; margin-top: 8px;">Contenuto localizzato</p>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">🔒</span>
+                    <strong>Privacy Garantita</strong>
+                    <p style="font-size: 16px; color: #666; margin-top: 8px;">Dati mai venduti</p>
+                </div>
+            </div>
         </div>
     </section>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <p class="footer-cta">Pronto a guardare il futuro prima degli altri?</p>
-        
-        <div class="email-box" style="max-width: 600px; margin: 0 auto 32px;">
-            <p style="font-size: 20px; margin-bottom: 16px;"><strong>📧 Iscriviti via Email</strong></p>
-            <p>Clicca sul bottone qui sotto per aprire il tuo client email:</p>
-            <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20Newsletter%20Robotica%20Weekly&body=Ciao%20Robotica%20Weekly%2C%0A%0Avorrei%20iscrivermi%20alla%20vostra%20newsletter.%0A%0AMia%20email%3A%20%5Binserisci%20qui%5D%0A%0AGrazie%21" 
-               class="btn btn-green" 
-               style="font-size: 24px;">
-               Iscriviti Ora
-            </a>
+    
+    <!-- Footer CTA -->
+    <footer class="footer-cta">
+        <div class="container">
+            <h2>Pronto a guardare il futuro prima degli altri?</h2>
+            
+            <div class="footer-form">
+                <form action="https://formspree.io/f/xnqevwdr" method="POST">
+                    <div class="form-group">
+                        <input 
+                            type="email" 
+                            name="email" 
+                            placeholder="Il tuo indirizzo email" 
+                            required
+                            style="font-size: 22px; padding: 22px;"
+                        >
+                    </div>
+                    <input type="hidden" name="tier" value="free">
+                    <input type="hidden" name="source" value="footer">
+                    <div class="checkbox-group" style="justify-content: center; color: white; margin-bottom: 24px;">
+                        <input type="checkbox" name="privacy" required>
+                        <label>Accetto la <a href="/legal/privacy-policy.html" target="_blank" style="color: #7ec8ff;">Privacy Policy</a></label>
+                    </div>
+                    <button type="submit" class="btn" style="font-size: 24px;">
+                        🚀 Iscriviti Gratuitamente
+                    </button>
+                </form>
+            </div>
+            
+            <p style="margin-top: 32px; opacity: 0.9;">
+                📬 Ogni mercoledì mattina. No spam, mai.
+            </p>
+            
+            <div class="footer-links">
+                <a href="/legal/privacy-policy.html">Privacy Policy</a>
+                <a href="/legal/terms-of-service.html">Termini di Servizio</a>
+                <a href="/legal/cookie-policy.html">Cookie Policy</a>
+                <a href="mailto:ciao@roboticaweekly.it">ciao@roboticaweekly.it</a>
+            </div>
         </div>
-        
-        <p style="font-size: 18px; opacity: 0.9;">📅 Ogni mercoledì mattina. No spam, mai.</p>
-        <p style="margin-top: 16px;">
-            <a href="/legal/privacy-policy.html" style="color: #4da6ff; margin-right: 16px;">Privacy Policy</a>
-            <a href="mailto:ciao@roboticaweekly.it" style="color: #4da6ff;">ciao@roboticaweekly.it</a>
-        </p>
     </footer>
-
+    
+    <!-- JavaScript for form handling -->
+    <script>
+        // Form submission handler
+        document.querySelectorAll('form').forEach(function(form) {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                var email = form.querySelector('input[type="email"]').value;
+                var privacy = form.querySelector('input[name="privacy"]').checked;
+                var btn = form.querySelector('button[type="submit"]');
+                var originalText = btn.textContent;
+                
+                // Validation
+                if (!email || email.indexOf('@') === -1) {
+                    alert('Per favore inserisci un indirizzo email valido');
+                    return;
+                }
+                
+                if (!privacy) {
+                    alert('Devi accettare la Privacy Policy per continuare');
+                    return;
+                }
+                
+                // Loading state
+                btn.textContent = '⏳ Invio in corso...';
+                btn.disabled = true;
+                
+                // Submit to Formspree
+                fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                })
+                .then(function(response) {
+                    if (response.ok) {
+                        // Success
+                        var tier = form.querySelector('input[name="tier"]').value;
+                        var message = tier === 'pro' 
+                            ? 'Grazie! Ti contatteremo entro 24 ore per attivare L\'Osservatorio Pro.'
+                            : 'Iscrizione completata! Controlla la tua email per confermare.';
+                        
+                        form.innerHTML = '<div style="padding: 32px; background: #d4edda; border-radius: 12px; color: #155724; font-size: 20px; font-weight: 600; text-align: center;">✅ ' + message + '</div>';
+                    } else {
+                        throw new Error('Server error');
+                    }
+                })
+                .catch(function(error) {
+                    // Error - show fallback
+                    btn.textContent = originalText;
+                    btn.disabled = false;
+                    
+                    var errorDiv = document.createElement('div');
+                    errorDiv.style.cssText = 'margin-top: 16px; padding: 16px; background: #f8d7da; border-radius: 8px; color: #721c24;';
+                    errorDiv.innerHTML = '⚠️ Problema tecnico. <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20Newsletter&body=Email:%20' + encodeURIComponent(email) + '" style="color: #721c24; text-decoration: underline;">Clicca qui per iscriverti via email</a>';
+                    
+                    var existingError = form.querySelector('.error-message');
+                    if (existingError) existingError.remove();
+                    errorDiv.className = 'error-message';
+                    form.appendChild(errorDiv);
+                });
+            });
+        });
+        
+        // Track form interactions
+        document.querySelectorAll('input[type="email"]').forEach(function(input) {
+            input.addEventListener('focus', function() {
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'form_focus', { event_category: 'engagement' });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
