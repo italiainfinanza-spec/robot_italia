@@ -669,32 +669,72 @@
         </div>
     </footer>
     
+    <!-- Visual Feedback Elements -->
+    <div id="global-message" style="display: none; position: fixed; top: 20px; left: 50%; transform: translateX(-50%); padding: 20px 40px; border-radius: 12px; font-size: 18px; font-weight: 600; z-index: 10000; box-shadow: 0 8px 32px rgba(0,0,0,0.3); max-width: 90%; text-align: center;"></div>
+
     <!-- JavaScript for form handling -->
     <script>
+        // Show message function
+        function showMessage(text, type) {
+            var msgDiv = document.getElementById('global-message');
+            msgDiv.textContent = text;
+            msgDiv.style.display = 'block';
+            
+            if (type === 'success') {
+                msgDiv.style.background = '#d4edda';
+                msgDiv.style.color = '#155724';
+                msgDiv.style.border = '3px solid #28a745';
+            } else {
+                msgDiv.style.background = '#f8d7da';
+                msgDiv.style.color = '#721c24';
+                msgDiv.style.border = '3px solid #dc3545';
+            }
+            
+            // Auto hide after 5 seconds
+            setTimeout(function() {
+                msgDiv.style.display = 'none';
+            }, 5000);
+        }
+        
         // Form submission handler
         document.querySelectorAll('form').forEach(function(form) {
             form.addEventListener('submit', function(e) {
                 e.preventDefault();
+                e.stopPropagation();
                 
-                var email = form.querySelector('input[type="email"]').value;
-                var privacy = form.querySelector('input[name="privacy"]').checked;
+                var emailInput = form.querySelector('input[type="email"]');
+                var privacyInput = form.querySelector('input[name="privacy"]');
                 var btn = form.querySelector('button[type="submit"]');
                 var originalText = btn.textContent;
                 
+                var email = emailInput ? emailInput.value.trim() : '';
+                var privacy = privacyInput ? privacyInput.checked : false;
+                
+                console.log('Form submitted:', { email: email, privacy: privacy });
+                
                 // Validation
-                if (!email || email.indexOf('@') === -1) {
-                    alert('Per favore inserisci un indirizzo email valido');
+                if (!email) {
+                    showMessage('❌ Inserisci il tuo indirizzo email', 'error');
+                    emailInput.focus();
+                    return;
+                }
+                
+                if (email.indexOf('@') === -1 || email.indexOf('.') === -1) {
+                    showMessage('❌ Inserisci un email valida (esempio@email.it)', 'error');
+                    emailInput.focus();
                     return;
                 }
                 
                 if (!privacy) {
-                    alert('Devi accettare la Privacy Policy per continuare');
+                    showMessage('❌ Devi accettare la Privacy Policy', 'error');
+                    privacyInput.focus();
                     return;
                 }
                 
                 // Loading state
                 btn.textContent = '⏳ Invio in corso...';
                 btn.disabled = true;
+                btn.style.opacity = '0.7';
                 
                 // Submit to Formspree
                 fetch(form.action, {
@@ -705,43 +745,57 @@
                     }
                 })
                 .then(function(response) {
-                    if (response.ok) {
+                    console.log('Response status:', response.status);
+                    if (response.ok || response.status === 302) {
                         // Success
-                        var tier = form.querySelector('input[name="tier"]').value;
-                        var message = tier === 'pro' 
-                            ? 'Grazie! Ti contatteremo entro 24 ore per attivare L\'Osservatorio Pro.'
-                            : 'Iscrizione completata! Controlla la tua email per confermare.';
+                        var tierInput = form.querySelector('input[name="tier"]');
+                        var tier = tierInput ? tierInput.value : 'free';
                         
-                        form.innerHTML = '<div style="padding: 32px; background: #d4edda; border-radius: 12px; color: #155724; font-size: 20px; font-weight: 600; text-align: center;">✅ ' + message + '</div>';
+                        var message = tier === 'pro' 
+                            ? '✅ Grazie! Ti contatteremo entro 24 ore per attivare L\'Osservatorio Pro.'
+                            : '✅ Iscrizione completata! Controlla la tua email per confermare.';
+                        
+                        showMessage(message, 'success');
+                        
+                        // Replace form with success message
+                        form.innerHTML = '<div style="padding: 32px; background: #d4edda; border-radius: 12px; color: #155724; font-size: 20px; font-weight: 600; text-align: center;">' + message + '</div>';
+                        
+                        // Track conversion
+                        if (typeof gtag !== 'undefined') {
+                            gtag('event', 'signup_success', {
+                                event_category: 'conversion',
+                                value: tier === 'pro' ? 4.99 : 0
+                            });
+                        }
                     } else {
-                        throw new Error('Server error');
+                        throw new Error('Server returned ' + response.status);
                     }
                 })
                 .catch(function(error) {
-                    // Error - show fallback
+                    console.error('Error:', error);
+                    
+                    // Reset button
                     btn.textContent = originalText;
                     btn.disabled = false;
+                    btn.style.opacity = '1';
                     
+                    // Show error with fallback
+                    showMessage('⚠️ Errore di connessione. Prova via email.', 'error');
+                    
+                    // Add fallback link
                     var errorDiv = document.createElement('div');
-                    errorDiv.style.cssText = 'margin-top: 16px; padding: 16px; background: #f8d7da; border-radius: 8px; color: #721c24;';
-                    errorDiv.innerHTML = '⚠️ Problema tecnico. <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20Newsletter&body=Email:%20' + encodeURIComponent(email) + '" style="color: #721c24; text-decoration: underline;">Clicca qui per iscriverti via email</a>';
+                    errorDiv.style.cssText = 'margin-top: 16px; padding: 16px; background: #fff3cd; border-radius: 8px; color: #856404; border: 2px solid #ffc107;';
+                    errorDiv.innerHTML = '<strong>Alternativa:</strong> <a href="mailto:ciao@roboticaweekly.it?subject=Iscrizione%20Newsletter&body=Email:%20' + encodeURIComponent(email) + '" style="color: #856404; text-decoration: underline; font-weight: bold;">Clicca qui per iscriverti via email</a>';
                     
-                    var existingError = form.querySelector('.error-message');
+                    var existingError = form.querySelector('.fallback-message');
                     if (existingError) existingError.remove();
-                    errorDiv.className = 'error-message';
+                    errorDiv.className = 'fallback-message';
                     form.appendChild(errorDiv);
                 });
             });
         });
         
-        // Track form interactions
-        document.querySelectorAll('input[type="email"]').forEach(function(input) {
-            input.addEventListener('focus', function() {
-                if (typeof gtag !== 'undefined') {
-                    gtag('event', 'form_focus', { event_category: 'engagement' });
-                }
-            });
-        });
+        console.log('✅ Form handlers initialized');
     </script>
 </body>
 </html>
