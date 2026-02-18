@@ -230,30 +230,14 @@
         }
 
         /* Brevo iframe */
-        .brevo-form {
+        .custom-signup-form {
             width: 100%;
-            border: none;
-            min-height: 400px;
-            overflow: hidden;
-            -webkit-overflow-scrolling: touch;
         }
         
-        @media (max-width: 768px) {
-            .signup-desktop {
-                display: none;
-            }
-            .signup-mobile {
-                display: block !important;
-            }
-        }
-        
-        @media (min-width: 769px) {
-            .signup-desktop {
-                display: block;
-            }
-            .signup-mobile {
-                display: none !important;
-            }
+        .custom-signup-form input:focus {
+            outline: none;
+            border-color: var(--accent-primary) !important;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
         }
 
         .signup-footer {
@@ -662,29 +646,30 @@
                 <p>Unisciti alla community. Ricevi ogni mercoledì mattina le notizie più importanti.</p>
             </div>
             
-            <!-- Desktop: Iframe | Mobile: Link diretto -->
-            <div class="signup-desktop">
-                <iframe 
-                    src="https://c5bf87b2.sibforms.com/serve/MUIFAJK8Py-8mRoe_1V9n64nkDHOOVbh1O6b90P0wLeuksKI7wuS00Ltfx09uUrMD14i-9Tig41MCqy3DKDXVpqTsTMR29ctscFPS7G-_gqy-M6ztr5VjFUmcbbb4sqV5HqGGFPJi_dz1SR4VoG8rbpwALy1S9gje74-yq3KImjJ35cpqDKn1GEoKn0qaDot3TsEeqBAQBH3aTa7nA=="
-                    class="brevo-form"
-                    title="Iscrizione Newsletter"
-                    scrolling="no">
-                </iframe>
-            </div>
-            
-            <div class="signup-mobile" style="display: none; text-align: center; padding: var(--space-6);">
-                <p style="margin-bottom: var(--space-4); color: var(--text-tertiary);">Clicca per aprire il modulo di iscrizione</p>
-                <a href="https://c5bf87b2.sibforms.com/serve/MUIFAJK8Py-8mRoe_1V9n64nkDHOOVbh1O6b90P0wLeuksKI7wuS00Ltfx09uUrMD14i-9Tig41MCqy3DKDXVpqTsTMR29ctscFPS7G-_gqy-M6ztr5VjFUmcbbb4sqV5HqGGFPJi_dz1SR4VoG8rbpwALy1S9gje74-yq3KImjJ35cpqDKn1GEoKn0qaDot3TsEeqBAQBH3aTa7nA==" 
-                   class="btn btn-success btn-lg" 
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   style="width: 100%;">
-                    📧 Apri Modulo Iscrizione
-                </a>
-                <p style="margin-top: var(--space-4); font-size: var(--text-xs); color: var(--text-muted);">
-                    Si apre in una nuova scheda
-                </p>
-            </div>
+            <!-- Custom Signup Form -->
+            <form id="customSignupForm" class="custom-signup-form" action="https://c5bf87b2.sibforms.com/serve/MUIFAJK8Py-8mRoe_1V9n64nkDHOOVbh1O6b90P0wLeuksKI7wuS00Ltfx09uUrMD14i-9Tig41MCqy3DKDXVpqTsTMR29ctscFPS7G-_gqy-M6ztr5VjFUmcbbb4sqV5HqGGFPJi_dz1SR4VoG8rbpwALy1S9gje74-yq3KImjJ35cpqDKn1GEoKn0qaDot3TsEeqBAQBH3aTa7nA==" method="POST" target="_blank">
+                <div class="form-group" style="margin-bottom: var(--space-4);">
+                    <input 
+                        type="email" 
+                        name="EMAIL" 
+                        id="signupEmail"
+                        placeholder="Inserisci la tua email" 
+                        required
+                        style="width: 100%; padding: var(--space-4); font-size: var(--text-lg); border: 2px solid var(--border-medium); border-radius: var(--radius); font-family: inherit;"
+                    >
+                </div>
+                
+                <div class="checkbox-group" style="margin-bottom: var(--space-4); text-align: left;">
+                    <label style="display: flex; align-items: flex-start; gap: var(--space-3); font-size: var(--text-sm); color: var(--text-tertiary); cursor: pointer;">
+                        <input type="checkbox" name="OPT_IN" required style="width: 20px; height: 20px; margin-top: 2px; accent-color: var(--accent-primary);">
+                        <span>Accetto di ricevere la newsletter e la <a href="/legal/privacy-policy.html" style="color: var(--accent-primary); text-decoration: underline;">privacy policy</a></span>
+                    </label>
+                </div>
+                
+                <button type="submit" class="btn btn-success btn-lg" style="width: 100%;">
+                    Iscriviti gratis
+                </button>
+            </form>
             
             <div class="signup-footer">
                 <span>No spam</span>
@@ -1039,12 +1024,19 @@
             });
         });
 
-        // Track form focus
-        const iframe = document.querySelector('.brevo-form');
-        if (iframe) {
-            iframe.addEventListener('mouseenter', () => {
+        // Track form interactions
+        const signupForm = document.getElementById('customSignupForm');
+        if (signupForm) {
+            signupForm.addEventListener('focusin', () => {
                 gtag('event', 'form_interaction', {'event_category': 'engagement'});
             }, {once: true});
+            
+            signupForm.addEventListener('submit', () => {
+                gtag('event', 'signup_initiated', {
+                    'event_category': 'conversion',
+                    'event_label': 'free_plan'
+                });
+            });
         }
 
         // Track scroll depth
