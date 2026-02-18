@@ -8,7 +8,15 @@
   "outputDirectory": ".",
   "framework": null,
   "rewrites": [
-    { "source": "/landing", "destination": "/landing-senior.html" }
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/pricing", "destination": "/pricing.html" },
+    { "source": "/archive", "destination": "/archive.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/grazie", "destination": "/grazie.html" },
+    { "source": "/grazie-pro", "destination": "/grazie-pro.html" },
+    { "source": "/privacy", "destination": "/legal/privacy-policy.html" },
+    { "source": "/terms", "destination": "/legal/terms-of-service.html" },
+    { "source": "/cookies", "destination": "/legal/cookie-policy.html" }
   ],
   "headers": [
     {
