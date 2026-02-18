@@ -234,6 +234,16 @@
             width: 100%;
             border: none;
             min-height: 400px;
+            overflow: hidden;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        @media (max-width: 768px) {
+            .brevo-form {
+                min-height: 450px;
+                overflow: hidden !important;
+                touch-action: none;
+            }
         }
 
         .signup-footer {
@@ -645,7 +655,9 @@
             <iframe 
                 src="https://c5bf87b2.sibforms.com/serve/MUIFAJK8Py-8mRoe_1V9n64nkDHOOVbh1O6b90P0wLeuksKI7wuS00Ltfx09uUrMD14i-9Tig41MCqy3DKDXVpqTsTMR29ctscFPS7G-_gqy-M6ztr5VjFUmcbbb4sqV5HqGGFPJi_dz1SR4VoG8rbpwALy1S9gje74-yq3KImjJ35cpqDKn1GEoKn0qaDot3TsEeqBAQBH3aTa7nA=="
                 class="brevo-form"
-                title="Iscrizione Newsletter">
+                title="Iscrizione Newsletter"
+                scrolling="no"
+                style="overflow: hidden; border: none; width: 100%;">
             </iframe>
             
             <div class="signup-footer">
