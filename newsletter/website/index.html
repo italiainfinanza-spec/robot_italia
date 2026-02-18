@@ -239,10 +239,20 @@
         }
         
         @media (max-width: 768px) {
-            .brevo-form {
-                min-height: 450px;
-                overflow: hidden !important;
-                touch-action: none;
+            .signup-desktop {
+                display: none;
+            }
+            .signup-mobile {
+                display: block !important;
+            }
+        }
+        
+        @media (min-width: 769px) {
+            .signup-desktop {
+                display: block;
+            }
+            .signup-mobile {
+                display: none !important;
             }
         }
 
@@ -652,13 +662,29 @@
                 <p>Unisciti alla community. Ricevi ogni mercoledì mattina le notizie più importanti.</p>
             </div>
             
-            <iframe 
-                src="https://c5bf87b2.sibforms.com/serve/MUIFAJK8Py-8mRoe_1V9n64nkDHOOVbh1O6b90P0wLeuksKI7wuS00Ltfx09uUrMD14i-9Tig41MCqy3DKDXVpqTsTMR29ctscFPS7G-_gqy-M6ztr5VjFUmcbbb4sqV5HqGGFPJi_dz1SR4VoG8rbpwALy1S9gje74-yq3KImjJ35cpqDKn1GEoKn0qaDot3TsEeqBAQBH3aTa7nA=="
-                class="brevo-form"
-                title="Iscrizione Newsletter"
-                scrolling="no"
-                style="overflow: hidden; border: none; width: 100%;">
-            </iframe>
+            <!-- Desktop: Iframe | Mobile: Link diretto -->
+            <div class="signup-desktop">
+                <iframe 
+                    src="https://c5bf87b2.sibforms.com/serve/MUIFAJK8Py-8mRoe_1V9n64nkDHOOVbh1O6b90P0wLeuksKI7wuS00Ltfx09uUrMD14i-9Tig41MCqy3DKDXVpqTsTMR29ctscFPS7G-_gqy-M6ztr5VjFUmcbbb4sqV5HqGGFPJi_dz1SR4VoG8rbpwALy1S9gje74-yq3KImjJ35cpqDKn1GEoKn0qaDot3TsEeqBAQBH3aTa7nA=="
+                    class="brevo-form"
+                    title="Iscrizione Newsletter"
+                    scrolling="no">
+                </iframe>
+            </div>
+            
+            <div class="signup-mobile" style="display: none; text-align: center; padding: var(--space-6);">
+                <p style="margin-bottom: var(--space-4); color: var(--text-tertiary);">Clicca per aprire il modulo di iscrizione</p>
+                <a href="https://c5bf87b2.sibforms.com/serve/MUIFAJK8Py-8mRoe_1V9n64nkDHOOVbh1O6b90P0wLeuksKI7wuS00Ltfx09uUrMD14i-9Tig41MCqy3DKDXVpqTsTMR29ctscFPS7G-_gqy-M6ztr5VjFUmcbbb4sqV5HqGGFPJi_dz1SR4VoG8rbpwALy1S9gje74-yq3KImjJ35cpqDKn1GEoKn0qaDot3TsEeqBAQBH3aTa7nA==" 
+                   class="btn btn-success btn-lg" 
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   style="width: 100%;">
+                    📧 Apri Modulo Iscrizione
+                </a>
+                <p style="margin-top: var(--space-4); font-size: var(--text-xs); color: var(--text-muted);">
+                    Si apre in una nuova scheda
+                </p>
+            </div>
             
             <div class="signup-footer">
                 <span>No spam</span>
