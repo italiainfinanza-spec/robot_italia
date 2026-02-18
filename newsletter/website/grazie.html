@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grazie per l'iscrizione — Robotica Weekly</title>
+    <meta name="description" content="La tua iscrizione è confermata. Preparati a ricevere le migliori notizie sulla robotica.">
+    <link rel="stylesheet" href="design-system.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', var(--font-primary);
+            background: var(--bg-primary);
+            color: var(--text-secondary);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .success-page {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: var(--space-8);
+        }
+
+        .success-card {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-xl);
+            padding: var(--space-12);
+            max-width: 600px;
+            text-align: center;
+            box-shadow: var(--shadow-xl);
+        }
+
+        .success-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--color-success-light);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto var(--space-6);
+            font-size: 40px;
+        }
+
+        .success-card h1 {
+            font-size: var(--text-3xl);
+            font-weight: var(--font-bold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-4);
+        }
+
+        .success-card p {
+            color: var(--text-tertiary);
+            margin-bottom: var(--space-6);
+            font-size: var(--text-lg);
+        }
+
+        .next-steps {
+            background: var(--bg-secondary);
+            border-radius: var(--radius-lg);
+            padding: var(--space-6);
+            margin: var(--space-8) 0;
+            text-align: left;
+        }
+
+        .next-steps h2 {
+            font-size: var(--text-base);
+            font-weight: var(--font-semibold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-4);
+        }
+
+        .next-steps ol {
+            list-style: none;
+            counter-reset: steps;
+        }
+
+        .next-steps li {
+            counter-increment: steps;
+            padding: var(--space-3) 0;
+            padding-left: var(--space-8);
+            position: relative;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .next-steps li:last-child {
+            border-bottom: none;
+        }
+
+        .next-steps li::before {
+            content: counter(steps);
+            position: absolute;
+            left: 0;
+            width: 24px;
+            height: 24px;
+            background: var(--text-primary);
+            color: var(--text-inverse);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: var(--text-xs);
+            font-weight: var(--font-bold);
+        }
+
+        .lead-magnet {
+            background: linear-gradient(135deg, var(--bg-dark) 0%, var(--color-grey-800) 100%);
+            color: var(--text-inverse);
+            border-radius: var(--radius-lg);
+            padding: var(--space-6);
+            margin: var(--space-8) 0;
+        }
+
+        .lead-magnet h3 {
+            font-size: var(--text-lg);
+            font-weight: var(--font-semibold);
+            margin-bottom: var(--space-2);
+        }
+
+        .lead-magnet p {
+            color: var(--color-grey-400);
+            font-size: var(--text-sm);
+            margin-bottom: var(--space-4);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--space-2);
+            padding: var(--space-3) var(--space-6);
+            font-size: var(--text-sm);
+            font-weight: var(--font-semibold);
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all 0.15s ease;
+            text-decoration: none;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--text-primary);
+            color: var(--text-inverse);
+        }
+
+        .btn-primary:hover {
+            background: var(--color-grey-800);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--text-primary);
+            border: 1px solid var(--border-medium);
+        }
+
+        .btn-outline:hover {
+            border-color: var(--text-primary);
+        }
+
+        .btn-block {
+            width: 100%;
+        }
+
+        .social-share {
+            margin-top: var(--space-8);
+            padding-top: var(--space-8);
+            border-top: 1px solid var(--border-light);
+        }
+
+        .social-share p {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+            margin-bottom: var(--space-4);
+        }
+
+        .social-buttons {
+            display: flex;
+            gap: var(--space-3);
+            justify-content: center;
+        }
+
+        .social-btn {
+            padding: var(--space-2) var(--space-4);
+            border-radius: var(--radius);
+            font-size: var(--text-sm);
+            text-decoration: none;
+            color: var(--text-secondary);
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-light);
+            transition: all 0.15s ease;
+        }
+
+        .social-btn:hover {
+            background: var(--bg-tertiary);
+        }
+
+        .footer {
+            text-align: center;
+            padding: var(--space-6);
+            border-top: 1px solid var(--border-light);
+        }
+
+        .footer a {
+            color: var(--text-tertiary);
+            text-decoration: none;
+            font-size: var(--text-sm);
+        }
+
+        .footer a:hover {
+            color: var(--text-primary);
+        }
+
+        @media (max-width: 640px) {
+            .success-card {
+                padding: var(--space-6);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="success-page">
+        <div class="success-card">
+            <div class="success-icon">✓</div>
+            <h1>Iscrizione confermata!</h1>
+            <p>Grazie per esserti iscritto a Robotica Weekly. La tua email è stata registrata con successo.</p>
+            
+            <div class="lead-magnet">
+                <h3>📄 Scarica il tuo lead magnet gratuito</h3>
+                <p>"I 5 Settori Robotici con ROI più Alto nel 2026" — Guida completa per imprenditori italiani.</p>
+                <a href="/downloads/5-settori-robotici-roi-2026.pdf" class="btn btn-primary btn-block" download>
+                    📥 Scarica PDF Gratis
+                </a>
+            </div>
+
+            <div class="next-steps">
+                <h2>Cosa succede ora:</h2>
+                <ol>
+                    <li><strong>Controlla la tua email</strong> — Ti abbiamo inviato una conferma</li>
+                    <li><strong>Prima newsletter</strong> — Riceverai la prossima edizione mercoledì</li>
+                    <li><strong>Resta aggiornato</strong> — Ogni settimana, direttamente nella tua inbox</li>
+                </ol>
+            </div>
+
+            <div class="social-share">
+                <p>Condividi con chi potrebbe essere interessato:</p>
+                <div class="social-buttons">
+                    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://roboticaweekly.com" target="_blank" class="social-btn">LinkedIn</a>
+                    <a href="https://twitter.com/intent/tweet?text=Mi%20sono%20appena%20iscritto%20a%20Robotica%20Weekly%2C%20la%20newsletter%20sulla%20robotica%20per%20imprenditori%20italiani!&url=https://roboticaweekly.com" target="_blank" class="social-btn">Twitter</a>
+                    <a href="https://wa.me/?text=Guarda%20questa%20newsletter%20sulla%20robotica%3A%20https%3A%2F%2Froboticaweekly.com" target="_blank" class="social-btn">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <a href="/">← Torna alla homepage</a>
+    </footer>
+</body>
+</html>

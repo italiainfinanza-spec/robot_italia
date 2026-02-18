@@ -1,35 +1,17 @@
-# robots.txt - Robotica Weekly
-# https://roboticaweekly.com/robots.txt
+# robots.txt for Robotica Weekly
+# https://roboticaweekly.com
 
 User-agent: *
 Allow: /
 
-# Sitemap location
+# Sitemap
 Sitemap: https://roboticaweekly.com/sitemap.xml
 
-# Crawl rate optimization
-Crawl-delay: 1
+# Crawl-delay
+Crawl-delay: 10
 
-# Disallow admin and private areas
-User-agent: *
+# Disallow admin and private pages
 Disallow: /admin/
 Disallow: /api/
-Disallow: /_next/
 Disallow: /private/
-
-# Allow major search engines full access
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: DuckDuckBot
-Allow: /
-
-# Block specific bots that might cause issues
-User-agent: AhrefsBot
-Crawl-delay: 5
-
-User-agent: SemrushBot
-Crawl-delay: 5
+Disallow: /downloads/

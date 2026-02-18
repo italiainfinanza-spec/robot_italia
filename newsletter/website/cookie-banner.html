@@ -1,0 +1,81 @@
+<!-- Cookie Banner GDPR -->
+<div id="cookie-banner" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--bg-dark, #0a0a0a); color: white; padding: 16px 24px; z-index: 9999; box-shadow: 0 -4px 20px rgba(0,0,0,0.2);">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap;">
+        <div style="flex: 1; min-width: 280px;">
+            <p style="margin: 0; font-size: 14px; line-height: 1.5;">
+                🍪 Utilizziamo cookie per migliorare la tua esperienza. 
+                Continuando accetti la nostra <a href="/privacy" style="color: #60a5fa; text-decoration: underline;">Privacy Policy</a> 
+                e l'uso dei cookie.
+            </p>
+        </div>
+        <div style="display: flex; gap: 12px; flex-shrink: 0;">
+            <button onclick="rejectCookies()" style="padding: 10px 20px; font-size: 14px; font-weight: 500; background: transparent; color: #9ca3af; border: 1px solid #4b5563; border-radius: 6px; cursor: pointer; transition: all 0.15s;">
+                Rifiuta
+            </button>
+            <button onclick="acceptCookies()" style="padding: 10px 20px; font-size: 14px; font-weight: 600; background: #2563eb; color: white; border: none; border-radius: 6px; cursor: pointer; transition: all 0.15s;">
+                Accetta
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Cookie consent management
+    (function() {
+        const COOKIE_CONSENT_KEY = 'robotica_cookie_consent';
+        const COOKIE_EXPIRY_DAYS = 365;
+        
+        function setCookie(name, value, days) {
+            const expires = new Date(Date.now() + days * 864e5).toUTCString();
+            document.cookie = name + '=' + encodeURIComponent(value) + '; expires=' + expires + '; path=/; SameSite=Lax';
+        }
+        
+        function getCookie(name) {
+            return document.cookie.split('; ').reduce((r, v) => {
+                const parts = v.split('=');
+                return parts[0] === name ? decodeURIComponent(parts[1]) : r;
+            }, '');
+        }
+        
+        function showBanner() {
+            const banner = document.getElementById('cookie-banner');
+            if (banner) banner.style.display = 'block';
+        }
+        
+        function hideBanner() {
+            const banner = document.getElementById('cookie-banner');
+            if (banner) banner.style.display = 'none';
+        }
+        
+        window.acceptCookies = function() {
+            setCookie(COOKIE_CONSENT_KEY, 'accepted', COOKIE_EXPIRY_DAYS);
+            hideBanner();
+            // Enable analytics
+            if (typeof gtag !== 'undefined') {
+                gtag('consent', 'update', {
+                    'analytics_storage': 'granted',
+                    'ad_storage': 'granted'
+                });
+            }
+        };
+        
+        window.rejectCookies = function() {
+            setCookie(COOKIE_CONSENT_KEY, 'rejected', COOKIE_EXPIRY_DAYS);
+            hideBanner();
+            // Disable analytics
+            if (typeof gtag !== 'undefined') {
+                gtag('consent', 'update', {
+                    'analytics_storage': 'denied',
+                    'ad_storage': 'denied'
+                });
+            }
+        };
+        
+        // Check consent on load
+        const consent = getCookie(COOKIE_CONSENT_KEY);
+        if (!consent) {
+            // Show banner after 2 seconds
+            setTimeout(showBanner, 2000);
+        }
+    })();
+</script>

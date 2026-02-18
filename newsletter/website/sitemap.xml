@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  
-  <!-- Homepage - Highest Priority -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://roboticaweekly.com/</loc>
-    <lastmod>2026-02-03</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://roboticaweekly.com/og-image.png</image:loc>
-      <image:title>Robotica Weekly - Newsletter Investimenti Robotica</image:title>
-    </image:image>
   </url>
-  
-  <!-- Legal Pages -->
   <url>
-    <loc>https://roboticaweekly.com/privacy-policy.html</loc>
-    <lastmod>2026-02-03</lastmod>
+    <loc>https://roboticaweekly.com/grazie.html</loc>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
-  
+  <url>
+    <loc>https://roboticaweekly.com/grazie-pro.html</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://roboticaweekly.com/legal/privacy-policy.html</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://roboticaweekly.com/legal/terms-of-service.html</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>

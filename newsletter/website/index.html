@@ -3,11 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robotica Weekly — Newsletter sulla Robotica</title>
-    <meta name="description" content="La rassegna settimanale per imprenditori e investitori che vogliono anticipare il futuro dell'automazione industriale.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Primary Meta Tags -->
+    <title>Robotica Weekly — Newsletter sulla Robotica per Imprenditori Italiani</title>
+    <meta name="description" content="La rassegna settimanale sulla robotica e automazione industriale. Per imprenditori e investitori che vogliono anticipare il futuro.">
+    <meta name="keywords" content="newsletter robotica, automazione industriale, imprenditori italiani, investimenti robotica, industria 4.0">
+    <meta name="author" content="Robotica Weekly">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://roboticaweekly.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://roboticaweekly.com/">
+    <meta property="og:title" content="Robotica Weekly — Newsletter sulla Robotica">
+    <meta property="og:description" content="La rassegna settimanale per imprenditori e investitori che vogliono anticipare il futuro dell'automazione industriale.">
+    <meta property="og:image" content="https://roboticaweekly.com/og-image.png">
+    <meta property="og:locale" content="it_IT">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://roboticaweekly.com/">
+    <meta property="twitter:title" content="Robotica Weekly — Newsletter sulla Robotica">
+    <meta property="twitter:description" content="La rassegna settimanale per imprenditori e investitori che vogliono anticipare il futuro dell'automazione industriale.">
+    <meta property="twitter:image" content="https://roboticaweekly.com/og-image.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="alternate icon" href="/favicon.ico">
+    
+    <!-- Fonts & CSS -->
     <link rel="stylesheet" href="design-system.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- GA4 Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BZNDJ30KWM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-BZNDJ30KWM', {
+            'send_page_view': true,
+            'anonymize_ip': true
+        });
+    </script>
     <style>
         *, *::before, *::after {
             margin: 0;
@@ -780,12 +820,92 @@
         </div>
     </footer>
 
-    <!-- Copy to Clipboard for Email -->
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; background: #0a0a0a; color: white; padding: 16px 24px; z-index: 9999; box-shadow: 0 -4px 20px rgba(0,0,0,0.2);">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 280px;">
+                <p style="margin: 0; font-size: 14px; line-height: 1.5;">
+                    🍪 Utilizziamo cookie per migliorare la tua esperienza. 
+                    Continuando accetti la nostra <a href="/legal/privacy-policy.html" style="color: #60a5fa; text-decoration: underline;">Privacy Policy</a>.
+                </p>
+            </div>
+            <div style="display: flex; gap: 12px; flex-shrink: 0;">
+                <button onclick="rejectCookies()" style="padding: 10px 20px; font-size: 14px; font-weight: 500; background: transparent; color: #9ca3af; border: 1px solid #4b5563; border-radius: 6px; cursor: pointer;">Rifiuta</button>
+                <button onclick="acceptCookies()" style="padding: 10px 20px; font-size: 14px; font-weight: 600; background: #2563eb; color: white; border: none; border-radius: 6px; cursor: pointer;">Accetta</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
     <script>
-        function copyEmail() {
-            navigator.clipboard.writeText('ciao@roboticaweekly.com');
-            alert('Email copiata!');
+        // Cookie Consent
+        (function() {
+            const COOKIE_KEY = 'rw_cookie_consent';
+            const COOKIE_DAYS = 365;
+            
+            function setCookie(name, value, days) {
+                const expires = new Date(Date.now() + days * 864e5).toUTCString();
+                document.cookie = name + '=' + encodeURIComponent(value) + '; expires=' + expires + '; path=/; SameSite=Lax';
+            }
+            
+            function getCookie(name) {
+                return document.cookie.split('; ').reduce((r, v) => {
+                    const parts = v.split('=');
+                    return parts[0] === name ? decodeURIComponent(parts[1]) : r;
+                }, '');
+            }
+            
+            window.acceptCookies = function() {
+                setCookie(COOKIE_KEY, 'accepted', COOKIE_DAYS);
+                document.getElementById('cookie-banner').style.display = 'none';
+                gtag('consent', 'update', {'analytics_storage': 'granted'});
+                gtag('event', 'cookie_accept');
+            };
+            
+            window.rejectCookies = function() {
+                setCookie(COOKIE_KEY, 'rejected', COOKIE_DAYS);
+                document.getElementById('cookie-banner').style.display = 'none';
+                gtag('consent', 'update', {'analytics_storage': 'denied'});
+            };
+            
+            if (!getCookie(COOKIE_KEY)) {
+                setTimeout(() => document.getElementById('cookie-banner').style.display = 'block', 2000);
+            }
+        })();
+
+        // Track CTA clicks
+        document.querySelectorAll('a[href*="stripe"]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                gtag('event', 'begin_checkout', {
+                    'event_category': 'ecommerce',
+                    'event_label': 'pro_plan',
+                    'value': 4.99,
+                    'currency': 'EUR'
+                });
+            });
+        });
+
+        // Track form focus
+        const iframe = document.querySelector('.brevo-form');
+        if (iframe) {
+            iframe.addEventListener('mouseenter', () => {
+                gtag('event', 'form_interaction', {'event_category': 'engagement'});
+            }, {once: true});
         }
+
+        // Track scroll depth
+        let scrolled50 = false, scrolled90 = false;
+        window.addEventListener('scroll', () => {
+            const scrollPercent = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
+            if (!scrolled50 && scrollPercent > 50) {
+                scrolled50 = true;
+                gtag('event', 'scroll_50_percent');
+            }
+            if (!scrolled90 && scrollPercent > 90) {
+                scrolled90 = true;
+                gtag('event', 'scroll_90_percent');
+            }
+        });
     </script>
 </body>
 </html>
