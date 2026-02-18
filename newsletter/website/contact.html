@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti — Robotica Weekly</title>
+    <meta name="description" content="Contatta Robotica Weekly. Siamo qui per aiutarti.">
+    <link rel="stylesheet" href="design-system.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', var(--font-primary);
+            background: var(--bg-primary);
+            color: var(--text-secondary);
+            line-height: var(--leading-normal);
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(254, 254, 254, 0.95);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid var(--border-light);
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: var(--container-xl);
+            margin: 0 auto;
+            padding: var(--space-4) var(--space-6);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: var(--text-lg);
+            font-weight: var(--font-bold);
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .logo span { color: var(--accent-primary); }
+
+        .nav-links a {
+            color: var(--text-tertiary);
+            text-decoration: none;
+            font-size: var(--text-sm);
+            font-weight: var(--font-medium);
+            margin-left: var(--space-6);
+        }
+
+        .nav-links a:hover { color: var(--text-primary); }
+
+        .hero {
+            background: var(--bg-dark);
+            color: var(--text-inverse);
+            padding: calc(var(--space-24) + 60px) var(--space-6) var(--space-16);
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: var(--text-4xl);
+            font-weight: var(--font-bold);
+            margin-bottom: var(--space-4);
+        }
+
+        .hero p {
+            font-size: var(--text-xl);
+            color: var(--color-grey-400);
+        }
+
+        .contact-section {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: var(--space-16) var(--space-6);
+        }
+
+        .contact-methods {
+            display: grid;
+            gap: var(--space-6);
+            margin-bottom: var(--space-10);
+        }
+
+        .contact-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-lg);
+            padding: var(--space-6);
+            text-align: center;
+        }
+
+        .contact-card .icon {
+            font-size: var(--text-3xl);
+            margin-bottom: var(--space-3);
+        }
+
+        .contact-card h3 {
+            font-size: var(--text-lg);
+            font-weight: var(--font-semibold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-2);
+        }
+
+        .contact-card p {
+            color: var(--text-tertiary);
+            font-size: var(--text-sm);
+            margin-bottom: var(--space-3);
+        }
+
+        .contact-card a {
+            color: var(--accent-primary);
+            text-decoration: none;
+            font-weight: var(--font-semibold);
+        }
+
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+
+        .social-section {
+            text-align: center;
+            padding: var(--space-8) 0;
+            border-top: 1px solid var(--border-light);
+        }
+
+        .social-section h2 {
+            font-size: var(--text-xl);
+            font-weight: var(--font-bold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-4);
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-4);
+        }
+
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius);
+            text-decoration: none;
+            font-size: var(--text-xl);
+            transition: all 0.15s;
+        }
+
+        .social-links a:hover {
+            background: var(--text-primary);
+            color: white;
+        }
+
+        .footer {
+            background: var(--bg-dark);
+            color: var(--text-inverse);
+            padding: var(--space-10) var(--space-6);
+            text-align: center;
+        }
+
+        .footer a {
+            color: var(--color-grey-400);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: var(--text-inverse);
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="/" class="logo">Robotica<span>.</span>Weekly</a>
+            <div class="nav-links">
+                <a href="/about.html">Chi Siamo</a>
+                <a href="/pricing.html">Prezzi</a>
+                <a href="/archive.html">Archivio</a>
+                <a href="/#signup">Iscriviti</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Contatti</h1>
+        <p>Siamo qui per aiutarti. Scegli il canale più adatto.</p>
+    </header>
+
+    <section class="contact-section">
+        <div class="contact-methods">
+            <div class="contact-card">
+                <div class="icon">📧</div>
+                <h3>Email Generale</h3>
+                <p>Per domande, suggerimenti, collaborazioni</p>
+                <a href="mailto:ciao@roboticaweekly.com">ciao@roboticaweekly.com</a>
+            </div>
+
+            <div class="contact-card">
+                <div class="icon">👑</div>
+                <h3>Supporto PRO</h3>
+                <p>Per assistenza clienti PRO membri</p>
+                <a href="mailto:pro@roboticaweekly.com">pro@roboticaweekly.com</a>
+            </div>
+
+            <div class="contact-card">
+                <div class="icon">📰</div>
+                <h3>Press & Media</h3>
+                <p>Per interviste, press kit, partnership</p>
+                <a href="mailto:press@roboticaweekly.com">press@roboticaweekly.com</a>
+            </div>
+        </div>
+
+        <div class="social-section">
+            <h2>Seguici sui social</h2>
+            <div class="social-links">
+                <a href="https://linkedin.com/company/roboticaweekly" target="_blank" title="LinkedIn">in</a>
+                <a href="https://twitter.com/roboticaweekly" target="_blank" title="Twitter">𝕏</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p><a href="/">← Torna alla homepage</a></p>
+    </footer>
+</body>
+</html>

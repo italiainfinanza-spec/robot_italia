@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prezzi — Robotica Weekly</title>
+    <meta name="description" content="Scegli il piano giusto per te. Inizia gratis con La Settimanale o passa a PRO per analisi approfondite.">
+    <link rel="stylesheet" href="design-system.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', var(--font-primary);
+            background: var(--bg-primary);
+            color: var(--text-secondary);
+            line-height: var(--leading-normal);
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(254, 254, 254, 0.95);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid var(--border-light);
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: var(--container-xl);
+            margin: 0 auto;
+            padding: var(--space-4) var(--space-6);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: var(--text-lg);
+            font-weight: var(--font-bold);
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .logo span { color: var(--accent-primary); }
+
+        .nav-links a {
+            color: var(--text-tertiary);
+            text-decoration: none;
+            font-size: var(--text-sm);
+            font-weight: var(--font-medium);
+            margin-left: var(--space-6);
+        }
+
+        .nav-links a:hover { color: var(--text-primary); }
+
+        .hero {
+            background: var(--bg-dark);
+            color: var(--text-inverse);
+            padding: calc(var(--space-24) + 60px) var(--space-6) var(--space-16);
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: var(--text-4xl);
+            font-weight: var(--font-bold);
+            margin-bottom: var(--space-4);
+        }
+
+        .hero p {
+            font-size: var(--text-xl);
+            color: var(--color-grey-400);
+        }
+
+        .pricing-section {
+            padding: var(--space-16) var(--space-6);
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: var(--space-6);
+            margin-bottom: var(--space-12);
+        }
+
+        .pricing-card {
+            background: var(--bg-primary);
+            border: 2px solid var(--border-light);
+            border-radius: var(--radius-xl);
+            padding: var(--space-8);
+            position: relative;
+        }
+
+        .pricing-card.featured {
+            border-color: var(--text-primary);
+            border-width: 3px;
+        }
+
+        .badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--text-primary);
+            color: white;
+            padding: var(--space-1) var(--space-4);
+            border-radius: var(--radius-full);
+            font-size: var(--text-xs);
+            font-weight: var(--font-bold);
+            text-transform: uppercase;
+        }
+
+        .pricing-header {
+            text-align: center;
+            margin-bottom: var(--space-6);
+        }
+
+        .pricing-header h2 {
+            font-size: var(--text-2xl);
+            font-weight: var(--font-bold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-2);
+        }
+
+        .price {
+            font-size: var(--text-5xl);
+            font-weight: var(--font-extrabold);
+            color: var(--text-primary);
+        }
+
+        .price span {
+            font-size: var(--text-lg);
+            color: var(--text-muted);
+            font-weight: var(--font-normal);
+        }
+
+        .price-old {
+            text-decoration: line-through;
+            color: var(--text-muted);
+            font-size: var(--text-base);
+        }
+
+        .spots {
+            background: var(--color-warning-light);
+            color: var(--color-warning);
+            padding: var(--space-2) var(--space-4);
+            border-radius: var(--radius);
+            text-align: center;
+            font-weight: var(--font-semibold);
+            margin: var(--space-4) 0;
+        }
+
+        .features {
+            list-style: none;
+            margin: var(--space-6) 0;
+        }
+
+        .features li {
+            padding: var(--space-3) 0;
+            border-bottom: 1px solid var(--border-light);
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+        }
+
+        .features li::before {
+            content: "✓";
+            color: var(--color-success);
+            font-weight: bold;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: var(--space-4);
+            font-size: var(--text-lg);
+            font-weight: var(--font-semibold);
+            border-radius: var(--radius);
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.15s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--text-primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--color-grey-800);
+            transform: translateY(-1px);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--text-primary);
+            border: 2px solid var(--text-primary);
+        }
+
+        .btn-outline:hover {
+            background: var(--bg-secondary);
+        }
+
+        .faq-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-8) 0;
+        }
+
+        .faq-section h2 {
+            font-size: var(--text-2xl);
+            font-weight: var(--font-bold);
+            color: var(--text-primary);
+            text-align: center;
+            margin-bottom: var(--space-8);
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--border-light);
+            padding: var(--space-5) 0;
+        }
+
+        .faq-item h3 {
+            font-size: var(--text-base);
+            font-weight: var(--font-semibold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-2);
+        }
+
+        .faq-item p {
+            color: var(--text-tertiary);
+            font-size: var(--text-sm);
+        }
+
+        .footer {
+            background: var(--bg-dark);
+            color: var(--text-inverse);
+            padding: var(--space-10) var(--space-6);
+            text-align: center;
+        }
+
+        .footer a {
+            color: var(--color-grey-400);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: var(--text-inverse);
+        }
+
+        @media (max-width: 768px) {
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="/" class="logo">Robotica<span>.</span>Weekly</a>
+            <div class="nav-links">
+                <a href="/about.html">Chi Siamo</a>
+                <a href="/pricing.html">Prezzi</a>
+                <a href="/archive.html">Archivio</a>
+                <a href="/#signup">Iscriviti</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Scegli il tuo piano</h1>
+        <p>Inizia gratis. Aggiorna quando vuoi. Nessun vincolo.</p>
+    </header>
+
+    <section class="pricing-section">
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h2>🗞️ La Settimanale</h2>
+                    <div class="price">€0<span>/mese</span></div>
+                </div>
+                <ul class="features">
+                    <li>Newsletter settimanale</li>
+                    <li>News riassunte in 5 minuti</li>
+                    <li>Trend emergenti</li>
+                    <li>Eventi e fiere in Italia</li>
+                    <li>Accesso archivio base</li>
+                </ul>
+                <a href="/#signup" class="btn btn-outline">Inizia Gratis</a>
+            </div>
+
+            <div class="pricing-card featured">
+                <span class="badge">Più Popolare</span>
+                <div class="pricing-header">
+                    <h2>🔭 L'Osservatorio</h2>
+                    <div class="price-old">Poi €9.99/mese</div>
+                    <div class="price">€4.99<span>/mese</span></div>
+                </div>
+                <div class="spots">⚡ 87 posti rimanenti su 100</div>
+                <ul class="features">
+                    <li><strong>Tutto del piano Free</strong></li>
+                    <li>Analisi ROI per PMI</li>
+                    <li>Report startup e funding</li>
+                    <li>Alert tecnologici prioritari</li>
+                    <li>Supporto via email</li>
+                    <li>Accesso archivio completo</li>
+                </ul>
+                <a href="https://buy.stripe.com/cNi6oGfxDdDHfeh1Bp0ZW00" class="btn btn-primary">Attiva PRO</a>
+            </div>
+        </div>
+
+        <div class="faq-section">
+            <h2>Domande frequenti</h2>
+            
+            <div class="faq-item">
+                <h3>Posso cambiare piano in qualsiasi momento?</h3>
+                <p>Sì, puoi passare a PRO o tornare al piano Free quando vuoi. Se passi a PRO, il prezzo fondatore di €4.99 rimane bloccato per sempre.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Cosa succede se raggiungete 100 iscritti PRO?</h3>
+                <p>Chiude la lista per il prezzo fondatore. I nuovi iscritti PRO pagheranno €9.99/mese.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Posso cancellarmi?</h3>
+                <p>Certo. Nessun vincolo, nessuna penale. Cancelli quando vuoi dalla dashboard Stripe.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>C'è una prova gratuita per il piano PRO?</h3>
+                <p>No, ma offriamo 14 giorni di garanzia soddisfatti o rimborsati. Non ti piace? Ti ridiamo i soldi.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p><a href="/">← Torna alla homepage</a></p>
+    </footer>
+</body>
+</html>

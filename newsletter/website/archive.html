@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivio — Robotica Weekly</title>
+    <meta name="description" content="Esplora le edizioni passate di Robotica Weekly. Archivio newsletter sulla robotica.">
+    <link rel="stylesheet" href="design-system.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', var(--font-primary);
+            background: var(--bg-primary);
+            color: var(--text-secondary);
+            line-height: var(--leading-normal);
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(254, 254, 254, 0.95);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid var(--border-light);
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: var(--container-xl);
+            margin: 0 auto;
+            padding: var(--space-4) var(--space-6);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: var(--text-lg);
+            font-weight: var(--font-bold);
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .logo span { color: var(--accent-primary); }
+
+        .nav-links a {
+            color: var(--text-tertiary);
+            text-decoration: none;
+            font-size: var(--text-sm);
+            font-weight: var(--font-medium);
+            margin-left: var(--space-6);
+        }
+
+        .nav-links a:hover { color: var(--text-primary); }
+
+        .hero {
+            background: var(--bg-dark);
+            color: var(--text-inverse);
+            padding: calc(var(--space-24) + 60px) var(--space-6) var(--space-16);
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: var(--text-4xl);
+            font-weight: var(--font-bold);
+            margin-bottom: var(--space-4);
+        }
+
+        .hero p {
+            font-size: var(--text-xl);
+            color: var(--color-grey-400);
+        }
+
+        .archive-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--space-16) var(--space-6);
+        }
+
+        .newsletter-item {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-lg);
+            padding: var(--space-6);
+            margin-bottom: var(--space-4);
+            transition: all 0.2s;
+        }
+
+        .newsletter-item:hover {
+            border-color: var(--accent-primary);
+            box-shadow: var(--shadow-md);
+        }
+
+        .newsletter-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: var(--space-3);
+        }
+
+        .newsletter-number {
+            font-size: var(--text-sm);
+            font-weight: var(--font-semibold);
+            color: var(--accent-primary);
+            background: var(--blue-100);
+            padding: var(--space-1) var(--space-3);
+            border-radius: var(--radius);
+        }
+
+        .newsletter-date {
+            font-size: var(--text-sm);
+            color: var(--text-muted);
+        }
+
+        .newsletter-title {
+            font-size: var(--text-lg);
+            font-weight: var(--font-semibold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-2);
+        }
+
+        .newsletter-excerpt {
+            color: var(--text-tertiary);
+            font-size: var(--text-sm);
+            margin-bottom: var(--space-4);
+        }
+
+        .newsletter-tags {
+            display: flex;
+            gap: var(--space-2);
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            font-size: var(--text-xs);
+            background: var(--bg-secondary);
+            color: var(--text-tertiary);
+            padding: var(--space-1) var(--space-2);
+            border-radius: var(--radius);
+        }
+
+        .tag.pro {
+            background: var(--text-primary);
+            color: white;
+        }
+
+        .locked-item {
+            background: var(--bg-secondary);
+            border: 1px dashed var(--border-medium);
+        }
+
+        .locked-overlay {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--space-2);
+            padding: var(--space-4);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+        }
+
+        .cta-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-xl);
+            padding: var(--space-8);
+            text-align: center;
+            margin-top: var(--space-10);
+        }
+
+        .cta-box h2 {
+            font-size: var(--text-xl);
+            font-weight: var(--font-bold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-3);
+        }
+
+        .cta-box p {
+            color: var(--text-tertiary);
+            margin-bottom: var(--space-5);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: var(--space-3) var(--space-6);
+            font-size: var(--text-base);
+            font-weight: var(--font-semibold);
+            border-radius: var(--radius);
+            text-decoration: none;
+            transition: all 0.15s ease;
+        }
+
+        .btn-primary {
+            background: var(--text-primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--color-grey-800);
+        }
+
+        .footer {
+            background: var(--bg-dark);
+            color: var(--text-inverse);
+            padding: var(--space-10) var(--space-6);
+            text-align: center;
+        }
+
+        .footer a {
+            color: var(--color-grey-400);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: var(--text-inverse);
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="/" class="logo">Robotica<span>.</span>Weekly</a>
+            <div class="nav-links">
+                <a href="/about.html">Chi Siamo</a>
+                <a href="/pricing.html">Prezzi</a>
+                <a href="/archive.html">Archivio</a>
+                <a href="/#signup">Iscriviti</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Archivio</h1>
+        <p>Esplora le edizioni passate di Robotica Weekly.</p>
+    </header>
+
+    <section class="archive-section">
+        <div class="newsletter-item">
+            <div class="newsletter-header">
+                <span class="newsletter-number">Edizione #42</span>
+                <span class="newsletter-date">15 Feb 2026</span>
+            </div>
+            <h3 class="newsletter-title">🤖 Physical AI: Il "ChatGPT moment" della robotica</h3>
+            <p class="newsletter-excerpt">NVIDIA lancia nuovi tool per robotica fisica. Il mercato della robotica collaborativa cresce del 35% YoY. Scopri le opportunità per le PMI italiane.</p>
+            <div class="newsletter-tags">
+                <span class="tag">NVIDIA</span>
+                <span class="tag">Physical AI</span>
+                <span class="tag">Cobot</span>
+            </div>
+        </div>
+
+        <div class="newsletter-item">
+            <div class="newsletter-header">
+                <span class="newsletter-number">Edizione #41</span>
+                <span class="newsletter-date">8 Feb 2026</span>
+            </div>
+            <h3 class="newsletter-title">🏭 Automazione in Italia: Il caso di successo di una PMI emiliana</h3>
+            <p class="newsletter-excerpt">Come un'azienda di 50 dipendenti ha aumentato la produttività del 40% con un investimento di €35.000 in cobot.</p>
+            <div class="newsletter-tags">
+                <span class="tag">Case Study</span>
+                <span class="tag">PMI</span>
+                <span class="tag">ROI</span>
+            </div>
+        </div>
+
+        <div class="newsletter-item">
+            <div class="newsletter-header">
+                <span class="newsletter-number">Edizione #40</span>
+                <span class="newsletter-date">1 Feb 2026</span>
+            </div>
+            <h3 class="newsletter-title">💰 Funding Radar: I 5 round più importanti di Gennaio</h3>
+            <p class="newsletter-excerpt">Da Figure AI a humanoid robotics, passando per startup di visione artificiale. Chi ha raccolto fondi e perché dovrebbe interessarti.</p>
+            <div class="newsletter-tags">
+                <span class="tag">Funding</span>
+                <span class="tag">Investimenti</span>
+                <span class="tag">Startup</span>
+            </div>
+        </div>
+
+        <div class="newsletter-item locked-item">
+            <div class="locked-overlay">
+                <span>🔒</span>
+                <span>Edizioni #1-39 disponibili per iscritti PRO</span>
+            </div>
+        </div>
+
+        <div class="cta-box">
+            <h2>Accedi all'archivio completo</h2>
+            <p>Gli iscritti PRO hanno accesso a tutte le edizioni passate, con ricerca e filtri avanzati.</p>
+            <a href="/pricing.html" class="btn btn-primary">Scopri il piano PRO →</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p><a href="/">← Torna alla homepage</a></p>
+    </footer>
+</body>
+</html>

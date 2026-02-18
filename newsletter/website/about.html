@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Siamo — Robotica Weekly</title>
+    <meta name="description" content="Scopri chi c'è dietro Robotica Weekly. La newsletter italiana sulla robotica per imprenditori.">
+    <link rel="stylesheet" href="design-system.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', var(--font-primary);
+            background: var(--bg-primary);
+            color: var(--text-secondary);
+            line-height: var(--leading-normal);
+        }
+
+        /* Nav */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(254, 254, 254, 0.95);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid var(--border-light);
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: var(--container-xl);
+            margin: 0 auto;
+            padding: var(--space-4) var(--space-6);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: var(--text-lg);
+            font-weight: var(--font-bold);
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .logo span { color: var(--accent-primary); }
+
+        .nav-links a {
+            color: var(--text-tertiary);
+            text-decoration: none;
+            font-size: var(--text-sm);
+            font-weight: var(--font-medium);
+            margin-left: var(--space-6);
+        }
+
+        .nav-links a:hover { color: var(--text-primary); }
+
+        /* Hero */
+        .hero {
+            background: var(--bg-dark);
+            color: var(--text-inverse);
+            padding: calc(var(--space-24) + 60px) var(--space-6) var(--space-16);
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: var(--text-4xl);
+            font-weight: var(--font-bold);
+            margin-bottom: var(--space-4);
+        }
+
+        .hero p {
+            font-size: var(--text-xl);
+            color: var(--color-grey-400);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Content */
+        .content {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: var(--space-16) var(--space-6);
+        }
+
+        .content h2 {
+            font-size: var(--text-2xl);
+            font-weight: var(--font-bold);
+            color: var(--text-primary);
+            margin: var(--space-10) 0 var(--space-4);
+        }
+
+        .content h3 {
+            font-size: var(--text-xl);
+            font-weight: var(--font-semibold);
+            color: var(--text-primary);
+            margin: var(--space-8) 0 var(--space-3);
+        }
+
+        .content p {
+            margin-bottom: var(--space-4);
+            color: var(--text-secondary);
+        }
+
+        .content ul {
+            margin: var(--space-4) 0 var(--space-4) var(--space-6);
+        }
+
+        .content li {
+            margin-bottom: var(--space-2);
+        }
+
+        /* CTA Box */
+        .cta-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-xl);
+            padding: var(--space-8);
+            margin: var(--space-10) 0;
+            text-align: center;
+        }
+
+        .cta-box h3 {
+            font-size: var(--text-xl);
+            font-weight: var(--font-bold);
+            color: var(--text-primary);
+            margin-bottom: var(--space-3);
+        }
+
+        .cta-box p {
+            color: var(--text-tertiary);
+            margin-bottom: var(--space-5);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: var(--space-3) var(--space-6);
+            font-size: var(--text-base);
+            font-weight: var(--font-semibold);
+            border-radius: var(--radius);
+            text-decoration: none;
+            transition: all 0.15s ease;
+        }
+
+        .btn-primary {
+            background: var(--text-primary);
+            color: var(--text-inverse);
+        }
+
+        .btn-primary:hover {
+            background: var(--color-grey-800);
+            transform: translateY(-1px);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--bg-dark);
+            color: var(--text-inverse);
+            padding: var(--space-10) var(--space-6);
+            text-align: center;
+        }
+
+        .footer a {
+            color: var(--color-grey-400);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: var(--text-inverse);
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="/" class="logo">Robotica<span>.</span>Weekly</a>
+            <div class="nav-links">
+                <a href="/about.html">Chi Siamo</a>
+                <a href="/pricing.html">Prezzi</a>
+                <a href="/archive.html">Archivio</a>
+                <a href="/#signup">Iscriviti</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Chi Siamo</h1>
+        <p>La newsletter che porta l'intelligenza robotica globale agli imprenditori italiani.</p>
+    </header>
+
+    <main class="content">
+        <h2>La Nostra Missione</h2>
+        <p>Robotica Weekly nasce da una constatazione semplice: mentre l'innovazione corre veloce in Cina e negli USA, l'informazione rimane spesso bloccata dietro la barriera linguistica.</p>
+        <p>Ogni settimana, traduciamo la complessità delle ultime novità sul mondo della robotica in opportunità concrete per l'impresa italiana.</p>
+
+        <h2>Cosa Facciamo</h2>
+        <p>Selezioniamo le notizie che contano dal panorama globale della robotica e dell'automazione industriale:</p>
+        <ul>
+            <li>🤖 Trend tecnologici emergenti</li>
+            <li>💰 Round di investimento e funding</li>
+            <li>🏭 Casi studio di automazione industriale</li>
+            <li>📊 Analisi di mercato e ROI per PMI</li>
+            <li>🇮🇹 Opportunità specifiche per il mercato italiano</li>
+        </ul>
+
+        <h2>Per Chi È</h2>
+        <p>La nostra newsletter è pensata per:</p>
+        <ul>
+            <li><strong>Imprenditori</strong> — che vogliono anticipare il futuro della loro azienda</li>
+            <li><strong>Investitori</strong> — alla ricerca di opportunità nel settore robotics</li>
+            <li><strong>Manager</strong> — responsabili di innovazione e digital transformation</li>
+            <li><strong>Consulenti</strong> — che seguono progetti di Industry 4.0</li>
+        </ul>
+
+        <h2>Il Team</h2>
+        <p>Siamo un team di appassionati di tecnologia, con esperienza nell'industria manifatturiera italiana e nell'analisi di mercato tech. Il nostro obiettivo è semplice: farti arrivare l'informazione giusta, nel formato giusto, al momento giusto.</p>
+
+        <div class="cta-box">
+            <h3>Unisciti a 2,500+ iscritti</h3>
+            <p>Ricevi ogni mercoledì mattina le notizie più importanti sulla robotica, direttamente nella tua email.</p>
+            <a href="/#signup" class="btn btn-primary">Iscriviti Gratis →</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p><a href="/">← Torna alla homepage</a></p>
+    </footer>
+</body>
+</html>
