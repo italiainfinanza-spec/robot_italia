@@ -1,0 +1,75 @@
+name: 🤖 Robotica Weekly — Generate & Notify Admin
+
+on:
+  schedule:
+    # Every Tuesday at 6:00 AM UTC (7:00 AM Italy)
+    - cron: '0 6 * * 2'
+  workflow_dispatch:
+    inputs:
+      edition:
+        description: 'Edition number (optional)'
+        required: false
+        type: string
+
+env:
+  NODE_VERSION: '18'
+
+jobs:
+  generate:
+    name: 📝 Generate Newsletter (Claude AI)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          cache-dependency-path: newsletter/automation/package.json
+
+      - name: Install dependencies
+        working-directory: newsletter/automation
+        run: npm ci
+
+      - name: Initialize workflow
+        working-directory: newsletter/automation
+        run: node scripts/workflow.js init
+
+      - name: Research news
+        working-directory: newsletter/automation
+        env:
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+        run: node scripts/workflow.js research
+
+      - name: Generate content with Claude AI
+        working-directory: newsletter/automation
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+        run: node scripts/workflow.js draft
+
+      - name: Save newsletter for admin approval
+        working-directory: newsletter/automation
+        run: |
+          EDITION=$(cat logs/workflow-state.json | jq -r '.currentRun.edition')
+          RUN_ID=$(cat logs/workflow-state.json | jq -r '.currentRun.id')
+          node scripts/save-for-approval.js notify "$EDITION" "$RUN_ID"
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
+
+      - name: Commit newsletter data
+        run: |
+          git config user.email "automation@roboticaweekly.com"
+          git config user.name "Newsletter AutoPilot"
+          git add newsletter/automation/logs/
+          git commit -m "newsletter: Edition ready for admin approval" || echo "No changes"
+          git push origin main || echo "Nothing to push"
+
+      - name: Summary
+        run: |
+          echo "✅ Newsletter generated and saved!"
+          echo "📧 Check Telegram for notification"
+          echo "🔗 Go to: https://roboticaweekly.com/admin/"
+          echo "🔐 Password: blablabla"
