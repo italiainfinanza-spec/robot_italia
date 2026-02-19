@@ -77,24 +77,29 @@ async function sendApprovalRequest({ runId, edition, content, config }) {
     return { skipped: true };
   }
   
-  // Truncate content for preview
-  const previewText = content.headline?.description?.substring(0, 300) || '';
+  // Truncate content for preview and strip HTML tags
+  let previewText = content.headline?.description?.substring(0, 300) || '';
+  // Remove HTML tags that Telegram doesn't support
+  previewText = previewText.replace(/<[^>]*>/g, '');
   const subject = content.subject || `Robotica Weekly #${edition}`;
   
   const runIdShort = runId.split('-')[1] || runId;
+  
+  // Clean title from HTML as well
+  const cleanTitle = (content.headline?.title || '').replace(/<[^>]*>/g, '').substring(0, 50);
   
   const message = `
 <b>🤖 Robotica Weekly — Approvazione Richiesta</b>
 
 📧 <b>Edizione:</b> #${edition}
-📝 <b>Oggetto:</b> ${subject}
+📝 <b>Oggetto:</b> ${subject.replace(/<[^>]*>/g, '')}
 🔢 <b>Run ID:</b> ${runIdShort}
 
 <b>Preview contenuto:</b>
 ${previewText}...
 
 <b>Sezioni:</b>
-• Headline: ${content.headline?.title?.substring(0, 50)}...
+• Headline: ${cleanTitle}...
 • Notizie: ${content.news?.length || 0} stories
 • Tipo: ${content.type === 'premium' ? '🔒 Premium' : '📰 Free'}
 
