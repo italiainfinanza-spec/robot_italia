@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1771544923076",
+    "id": "run-1771545176620",
     "edition": 1,
-    "date": "2026-02-19T23:48:43.076Z",
+    "date": "2026-02-19T23:52:56.620Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-02-19T23:48:43.082Z",
-        "completedAt": "2026-02-19T23:48:45.140Z"
+        "startedAt": "2026-02-19T23:52:56.625Z",
+        "completedAt": "2026-02-19T23:52:58.290Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-02-19T23:48:45.214Z",
-        "completedAt": "2026-02-19T23:48:45.416Z"
+        "startedAt": "2026-02-19T23:52:58.362Z",
+        "completedAt": "2026-02-19T23:52:58.647Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-02-19",
-        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
+        "subject": "OpenAI reportedly finalizing $100B deal ... | Robotica Weekly #1",
         "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "OpenAI reportedly finalizing $100B deal at more than $850B valuation",
