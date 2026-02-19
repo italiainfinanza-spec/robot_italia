@@ -81,11 +81,15 @@ async function sendApprovalRequest({ runId, edition, content, config }) {
   const previewText = content.headline?.description?.substring(0, 300) || '';
   const subject = content.subject || `Robotica Weekly #${edition}`;
   
+  const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
+  const runIdShort = runId.split('-')[1] || runId;
+  
   const message = `
 <b>🤖 Robotica Weekly — Approvazione Richiesta</b>
 
 📧 <b>Edizione:</b> #${edition}
 📝 <b>Oggetto:</b> ${subject}
+🔢 <b>Run ID:</b> ${runIdShort}
 
 <b>Preview contenuto:</b>
 ${previewText}...
@@ -96,6 +100,7 @@ ${previewText}...
 • Tipo: ${content.type === 'premium' ? '🔒 Premium' : '📰 Free'}
 
 ⏰ <b>Invio automatico tra 60 minuti</b>
+${isGitHubActions ? '\n💡 <b>Per approvare:</b> Scrivi qui "APPROVE ' + runIdShort + '"' : ''}
 
 Cosa vuoi fare?
 `;

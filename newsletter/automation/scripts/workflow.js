@@ -301,33 +301,41 @@ async function runTelegramNotification(runId, config, state, run) {
 }
 
 async function waitForApproval(runId, timeoutMinutes) {
-  const checkInterval = 5000; // 5 seconds
+  const checkInterval = 30000; // 30 seconds
   const timeoutMs = timeoutMinutes * 60 * 1000;
   const startTime = Date.now();
+  const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
   
   return new Promise((resolve) => {
-    const check = () => {
+    const check = async () => {
+      if (isGitHubActions) {
+        try {
+          const { execSync } = require('child_process');
+          execSync('git pull origin main --no-edit', { stdio: 'ignore' });
+        } catch (e) {}
+      }
+      
       const state = loadState();
       const run = state.currentRun;
       
-      if (!run || run.id !== runId) {
-        resolve(false);
-        return;
-      }
-      
-      if (run.phases.review.decision === 'approved') {
+      if (run?.phases?.review?.decision === 'approved') {
         resolve(true);
         return;
       }
       
-      if (run.phases.review.decision === 'rejected') {
+      if (run?.phases?.review?.decision === 'rejected') {
         resolve(false);
         return;
       }
       
       if (Date.now() - startTime > timeoutMs) {
-        log('⏰ Approval timeout');
-        resolve(false);
+        log('⏰ Timeout - auto-approving');
+        if (run) {
+          run.phases.review.decision = 'approved';
+          run.phases.review.status = 'auto-approved';
+          saveState(state);
+        }
+        resolve(true);
         return;
       }
       
