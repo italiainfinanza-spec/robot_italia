@@ -63,7 +63,14 @@ async function sendTelegramMessage(chatId, text, options = {}) {
 
 // Send approval request
 async function sendApprovalRequest({ runId, edition, content, config }) {
-  const chatId = config.admin_chat_id || process.env.TELEGRAM_ADMIN_CHAT_ID;
+  // On GitHub Actions, always use environment variables directly
+  const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
+  const chatId = isGitHubActions 
+    ? process.env.TELEGRAM_ADMIN_CHAT_ID 
+    : (config?.admin_chat_id || process.env.TELEGRAM_ADMIN_CHAT_ID);
+  
+  console.log(`📱 Sending to chat ID: ${chatId}`);
+  console.log(`   Source: ${isGitHubActions ? 'GitHub Actions env' : 'config/env'}`);
   
   if (!chatId) {
     console.warn('⚠️ No admin chat ID configured, skipping notification');
