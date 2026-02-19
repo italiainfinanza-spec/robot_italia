@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1771519667280",
+    "id": "run-1771544841029",
     "edition": 1,
-    "date": "2026-02-19T16:47:47.280Z",
+    "date": "2026-02-19T23:47:21.029Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-02-19T16:47:47.285Z",
-        "completedAt": "2026-02-19T16:47:49.331Z"
+        "startedAt": "2026-02-19T23:47:21.034Z",
+        "completedAt": "2026-02-19T23:47:22.505Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-02-19T16:48:05.839Z",
-        "completedAt": "2026-02-19T16:48:05.849Z"
+        "startedAt": "2026-02-19T23:47:22.574Z",
+        "completedAt": "2026-02-19T23:47:22.769Z"
       },
       "review": {
         "status": "pending",
@@ -50,44 +50,44 @@
           "category": "funding"
         },
         {
-          "title": "OpenAI, Reliance partner to add AI search to JioHotstar",
-          "link": "https://techcrunch.com/2026/02/19/openai-reliance-partner-to-add-ai-search-to-jiohotstar/",
-          "description": "The rollout includes two-way integration that surfaces streaming links directly inside ChatGPT.",
-          "pubDate": "Thu, 19 Feb 2026 14:45:29 +0000",
+          "title": "Why these startup CEOs don’t think AI will replace human roles",
+          "link": "https://techcrunch.com/2026/02/19/web-summit-qatar-read-ai-lucidya-notetakers-customer-support/",
+          "description": "The CEOs of Read AI and Lucidya told TechCrunch at Web Summit Qatar that they see AI tools replacing tasks, rather than workers.",
+          "pubDate": "Thu, 19 Feb 2026 20:47:22 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Co-founders behind Reface and Prisma join hands to improve on-device model inference with Mirai",
-          "link": "https://techcrunch.com/2026/02/19/co-founders-behind-reface-and-prisma-join-hands-to-improve-on-device-model-inference-with-mirai/",
-          "description": "Mirai raised a $10 million seed to improve how AI models run on devices like smartphones and laptops.",
-          "pubDate": "Thu, 19 Feb 2026 14:43:58 +0000",
+          "title": "YouTube’s latest experiment brings its conversational AI tool to TVs",
+          "link": "https://techcrunch.com/2026/02/19/youtubes-latest-experiment-brings-its-conversational-ai-tool-to-tvs/",
+          "description": "YouTube is testing conversational AI on smart TVs, allowing viewers to ask the assistant questions related to the video they're watching on the big screen.",
+          "pubDate": "Thu, 19 Feb 2026 20:30:19 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "funding"
+          "category": "industry"
         },
         {
-          "title": "For open-source programs, AI coding tools are a mixed blessing",
-          "link": "https://techcrunch.com/2026/02/19/for-open-source-programs-ai-coding-tools-are-a-mixed-blessing/",
-          "description": "AI coding tools have enabled a flood of bad code that threatens to overwhelm many projects. Building new features is easier but maintaining them is just as hard.",
-          "pubDate": "Thu, 19 Feb 2026 14:00:00 +0000",
+          "title": "Reddit is testing a new AI search feature for shopping",
+          "link": "https://techcrunch.com/2026/02/19/reddit-is-testing-a-new-ai-search-feature-for-shopping/",
+          "description": "A small group of users in the U.S. will start to see search results that include interactive product carousels with pricing, images, and direct where-to-buy links. ",
+          "pubDate": "Thu, 19 Feb 2026 18:22:51 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "product"
         },
         {
-          "title": "Altman and Amodei share a moment of awkwardness at India’s big AI summit",
-          "link": "https://techcrunch.com/2026/02/19/altman-and-amodei-share-a-moment-of-awkwardness-at-indias-big-ai-summit/",
-          "description": " When Prime Minister Narendra Modi prompted speakers at the event to join hands and raise them in a show of unity, all executives on stage obliged, except OpenAI's Sam Altman and Anthropic's Dario Amodei, who held their hands conspicuously apart.",
-          "pubDate": "Thu, 19 Feb 2026 13:49:06 +0000",
+          "title": "Reload wants to give your AI agents a shared memory",
+          "link": "https://techcrunch.com/2026/02/19/reload-an-ai-employee-agent-management-platform-raises-2-275m-and-launches-an-ai-employee/",
+          "description": "Reload announces a $2.275 million raise in a round led by Anthemis and the launch of its first AI employee, Epic. ",
+          "pubDate": "Thu, 19 Feb 2026 15:00:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "industry"
+          "category": "funding"
         },
         {
           "title": "“No technology has me dreaming bigger than AI”",
@@ -148,16 +148,16 @@
             "link": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/"
           },
           {
-            "title": "OpenAI, Reliance partner to add AI search to JioHotstar",
-            "description": "The rollout includes two-way integration that surfaces streaming links directly inside ChatGPT....",
+            "title": "Why these startup CEOs don’t think AI will replace human roles",
+            "description": "The CEOs of Read AI and Lucidya told TechCrunch at Web Summit Qatar that they see AI tools replacing tasks, rather than workers....",
             "category": "industry",
-            "link": "https://techcrunch.com/2026/02/19/openai-reliance-partner-to-add-ai-search-to-jiohotstar/"
+            "link": "https://techcrunch.com/2026/02/19/web-summit-qatar-read-ai-lucidya-notetakers-customer-support/"
           },
           {
-            "title": "Co-founders behind Reface and Prisma join hands to improve on-device model inference with Mirai",
-            "description": "Mirai raised a $10 million seed to improve how AI models run on devices like smartphones and laptops....",
-            "category": "funding",
-            "link": "https://techcrunch.com/2026/02/19/co-founders-behind-reface-and-prisma-join-hands-to-improve-on-device-model-inference-with-mirai/"
+            "title": "YouTube’s latest experiment brings its conversational AI tool to TVs",
+            "description": "YouTube is testing conversational AI on smart TVs, allowing viewers to ask the assistant questions related to the video they're watching on the big screen....",
+            "category": "industry",
+            "link": "https://techcrunch.com/2026/02/19/youtubes-latest-experiment-brings-its-conversational-ai-tool-to-tvs/"
           }
         ],
         "stat": {
