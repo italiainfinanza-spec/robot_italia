@@ -5,6 +5,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { generateNewsletterAI } = require('./ai-generator');
 
 // Template for FREE newsletter
 const FREE_TEMPLATE = `---
@@ -181,26 +182,15 @@ Scrivi SOLO il JSON, nient'altro.`;
 async function generateNewsletter({ research, edition, date, type = 'free' }) {
   console.log(`✍️ Generating ${type} newsletter for edition #${edition}...`);
   
-  // Check if we have AI_API_KEY for external service
-  const hasAIKey = !!process.env.AI_API_KEY;
-  
-  let content;
-  
-  if (hasAIKey) {
-    // Use external AI API (OpenRouter, Anthropic, etc.)
-    content = await generateWithExternalAI(research, edition, date, type);
-  } else {
-    // Use local generation (smart templates + research data)
-    console.log('  → Using local generation (no AI_API_KEY set)');
-    content = generateWithLocalTemplate(research, edition, date, type);
-  }
+  // Try AI generation first (Claude/Grok), fallback to local templates
+  const content = await generateNewsletterAI({ research, edition, date, type });
   
   // Compile HTML from template
   const html = compileTemplate(content, type);
   
   console.log(`✅ Newsletter content generated`);
   console.log(`   Subject: ${content.subject}`);
-  console.log(`   Stories: ${content.news.length}`);
+  console.log(`   AI Generated: ${content.ai_generated ? 'Yes (' + content.ai_model + ')' : 'No (local template)'}`);
   
   return {
     ...content,

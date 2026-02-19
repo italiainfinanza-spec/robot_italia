@@ -199,22 +199,25 @@ async function runReview(runId) {
   run.phases.review.startedAt = new Date().toISOString();
   saveState(state);
   
-  // Send notification via Telegram
-  const { sendApprovalRequest } = require('./notify');
+  // Try OpenClaw notification first (current chat), fallback to Telegram bot
+  let notificationMethod = 'openclaw';
   
   try {
-    await sendApprovalRequest({
+    // Use OpenClaw notification (no bot token needed)
+    const { sendApprovalRequestOpenClaw, checkForApproval } = require('./notify-openclaw');
+    
+    await sendApprovalRequestOpenClaw({
       runId: run.id,
       edition: run.edition,
-      content: run.data.draftContent,
-      config: config.telegram
+      content: run.data.draftContent
     });
     
-    log('📱 Approval request sent to admin');
-    log('⏳ Waiting for approval... (timeout: 45min)');
+    log('📱 Approval request sent via OpenClaw (current chat)');
+    log('⏳ Waiting for your response... (timeout: 60min)');
+    log('   Reply with: INVIA / RINVIA / MODIFICA: [text]');
     
-    // Wait for approval (polling)
-    const approved = await waitForApproval(runId, config.approval.max_review_time_minutes);
+    // Wait for approval
+    const approved = await checkForApproval(runId, config.approval.max_review_time_minutes);
     
     if (approved) {
       run.phases.review.status = 'approved';
@@ -230,11 +233,46 @@ async function runReview(runId) {
     
     saveState(state);
     return approved;
+    
   } catch (error) {
-    run.phases.review.status = 'failed';
-    run.phases.review.error = error.message;
-    saveState(state);
-    throw error;
+    // Fallback to Telegram bot if OpenClaw fails
+    log('⚠️ OpenClaw notification failed, trying Telegram bot...');
+    
+    const { sendApprovalRequest } = require('./notify');
+    
+    try {
+      await sendApprovalRequest({
+        runId: run.id,
+        edition: run.edition,
+        content: run.data.draftContent,
+        config: config.telegram
+      });
+      
+      log('📱 Approval request sent via Telegram bot');
+      
+      const approved = await waitForApproval(runId, config.approval.max_review_time_minutes);
+      
+      if (approved) {
+        run.phases.review.status = 'approved';
+        run.phases.review.approved = true;
+        run.phases.review.completedAt = new Date().toISOString();
+        run.data.approvedContent = run.data.draftContent;
+        log('✅ Content approved');
+      } else {
+        run.phases.review.status = 'rejected';
+        run.phases.review.approved = false;
+        log('❌ Content rejected or timeout');
+      }
+      
+      saveState(state);
+      return approved;
+      
+    } catch (telegramError) {
+      run.phases.review.status = 'failed';
+      run.phases.review.error = telegramError.message;
+      saveState(state);
+      throw telegramError;
+    }
   }
 }
 
