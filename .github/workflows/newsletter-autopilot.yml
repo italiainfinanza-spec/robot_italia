@@ -1,0 +1,223 @@
+name: 🤖 Robotica Weekly — AutoPilot Newsletter
+
+on:
+  schedule:
+    # Runs every Tuesday at 6:00 AM UTC (7:00 AM Italy)
+    - cron: '0 6 * * 2'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      skip_approval:
+        description: 'Skip approval and send immediately (TEST ONLY)'
+        type: boolean
+        default: false
+
+env:
+  NODE_VERSION: '18'
+
+jobs:
+  newsletter-research:
+    name: 🔍 Research Phase (Fury)
+    runs-on: ubuntu-latest
+    outputs:
+      run_id: ${{ steps.init.outputs.run_id }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          cache-dependency-path: newsletter/automation/package.json
+
+      - name: Install dependencies
+        working-directory: newsletter/automation
+        run: npm ci
+
+      - name: Initialize workflow run
+        id: init
+        working-directory: newsletter/automation
+        run: |
+          node scripts/workflow.js init
+          echo "run_id=$(cat logs/workflow-state.json | jq -r '.currentRun.id')" >> $GITHUB_OUTPUT
+
+      - name: Run research
+        working-directory: newsletter/automation
+        env:
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+        run: node scripts/workflow.js research
+
+      - name: Upload state artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: workflow-state-research
+          path: newsletter/automation/logs/workflow-state.json
+          retention-days: 7
+
+  newsletter-draft:
+    name: ✍️ Content Generation (Loki)
+    runs-on: ubuntu-latest
+    needs: newsletter-research
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          cache-dependency-path: newsletter/automation/package.json
+
+      - name: Install dependencies
+        working-directory: newsletter/automation
+        run: npm ci
+
+      - name: Download state from research
+        uses: actions/download-artifact@v4
+        with:
+          name: workflow-state-research
+          path: newsletter/automation/logs
+
+      - name: Generate content
+        working-directory: newsletter/automation
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+        run: node scripts/workflow.js draft
+
+      - name: Upload state artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: workflow-state-draft
+          path: newsletter/automation/logs/workflow-state.json
+          retention-days: 7
+
+  newsletter-notify:
+    name: 📱 Send Approval Request
+    runs-on: ubuntu-latest
+    needs: newsletter-draft
+    outputs:
+      approved: ${{ steps.check_approval.outputs.approved }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          cache-dependency-path: newsletter/automation/package.json
+
+      - name: Install dependencies
+        working-directory: newsletter/automation
+        run: npm ci
+
+      - name: Download state from draft
+        uses: actions/download-artifact@v4
+        with:
+          name: workflow-state-draft
+          path: newsletter/automation/logs
+
+      - name: Send Telegram notification
+        working-directory: newsletter/automation
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
+        run: node scripts/workflow.js review
+
+      - name: Wait for approval (45 min timeout)
+        if: ${{ !inputs.skip_approval }}
+        working-directory: newsletter/automation
+        run: |
+          echo "⏳ Waiting for approval..."
+          # Poll for approval decision
+          for i in {1..90}; do
+            sleep 30
+            STATUS=$(cat logs/workflow-state.json | jq -r '.currentRun.phases.review.decision // "pending"')
+            echo "Status: $STATUS"
+            if [ "$STATUS" = "approved" ]; then
+              echo "approved=true" >> $GITHUB_OUTPUT
+              exit 0
+            elif [ "$STATUS" = "rejected" ]; then
+              echo "approved=false" >> $GITHUB_OUTPUT
+              exit 1
+            fi
+          done
+          echo "⏰ Approval timeout"
+          echo "approved=false" >> $GITHUB_OUTPUT
+          exit 1
+
+      - name: Skip approval (test mode)
+        if: ${{ inputs.skip_approval }}
+        run: |
+          echo "⚠️ Skip approval enabled - auto-approving"
+          echo "approved=true" >> $GITHUB_OUTPUT
+
+      - name: Upload final state
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: workflow-state-notify
+          path: newsletter/automation/logs/workflow-state.json
+          retention-days: 7
+
+  newsletter-send:
+    name: 📧 Send Newsletter (Brevo)
+    runs-on: ubuntu-latest
+    needs: newsletter-notify
+    if: ${{ needs.newsletter-notify.outputs.approved == 'true' }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          cache-dependency-path: newsletter/automation/package.json
+
+      - name: Install dependencies
+        working-directory: newsletter/automation
+        run: npm ci
+
+      - name: Download state
+        uses: actions/download-artifact@v4
+        with:
+          name: workflow-state-notify
+          path: newsletter/automation/logs
+
+      - name: Send via Brevo
+        working-directory: newsletter/automation
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+        run: node scripts/workflow.js send
+
+      - name: Archive completed run
+        working-directory: newsletter/automation
+        run: |
+          echo "✅ Newsletter sent successfully!"
+          cat logs/workflow-state.json | jq '.history | last'
+
+      - name: Upload final state
+        uses: actions/upload-artifact@v4
+        with:
+          name: workflow-state-final
+          path: newsletter/automation/logs/
+          retention-days: 30
+
+  handle-rejection:
+    name: ❌ Handle Rejection
+    runs-on: ubuntu-latest
+    needs: newsletter-notify
+    if: ${{ failure() && needs.newsletter-notify.outputs.approved != 'true' }}
+    steps:
+      - name: Send rejection notification
+        run: |
+          echo "❌ Newsletter was rejected or timed out"
+          echo "Check workflow logs for details"
+          # Could send Telegram notification here

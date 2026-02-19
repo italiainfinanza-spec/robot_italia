@@ -181,10 +181,47 @@ Scrivi SOLO il JSON, nient'altro.`;
 async function generateNewsletter({ research, edition, date, type = 'free' }) {
   console.log(`✍️ Generating ${type} newsletter for edition #${edition}...`);
   
-  const prompt = generatePrompt(research, edition, type);
+  // Check if we have AI_API_KEY for external service
+  const hasAIKey = !!process.env.AI_API_KEY;
   
-  // In a real implementation, this would call an AI API
-  // For now, we'll create a structured response
+  let content;
+  
+  if (hasAIKey) {
+    // Use external AI API (OpenRouter, Anthropic, etc.)
+    content = await generateWithExternalAI(research, edition, date, type);
+  } else {
+    // Use local generation (smart templates + research data)
+    console.log('  → Using local generation (no AI_API_KEY set)');
+    content = generateWithLocalTemplate(research, edition, date, type);
+  }
+  
+  // Compile HTML from template
+  const html = compileTemplate(content, type);
+  
+  console.log(`✅ Newsletter content generated`);
+  console.log(`   Subject: ${content.subject}`);
+  console.log(`   Stories: ${content.news.length}`);
+  
+  return {
+    ...content,
+    html
+  };
+}
+
+// External AI generation (when API key available)
+async function generateWithExternalAI(research, edition, date, type) {
+  // This would call OpenRouter, Anthropic, etc.
+  // For now, fall back to local
+  return generateWithLocalTemplate(research, edition, date, type);
+}
+
+// Local template-based generation (FREE - no API costs)
+function generateWithLocalTemplate(research, edition, date, type) {
+  const topStories = research.slice(0, 5);
+  const fundingStory = research.find(r => r.category === 'funding');
+  const productStory = research.find(r => r.category === 'product');
+  const companyStory = research.find(r => r.category === 'company');
+  
   const content = {
     type,
     edition,
