@@ -17,8 +17,16 @@ const path = require('path');
 
 const WORKFLOW_DIR = path.join(__dirname, '..');
 const CONFIG_PATH = path.join(WORKFLOW_DIR, 'config', 'workflow.json');
-const STATE_PATH = path.join(WORKFLOW_DIR, 'logs', 'workflow-state.json');
-const LOG_PATH = path.join(WORKFLOW_DIR, 'logs', 'automation.log');
+const LOGS_DIR = path.join(WORKFLOW_DIR, 'logs');
+const STATE_PATH = path.join(LOGS_DIR, 'workflow-state.json');
+const LOG_PATH = path.join(LOGS_DIR, 'automation.log');
+
+// Ensure logs directory exists
+function ensureLogsDir() {
+  if (!fs.existsSync(LOGS_DIR)) {
+    fs.mkdirSync(LOGS_DIR, { recursive: true });
+  }
+}
 
 // Load configuration
 function loadConfig() {
@@ -47,6 +55,7 @@ function loadState() {
 }
 
 function saveState(state) {
+  ensureLogsDir();
   fs.writeFileSync(STATE_PATH, JSON.stringify(state, null, 2));
 }
 
@@ -56,7 +65,12 @@ function log(message, level = 'info') {
   console.log(logEntry);
   
   // Append to log file
-  fs.appendFileSync(LOG_PATH, logEntry + '\n');
+  try {
+    ensureLogsDir();
+    fs.appendFileSync(LOG_PATH, logEntry + '\n');
+  } catch (err) {
+    // Silently fail if can't write to log file
+  }
 }
 
 // Initialize new workflow run
