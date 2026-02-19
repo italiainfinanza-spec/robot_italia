@@ -229,10 +229,21 @@ async function runReview(runId) {
   run.phases.review.startedAt = new Date().toISOString();
   saveState(state);
   
-  // Check if running in GitHub Actions
+  // Commit state to GitHub so OpenClaw can update it
   const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
-  
   if (isGitHubActions) {
+    try {
+      const { execSync } = require('child_process');
+      execSync('git config user.email "automation@roboticaweekly.com"');
+      execSync('git config user.name "Newsletter AutoPilot"');
+      execSync('git add logs/workflow-state.json');
+      execSync(`git commit -m "review: Newsletter #${run.edition} awaiting approval"`);
+      execSync('git push origin main');
+      log('📤 Review state committed to GitHub');
+    } catch (e) {
+      log('⚠️ Could not commit review state: ' + e.message);
+    }
+    
     // Use Telegram Bot API directly (works in GitHub Actions)
     log('📱 Running in GitHub Actions, using Telegram Bot...');
     return await runTelegramNotification(runId, config, state, run);
