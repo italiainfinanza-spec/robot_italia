@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+    <title>Robotica Weekly Premium — L'Osservatorio</title>
+    <style>
+        /* RESET */
+        body, table, td, p, a, li, blockquote {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+        img {
+            -ms-interpolation-mode: bicubic;
+            border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;
+        }
+        
+        /* DARK MODE */
+        @media (prefers-color-scheme: dark) {
+            .email-wrapper { background-color: #0a0a0a !important; }
+            .email-content { background-color: #141414 !important; }
+            .text-primary { color: #fafafa !important; }
+            .text-secondary { color: #a3a3a3 !important; }
+            .text-muted { color: #737373 !important; }
+            .border-light { border-color: #262626 !important; }
+            .bg-secondary { background-color: #1a1a1a !important; }
+            .bg-accent { background-color: #1e3a5f !important; }
+        }
+        
+        /* MOBILE */
+        @media screen and (max-width: 600px) {
+            .mobile-hide { display: none !important; }
+            .mobile-center { text-align: center !important; }
+            .mobile-full { width: 100% !important; max-width: 100% !important; }
+            .mobile-stack { display: block !important; width: 100% !important; }
+            .mobile-padding { padding-left: 20px !important; padding-right: 20px !important; }
+            h1 { font-size: 26px !important; }
+            h2 { font-size: 20px !important; }
+            .data-table td { font-size: 12px !important; padding: 8px !important; }
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f5f5f5; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; -webkit-font-smoothing: antialiased;">
+    
+    <!-- PREHEADER -->
+    <div style="display: none; max-height: 0; overflow: hidden; mso-hide: all;">
+        Analisi approfondite, dati di mercato e opportunità di investimento nella robotica. Edizione Premium #{{EDITION_NUMBER}} →
+        &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+    </div>
+    
+    <!-- EMAIL CONTAINER -->
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="email-wrapper" style="background-color: #f5f5f5;">
+        <tr>
+            <td align="center" style="padding: 40px 20px;">
+                
+                <!-- MAIN CONTENT -->
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="640" class="mobile-full email-content" style="max-width: 640px; background-color: #fefefe; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                    
+                    <!-- HEADER -->
+                    <tr>
+                        <td style="background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%); padding: 40px; text-align: center;" class="mobile-padding">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                <tr>
+                                    <td style="text-align: center;">
+                                        <span style="display: inline-block; background-color: #2563eb; color: #ffffff; font-size: 11px; font-weight: 700; padding: 6px 12px; border-radius: 4px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 16px;">
+                                            Premium Edition
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">
+                                        <span style="font-size: 40px; line-height: 1;">🤖</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top: 12px;">
+                                        <h1 style="margin: 0; font-size: 28px; font-weight: 800; color: #fafafa; letter-spacing: -0.5px;">
+                                            Robotica<span style="color: #2563eb;">.</span>Weekly
+                                        </h1>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top: 4px;">
+                                        <p style="margin: 0; font-size: 14px; color: #a3a3a3; font-style: italic;">
+                                            L'Osservatorio — Analisi per investitori
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top: 16px;">
+                                        <p style="margin: 0; font-size: 13px; color: #737373;">
+                                            Edizione #{{EDITION_NUMBER}} | {{DATE}}
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- OPENING -->
+                    <tr>
+                        <td style="padding: 40px;" class="mobile-padding">
+                            <p style="margin: 0 0 16px 0; font-size: 16px; line-height: 1.6; color: #525252;" class="text-secondary">
+                                👋 <strong style="color: #0a0a0a;" class="text-primary">Ciao Nome,</strong>
+                            </p>
+                            <p style="margin: 0; font-size: 16px; line-height: 1.7; color: #525252;" class="text-secondary">
+                                <strong style="color: #0a0a0a;" class="text-primary">{{LEAD_PARAGRAPH}}</strong> {{INTRO_TEXT}}
+                            </p>
+                        </td>
+                    </tr>
+                    
+                    <!-- TREND OF THE DAY -->
+                    <tr>
+                        <td style="padding: 0 40px 32px 40px;" class="mobile-padding">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #dbeafe; border-left: 4px solid #2563eb; border-radius: 0 8px 8px 0;" class="bg-accent">
+                                <tr>
+                                    <td style="padding: 24px;">
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <span style="font-size: 20px; line-height: 1;">📈</span>
+                                                    <h2 style="margin: 8px 0 12px 0; font-size: 18px; font-weight: 700; color: #1e40af;">
+                                                        Trend of the Day
+                                                    </h2>
+                                                    <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #1e40af;">
+                                                        <strong>{{TREND_TITLE}}</strong> — {{TREND_DESCRIPTION}}
+                                                    </p>
+                                                    <p style="margin: 12px 0 0 0; font-size: 13px; color: #3b82f6;">
+                                                        📊 {{TREND_STAT}}
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- DEAL OF THE WEEK -->
+                    <tr>
+                        <td style="padding: 0 40px 32px 40px;" class="mobile-padding">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #0a0a0a; border-radius: 8px;">
+                                <tr>
+                                    <td style="padding: 28px;">
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <span style="font-size: 20px; line-height: 1;">💰</span>
+                                                    <h2 style="margin: 8px 0 16px 0; font-size: 18px; font-weight: 700; color: #fafafa;">
+                                                        Deal of the Week
+                                                    </h2>
+                                                    <h3 style="margin: 0 0 16px 0; font-size: 20px; font-weight: 700; color: #2563eb;">
+                                                        {{DEAL_TITLE}}
+                                                    </h3>
+                                                    
+                                                    <!-- DEAL TABLE -->
+                                                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 16px;">
+                                                        <tr>
+                                                            <td style="padding: 8px 0; border-bottom: 1px solid #404040; color: #a3a3a3; font-size: 13px; width: 30%;">
+                                                                Cosa
+                                                            </td>
+                                                            <td style="padding: 8px 0; border-bottom: 1px solid #404040; color: #ffffff; font-size: 14px; font-weight: 600;">
+                                                                {{DEAL_WHAT}}
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="padding: 8px 0; border-bottom: 1px solid #404040; color: #a3a3a3; font-size: 13px;">
+                                                                Ammontare
+                                                            </td>
+                                                            <td style="padding: 8px 0; border-bottom: 1px solid #404040; color: #ffffff; font-size: 14px;">
+                                                                {{DEAL_AMOUNT}}
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="padding: 8px 0; border-bottom: 1px solid #404040; color: #a3a3a3; font-size: 13px;">
+                                                                Lead Investor
+                                                            </td>
+                                                            <td style="padding: 8px 0; border-bottom: 1px solid #404040; color: #ffffff; font-size: 14px;">
+                                                                {{DEAL_INVESTOR}}
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="padding: 8px 0; color: #a3a3a3; font-size: 13px;">
+                                                                Perché importa
+                                                            </td>
+                                                            <td style="padding: 8px 0; color: #ffffff; font-size: 14px;">
+                                                                {{DEAL_WHY}}
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    
+                                                    <p style="margin: 0; font-size: 13px; color: #737373; font-style: italic;">
+                                                        💡 <strong style="color: #a3a3a3;">Il nostro take:</strong> {{DEAL_TAKE}}
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- TOP STORIES -->
+                    <tr>
+                        <td style="padding: 0 40px 32px 40px;" class="mobile-padding">
+                            <h2 style="margin: 0 0 24px 0; font-size: 20px; font-weight: 700; color: #0a0a0a;" class="text-primary">
+                                📰 Top Stories
+                            </h2>
+                            
+                            <!-- STORY 1 -->
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 24px;">
+                                <tr>
+                                    <td style="padding-bottom: 24px; border-bottom: 1px solid #e5e5e5;" class="border-light">
+                                        <span style="display: inline-block; background-color: #fef3c7; color: #92400e; font-size: 10px; font-weight: 700; padding: 4px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px;">
+                                            {{STORY_1_TAG}}
+                                        </span>
+                                        <h3 style="margin: 0 0 10px 0; font-size: 17px; font-weight: 700; color: #0a0a0a; line-height: 1.4;" class="text-primary">
+                                            {{STORY_1_TITLE}}
+                                        </h3>
+                                        <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.6; color: #525252;" class="text-secondary">
+                                            {{STORY_1_DESCRIPTION}}
+                                        </p>
+                                        <p style="margin: 0; font-size: 12px; color: #737373;" class="text-muted">
+                                            📈 Sentiment: <strong style="color: #2563eb;">{{STORY_1_SENTIMENT}}</strong> &nbsp;|&nbsp; 💰 {{STORY_1_METRIC}}
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <!-- STORY 2 -->
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 24px;">
+                                <tr>
+                                    <td style="padding-bottom: 24px; border-bottom: 1px solid #e5e5e5;" class="border-light">
+                                        <span style="display: inline-block; background-color: #dbeafe; color: #1e40af; font-size: 10px; font-weight: 700; padding: 4px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px;">
+                                            {{STORY_2_TAG}}
+                                        </span>
+                                        <h3 style="margin: 0 0 10px 0; font-size: 17px; font-weight: 700; color: #0a0a0a; line-height: 1.4;" class="text-primary">
+                                            {{STORY_2_TITLE}}
+                                        </h3>
+                                        <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.6; color: #525252;" class="text-secondary">
+                                            {{STORY_2_DESCRIPTION}}
+                                        </p>
+                                        <p style="margin: 0; font-size: 12px; color: #737373;" class="text-muted">
+                                            📈 Sentiment: <strong style="color: #2563eb;">{{STORY_2_SENTIMENT}}</strong> &nbsp;|&nbsp; 💰 {{STORY_2_METRIC}}
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <!-- STORY 3 -->
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                <tr>
+                                    <td>
+                                        <span style="display: inline-block; background-color: #fce7f3; color: #be185d; font-size: 10px; font-weight: 700; padding: 4px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px;">
+                                            {{STORY_3_TAG}}
+                                        </span>
+                                        <h3 style="margin: 0 0 10px 0; font-size: 17px; font-weight: 700; color: #0a0a0a; line-height: 1.4;" class="text-primary">
+                                            {{STORY_3_TITLE}}
+                                        </h3>
+                                        <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.6; color: #525252;" class="text-secondary">
+                                            {{STORY_3_DESCRIPTION}}
+                                        </p>
+                                        <p style="margin: 0; font-size: 12px; color: #737373;" class="text-muted">
+                                            📈 Sentiment: <strong style="color: #2563eb;">{{STORY_3_SENTIMENT}}</strong> &nbsp;|&nbsp; 💰 {{STORY_3_METRIC}}
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- QUICK BITES -->
+                    <tr>
+                        <td style="padding: 0 40px 32px 40px;" class="mobile-padding">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #fafafa; border-radius: 8px;" class="bg-secondary">
+                                <tr>
+                                    <td style="padding: 24px;">
+                                        <h3 style="margin: 0 0 16px 0; font-size: 14px; font-weight: 700; color: #0a0a0a; text-transform: uppercase; letter-spacing: 1px;" class="text-primary">
+                                            ⚡ Quick Bites
+                                        </h3>
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="padding: 10px 0; border-bottom: 1px solid #e5e5e5; font-size: 14px; color: #525252;" class="text-secondary border-light">
+                                                    📌 <strong style="color: #0a0a0a;" class="text-primary">{{BITE_1}}</strong>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding: 10px 0; border-bottom: 1px solid #e5e5e5; font-size: 14px; color: #525252;" class="text-secondary border-light">
+                                                    📌 <strong style="color: #0a0a0a;" class="text-primary">{{BITE_2}}</strong>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding: 10px 0; font-size: 14px; color: #525252;" class="text-secondary">
+                                                    📌 <strong style="color: #0a0a0a;" class="text-primary">{{BITE_3}}</strong>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- DEEP DIVE -->
+                    <tr>
+                        <td style="padding: 0 40px 32px 40px;" class="mobile-padding">
+                        </td>
+                    </tr>
+                    
+                    <!-- MARKET DATA -->
+                    <tr>
+                        <td style="padding: 0 40px 32px 40px;" class="mobile-padding">
+                            <h2 style="margin: 0 0 20px 0; font-size: 20px; font-weight: 700; color: #0a0a0a;" class="text-primary">
+                                📊 Market Data
+                            </h2>
+                            <p style="margin: 0 0 16px 0; font-size: 14px; color: #525252;" class="text-secondary">
+                                Performance settimanale azioni robotics:
+                            </p>
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="data-table" style="border-collapse: collapse;">
+                                <tr style="background-color: #f5f5f5;" class="bg-secondary">
+                                    <th style="padding: 12px; text-align: left; font-size: 12px; font-weight: 700; color: #525252; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #e5e5e5;" class="border-light">Ticker</th>
+                                    <th style="padding: 12px; text-align: left; font-size: 12px; font-weight: 700; color: #525252; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #e5e5e5;" class="border-light">Azienda</th>
+                                    <th style="padding: 12px; text-align: left; font-size: 12px; font-weight: 700; color: #525252; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #e5e5e5;" class="border-light">Focus</th>
+                                    <th style="padding: 12px; text-align: center; font-size: 12px; font-weight: 700; color: #525252; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #e5e5e5;" class="border-light">7D</th>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 12px; border-bottom: 1px solid #e5e5e5; font-size: 14px; font-weight: 600; color: #2563eb;" class="border-light">NVDA</td>
+                                    <td style="padding: 12px; border-bottom: 1px solid #e5e5e5; font-size: 14px; color: #0a0a0a;" class="text-primary border-light">NVIDIA</td>
+                                    <td style="padding: 12px; border-bottom: 1px solid #e5e5e5; font-size: 13px; color: #525252;" class="text-secondary border-light">Physical AI</td>
+                                    <td style="padding: 12px; border-bottom: 1px solid #e5e5e5; font-size: 14px; font-weight: 600; color: #16a34a; text-align: center;" class="border-light">🔥🔥🔥</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 12px; border-bottom: 1px solid #e5e5e5; font-size: 14px; font-weight: 600; color: #2563eb;" class="border-light">TSLA</td>
+                                    <td style="padding: 12px; border-bottom: 1px solid #e5e5e5; font-size: 14px; color: #0a0a0a;" class="text-primary border-light">Tesla</td>
+                                    <td style="padding: 12px; border-bottom: 1px solid #e5e5e5; font-size: 13px; color: #525252;" class="text-secondary border-light">Optimus</td>
+                                    <td style="padding: 12px; border-bottom: 1px solid #e5e5e5; font-size: 14px; font-weight: 600; color: #16a34a; text-align: center;" class="border-light">🔥🔥</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 12px; border-bottom: 1px solid #e5e5e5; font-size: 14px; font-weight: 600; color: #2563eb;" class="border-light">ISRG</td>
+                                    <td style="padding: 12px; border-bottom: 1px solid #e5e5e5; font-size: 14px; color: #0a0a0a;" class="text-primary border-light">Intuitive Surgical</td>
+                                    <td style="padding: 12px; border-bottom: 1px solid #e5e5e5; font-size: 13px; color: #525252;" class="text-secondary border-light">Chirurgia</td>
+                                    <td style="padding: 12px; border-bottom: 1px solid #e5e5e5; font-size: 14px; font-weight: 600; color: #16a34a; text-align: center;" class="border-light">🔥</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 12px; font-size: 14px; font-weight: 600; color: #2563eb;">TER</td>
+                                    <td style="padding: 12px; font-size: 14px; color: #0a0a0a;" class="text-primary">Teradyne</td>
+                                    <td style="padding: 12px; font-size: 13px; color: #525252;" class="text-secondary">Universal Robots</td>
+                                    <td style="padding: 12px; font-size: 14px; font-weight: 600; color: #737373; text-align: center;" class="text-muted">→</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- WHAT TO DO NOW -->
+                    <tr>
+                        <td style="padding: 0 40px 32px 40px;" class="mobile-padding">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #2563eb; border-radius: 8px;">
+                                <tr>
+                                    <td style="padding: 28px;">
+                                        <h2 style="margin: 0 0 16px 0; font-size: 18px; font-weight: 700; color: #ffffff;">
+                                            🎯 Cosa Fare Ora
+                                        </h2>
+                                        <ol style="margin: 0; padding-left: 20px; color: #ffffff;">
+                                            <li style="padding: 6px 0; font-size: 15px; line-height: 1.5;">
+                                                <strong>{{ACTION_1_TITLE}}</strong> — {{ACTION_1_DESC}}
+                                            </li>
+                                            <li style="padding: 6px 0; font-size: 15px; line-height: 1.5;">
+                                                <strong>{{ACTION_2_TITLE}}</strong> — {{ACTION_2_DESC}}
+                                            </li>
+                                            <li style="padding: 6px 0; font-size: 15px; line-height: 1.5;">
+                                                <strong>{{ACTION_3_TITLE}}</strong> — {{ACTION_3_DESC}}
+                                            </li>
+                                        </ol>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- CLOSING -->
+                    <tr>
+                        <td style="padding: 0 40px 32px 40px;" class="mobile-padding">
+                            <p style="margin: 0 0 12px 0; font-size: 16px; line-height: 1.6; color: #525252;" class="text-secondary">
+                                📱 <strong style="color: #0a0a0a;" class="text-primary">Condividi questa analisi</strong> — Inoltra a un amico interessato alla tecnologia.
+                            </p>
+                            <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #525252;" class="text-secondary">
+                                👋 <strong style="color: #0a0a0a;" class="text-primary">A domani</strong> — {{CLOSING_TEXT}}
+                            </p>
+                        </td>
+                    </tr>
+                    
+                    <!-- FOOTER -->
+                    <tr>
+                        <td style="padding: 32px 40px; background-color: #0a0a0a;" class="mobile-padding">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                <tr>
+                                    <td style="text-align: center; padding-bottom: 20px;">
+                                        <p style="margin: 0 0 6px 0; font-size: 16px; font-weight: 700; color: #fafafa;">
+                                            Robotica<span style="color: #2563eb;">.</span>Weekly Premium
+                                        </p>
+                                        <p style="margin: 0; font-size: 12px; color: #737373; line-height: 1.5;">
+                                            L'Osservatorio — Analisi per investitori<br>
+                                            Via Monte Napoleone 8, 20121 Milano
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center; padding-bottom: 20px;">
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
+                                            <tr>
+                                                <td style="padding: 0 12px;">
+                                                    <a href="https://roboticaweekly.com" style="font-size: 12px; color: #737373; text-decoration: underline;">Sito Web</a>
+                                                </td>
+                                                <td style="padding: 0 12px;">
+                                                    <a href="{{UNSUBSCRIBE_URL}}" style="font-size: 12px; color: #737373; text-decoration: underline;">Annulla iscrizione</a>
+                                                </td>
+                                                <td style="padding: 0 12px;">
+                                                    <a href="https://roboticaweekly.com/privacy" style="font-size: 12px; color: #737373; text-decoration: underline;">Privacy</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">
+                                        <p style="margin: 0; font-size: 11px; color: #525252;">
+                                            Hai ricevuto questa email perché sei un abbonato Premium a Robotica Weekly.<br>
+                                            Per assistenza: <a href="mailto:pro@roboticaweekly.com" style="color: #737373; text-decoration: underline;">pro@roboticaweekly.com</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                </table>
+                <!-- /MAIN CONTENT -->
+                
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

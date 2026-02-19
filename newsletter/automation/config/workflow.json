@@ -1,0 +1,84 @@
+{
+  "project": "Robotica Weekly - AutoPilot",
+  "version": "1.0.0",
+  
+  "schedule": {
+    "research_day": "tuesday",
+    "research_time": "06:00",
+    "approval_time": "09:00",
+    "send_time": "10:00",
+    "timezone": "Europe/Rome"
+  },
+  
+  "news_sources": {
+    "rss_feeds": [
+      "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml",
+      "https://nvidianews.nvidia.com/news.xml",
+      "https://www.therobotreport.com/feed/",
+      "https://spectrum.ieee.org/rss/topic/robotics",
+      "https://blog.google/technology/ai/rss/"
+    ],
+    "api_sources": {
+      "newsapi": {
+        "enabled": true,
+        "queries": [
+          "robotics AI investment",
+          "humanoid robot funding",
+          "NVIDIA robotics",
+          "Tesla Optimus",
+          "industrial automation"
+        ]
+      }
+    },
+    "keywords": {
+      "primary": ["robot", "robotics", "humanoid", "automation"],
+      "secondary": ["AI", "NVIDIA", "Tesla", "Figure AI", "Boston Dynamics"],
+      "tertiary": ["funding", "investment", "IPO", "acquisition"]
+    }
+  },
+  
+  "content_generation": {
+    "free_newsletter": {
+      "max_stories": 4,
+      "tone": "accessible",
+      "length": "short",
+      "cta_enabled": true
+    },
+    "premium_newsletter": {
+      "max_stories": 6,
+      "tone": "analytical",
+      "length": "detailed",
+      "sections": ["trend", "deal", "top_stories", "quick_bites", "market_data", "actions"]
+    }
+  },
+  
+  "approval": {
+    "enabled": true,
+    "notification_method": "telegram",
+    "advance_notice_minutes": 60,
+    "auto_approve": false,
+    "max_review_time_minutes": 45
+  },
+  
+  "brevo": {
+    "api_endpoint": "https://api.brevo.com/v3",
+    "sender_email": "ciao@roboticaweekly.com",
+    "sender_name": "Robotica Weekly",
+    "free_list_id": null,
+    "premium_list_id": null
+  },
+  
+  "telegram": {
+    "enabled": true,
+    "bot_token": "${TELEGRAM_BOT_TOKEN}",
+    "admin_chat_id": "${TELEGRAM_ADMIN_CHAT_ID}",
+    "notification_prefix": "🤖 Robotica Weekly - Approvazione Richiesta"
+  },
+  
+  "logging": {
+    "level": "info",
+    "save_to_file": true,
+    "retention_days": 30
+  }
+}
