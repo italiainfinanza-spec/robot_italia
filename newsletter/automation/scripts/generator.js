@@ -392,5 +392,6 @@ function compileTemplate(content, type) {
 
 module.exports = {
   generateNewsletter,
-  generatePrompt
+  generatePrompt,
+  generateWithLocalTemplate
 };
