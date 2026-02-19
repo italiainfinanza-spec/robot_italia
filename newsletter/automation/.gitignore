@@ -9,6 +9,7 @@ package-lock.json
 logs/*.log
 logs/*.json
 !logs/.gitkeep
+!logs/workflow-state.json
 
 # Runtime data
 pids
