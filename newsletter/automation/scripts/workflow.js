@@ -184,6 +184,22 @@ async function runDraft(runId) {
     log('✅ Draft completed');
     saveState(state);
     
+    // On GitHub Actions, commit state so OpenClaw can update it
+    const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
+    if (isGitHubActions) {
+      try {
+        const { execSync } = require('child_process');
+        execSync('git config user.email "automation@roboticaweekly.com"');
+        execSync('git config user.name "Newsletter AutoPilot"');
+        execSync('git add logs/workflow-state.json');
+        execSync(`git commit -m "draft: Newsletter #${run.edition} ready for review"`);
+        execSync('git push origin main');
+        log('📤 State committed to GitHub');
+      } catch (e) {
+        log('⚠️ Could not commit state: ' + e.message);
+      }
+    }
+    
     return content;
   } catch (error) {
     run.phases.draft.status = 'failed';
