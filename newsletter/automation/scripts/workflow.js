@@ -191,7 +191,7 @@ async function runDraft(runId) {
         const { execSync } = require('child_process');
         execSync('git config user.email "automation@roboticaweekly.com"');
         execSync('git config user.name "Newsletter AutoPilot"');
-        execSync('git add logs/workflow-state.json');
+        execSync('git add -f logs/workflow-state.json');
         execSync(`git commit -m "draft: Newsletter #${run.edition} ready for review"`);
         execSync('git push origin main');
         log('📤 State committed to GitHub');
@@ -236,7 +236,7 @@ async function runReview(runId) {
       const { execSync } = require('child_process');
       execSync('git config user.email "automation@roboticaweekly.com"');
       execSync('git config user.name "Newsletter AutoPilot"');
-      execSync('git add logs/workflow-state.json');
+      execSync('git add -f logs/workflow-state.json');
       execSync(`git commit -m "review: Newsletter #${run.edition} awaiting approval"`);
       execSync('git push origin main');
       log('📤 Review state committed to GitHub');
