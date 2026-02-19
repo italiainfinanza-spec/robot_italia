@@ -213,11 +213,17 @@ async function runReview(runId) {
   run.phases.review.startedAt = new Date().toISOString();
   saveState(state);
   
-  // Try OpenClaw notification first (current chat), fallback to Telegram bot
-  let notificationMethod = 'openclaw';
+  // Check if running in GitHub Actions
+  const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
   
+  if (isGitHubActions) {
+    // Use Telegram Bot API directly (works in GitHub Actions)
+    log('📱 Running in GitHub Actions, using Telegram Bot...');
+    return await runTelegramNotification(runId, config, state, run);
+  }
+  
+  // Try OpenClaw notification first (only works when Jinx is online)
   try {
-    // Use OpenClaw notification (no bot token needed)
     const { sendApprovalRequestOpenClaw, checkForApproval } = require('./notify-openclaw');
     
     await sendApprovalRequestOpenClaw({
@@ -251,12 +257,17 @@ async function runReview(runId) {
   } catch (error) {
     // Fallback to Telegram bot if OpenClaw fails
     log('⚠️ OpenClaw notification failed, trying Telegram bot...');
-    
-    const { sendApprovalRequest } = require('./notify');
-    
-    try {
-      await sendApprovalRequest({
-        runId: run.id,
+    return await runTelegramNotification(runId, config, state, run);
+  }
+}
+
+// Helper function for Telegram notification
+async function runTelegramNotification(runId, config, state, run) {
+  const { sendApprovalRequest } = require('./notify');
+  
+  try {
+    await sendApprovalRequest({
+      runId: run.id,
         edition: run.edition,
         content: run.data.draftContent,
         config: config.telegram

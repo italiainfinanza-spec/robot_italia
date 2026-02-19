@@ -1,6 +1,6 @@
 {
   "name": "robotica-weekly-autopilot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fully automated newsletter system for Robotica Weekly",
   "main": "scripts/workflow.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "send": "node scripts/workflow.js send",
     "full": "node scripts/workflow.js full",
     "status": "node scripts/workflow.js status",
-    "test:telegram": "node -e \"require('./scripts/notify').getBotInfo().then(console.log)\"",
+    "test:telegram": "node scripts/test-telegram.js",
     "test:brevo": "node -e \"require('./scripts/sender').getAccountInfo().then(console.log)\""
   },
   "dependencies": {
