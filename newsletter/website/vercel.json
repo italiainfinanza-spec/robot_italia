@@ -16,7 +16,9 @@
     { "source": "/grazie-pro", "destination": "/grazie-pro.html" },
     { "source": "/privacy", "destination": "/legal/privacy-policy.html" },
     { "source": "/terms", "destination": "/legal/terms-of-service.html" },
-    { "source": "/cookies", "destination": "/legal/cookie-policy.html" }
+    { "source": "/cookies", "destination": "/legal/cookie-policy.html" },
+    { "source": "/admin", "destination": "/admin/index.html" },
+    { "source": "/api/send-newsletter", "destination": "/api/send-newsletter.js" }
   ],
   "headers": [
     {
