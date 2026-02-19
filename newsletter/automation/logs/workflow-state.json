@@ -1,0 +1,173 @@
+{
+  "currentRun": {
+    "id": "run-1771519667280",
+    "edition": 1,
+    "date": "2026-02-19T16:47:47.280Z",
+    "status": "initialized",
+    "phases": {
+      "research": {
+        "status": "completed",
+        "startedAt": "2026-02-19T16:47:47.285Z",
+        "completedAt": "2026-02-19T16:47:49.331Z"
+      },
+      "draft": {
+        "status": "completed",
+        "startedAt": "2026-02-19T16:48:05.839Z",
+        "completedAt": "2026-02-19T16:48:05.849Z"
+      },
+      "review": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null,
+        "approved": null
+      },
+      "send": {
+        "status": "pending",
+        "startedAt": null,
+        "completedAt": null
+      }
+    },
+    "data": {
+      "researchResults": [
+        {
+          "title": "OpenAI reportedly finalizing $100B deal at more than $850B valuation",
+          "link": "https://techcrunch.com/2026/02/19/openai-reportedly-finalizing-100b-deal-at-more-than-850b-valuation/",
+          "description": "OpenAI is reportedly getting close to closing a $100 billion deal, with backers including Amazon, Nvidia, SoftBank, and Microsoft. The deal would value the ChatGPT-maker at $850 billion.",
+          "pubDate": "Thu, 19 Feb 2026 15:35:58 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 7,
+          "category": "funding"
+        },
+        {
+          "title": "AI Impact Summit 2026",
+          "link": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Collection_Hero-2.max-600x600.format-webp.webp\">A look at the partnerships and investments Google announced at the AI Impact Summit 2026.",
+          "pubDate": "Thu, 19 Feb 2026 04:30:00 +0000",
+          "source": "blog.google",
+          "type": "rss",
+          "relevanceScore": 6,
+          "category": "funding"
+        },
+        {
+          "title": "OpenAI, Reliance partner to add AI search to JioHotstar",
+          "link": "https://techcrunch.com/2026/02/19/openai-reliance-partner-to-add-ai-search-to-jiohotstar/",
+          "description": "The rollout includes two-way integration that surfaces streaming links directly inside ChatGPT.",
+          "pubDate": "Thu, 19 Feb 2026 14:45:29 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "Co-founders behind Reface and Prisma join hands to improve on-device model inference with Mirai",
+          "link": "https://techcrunch.com/2026/02/19/co-founders-behind-reface-and-prisma-join-hands-to-improve-on-device-model-inference-with-mirai/",
+          "description": "Mirai raised a $10 million seed to improve how AI models run on devices like smartphones and laptops.",
+          "pubDate": "Thu, 19 Feb 2026 14:43:58 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "funding"
+        },
+        {
+          "title": "For open-source programs, AI coding tools are a mixed blessing",
+          "link": "https://techcrunch.com/2026/02/19/for-open-source-programs-ai-coding-tools-are-a-mixed-blessing/",
+          "description": "AI coding tools have enabled a flood of bad code that threatens to overwhelm many projects. Building new features is easier but maintaining them is just as hard.",
+          "pubDate": "Thu, 19 Feb 2026 14:00:00 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "product"
+        },
+        {
+          "title": "Altman and Amodei share a moment of awkwardness at India’s big AI summit",
+          "link": "https://techcrunch.com/2026/02/19/altman-and-amodei-share-a-moment-of-awkwardness-at-indias-big-ai-summit/",
+          "description": " When Prime Minister Narendra Modi prompted speakers at the event to join hands and raise them in a show of unity, all executives on stage obliged, except OpenAI's Sam Altman and Anthropic's Dario Amodei, who held their hands conspicuously apart.",
+          "pubDate": "Thu, 19 Feb 2026 13:49:06 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "“No technology has me dreaming bigger than AI”",
+          "link": "https://blog.google/company-news/inside-google/message-ceo/sundar-pichai-ai-impact-summit-2026/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI-Google_2.max-600x600.format-webp.webp\">CEO Sundar Pichai’s remarks at the opening ceremony of the AI Impact Summit 2026",
+          "pubDate": "Thu, 19 Feb 2026 04:30:00 +0000",
+          "source": "blog.google",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "AI Impact Summit 2026: How we’re partnering to make AI work for everyone",
+          "link": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-india/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI-Summit-Hero.max-600x600.format-webp.webp\">An overview of Google’s new global partnerships and funding announcements at the AI Impact Summit in India.",
+          "pubDate": "Wed, 18 Feb 2026 10:30:00 +0000",
+          "source": "blog.google",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "funding"
+        },
+        {
+          "title": "NVIDIA Details New A.I. Chips and Autonomous Car Project With Mercedes",
+          "link": "https://www.nytimes.com/2026/01/05/technology/nvidia-chips-mercedes.html",
+          "description": "New York Times",
+          "pubDate": "Fri, 09 Jan 2026 22:56:00 GMT",
+          "source": "nvidianews.nvidia.com",
+          "type": "rss",
+          "relevanceScore": 4,
+          "category": "company"
+        },
+        {
+          "title": "NVIDIA Unveils Faster AI Chips Sooner Than Expected",
+          "link": "https://www.wsj.com/tech/ai/nvidia-unveils-faster-ai-chips-sooner-than-expected-626154a5",
+          "description": "Wall Street Journal",
+          "pubDate": "Fri, 09 Jan 2026 22:54:00 GMT",
+          "source": "nvidianews.nvidia.com",
+          "type": "rss",
+          "relevanceScore": 4,
+          "category": "company"
+        }
+      ],
+      "draftContent": {
+        "type": "free",
+        "edition": 1,
+        "date": "2026-02-19",
+        "subject": "La settimana in robotica — Edizione #1",
+        "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
+        "headline": {
+          "title": "OpenAI reportedly finalizing $100B deal at more than $850B valuation",
+          "description": "OpenAI is reportedly getting close to closing a $100 billion deal, with backers including Amazon, Nvidia, SoftBank, and Microsoft. The deal would value the ChatGPT-maker at $850 billion...."
+        },
+        "news": [
+          {
+            "title": "AI Impact Summit 2026",
+            "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Collection_Hero-2.max-600x600.format-webp.webp\">A look at the partnerships and investments Google announced at the AI Impact Summit 2026....",
+            "category": "funding",
+            "link": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/"
+          },
+          {
+            "title": "OpenAI, Reliance partner to add AI search to JioHotstar",
+            "description": "The rollout includes two-way integration that surfaces streaming links directly inside ChatGPT....",
+            "category": "industry",
+            "link": "https://techcrunch.com/2026/02/19/openai-reliance-partner-to-add-ai-search-to-jiohotstar/"
+          },
+          {
+            "title": "Co-founders behind Reface and Prisma join hands to improve on-device model inference with Mirai",
+            "description": "Mirai raised a $10 million seed to improve how AI models run on devices like smartphones and laptops....",
+            "category": "funding",
+            "link": "https://techcrunch.com/2026/02/19/co-founders-behind-reface-and-prisma-join-hands-to-improve-on-device-model-inference-with-mirai/"
+          }
+        ],
+        "stat": {
+          "number": "€4.2B",
+          "context": "Totale investimenti in robotics nel 2025 (+34% YoY)"
+        },
+        "html": "<!-- Template not found -->"
+      },
+      "approvedContent": null
+    }
+  },
+  "history": []
+}
