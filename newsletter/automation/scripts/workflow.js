@@ -264,40 +264,39 @@ async function runReview(runId) {
 // Helper function for Telegram notification
 async function runTelegramNotification(runId, config, state, run) {
   const { sendApprovalRequest } = require('./notify');
-  
+
   try {
     await sendApprovalRequest({
       runId: run.id,
-        edition: run.edition,
-        content: run.data.draftContent,
-        config: config.telegram
-      });
-      
-      log('📱 Approval request sent via Telegram bot');
-      
-      const approved = await waitForApproval(runId, config.approval.max_review_time_minutes);
-      
-      if (approved) {
-        run.phases.review.status = 'approved';
-        run.phases.review.approved = true;
-        run.phases.review.completedAt = new Date().toISOString();
-        run.data.approvedContent = run.data.draftContent;
-        log('✅ Content approved');
-      } else {
-        run.phases.review.status = 'rejected';
-        run.phases.review.approved = false;
-        log('❌ Content rejected or timeout');
-      }
-      
-      saveState(state);
-      return approved;
-      
-    } catch (telegramError) {
-      run.phases.review.status = 'failed';
-      run.phases.review.error = telegramError.message;
-      saveState(state);
-      throw telegramError;
+      edition: run.edition,
+      content: run.data.draftContent,
+      config: config.telegram
+    });
+
+    log('📱 Approval request sent via Telegram bot');
+
+    const approved = await waitForApproval(runId, config.approval.max_review_time_minutes);
+
+    if (approved) {
+      run.phases.review.status = 'approved';
+      run.phases.review.approved = true;
+      run.phases.review.completedAt = new Date().toISOString();
+      run.data.approvedContent = run.data.draftContent;
+      log('✅ Content approved');
+    } else {
+      run.phases.review.status = 'rejected';
+      run.phases.review.approved = false;
+      log('❌ Content rejected or timeout');
     }
+
+    saveState(state);
+    return approved;
+
+  } catch (telegramError) {
+    run.phases.review.status = 'failed';
+    run.phases.review.error = telegramError.message;
+    saveState(state);
+    throw telegramError;
   }
 }
 
