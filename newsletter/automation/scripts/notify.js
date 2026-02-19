@@ -81,7 +81,6 @@ async function sendApprovalRequest({ runId, edition, content, config }) {
   const previewText = content.headline?.description?.substring(0, 300) || '';
   const subject = content.subject || `Robotica Weekly #${edition}`;
   
-  const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
   const runIdShort = runId.split('-')[1] || runId;
   
   const message = `
