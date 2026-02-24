@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1771545176620",
+    "id": "run-1771920286973",
     "edition": 1,
-    "date": "2026-02-19T23:52:56.620Z",
+    "date": "2026-02-24T08:04:46.973Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-02-19T23:52:56.625Z",
-        "completedAt": "2026-02-19T23:52:58.290Z"
+        "startedAt": "2026-02-24T08:04:46.979Z",
+        "completedAt": "2026-02-24T08:04:48.791Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-02-19T23:52:58.362Z",
-        "completedAt": "2026-02-19T23:52:58.647Z"
+        "startedAt": "2026-02-24T08:04:48.859Z",
+        "completedAt": "2026-02-24T08:04:49.024Z"
       },
       "review": {
         "status": "pending",
@@ -30,84 +30,54 @@
     "data": {
       "researchResults": [
         {
-          "title": "OpenAI reportedly finalizing $100B deal at more than $850B valuation",
-          "link": "https://techcrunch.com/2026/02/19/openai-reportedly-finalizing-100b-deal-at-more-than-850b-valuation/",
-          "description": "OpenAI is reportedly getting close to closing a $100 billion deal, with backers including Amazon, Nvidia, SoftBank, and Microsoft. The deal would value the ChatGPT-maker at $850 billion.",
-          "pubDate": "Thu, 19 Feb 2026 15:35:58 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 7,
-          "category": "funding"
-        },
-        {
-          "title": "AI Impact Summit 2026",
-          "link": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/",
-          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Collection_Hero-2.max-600x600.format-webp.webp\">A look at the partnerships and investments Google announced at the AI Impact Summit 2026.",
-          "pubDate": "Thu, 19 Feb 2026 04:30:00 +0000",
-          "source": "blog.google",
-          "type": "rss",
-          "relevanceScore": 6,
-          "category": "funding"
-        },
-        {
-          "title": "Why these startup CEOs don’t think AI will replace human roles",
-          "link": "https://techcrunch.com/2026/02/19/web-summit-qatar-read-ai-lucidya-notetakers-customer-support/",
-          "description": "The CEOs of Read AI and Lucidya told TechCrunch at Web Summit Qatar that they see AI tools replacing tasks, rather than workers.",
-          "pubDate": "Thu, 19 Feb 2026 20:47:22 +0000",
+          "title": "A Meta AI security researcher said an OpenClaw agent ran amok on her inbox ",
+          "link": "https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/",
+          "description": "The viral X post from an AI security researcher reads like satire. But it's really a word of warning about what can go wrong when handing tasks to an AI agent.",
+          "pubDate": "Tue, 24 Feb 2026 00:57:14 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "YouTube’s latest experiment brings its conversational AI tool to TVs",
-          "link": "https://techcrunch.com/2026/02/19/youtubes-latest-experiment-brings-its-conversational-ai-tool-to-tvs/",
-          "description": "YouTube is testing conversational AI on smart TVs, allowing viewers to ask the assistant questions related to the video they're watching on the big screen.",
-          "pubDate": "Thu, 19 Feb 2026 20:30:19 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "Reddit is testing a new AI search feature for shopping",
-          "link": "https://techcrunch.com/2026/02/19/reddit-is-testing-a-new-ai-search-feature-for-shopping/",
-          "description": "A small group of users in the U.S. will start to see search results that include interactive product carousels with pricing, images, and direct where-to-buy links. ",
-          "pubDate": "Thu, 19 Feb 2026 18:22:51 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
-        },
-        {
-          "title": "Reload wants to give your AI agents a shared memory",
-          "link": "https://techcrunch.com/2026/02/19/reload-an-ai-employee-agent-management-platform-raises-2-275m-and-launches-an-ai-employee/",
-          "description": "Reload announces a $2.275 million raise in a round led by Anthemis and the launch of its first AI employee, Epic. ",
-          "pubDate": "Thu, 19 Feb 2026 15:00:00 +0000",
+          "title": "With AI, investor loyalty is (almost) dead: At least a dozen OpenAI VCs now also back Anthropic ",
+          "link": "https://techcrunch.com/2026/02/23/with-ai-investor-loyalty-is-almost-dead-at-least-a-dozen-openai-vcs-now-also-back-anthropic/",
+          "description": "While some dual investors are understandable, others were more shocking, and signal the disregard of a longstanding ethical conflict-of-interest rule.",
+          "pubDate": "Mon, 23 Feb 2026 21:46:41 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "funding"
         },
         {
-          "title": "“No technology has me dreaming bigger than AI”",
-          "link": "https://blog.google/company-news/inside-google/message-ceo/sundar-pichai-ai-impact-summit-2026/",
-          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI-Google_2.max-600x600.format-webp.webp\">CEO Sundar Pichai’s remarks at the opening ceremony of the AI Impact Summit 2026",
-          "pubDate": "Thu, 19 Feb 2026 04:30:00 +0000",
-          "source": "blog.google",
+          "title": "Anthropic accuses Chinese AI labs of mining Claude as US debates AI chip exports",
+          "link": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+          "description": "Anthropic accuses DeepSeek, Moonshot, and MiniMax of using 24,000 fake accounts to distill Claude’s AI capabilities, as U.S. officials debate export controls aimed at slowing China’s AI progress.",
+          "pubDate": "Mon, 23 Feb 2026 19:57:27 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "AI Impact Summit 2026: How we’re partnering to make AI work for everyone",
-          "link": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-india/",
-          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI-Summit-Hero.max-600x600.format-webp.webp\">An overview of Google’s new global partnerships and funding announcements at the AI Impact Summit in India.",
-          "pubDate": "Wed, 18 Feb 2026 10:30:00 +0000",
-          "source": "blog.google",
+          "title": "Google’s Cloud AI leads on the three frontiers of model capability",
+          "link": "https://techcrunch.com/2026/02/23/googles-cloud-ai-lead-on-the-three-frontiers-of-model-capability/",
+          "description": "AI models are pushing against three frontiers at once: raw intelligence, response time, and a third quality you might call \"extensibility.\"",
+          "pubDate": "Mon, 23 Feb 2026 19:18:42 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "funding"
+          "category": "industry"
+        },
+        {
+          "title": "Canva acquires startups working on animation and marketing",
+          "link": "https://techcrunch.com/2026/02/23/canva-acquires-startups-working-on-animation-and-marketing/",
+          "description": "With the new acquisitions, the company wants to bolster its position as a marketing solution by potentially adding video creation and more granular measurement. ",
+          "pubDate": "Tue, 24 Feb 2026 07:39:27 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 4,
+          "category": "market"
         },
         {
           "title": "NVIDIA Details New A.I. Chips and Autonomous Car Project With Mercedes",
@@ -128,36 +98,56 @@
           "type": "rss",
           "relevanceScore": 4,
           "category": "company"
+        },
+        {
+          "title": "AI Impact Summit 2026",
+          "link": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Collection_Hero-2.max-600x600.format-webp.webp\">A look at the partnerships and investments Google announced at the AI Impact Summit 2026.",
+          "pubDate": "Thu, 19 Feb 2026 04:30:00 +0000",
+          "source": "blog.google",
+          "type": "rss",
+          "relevanceScore": 3,
+          "category": "funding"
+        },
+        {
+          "title": "AI Impact Summit 2026: How we’re partnering to make AI work for everyone",
+          "link": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-india/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI-Summit-Hero.max-600x600.format-webp.webp\">An overview of Google’s new global partnerships and funding announcements at the AI Impact Summit in India.",
+          "pubDate": "Wed, 18 Feb 2026 10:30:00 +0000",
+          "source": "blog.google",
+          "type": "rss",
+          "relevanceScore": 3,
+          "category": "funding"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-02-19",
-        "subject": "OpenAI reportedly finalizing $100B deal ... | Robotica Weekly #1",
-        "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-02-24",
+        "subject": "A Meta AI security researcher said an Op... | Robotica Weekly #1",
+        "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "OpenAI reportedly finalizing $100B deal at more than $850B valuation",
-          "description": "OpenAI is reportedly getting close to closing a $100 billion deal, with backers including Amazon, Nvidia, SoftBank, and Microsoft. The deal would value the ChatGPT-maker at $850 billion...."
+          "title": "A Meta AI security researcher said an OpenClaw agent ran amok on her inbox ",
+          "description": "The viral X post from an AI security researcher reads like satire. But it's really a word of warning about what can go wrong when handing tasks to an AI agent...."
         },
         "news": [
           {
-            "title": "AI Impact Summit 2026",
-            "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Collection_Hero-2.max-600x600.format-webp.webp\">A look at the partnerships and investments Google announced at the AI Impact Summit 2026....",
+            "title": "With AI, investor loyalty is (almost) dead: At least a dozen OpenAI VCs now also back Anthropic ",
+            "description": "While some dual investors are understandable, others were more shocking, and signal the disregard of a longstanding ethical conflict-of-interest rule....",
             "category": "funding",
-            "link": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/"
+            "link": "https://techcrunch.com/2026/02/23/with-ai-investor-loyalty-is-almost-dead-at-least-a-dozen-openai-vcs-now-also-back-anthropic/"
           },
           {
-            "title": "Why these startup CEOs don’t think AI will replace human roles",
-            "description": "The CEOs of Read AI and Lucidya told TechCrunch at Web Summit Qatar that they see AI tools replacing tasks, rather than workers....",
+            "title": "Anthropic accuses Chinese AI labs of mining Claude as US debates AI chip exports",
+            "description": "Anthropic accuses DeepSeek, Moonshot, and MiniMax of using 24,000 fake accounts to distill Claude’s AI capabilities, as U.S. officials debate export controls aimed at slowing China’s AI progress....",
             "category": "industry",
-            "link": "https://techcrunch.com/2026/02/19/web-summit-qatar-read-ai-lucidya-notetakers-customer-support/"
+            "link": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/"
           },
           {
-            "title": "YouTube’s latest experiment brings its conversational AI tool to TVs",
-            "description": "YouTube is testing conversational AI on smart TVs, allowing viewers to ask the assistant questions related to the video they're watching on the big screen....",
+            "title": "Google’s Cloud AI leads on the three frontiers of model capability",
+            "description": "AI models are pushing against three frontiers at once: raw intelligence, response time, and a third quality you might call \"extensibility.\"...",
             "category": "industry",
-            "link": "https://techcrunch.com/2026/02/19/youtubes-latest-experiment-brings-its-conversational-ai-tool-to-tvs/"
+            "link": "https://techcrunch.com/2026/02/23/googles-cloud-ai-lead-on-the-three-frontiers-of-model-capability/"
           }
         ],
         "stat": {
