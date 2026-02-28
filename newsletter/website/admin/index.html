@@ -467,7 +467,7 @@
             
             try {
                 // Call Vercel API to send newsletter
-                const response = await fetch('/api/send-newsletter', {
+                const response = await fetch('https://roboticaweekly.com/api/send-newsletter', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ password: ADMIN_PASSWORD })

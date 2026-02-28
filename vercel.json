@@ -1,0 +1,33 @@
+{
+  "public": true,
+  "github": {
+    "enabled": true,
+    "autoJobCancelation": true
+  },
+  "buildCommand": null,
+  "outputDirectory": "newsletter/website",
+  "framework": null,
+  "rewrites": [
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/pricing", "destination": "/pricing.html" },
+    { "source": "/archive", "destination": "/archive.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/grazie", "destination": "/grazie.html" },
+    { "source": "/grazie-pro", "destination": "/grazie-pro.html" },
+    { "source": "/privacy", "destination": "/legal/privacy-policy.html" },
+    { "source": "/terms", "destination": "/legal/terms-of-service.html" },
+    { "source": "/cookies", "destination": "/legal/cookie-policy.html" },
+    { "source": "/admin", "destination": "/admin/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ]
+}
