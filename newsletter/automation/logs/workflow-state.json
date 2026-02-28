@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1772242376426",
+    "id": "run-1772244008550",
     "edition": 1,
-    "date": "2026-02-28T01:32:56.426Z",
+    "date": "2026-02-28T02:00:08.550Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-02-28T01:32:56.432Z",
-        "completedAt": "2026-02-28T01:32:57.706Z"
+        "startedAt": "2026-02-28T02:00:08.714Z",
+        "completedAt": "2026-02-28T02:00:10.111Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-02-28T01:32:57.777Z",
-        "completedAt": "2026-02-28T01:32:57.991Z"
+        "startedAt": "2026-02-28T02:00:10.183Z",
+        "completedAt": "2026-02-28T02:00:10.419Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-02-28",
-        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "subject": "ChatGPT reaches 900M weekly active users... | Robotica Weekly #1",
         "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "ChatGPT reaches 900M weekly active users",
