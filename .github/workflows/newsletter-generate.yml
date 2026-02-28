@@ -52,15 +52,33 @@ jobs:
       - name: Save newsletter for admin approval
         working-directory: newsletter/automation
         run: |
+          set -e  # Exit on any error
+          
           echo "🔍 Checking workflow state..."
-          ls -la logs/
-          cat logs/workflow-state.json | jq '.'
+          ls -la logs/ || echo "Logs dir not found!"
+          
+          if [ -f logs/workflow-state.json ]; then
+            echo "✅ State file found"
+            cat logs/workflow-state.json | jq '.' || cat logs/workflow-state.json
+          else
+            echo "❌ State file NOT FOUND!"
+            exit 1
+          fi
           
           echo "💾 Running save-for-approval..."
-          node scripts/save-for-approval.js notify
+          node scripts/save-for-approval.js notify || {
+            echo "❌ save-for-approval failed!"
+            exit 1
+          }
           
           echo "✅ Done! Checking output file..."
-          ls -la logs/latest-newsletter.json || echo "❌ File not created!"
+          if [ -f logs/latest-newsletter.json ]; then
+            echo "✅ latest-newsletter.json CREATED!"
+            ls -la logs/latest-newsletter.json
+          else
+            echo "❌ latest-newsletter.json NOT CREATED!"
+            exit 1
+          fi
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}

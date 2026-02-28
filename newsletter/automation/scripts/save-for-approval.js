@@ -16,6 +16,7 @@ async function saveForApproval(content, edition, runId) {
   
   // Ensure logs directory exists
   if (!fs.existsSync(LOGS_DIR)) {
+    console.log('📁 Creating logs directory...');
     fs.mkdirSync(LOGS_DIR, { recursive: true });
   }
   
@@ -34,13 +35,21 @@ async function saveForApproval(content, edition, runId) {
     html: content.html
   };
   
-  // Save to file
-  fs.writeFileSync(LATEST_FILE, JSON.stringify(data, null, 2));
+  // Save to file FIRST (before Telegram, so file exists even if Telegram fails)
+  try {
+    fs.writeFileSync(LATEST_FILE, JSON.stringify(data, null, 2));
+    console.log('✅ Newsletter saved to:', LATEST_FILE);
+  } catch (err) {
+    console.error('❌ Failed to save file:', err);
+    throw err;
+  }
   
-  console.log('✅ Newsletter saved to:', LATEST_FILE);
-  
-  // Send notification to Telegram
-  await notifyAdmin(data);
+  // Send notification to Telegram (don't fail if this errors)
+  try {
+    await notifyAdmin(data);
+  } catch (err) {
+    console.log('⚠️ Telegram notification failed (but file was saved):', err.message);
+  }
   
   return data;
 }
