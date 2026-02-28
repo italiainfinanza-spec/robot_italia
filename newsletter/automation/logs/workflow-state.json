@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1771920286973",
+    "id": "run-1772241484062",
     "edition": 1,
-    "date": "2026-02-24T08:04:46.973Z",
+    "date": "2026-02-28T01:18:04.062Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-02-24T08:04:46.979Z",
-        "completedAt": "2026-02-24T08:04:48.791Z"
+        "startedAt": "2026-02-28T01:18:04.067Z",
+        "completedAt": "2026-02-28T01:18:05.218Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-02-24T08:04:48.859Z",
-        "completedAt": "2026-02-24T08:04:49.024Z"
+        "startedAt": "2026-02-28T01:18:19.917Z",
+        "completedAt": "2026-02-28T01:18:19.927Z"
       },
       "review": {
         "status": "pending",
@@ -30,54 +30,64 @@
     "data": {
       "researchResults": [
         {
-          "title": "A Meta AI security researcher said an OpenClaw agent ran amok on her inbox ",
-          "link": "https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/",
-          "description": "The viral X post from an AI security researcher reads like satire. But it's really a word of warning about what can go wrong when handing tasks to an AI agent.",
-          "pubDate": "Tue, 24 Feb 2026 00:57:14 +0000",
+          "title": "ChatGPT reaches 900M weekly active users",
+          "link": "https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/",
+          "description": "OpenAI shared the new numbers as part of its announcement that it has raised $110 billion in private funding.",
+          "pubDate": "Fri, 27 Feb 2026 18:25:51 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 6,
+          "category": "funding"
+        },
+        {
+          "title": "Pentagon moves to designate Anthropic as a supply-chain risk",
+          "link": "https://techcrunch.com/2026/02/27/pentagon-moves-to-designate-anthropic-as-a-supply-chain-risk/",
+          "description": "\"We don't need it, we don't want it, and will not do business with them again,\" the president wrote in the post.",
+          "pubDate": "Fri, 27 Feb 2026 21:53:14 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "With AI, investor loyalty is (almost) dead: At least a dozen OpenAI VCs now also back Anthropic ",
-          "link": "https://techcrunch.com/2026/02/23/with-ai-investor-loyalty-is-almost-dead-at-least-a-dozen-openai-vcs-now-also-back-anthropic/",
-          "description": "While some dual investors are understandable, others were more shocking, and signal the disregard of a longstanding ethical conflict-of-interest rule.",
-          "pubDate": "Mon, 23 Feb 2026 21:46:41 +0000",
+          "title": "Musk bashes OpenAI in deposition, saying ‘nobody committed suicide because of Grok’",
+          "link": "https://techcrunch.com/2026/02/27/musk-bashes-openai-in-deposition-saying-nobody-committed-suicide-because-of-grok/",
+          "description": "In his lawsuit against OpenAI, Musk touted xAI safety compared with ChatGPT. A few months later, xAI's Grok flooded X with nonconsensual nude images.",
+          "pubDate": "Fri, 27 Feb 2026 19:42:00 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "Anthropic vs. the Pentagon: What’s actually at stake?",
+          "link": "https://techcrunch.com/2026/02/27/anthropic-vs-the-pentagon-whats-actually-at-stake/",
+          "description": "Anthropic and the Pentagon are clashing over AI use in autonomous weapons and surveillance, raising high-stakes questions about national security, corporate control, and who sets the rules for military AI.",
+          "pubDate": "Fri, 27 Feb 2026 19:11:04 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "Who’s really running AI? Inside the billion-dollar battle over regulation with Alex Bores ",
+          "link": "https://techcrunch.com/podcast/whos-really-running-ai-inside-the-billion-dollar-battle-over-regulation-with-alex-bores/",
+          "description": "The&#160;Pentagon is&#160;playing chicken with Anthropic&#160;over&#160;who gets to control&#160;how the&#160;military uses AI&#160;while communities across the country are&#160;blocking data center construction. As the AI debate has been flattened to “doomers&#160;versus boomers,” one state legislator is&#160;attempting&#160;to walk a middle road.&#160; On this episode of TechCrunch&#8217;s&#160;Equity&#160;podcast, Rebecca Bellan sits down with Alex Bores,&#160;a&#160;New&#160;York&#160;State&#160;Assemblymember and&#160;candidate for U.S. Congress. Bores&#160;sponsored&#160;New York&#8217;s [&#8230;]",
+          "pubDate": "Fri, 27 Feb 2026 17:35:50 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "funding"
         },
         {
-          "title": "Anthropic accuses Chinese AI labs of mining Claude as US debates AI chip exports",
-          "link": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-          "description": "Anthropic accuses DeepSeek, Moonshot, and MiniMax of using 24,000 fake accounts to distill Claude’s AI capabilities, as U.S. officials debate export controls aimed at slowing China’s AI progress.",
-          "pubDate": "Mon, 23 Feb 2026 19:57:27 +0000",
-          "source": "techcrunch.com",
+          "title": "NVIDIA Beats Back Bubble Fears With Record $68 Billion in Sales in Fourth Quarter",
+          "link": "https://www.wsj.com/business/earnings/nvidia-earnings-q4-2026-nvda-stock-73bd6dc5",
+          "description": "Wall Street Journal",
+          "pubDate": "Fri, 27 Feb 2026 23:07:00 GMT",
+          "source": "nvidianews.nvidia.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "Google’s Cloud AI leads on the three frontiers of model capability",
-          "link": "https://techcrunch.com/2026/02/23/googles-cloud-ai-lead-on-the-three-frontiers-of-model-capability/",
-          "description": "AI models are pushing against three frontiers at once: raw intelligence, response time, and a third quality you might call \"extensibility.\"",
-          "pubDate": "Mon, 23 Feb 2026 19:18:42 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "Canva acquires startups working on animation and marketing",
-          "link": "https://techcrunch.com/2026/02/23/canva-acquires-startups-working-on-animation-and-marketing/",
-          "description": "With the new acquisitions, the company wants to bolster its position as a marketing solution by potentially adding video creation and more granular measurement. ",
-          "pubDate": "Tue, 24 Feb 2026 07:39:27 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 4,
-          "category": "market"
+          "category": "funding"
         },
         {
           "title": "NVIDIA Details New A.I. Chips and Autonomous Car Project With Mercedes",
@@ -100,54 +110,54 @@
           "category": "company"
         },
         {
-          "title": "AI Impact Summit 2026",
-          "link": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/",
-          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Collection_Hero-2.max-600x600.format-webp.webp\">A look at the partnerships and investments Google announced at the AI Impact Summit 2026.",
-          "pubDate": "Thu, 19 Feb 2026 04:30:00 +0000",
+          "title": "Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.",
+          "link": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/691A1377_1920x1080.max-600x600.format-webp.webp\">Google is partnering with the Massachusetts AI Hub to provide every Baystater with no-cost access to Google’s AI training.",
+          "pubDate": "Thu, 26 Feb 2026 18:55:00 +0000",
           "source": "blog.google",
           "type": "rss",
-          "relevanceScore": 3,
-          "category": "funding"
+          "relevanceScore": 4,
+          "category": "product"
         },
         {
-          "title": "AI Impact Summit 2026: How we’re partnering to make AI work for everyone",
-          "link": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-india/",
-          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI-Summit-Hero.max-600x600.format-webp.webp\">An overview of Google’s new global partnerships and funding announcements at the AI Impact Summit in India.",
-          "pubDate": "Wed, 18 Feb 2026 10:30:00 +0000",
+          "title": "Get more context and understand translations more deeply with new AI-powered updates in Translate.",
+          "link": "https://blog.google/products-and-platforms/products/translate/translation-context-ai-update/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Translate_TextTranslate_1920x10.max-600x600.format-webp.webp\">New alternatives, “understand” and “ask” buttons in Google Translate help you navigate the complexities of natural language.",
+          "pubDate": "Thu, 26 Feb 2026 18:00:00 +0000",
           "source": "blog.google",
           "type": "rss",
-          "relevanceScore": 3,
-          "category": "funding"
+          "relevanceScore": 4,
+          "category": "product"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-02-24",
-        "subject": "A Meta AI security researcher said an Op... | Robotica Weekly #1",
+        "date": "2026-02-28",
+        "subject": "La settimana in robotica — Edizione #1",
         "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "A Meta AI security researcher said an OpenClaw agent ran amok on her inbox ",
-          "description": "The viral X post from an AI security researcher reads like satire. But it's really a word of warning about what can go wrong when handing tasks to an AI agent...."
+          "title": "ChatGPT reaches 900M weekly active users",
+          "description": "OpenAI shared the new numbers as part of its announcement that it has raised $110 billion in private funding...."
         },
         "news": [
           {
-            "title": "With AI, investor loyalty is (almost) dead: At least a dozen OpenAI VCs now also back Anthropic ",
-            "description": "While some dual investors are understandable, others were more shocking, and signal the disregard of a longstanding ethical conflict-of-interest rule....",
-            "category": "funding",
-            "link": "https://techcrunch.com/2026/02/23/with-ai-investor-loyalty-is-almost-dead-at-least-a-dozen-openai-vcs-now-also-back-anthropic/"
+            "title": "Pentagon moves to designate Anthropic as a supply-chain risk",
+            "description": "\"We don't need it, we don't want it, and will not do business with them again,\" the president wrote in the post....",
+            "category": "industry",
+            "link": "https://techcrunch.com/2026/02/27/pentagon-moves-to-designate-anthropic-as-a-supply-chain-risk/"
           },
           {
-            "title": "Anthropic accuses Chinese AI labs of mining Claude as US debates AI chip exports",
-            "description": "Anthropic accuses DeepSeek, Moonshot, and MiniMax of using 24,000 fake accounts to distill Claude’s AI capabilities, as U.S. officials debate export controls aimed at slowing China’s AI progress....",
+            "title": "Musk bashes OpenAI in deposition, saying ‘nobody committed suicide because of Grok’",
+            "description": "In his lawsuit against OpenAI, Musk touted xAI safety compared with ChatGPT. A few months later, xAI's Grok flooded X with nonconsensual nude images....",
             "category": "industry",
-            "link": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/"
+            "link": "https://techcrunch.com/2026/02/27/musk-bashes-openai-in-deposition-saying-nobody-committed-suicide-because-of-grok/"
           },
           {
-            "title": "Google’s Cloud AI leads on the three frontiers of model capability",
-            "description": "AI models are pushing against three frontiers at once: raw intelligence, response time, and a third quality you might call \"extensibility.\"...",
+            "title": "Anthropic vs. the Pentagon: What’s actually at stake?",
+            "description": "Anthropic and the Pentagon are clashing over AI use in autonomous weapons and surveillance, raising high-stakes questions about national security, corporate control, and who sets the rules for military AI....",
             "category": "industry",
-            "link": "https://techcrunch.com/2026/02/23/googles-cloud-ai-lead-on-the-three-frontiers-of-model-capability/"
+            "link": "https://techcrunch.com/2026/02/27/anthropic-vs-the-pentagon-whats-actually-at-stake/"
           }
         ],
         "stat": {
