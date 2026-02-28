@@ -52,9 +52,15 @@ jobs:
       - name: Save newsletter for admin approval
         working-directory: newsletter/automation
         run: |
-          EDITION=$(cat logs/workflow-state.json | jq -r '.currentRun.edition')
-          RUN_ID=$(cat logs/workflow-state.json | jq -r '.currentRun.id')
-          node scripts/save-for-approval.js notify "$EDITION" "$RUN_ID"
+          echo "🔍 Checking workflow state..."
+          ls -la logs/
+          cat logs/workflow-state.json | jq '.'
+          
+          echo "💾 Running save-for-approval..."
+          node scripts/save-for-approval.js notify
+          
+          echo "✅ Done! Checking output file..."
+          ls -la logs/latest-newsletter.json || echo "❌ File not created!"
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}

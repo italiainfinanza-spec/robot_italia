@@ -111,19 +111,29 @@ if (require.main === module) {
   const action = process.argv[2];
   
   if (action === 'notify') {
-    const edition = process.argv[3];
-    const runId = process.argv[4];
-    
     // Load content from workflow-state
     const statePath = path.join(__dirname, '..', 'logs', 'workflow-state.json');
+    
+    console.log('📂 Loading state from:', statePath);
+    
+    if (!fs.existsSync(statePath)) {
+      console.error('❌ State file not found:', statePath);
+      process.exit(1);
+    }
+    
     const state = JSON.parse(fs.readFileSync(statePath, 'utf8'));
     
+    console.log('📊 State loaded. Current run:', state.currentRun?.id || 'none');
+    console.log('📝 Draft content:', state.currentRun?.data?.draftContent ? 'found' : 'NOT FOUND');
+    
     if (state.currentRun && state.currentRun.data?.draftContent) {
-      saveForApproval(
-        state.currentRun.data.draftContent,
-        edition,
-        runId
-      ).then(() => {
+      const edition = state.currentRun.edition;
+      const runId = state.currentRun.id;
+      const content = state.currentRun.data.draftContent;
+      
+      console.log(`🎯 Saving edition #${edition}, run ${runId}`);
+      
+      saveForApproval(content, edition, runId).then(() => {
         console.log('✅ Ready for admin approval!');
         process.exit(0);
       }).catch(err => {
@@ -131,7 +141,12 @@ if (require.main === module) {
         process.exit(1);
       });
     } else {
-      console.error('❌ No draft content found');
+      console.error('❌ No draft content found in state');
+      console.error('State keys:', Object.keys(state));
+      if (state.currentRun) {
+        console.error('Current run keys:', Object.keys(state.currentRun));
+        console.error('Data keys:', Object.keys(state.currentRun.data || {}));
+      }
       process.exit(1);
     }
   }
