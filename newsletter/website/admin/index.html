@@ -350,8 +350,18 @@
         
         async function loadNewsletter() {
             try {
-                // Fetch latest newsletter data from GitHub
-                const response = await fetch('https://raw.githubusercontent.com/italiainfinanza-spec/robot_italia/main/newsletter/automation/logs/latest-newsletter.json');
+                // Show loading state
+                const contentDiv = document.getElementById('newsletterContent');
+                contentDiv.innerHTML = `
+                    <div class="empty-state">
+                        <h3>🔄 Caricamento...</h3>
+                        <p>Sto cercando la newsletter su GitHub...</p>
+                    </div>
+                `;
+                
+                // Add cache-busting parameter
+                const cacheBuster = Date.now();
+                const response = await fetch(`https://raw.githubusercontent.com/italiainfinanza-spec/robot_italia/main/newsletter/automation/logs/latest-newsletter.json?cb=${cacheBuster}`);
                 
                 if (!response.ok) {
                     throw new Error('No newsletter available');
@@ -363,9 +373,24 @@
                     showNewsletter(data);
                 } else if (data.status === 'sent') {
                     showSentState(data);
+                } else {
+                    throw new Error('Unknown status: ' + data.status);
                 }
             } catch (error) {
                 console.log('No newsletter ready:', error);
+                const contentDiv = document.getElementById('newsletterContent');
+                contentDiv.innerHTML = `
+                    <div class="empty-state">
+                        <h3>⏳ Nessuna newsletter pronta</h3>
+                        <p>Il workflow GitHub deve ancora completare o il file non è stato committato.</p>
+                        <p style="margin-top: 16px; font-size: 13px; color: #737373;">
+                            Errore: ${error.message}<br>
+                            <button onclick="loadNewsletter()" style="margin-top: 16px; padding: 8px 16px; background: #2563eb; color: white; border: none; border-radius: 6px; cursor: pointer;">
+                                🔄 Riprova
+                            </button>
+                        </p>
+                    </div>
+                `;
             }
         }
         

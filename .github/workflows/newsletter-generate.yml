@@ -59,11 +59,18 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
 
+      - name: Verify newsletter file exists
+        run: |
+          ls -la newsletter/automation/logs/
+          cat newsletter/automation/logs/latest-newsletter.json | head -20
+
       - name: Commit newsletter data
         run: |
           git config user.email "automation@roboticaweekly.com"
           git config user.name "Newsletter AutoPilot"
+          git pull origin main --rebase || true
           git add newsletter/automation/logs/
+          git status
           git commit -m "newsletter: Edition ready for admin approval" || echo "No changes"
           git push origin main || echo "Nothing to push"
 

@@ -1,268 +1,416 @@
+-- ============================================================================
 -- Marketing Analytics Database Schema
--- Robotica Weekly - Email Event Tracking
--- Created: 2026-02-03 by Marty
+-- Robotica Weekly Newsletter Analytics System
+-- Phase 1-2 Implementation
+-- ============================================================================
 
--- =====================================================
--- EMAIL EVENTS TABLE
--- Tracks all SendGrid events: delivered, open, click, unsubscribe, bounce
--- =====================================================
+-- Enable required extensions
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+CREATE EXTENSION IF NOT EXISTS "pg_stat_statements";
 
+-- ============================================================================
+-- CORE TABLES
+-- ============================================================================
+
+-- Newsletter campaigns/issues tracking
+CREATE TABLE IF NOT EXISTS newsletters (
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+  issue_number INTEGER UNIQUE NOT NULL,
+  title TEXT NOT NULL,
+  subject_line TEXT NOT NULL,
+  content_hash TEXT, -- For detecting changes
+  sent_at TIMESTAMPTZ,
+  status TEXT DEFAULT 'draft' CHECK (status IN ('draft', 'scheduled', 'sending', 'sent', 'archived')),
+  total_recipients INTEGER DEFAULT 0,
+  free_recipients INTEGER DEFAULT 0,
+  premium_recipients INTEGER DEFAULT 0,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- Email events table for SendGrid webhooks
 CREATE TABLE IF NOT EXISTS email_events (
   id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
-  event_type TEXT NOT NULL CHECK (event_type IN ('delivered', 'open', 'click', 'unsubscribe', 'bounce', 'dropped', 'processed', 'deferred')),
+  event_type TEXT NOT NULL CHECK (event_type IN ('processed', 'delivered', 'open', 'click', 'bounce', 'dropped', 'deferred', 'unsubscribe', 'group_unsubscribe', 'group_resubscribe', 'spamreport')),
   email TEXT NOT NULL,
-  newsletter_id TEXT NOT NULL,
+  newsletter_id UUID REFERENCES newsletters(id) ON DELETE CASCADE,
   timestamp TIMESTAMPTZ NOT NULL,
+  sg_event_id TEXT,
+  sg_message_id TEXT,
   user_agent TEXT,
   ip TEXT,
   url TEXT,
-  sg_message_id TEXT,
-  sg_event_id TEXT,
   category TEXT[],
-  reason TEXT, -- for bounce/drop events
-  status TEXT, -- for processed events
+  reason TEXT, -- For bounce/drop events
+  status TEXT, -- For processed events
   response TEXT, -- SMTP response
+  tls BOOLEAN DEFAULT FALSE,
+  url_offset JSONB, -- For click events
+  asm_group_id INTEGER,
   created_at TIMESTAMPTZ DEFAULT NOW()
 );
 
--- =====================================================
--- INDEXES FOR QUERY PERFORMANCE
--- =====================================================
-
-CREATE INDEX IF NOT EXISTS idx_email_events_newsletter ON email_events(newsletter_id);
-CREATE INDEX IF NOT EXISTS idx_email_events_type ON email_events(event_type);
-CREATE INDEX IF NOT EXISTS idx_email_events_timestamp ON email_events(timestamp);
-CREATE INDEX IF NOT EXISTS idx_email_events_email ON email_events(email);
-CREATE INDEX IF NOT EXISTS idx_email_events_created ON email_events(created_at);
-
--- Composite index for common analytics queries
-CREATE INDEX IF NOT EXISTS idx_email_events_newsletter_type ON email_events(newsletter_id, event_type);
-
--- =====================================================
--- NEWSLETTER METRICS SUMMARY TABLE
--- Pre-aggregated metrics for fast dashboard queries
--- =====================================================
-
-CREATE TABLE IF NOT EXISTS newsletter_metrics (
+-- UTM tracking for click attribution
+CREATE TABLE IF NOT EXISTS utm_clicks (
   id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
-  newsletter_id TEXT NOT NULL UNIQUE,
-  sent_count INTEGER DEFAULT 0,
-  delivered_count INTEGER DEFAULT 0,
-  opened_count INTEGER DEFAULT 0,
-  unique_opens INTEGER DEFAULT 0,
-  clicked_count INTEGER DEFAULT 0,
-  unique_clicks INTEGER DEFAULT 0,
-  unsubscribed_count INTEGER DEFAULT 0,
-  bounced_count INTEGER DEFAULT 0,
-  open_rate DECIMAL(5,2) DEFAULT 0,
-  click_rate DECIMAL(5,2) DEFAULT 0,
-  ctr DECIMAL(5,2) DEFAULT 0, -- click-to-open rate
-  sent_at TIMESTAMPTZ,
-  updated_at TIMESTAMPTZ DEFAULT NOW()
-);
-
-CREATE INDEX IF NOT EXISTS idx_newsletter_metrics_id ON newsletter_metrics(newsletter_id);
-CREATE INDEX IF NOT EXISTS idx_newsletter_metrics_sent ON newsletter_metrics(sent_at);
-
--- =====================================================
--- SUBSCRIBER ENGAGEMENT SCORES
--- Track individual subscriber engagement over time
--- =====================================================
-
-CREATE TABLE IF NOT EXISTS subscriber_engagement (
-  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
-  email TEXT NOT NULL UNIQUE,
-  total_opens INTEGER DEFAULT 0,
-  total_clicks INTEGER DEFAULT 0,
-  emails_received INTEGER DEFAULT 0,
-  emails_opened INTEGER DEFAULT 0,
-  last_opened_at TIMESTAMPTZ,
-  last_clicked_at TIMESTAMPTZ,
-  engagement_score DECIMAL(5,2) DEFAULT 0, -- 0-100 score
-  cohort_date DATE, -- when they subscribed
-  churn_risk TEXT CHECK (churn_risk IN ('low', 'medium', 'high')) DEFAULT 'low',
-  updated_at TIMESTAMPTZ DEFAULT NOW()
-);
-
-CREATE INDEX IF NOT EXISTS idx_subscriber_engagement_email ON subscriber_engagement(email);
-CREATE INDEX IF NOT EXISTS idx_subscriber_engagement_score ON subscriber_engagement(engagement_score);
-
--- =====================================================
--- A/B TEST RESULTS TABLE
--- Store test configurations and results
--- =====================================================
-
-CREATE TABLE IF NOT EXISTS ab_tests (
-  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
-  test_name TEXT NOT NULL,
-  newsletter_id TEXT NOT NULL,
-  test_type TEXT NOT NULL CHECK (test_type IN ('subject', 'content', 'cta', 'send_time')),
-  variant_a_label TEXT DEFAULT 'A',
-  variant_b_label TEXT DEFAULT 'B',
-  variant_a_value TEXT NOT NULL,
-  variant_b_value TEXT NOT NULL,
-  split_percent INTEGER DEFAULT 50 CHECK (split_percent BETWEEN 10 AND 90),
-  winner_criteria TEXT DEFAULT 'open_rate' CHECK (winner_criteria IN ('open_rate', 'click_rate', 'ctr')),
-  status TEXT DEFAULT 'running' CHECK (status IN ('draft', 'running', 'completed', 'cancelled')),
-  started_at TIMESTAMPTZ,
-  completed_at TIMESTAMPTZ,
-  winner_variant TEXT CHECK (winner_variant IN ('A', 'B', 'tie')),
-  confidence_level DECIMAL(5,2),
-  lift_percent DECIMAL(5,2),
+  email_event_id UUID REFERENCES email_events(id) ON DELETE CASCADE,
+  email TEXT NOT NULL,
+  newsletter_id UUID REFERENCES newsletters(id) ON DELETE CASCADE,
+  original_url TEXT NOT NULL,
+  utm_source TEXT,
+  utm_medium TEXT,
+  utm_campaign TEXT,
+  utm_content TEXT,
+  utm_term TEXT,
+  clicked_at TIMESTAMPTZ NOT NULL,
   created_at TIMESTAMPTZ DEFAULT NOW()
 );
 
-CREATE INDEX IF NOT EXISTS idx_ab_tests_newsletter ON ab_tests(newsletter_id);
-CREATE INDEX IF NOT EXISTS idx_ab_tests_status ON ab_tests(status);
-
--- =====================================================
--- DAILY AGGREGATES TABLE
--- For time-series charts and trend analysis
--- =====================================================
-
+-- Daily aggregated metrics (for performance)
 CREATE TABLE IF NOT EXISTS daily_metrics (
   id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
   date DATE NOT NULL UNIQUE,
+  total_subscribers INTEGER DEFAULT 0,
   new_subscribers INTEGER DEFAULT 0,
   unsubscribes INTEGER DEFAULT 0,
   emails_sent INTEGER DEFAULT 0,
   emails_delivered INTEGER DEFAULT 0,
   emails_opened INTEGER DEFAULT 0,
-  emails_clicked INTEGER DEFAULT 0,
-  avg_open_rate DECIMAL(5,2) DEFAULT 0,
-  avg_click_rate DECIMAL(5,2) DEFAULT 0,
+  unique_opens INTEGER DEFAULT 0,
+  clicks INTEGER DEFAULT 0,
+  unique_clicks INTEGER DEFAULT 0,
+  bounces INTEGER DEFAULT 0,
+  spam_reports INTEGER DEFAULT 0,
+  open_rate DECIMAL(5,4),
+  click_rate DECIMAL(5,4),
+  click_to_open_rate DECIMAL(5,4),
+  bounce_rate DECIMAL(5,4),
   created_at TIMESTAMPTZ DEFAULT NOW(),
   updated_at TIMESTAMPTZ DEFAULT NOW()
 );
 
+-- Newsletter-specific metrics aggregation
+CREATE TABLE IF NOT EXISTS newsletter_metrics (
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+  newsletter_id UUID REFERENCES newsletters(id) ON DELETE CASCADE UNIQUE,
+  recipients INTEGER DEFAULT 0,
+  delivered INTEGER DEFAULT 0,
+  opens INTEGER DEFAULT 0,
+  unique_opens INTEGER DEFAULT 0,
+  clicks INTEGER DEFAULT 0,
+  unique_clicks INTEGER DEFAULT 0,
+  unsubscribes INTEGER DEFAULT 0,
+  bounces INTEGER DEFAULT 0,
+  spam_reports INTEGER DEFAULT 0,
+  open_rate DECIMAL(5,4),
+  click_rate DECIMAL(5,4),
+  click_to_open_rate DECIMAL(5,4),
+  calculated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- A/B Testing experiments
+CREATE TABLE IF NOT EXISTS ab_tests (
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+  newsletter_id UUID REFERENCES newsletters(id) ON DELETE CASCADE,
+  test_type TEXT NOT NULL CHECK (test_type IN ('subject_line', 'content', 'cta_button', 'send_time', 'sender_name')),
+  name TEXT NOT NULL,
+  status TEXT DEFAULT 'draft' CHECK (status IN ('draft', 'running', 'completed', 'cancelled')),
+  winner_variant TEXT,
+  confidence_level DECIMAL(4,3) DEFAULT 0.95, -- 95% default
+  started_at TIMESTAMPTZ,
+  ended_at TIMESTAMPTZ,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- A/B Test variants
+CREATE TABLE IF NOT EXISTS ab_test_variants (
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+  test_id UUID REFERENCES ab_tests(id) ON DELETE CASCADE,
+  variant_name TEXT NOT NULL CHECK (variant_name IN ('a', 'b', 'c')),
+  value TEXT NOT NULL, -- The actual content being tested
+  recipients INTEGER DEFAULT 0,
+  opens INTEGER DEFAULT 0,
+  clicks INTEGER DEFAULT 0,
+  open_rate DECIMAL(5,4),
+  click_rate DECIMAL(5,4),
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- ============================================================================
+-- INDEXES FOR PERFORMANCE
+-- ============================================================================
+
+-- Email events indexes
+CREATE INDEX IF NOT EXISTS idx_email_events_type ON email_events(event_type);
+CREATE INDEX IF NOT EXISTS idx_email_events_email ON email_events(email);
+CREATE INDEX IF NOT EXISTS idx_email_events_newsletter ON email_events(newsletter_id);
+CREATE INDEX IF NOT EXISTS idx_email_events_timestamp ON email_events(timestamp);
+CREATE INDEX IF NOT EXISTS idx_email_events_type_timestamp ON email_events(event_type, timestamp);
+
+-- UTM clicks indexes
+CREATE INDEX IF NOT EXISTS idx_utm_clicks_newsletter ON utm_clicks(newsletter_id);
+CREATE INDEX IF NOT EXISTS idx_utm_clicks_content ON utm_clicks(utm_content);
+CREATE INDEX IF NOT EXISTS idx_utm_clicks_campaign ON utm_clicks(utm_campaign);
+
+-- Metrics indexes
 CREATE INDEX IF NOT EXISTS idx_daily_metrics_date ON daily_metrics(date);
+CREATE INDEX IF NOT EXISTS idx_newsletter_metrics_newsletter ON newsletter_metrics(newsletter_id);
 
--- =====================================================
--- RLS POLICIES
--- Service role only for API security
--- =====================================================
+-- A/B test indexes
+CREATE INDEX IF NOT EXISTS idx_ab_tests_newsletter ON ab_tests(newsletter_id);
+CREATE INDEX IF NOT EXISTS idx_ab_test_variants_test ON ab_test_variants(test_id);
 
-ALTER TABLE email_events ENABLE ROW LEVEL SECURITY;
-ALTER TABLE newsletter_metrics ENABLE ROW LEVEL SECURITY;
-ALTER TABLE subscriber_engagement ENABLE ROW LEVEL SECURITY;
-ALTER TABLE ab_tests ENABLE ROW LEVEL SECURITY;
-ALTER TABLE daily_metrics ENABLE ROW LEVEL SECURITY;
+-- ============================================================================
+-- HELPER FUNCTIONS
+-- ============================================================================
 
--- Deny all access by default (service role bypasses RLS)
-CREATE POLICY "Deny all access" ON email_events FOR ALL USING (false);
-CREATE POLICY "Deny all access" ON newsletter_metrics FOR ALL USING (false);
-CREATE POLICY "Deny all access" ON subscriber_engagement FOR ALL USING (false);
-CREATE POLICY "Deny all access" ON ab_tests FOR ALL USING (false);
-CREATE POLICY "Deny all access" ON daily_metrics FOR ALL USING (false);
-
--- =====================================================
--- FUNCTIONS
--- =====================================================
-
--- Update newsletter metrics when events are inserted
-CREATE OR REPLACE FUNCTION update_newsletter_metrics()
+-- Update timestamp trigger
+CREATE OR REPLACE FUNCTION update_updated_at_column()
 RETURNS TRIGGER AS $$
 BEGIN
-  -- Update or insert metrics for this newsletter
-  INSERT INTO newsletter_metrics (newsletter_id, sent_count, delivered_count, opened_count, clicked_count, unsubscribed_count, bounced_count)
-  VALUES (
-    NEW.newsletter_id,
-    CASE WHEN NEW.event_type = 'processed' THEN 1 ELSE 0 END,
-    CASE WHEN NEW.event_type = 'delivered' THEN 1 ELSE 0 END,
-    CASE WHEN NEW.event_type = 'open' THEN 1 ELSE 0 END,
-    CASE WHEN NEW.event_type = 'click' THEN 1 ELSE 0 END,
-    CASE WHEN NEW.event_type = 'unsubscribe' THEN 1 ELSE 0 END,
-    CASE WHEN NEW.event_type = 'bounce' THEN 1 ELSE 0 END
-  )
-  ON CONFLICT (newsletter_id) DO UPDATE SET
-    sent_count = newsletter_metrics.sent_count + CASE WHEN NEW.event_type = 'processed' THEN 1 ELSE 0 END,
-    delivered_count = newsletter_metrics.delivered_count + CASE WHEN NEW.event_type = 'delivered' THEN 1 ELSE 0 END,
-    opened_count = newsletter_metrics.opened_count + CASE WHEN NEW.event_type = 'open' THEN 1 ELSE 0 END,
-    clicked_count = newsletter_metrics.clicked_count + CASE WHEN NEW.event_type = 'click' THEN 1 ELSE 0 END,
-    unsubscribed_count = newsletter_metrics.unsubscribed_count + CASE WHEN NEW.event_type = 'unsubscribe' THEN 1 ELSE 0 END,
-    bounced_count = newsletter_metrics.bounced_count + CASE WHEN NEW.event_type = 'bounce' THEN 1 ELSE 0 END,
-    updated_at = NOW();
-  
+  NEW.updated_at = NOW();
   RETURN NEW;
 END;
 $$ LANGUAGE plpgsql;
 
--- Trigger to auto-update metrics
-CREATE TRIGGER trigger_update_newsletter_metrics
-AFTER INSERT ON email_events
-FOR EACH ROW
-EXECUTE FUNCTION update_newsletter_metrics();
+-- Apply update trigger to tables
+CREATE TRIGGER update_newsletters_updated_at
+  BEFORE UPDATE ON newsletters
+  FOR EACH ROW EXECUTE FUNCTION update_updated_at_column();
 
--- Update rates after metrics change
-CREATE OR REPLACE FUNCTION calculate_rates()
-RETURNS TRIGGER AS $$
+CREATE TRIGGER update_daily_metrics_updated_at
+  BEFORE UPDATE ON daily_metrics
+  FOR EACH ROW EXECUTE FUNCTION update_updated_at_column();
+
+-- Calculate newsletter metrics
+CREATE OR REPLACE FUNCTION calculate_newsletter_metrics(p_newsletter_id UUID)
+RETURNS TABLE (
+  recipients INTEGER,
+  delivered INTEGER,
+  opens INTEGER,
+  unique_opens INTEGER,
+  clicks INTEGER,
+  unique_clicks INTEGER,
+  open_rate DECIMAL,
+  click_rate DECIMAL,
+  click_to_open_rate DECIMAL
+) AS $$
 BEGIN
-  NEW.open_rate := CASE 
-    WHEN NEW.delivered_count > 0 THEN ROUND((NEW.opened_count::DECIMAL / NEW.delivered_count) * 100, 2)
-    ELSE 0 
-  END;
-  
-  NEW.click_rate := CASE 
-    WHEN NEW.delivered_count > 0 THEN ROUND((NEW.clicked_count::DECIMAL / NEW.delivered_count) * 100, 2)
-    ELSE 0 
-  END;
-  
-  NEW.ctr := CASE 
-    WHEN NEW.opened_count > 0 THEN ROUND((NEW.clicked_count::DECIMAL / NEW.opened_count) * 100, 2)
-    ELSE 0 
-  END;
-  
-  RETURN NEW;
+  RETURN QUERY
+  WITH metrics AS (
+    SELECT
+      COUNT(DISTINCT ee.email) FILTER (WHERE ee.event_type = 'delivered') as delivered_count,
+      COUNT(*) FILTER (WHERE ee.event_type = 'open') as open_count,
+      COUNT(DISTINCT ee.email) FILTER (WHERE ee.event_type = 'open') as unique_open_count,
+      COUNT(*) FILTER (WHERE ee.event_type = 'click') as click_count,
+      COUNT(DISTINCT ee.email) FILTER (WHERE ee.event_type = 'click') as unique_click_count
+    FROM email_events ee
+    WHERE ee.newsletter_id = p_newsletter_id
+  )
+  SELECT
+    n.total_recipients as recipients,
+    COALESCE(m.delivered_count, 0)::INTEGER as delivered,
+    COALESCE(m.open_count, 0)::INTEGER as opens,
+    COALESCE(m.unique_open_count, 0)::INTEGER as unique_opens,
+    COALESCE(m.click_count, 0)::INTEGER as clicks,
+    COALESCE(m.unique_click_count, 0)::INTEGER as unique_clicks,
+    CASE 
+      WHEN COALESCE(m.delivered_count, 0) > 0 
+      THEN ROUND((m.unique_open_count::DECIMAL / m.delivered_count) * 100, 2)
+      ELSE 0
+    END as open_rate,
+    CASE 
+      WHEN COALESCE(m.delivered_count, 0) > 0 
+      THEN ROUND((m.unique_click_count::DECIMAL / m.delivered_count) * 100, 2)
+      ELSE 0
+    END as click_rate,
+    CASE 
+      WHEN COALESCE(m.unique_open_count, 0) > 0 
+      THEN ROUND((m.unique_click_count::DECIMAL / m.unique_open_count) * 100, 2)
+      ELSE 0
+    END as click_to_open_rate
+  FROM newsletters n
+  CROSS JOIN metrics m
+  WHERE n.id = p_newsletter_id;
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE TRIGGER trigger_calculate_rates
-BEFORE UPDATE ON newsletter_metrics
-FOR EACH ROW
-EXECUTE FUNCTION calculate_rates();
-
--- Update daily aggregates
-CREATE OR REPLACE FUNCTION update_daily_metrics()
-RETURNS TRIGGER AS $$
-DECLARE
-  event_date DATE;
+-- Aggregate daily metrics
+CREATE OR REPLACE FUNCTION aggregate_daily_metrics(p_date DATE)
+RETURNS VOID AS $$
 BEGIN
-  event_date := DATE(NEW.timestamp);
-  
-  INSERT INTO daily_metrics (date, emails_sent, emails_delivered, emails_opened, emails_clicked, unsubscribes)
-  VALUES (
-    event_date,
-    CASE WHEN NEW.event_type = 'processed' THEN 1 ELSE 0 END,
-    CASE WHEN NEW.event_type = 'delivered' THEN 1 ELSE 0 END,
-    CASE WHEN NEW.event_type = 'open' THEN 1 ELSE 0 END,
-    CASE WHEN NEW.event_type = 'click' THEN 1 ELSE 0 END,
-    CASE WHEN NEW.event_type = 'unsubscribe' THEN 1 ELSE 0 END
+  INSERT INTO daily_metrics (
+    date,
+    emails_delivered,
+    emails_opened,
+    unique_opens,
+    clicks,
+    unique_clicks,
+    bounces,
+    unsubscribes,
+    spam_reports
   )
+  SELECT
+    p_date as date,
+    COUNT(*) FILTER (WHERE event_type = 'delivered'),
+    COUNT(*) FILTER (WHERE event_type = 'open'),
+    COUNT(DISTINCT email) FILTER (WHERE event_type = 'open'),
+    COUNT(*) FILTER (WHERE event_type = 'click'),
+    COUNT(DISTINCT email) FILTER (WHERE event_type = 'click'),
+    COUNT(*) FILTER (WHERE event_type IN ('bounce', 'dropped')),
+    COUNT(*) FILTER (WHERE event_type = 'unsubscribe'),
+    COUNT(*) FILTER (WHERE event_type = 'spamreport')
+  FROM email_events
+  WHERE DATE(timestamp) = p_date
   ON CONFLICT (date) DO UPDATE SET
-    emails_sent = daily_metrics.emails_sent + CASE WHEN NEW.event_type = 'processed' THEN 1 ELSE 0 END,
-    emails_delivered = daily_metrics.emails_delivered + CASE WHEN NEW.event_type = 'delivered' THEN 1 ELSE 0 END,
-    emails_opened = daily_metrics.emails_opened + CASE WHEN NEW.event_type = 'open' THEN 1 ELSE 0 END,
-    emails_clicked = daily_metrics.emails_clicked + CASE WHEN NEW.event_type = 'click' THEN 1 ELSE 0 END,
-    unsubscribes = daily_metrics.unsubscribes + CASE WHEN NEW.event_type = 'unsubscribe' THEN 1 ELSE 0 END,
+    emails_delivered = EXCLUDED.emails_delivered,
+    emails_opened = EXCLUDED.emails_opened,
+    unique_opens = EXCLUDED.unique_opens,
+    clicks = EXCLUDED.clicks,
+    unique_clicks = EXCLUDED.unique_clicks,
+    bounces = EXCLUDED.bounces,
+    unsubscribes = EXCLUDED.unsubscribes,
+    spam_reports = EXCLUDED.spam_reports,
     updated_at = NOW();
-  
-  RETURN NEW;
+
+  -- Calculate rates
+  UPDATE daily_metrics
+  SET
+    open_rate = CASE WHEN emails_delivered > 0 THEN ROUND((unique_opens::DECIMAL / emails_delivered) * 100, 4) ELSE 0 END,
+    click_rate = CASE WHEN emails_delivered > 0 THEN ROUND((unique_clicks::DECIMAL / emails_delivered) * 100, 4) ELSE 0 END,
+    click_to_open_rate = CASE WHEN unique_opens > 0 THEN ROUND((unique_clicks::DECIMAL / unique_opens) * 100, 4) ELSE 0 END,
+    bounce_rate = CASE WHEN emails_delivered > 0 THEN ROUND((bounces::DECIMAL / emails_delivered) * 100, 4) ELSE 0 END
+  WHERE date = p_date;
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE TRIGGER trigger_update_daily_metrics
-AFTER INSERT ON email_events
-FOR EACH ROW
-EXECUTE FUNCTION update_daily_metrics();
+-- ============================================================================
+-- ROW LEVEL SECURITY (RLS) POLICIES
+-- ============================================================================
 
--- =====================================================
--- GRANTS
--- =====================================================
+-- Enable RLS on all tables
+ALTER TABLE newsletters ENABLE ROW LEVEL SECURITY;
+ALTER TABLE email_events ENABLE ROW LEVEL SECURITY;
+ALTER TABLE utm_clicks ENABLE ROW LEVEL SECURITY;
+ALTER TABLE daily_metrics ENABLE ROW LEVEL SECURITY;
+ALTER TABLE newsletter_metrics ENABLE ROW LEVEL SECURITY;
+ALTER TABLE ab_tests ENABLE ROW LEVEL SECURITY;
+ALTER TABLE ab_test_variants ENABLE ROW LEVEL SECURITY;
 
-GRANT ALL ON email_events TO service_role;
-GRANT ALL ON newsletter_metrics TO service_role;
-GRANT ALL ON subscriber_engagement TO service_role;
-GRANT ALL ON ab_tests TO service_role;
-GRANT ALL ON daily_metrics TO service_role;
+-- Service role only access (for API security)
+CREATE POLICY "Service role full access" ON newsletters
+  FOR ALL USING (current_user = 'service_role');
 
-GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public TO service_role;
+CREATE POLICY "Service role full access" ON email_events
+  FOR ALL USING (current_user = 'service_role');
+
+CREATE POLICY "Service role full access" ON utm_clicks
+  FOR ALL USING (current_user = 'service_role');
+
+CREATE POLICY "Service role full access" ON daily_metrics
+  FOR ALL USING (current_user = 'service_role');
+
+CREATE POLICY "Service role full access" ON newsletter_metrics
+  FOR ALL USING (current_user = 'service_role');
+
+CREATE POLICY "Service role full access" ON ab_tests
+  FOR ALL USING (current_user = 'service_role');
+
+CREATE POLICY "Service role full access" ON ab_test_variants
+  FOR ALL USING (current_user = 'service_role');
+
+-- ============================================================================
+-- VIEWS FOR DASHBOARD QUERIES
+-- ============================================================================
+
+-- Executive summary view
+CREATE OR REPLACE VIEW v_executive_summary AS
+WITH last_30_days AS (
+  SELECT * FROM daily_metrics
+  WHERE date >= CURRENT_DATE - INTERVAL '30 days'
+),
+last_newsletter AS (
+  SELECT * FROM newsletters
+  WHERE status = 'sent'
+  ORDER BY sent_at DESC
+  LIMIT 1
+),
+metrics AS (
+  SELECT
+    COALESCE(SUM(new_subscribers), 0) as total_new_subscribers,
+    COALESCE(SUM(unsubscribes), 0) as total_unsubscribes,
+    COALESCE(AVG(open_rate), 0) as avg_open_rate,
+    COALESCE(AVG(click_rate), 0) as avg_click_rate
+  FROM last_30_days
+)
+SELECT
+  (SELECT issue_number FROM last_newsletter) as last_issue_number,
+  (SELECT sent_at FROM last_newsletter) as last_sent_at,
+  m.total_new_subscribers,
+  m.total_unsubscribes,
+  ROUND(m.avg_open_rate * 100, 2) as avg_open_rate_pct,
+  ROUND(m.avg_click_rate * 100, 2) as avg_click_rate_pct,
+  (SELECT total_subscribers FROM daily_metrics WHERE date = CURRENT_DATE - 1) as current_subscriber_count
+FROM metrics m;
+
+-- Top performing content (by click rate)
+CREATE OR REPLACE VIEW v_top_performing_content AS
+SELECT
+  n.issue_number,
+  n.title,
+  nm.unique_opens,
+  nm.unique_clicks,
+  nm.click_to_open_rate * 100 as click_to_open_rate_pct,
+  n.sent_at
+FROM newsletters n
+JOIN newsletter_metrics nm ON n.id = nm.newsletter_id
+WHERE n.status = 'sent'
+ORDER BY nm.click_to_open_rate DESC
+LIMIT 10;
+
+-- Newsletter performance history
+CREATE OR REPLACE VIEW v_newsletter_performance AS
+SELECT
+  n.issue_number,
+  n.subject_line,
+  n.sent_at,
+  n.total_recipients,
+  nm.delivered,
+  nm.unique_opens,
+  nm.unique_clicks,
+  ROUND(nm.open_rate * 100, 2) as open_rate_pct,
+  ROUND(nm.click_rate * 100, 2) as click_rate_pct,
+  nm.unsubscribes,
+  nm.bounces
+FROM newsletters n
+LEFT JOIN newsletter_metrics nm ON n.id = nm.newsletter_id
+WHERE n.status = 'sent'
+ORDER BY n.sent_at DESC;
+
+-- UTM performance breakdown
+CREATE OR REPLACE VIEW v_utm_performance AS
+SELECT
+  uc.utm_campaign,
+  uc.utm_content,
+  COUNT(*) as total_clicks,
+  COUNT(DISTINCT uc.email) as unique_clicks,
+  n.issue_number
+FROM utm_clicks uc
+JOIN newsletters n ON uc.newsletter_id = n.id
+GROUP BY uc.utm_campaign, uc.utm_content, n.issue_number
+ORDER BY total_clicks DESC;
+
+-- ============================================================================
+-- INITIAL DATA
+-- ============================================================================
+
+-- Insert placeholder newsletter records for existing editions
+INSERT INTO newsletters (issue_number, title, subject_line, status, sent_at)
+VALUES
+  (1, 'Figure AI $1B+ Funding Round', 'Figure AI: Unicorno da $39B | Robotica Premium #001', 'sent', '2026-02-03 08:00:00+00'),
+  (2, 'NVIDIA Physical AI Platform', 'Il ChatGPT Moment della Robotica | Robotica Premium #002', 'sent', '2026-02-04 08:00:00+00')
+ON CONFLICT (issue_number) DO NOTHING;
+
+-- ============================================================================
+-- END OF SCHEMA
+-- ============================================================================
