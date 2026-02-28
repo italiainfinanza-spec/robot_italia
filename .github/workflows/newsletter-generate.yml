@@ -92,11 +92,23 @@ jobs:
         run: |
           git config user.email "automation@roboticaweekly.com"
           git config user.name "Newsletter AutoPilot"
-          git pull origin main --rebase || true
-          git add newsletter/automation/logs/
+          
+          echo "🔍 Checking what files exist..."
+          ls -la newsletter/automation/logs/
+          
+          echo "📤 Adding files to git..."
+          git add -f newsletter/automation/logs/latest-newsletter.json
+          git add -f newsletter/automation/logs/workflow-state.json
+          
+          echo "📊 Git status:"
           git status
-          git commit -m "newsletter: Edition ready for admin approval" || echo "No changes"
-          git push origin main || echo "Nothing to push"
+          
+          echo "💾 Committing..."
+          git commit -m "newsletter: Edition ready for admin approval" || echo "No changes to commit"
+          
+          echo "🚀 Pushing to GitHub..."
+          git pull origin main --rebase || true
+          git push origin main || echo "Push failed"
 
       - name: Summary
         run: |
