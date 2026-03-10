@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1772524624511",
-  "subject": "La settimana in robotica — Edizione #1",
+  "runId": "run-1773129416444",
+  "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
   "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "No one has a good plan for how AI companies should work with the government",
-    "description": "As OpenAI transitions from a wildly successful consumer startup into a piece of national security infrastructure, the company seems unequipped to manage its new responsibilities...."
+    "title": "Yann LeCun’s AMI Labs raises $1.03 billion to build world models",
+    "description": "AMI Labs, the new venture cofounded by Turing Prize winner Yann LeCun after he left Meta, has raised $1.03 billion at a $3.5 billion pre-money valuation...."
   },
   "news": [
     {
-      "title": "Users are ditching ChatGPT for Claude — here’s how to make the switch",
-      "description": "Following controversies surrounding ChatGPT, many users are ditching the AI chatbot for Claude instead. Here's how to make the switch....",
+      "title": "OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit",
+      "description": "More than 30 OpenAI and Google DeepMind employees signed onto a statement supporting Anthropic's lawsuit against the Defense Department after the agency labeled the AI firm a supply-chain risk, according to court filings....",
       "category": "industry",
-      "link": "https://techcrunch.com/2026/03/02/users-are-ditching-chatgpt-for-claude-heres-how-to-make-the-switch/"
+      "link": "https://techcrunch.com/2026/03/09/openai-and-google-employees-rush-to-anthropics-defense-in-dod-lawsuit/"
     },
     {
-      "title": "Tech workers urge DOD, Congress to withdraw Anthropic label as a supply-chain risk",
-      "description": "Tech workers have signed an open letter urging the Department of Defense to withdraw its designation of Anthropic as a \"supply chain risk\" and instead to settle the matter quietly....",
-      "category": "industry",
-      "link": "https://techcrunch.com/2026/03/02/tech-workers-urge-dod-congress-to-withdraw-anthropic-label-as-a-supply-chain-risk/"
+      "title": "Anthropic launches code review tool to check flood of AI-generated code",
+      "description": "Anthropic launched Code Review in Claude Code, a multi-agent system that automatically analyzes AI-generated code, flags logic errors, and helps enterprise developers manage the growing volume of code produced with AI....",
+      "category": "product",
+      "link": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/"
     },
     {
-      "title": "NVIDIA Details New A.I. Chips and Autonomous Car Project With Mercedes",
-      "description": "New York Times...",
-      "category": "company",
-      "link": "https://www.nytimes.com/2026/01/05/technology/nvidia-chips-mercedes.html"
+      "title": "OpenAI acquires Promptfoo to secure its AI agents",
+      "description": "This deal underscores how frontier labs are scrambling to prove their technology can be used safely in critical business operations....",
+      "category": "industry",
+      "link": "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-03-03T07:57:07.067Z",
+  "generatedAt": "2026-03-10T07:56:58.826Z",
   "html": "<!-- Template not found -->"
 }
