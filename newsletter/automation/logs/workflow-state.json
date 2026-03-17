@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1773129416444",
+    "id": "run-1773730944088",
     "edition": 1,
-    "date": "2026-03-10T07:56:56.444Z",
+    "date": "2026-03-17T07:02:24.088Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-03-10T07:56:56.449Z",
-        "completedAt": "2026-03-10T07:56:57.926Z"
+        "startedAt": "2026-03-17T07:02:24.093Z",
+        "completedAt": "2026-03-17T07:02:25.522Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-03-10T07:56:57.997Z",
-        "completedAt": "2026-03-10T07:56:58.156Z"
+        "startedAt": "2026-03-17T07:02:25.594Z",
+        "completedAt": "2026-03-17T07:02:25.917Z"
       },
       "review": {
         "status": "pending",
@@ -30,50 +30,50 @@
     "data": {
       "researchResults": [
         {
-          "title": "Yann LeCun’s AMI Labs raises $1.03 billion to build world models",
-          "link": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/",
-          "description": "AMI Labs, the new venture cofounded by Turing Prize winner Yann LeCun after he left Meta, has raised $1.03 billion at a $3.5 billion pre-money valuation.",
-          "pubDate": "Tue, 10 Mar 2026 05:00:00 +0000",
+          "title": "Memories AI is building the visual memory layer for wearables and robotics",
+          "link": "https://techcrunch.com/2026/03/16/memories-ai-is-building-the-visual-memory-layer-for-wearables-and-robotics/",
+          "description": "Memories.ai is building a large visual memory model that can index and retrieve video-recorded memories for physical AI. ",
+          "pubDate": "Mon, 16 Mar 2026 20:30:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 5,
-          "category": "funding"
-        },
-        {
-          "title": "OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit",
-          "link": "https://techcrunch.com/2026/03/09/openai-and-google-employees-rush-to-anthropics-defense-in-dod-lawsuit/",
-          "description": "More than 30 OpenAI and Google DeepMind employees signed onto a statement supporting Anthropic's lawsuit against the Defense Department after the agency labeled the AI firm a supply-chain risk, according to court filings.",
-          "pubDate": "Mon, 09 Mar 2026 21:15:17 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
+          "relevanceScore": 11,
           "category": "industry"
         },
         {
-          "title": "Anthropic launches code review tool to check flood of AI-generated code",
-          "link": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/",
-          "description": "Anthropic launched Code Review in Claude Code, a multi-agent system that automatically analyzes AI-generated code, flags logic errors, and helps enterprise developers manage the growing volume of code produced with AI.",
-          "pubDate": "Mon, 09 Mar 2026 19:41:34 +0000",
+          "title": "Nvidia’s version of OpenClaw could solve its biggest problem: security",
+          "link": "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/",
+          "description": "Nvidia announced an open enterprise AI agent platform, called NemoClaw, that is built off of viral OpenClaw. ",
+          "pubDate": "Mon, 16 Mar 2026 22:45:51 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 7,
+          "category": "company"
+        },
+        {
+          "title": "Jensen Huang just put Nvidia’s Blackwell and Vera Rubin sales projections into the $1 trillion stratosphere",
+          "link": "https://techcrunch.com/2026/03/16/jensen-just-put-nvidias-blackwell-and-vera-rubin-sales-projections-into-the-1-trillion-stratosphere/",
+          "description": "Nvidia CEO Jensen Huang said he expects $1 trillion worth of orders for the chips. ",
+          "pubDate": "Mon, 16 Mar 2026 21:41:37 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 7,
+          "category": "funding"
+        },
+        {
+          "title": "Picsart now allows creators to ‘hire’ AI assistants through agent marketplace",
+          "link": "https://techcrunch.com/2026/03/16/picsart-now-allows-creators-to-hire-ai-assistants-through-agent-marketplace/",
+          "description": "Picsart's AI agent marketplace will launch with four agents, then add more agents each week.",
+          "pubDate": "Tue, 17 Mar 2026 04:01:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "product"
         },
         {
-          "title": "OpenAI acquires Promptfoo to secure its AI agents",
-          "link": "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/",
-          "description": "This deal underscores how frontier labs are scrambling to prove their technology can be used safely in critical business operations.",
-          "pubDate": "Mon, 09 Mar 2026 17:49:04 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "Anthropic sues Defense Department over supply-chain risk designation",
-          "link": "https://techcrunch.com/2026/03/09/anthropic-sues-defense-department-over-supply-chain-risk-designation/",
-          "description": "Anthropic filed suit against the Department of Defense on Monday after the agency labeled it a supply-chain risk. The complaint calls the DOD's actions \"unprecedented and unlawful.\"",
-          "pubDate": "Mon, 09 Mar 2026 17:25:40 +0000",
+          "title": "Warren presses Pentagon over decision to grant xAI access to classified networks",
+          "link": "https://techcrunch.com/2026/03/16/warren-presses-pentagon-over-decision-to-grant-xai-access-to-classified-networks/",
+          "description": "Sen. Elizabeth Warren noted that Grok, xAI's controversial chatbot, has created harmful outputs for users and poses a potential national security risk.",
+          "pubDate": "Mon, 16 Mar 2026 20:58:36 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
@@ -103,31 +103,31 @@
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-03-10",
+        "date": "2026-03-17",
         "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
         "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Yann LeCun’s AMI Labs raises $1.03 billion to build world models",
-          "description": "AMI Labs, the new venture cofounded by Turing Prize winner Yann LeCun after he left Meta, has raised $1.03 billion at a $3.5 billion pre-money valuation...."
+          "title": "Memories AI is building the visual memory layer for wearables and robotics",
+          "description": "Memories.ai is building a large visual memory model that can index and retrieve video-recorded memories for physical AI. ..."
         },
         "news": [
           {
-            "title": "OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit",
-            "description": "More than 30 OpenAI and Google DeepMind employees signed onto a statement supporting Anthropic's lawsuit against the Defense Department after the agency labeled the AI firm a supply-chain risk, according to court filings....",
-            "category": "industry",
-            "link": "https://techcrunch.com/2026/03/09/openai-and-google-employees-rush-to-anthropics-defense-in-dod-lawsuit/"
+            "title": "Nvidia’s version of OpenClaw could solve its biggest problem: security",
+            "description": "Nvidia announced an open enterprise AI agent platform, called NemoClaw, that is built off of viral OpenClaw. ...",
+            "category": "company",
+            "link": "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/"
           },
           {
-            "title": "Anthropic launches code review tool to check flood of AI-generated code",
-            "description": "Anthropic launched Code Review in Claude Code, a multi-agent system that automatically analyzes AI-generated code, flags logic errors, and helps enterprise developers manage the growing volume of code produced with AI....",
+            "title": "Jensen Huang just put Nvidia’s Blackwell and Vera Rubin sales projections into the $1 trillion stratosphere",
+            "description": "Nvidia CEO Jensen Huang said he expects $1 trillion worth of orders for the chips. ...",
+            "category": "funding",
+            "link": "https://techcrunch.com/2026/03/16/jensen-just-put-nvidias-blackwell-and-vera-rubin-sales-projections-into-the-1-trillion-stratosphere/"
+          },
+          {
+            "title": "Picsart now allows creators to ‘hire’ AI assistants through agent marketplace",
+            "description": "Picsart's AI agent marketplace will launch with four agents, then add more agents each week....",
             "category": "product",
-            "link": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/"
-          },
-          {
-            "title": "OpenAI acquires Promptfoo to secure its AI agents",
-            "description": "This deal underscores how frontier labs are scrambling to prove their technology can be used safely in critical business operations....",
-            "category": "industry",
-            "link": "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/"
+            "link": "https://techcrunch.com/2026/03/16/picsart-now-allows-creators-to-hire-ai-assistants-through-agent-marketplace/"
           }
         ],
         "stat": {
