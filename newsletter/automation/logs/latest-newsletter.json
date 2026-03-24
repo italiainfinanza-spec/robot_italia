@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1773730944088",
-  "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
-  "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
+  "runId": "run-1774335739628",
+  "subject": "La settimana in robotica — Edizione #1",
+  "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "Memories AI is building the visual memory layer for wearables and robotics",
-    "description": "Memories.ai is building a large visual memory model that can index and retrieve video-recorded memories for physical AI. ..."
+    "title": "Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way",
+    "description": "Gimlet Labs just raised an $80 million Series A for tech that lets AI run across NVIDIA, AMD, Intel, ARM, Cerebras and d-Matrix chips, simultaneously...."
   },
   "news": [
     {
-      "title": "Nvidia’s version of OpenClaw could solve its biggest problem: security",
-      "description": "Nvidia announced an open enterprise AI agent platform, called NemoClaw, that is built off of viral OpenClaw. ...",
-      "category": "company",
-      "link": "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/"
+      "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
+      "description": "Lovable's founder said the fast-growing vibe-coding startup is looking for startups and teams to join its company....",
+      "category": "market",
+      "link": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/"
     },
     {
-      "title": "Jensen Huang just put Nvidia’s Blackwell and Vera Rubin sales projections into the $1 trillion stratosphere",
-      "description": "Nvidia CEO Jensen Huang said he expects $1 trillion worth of orders for the chips. ...",
+      "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
+      "description": "London’s Air Street Capital has raised a large Fund III with eyes locked on backing early-stage European and North American AI companies....",
       "category": "funding",
-      "link": "https://techcrunch.com/2026/03/16/jensen-just-put-nvidias-blackwell-and-vera-rubin-sales-projections-into-the-1-trillion-stratosphere/"
+      "link": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/"
     },
     {
-      "title": "Picsart now allows creators to ‘hire’ AI assistants through agent marketplace",
-      "description": "Picsart's AI agent marketplace will launch with four agents, then add more agents each week....",
-      "category": "product",
-      "link": "https://techcrunch.com/2026/03/16/picsart-now-allows-creators-to-hire-ai-assistants-through-agent-marketplace/"
+      "title": "Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great",
+      "description": "Sen. Bernie Sanders thinks he's tricked Claude into revealing the AI industry's secrets, but he really just exposed how agreeable chatbots can become. ...",
+      "category": "industry",
+      "link": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-03-17T07:02:26.620Z",
+  "generatedAt": "2026-03-24T07:02:21.617Z",
   "html": "<!-- Template not found -->"
 }
