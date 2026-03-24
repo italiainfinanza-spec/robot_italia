@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1773731025392",
+    "id": "run-1774335739628",
     "edition": 1,
-    "date": "2026-03-17T07:03:45.392Z",
+    "date": "2026-03-24T07:02:19.628Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-03-17T07:03:45.397Z",
-        "completedAt": "2026-03-17T07:03:46.917Z"
+        "startedAt": "2026-03-24T07:02:19.633Z",
+        "completedAt": "2026-03-24T07:02:20.817Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-03-17T07:04:01.777Z",
-        "completedAt": "2026-03-17T07:04:01.787Z"
+        "startedAt": "2026-03-24T07:02:20.897Z",
+        "completedAt": "2026-03-24T07:02:21.049Z"
       },
       "review": {
         "status": "pending",
@@ -30,104 +30,104 @@
     "data": {
       "researchResults": [
         {
-          "title": "Memories AI is building the visual memory layer for wearables and robotics",
-          "link": "https://techcrunch.com/2026/03/16/memories-ai-is-building-the-visual-memory-layer-for-wearables-and-robotics/",
-          "description": "Memories.ai is building a large visual memory model that can index and retrieve video-recorded memories for physical AI. ",
-          "pubDate": "Mon, 16 Mar 2026 20:30:00 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 11,
-          "category": "industry"
-        },
-        {
-          "title": "Nvidia’s version of OpenClaw could solve its biggest problem: security",
-          "link": "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/",
-          "description": "Nvidia announced an open enterprise AI agent platform, called NemoClaw, that is built off of viral OpenClaw. ",
-          "pubDate": "Mon, 16 Mar 2026 22:45:51 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 7,
-          "category": "company"
-        },
-        {
-          "title": "Jensen Huang just put Nvidia’s Blackwell and Vera Rubin sales projections into the $1 trillion stratosphere",
-          "link": "https://techcrunch.com/2026/03/16/jensen-just-put-nvidias-blackwell-and-vera-rubin-sales-projections-into-the-1-trillion-stratosphere/",
-          "description": "Nvidia CEO Jensen Huang said he expects $1 trillion worth of orders for the chips. ",
-          "pubDate": "Mon, 16 Mar 2026 21:41:37 +0000",
+          "title": "Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way",
+          "link": "https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/",
+          "description": "Gimlet Labs just raised an $80 million Series A for tech that lets AI run across NVIDIA, AMD, Intel, ARM, Cerebras and d-Matrix chips, simultaneously.",
+          "pubDate": "Mon, 23 Mar 2026 16:00:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 7,
           "category": "funding"
         },
         {
-          "title": "Picsart now allows creators to ‘hire’ AI assistants through agent marketplace",
-          "link": "https://techcrunch.com/2026/03/16/picsart-now-allows-creators-to-hire-ai-assistants-through-agent-marketplace/",
-          "description": "Picsart's AI agent marketplace will launch with four agents, then add more agents each week.",
-          "pubDate": "Tue, 17 Mar 2026 04:01:00 +0000",
+          "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
+          "link": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
+          "description": "Lovable's founder said the fast-growing vibe-coding startup is looking for startups and teams to join its company.",
+          "pubDate": "Mon, 23 Mar 2026 18:22:04 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 6,
+          "category": "market"
+        },
+        {
+          "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
+          "link": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
+          "description": "London’s Air Street Capital has raised a large Fund III with eyes locked on backing early-stage European and North American AI companies.",
+          "pubDate": "Mon, 23 Mar 2026 22:36:39 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "product"
+          "category": "funding"
         },
         {
-          "title": "Warren presses Pentagon over decision to grant xAI access to classified networks",
-          "link": "https://techcrunch.com/2026/03/16/warren-presses-pentagon-over-decision-to-grant-xai-access-to-classified-networks/",
-          "description": "Sen. Elizabeth Warren noted that Grok, xAI's controversial chatbot, has created harmful outputs for users and poses a potential national security risk.",
-          "pubDate": "Mon, 16 Mar 2026 20:58:36 +0000",
+          "title": "Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great",
+          "link": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/",
+          "description": "Sen. Bernie Sanders thinks he's tricked Claude into revealing the AI industry's secrets, but he really just exposed how agreeable chatbots can become. ",
+          "pubDate": "Mon, 23 Mar 2026 20:15:59 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "NVIDIA Details New A.I. Chips and Autonomous Car Project With Mercedes",
-          "link": "https://www.nytimes.com/2026/01/05/technology/nvidia-chips-mercedes.html",
-          "description": "New York Times",
-          "pubDate": "Fri, 09 Jan 2026 22:56:00 GMT",
-          "source": "nvidianews.nvidia.com",
+          "title": "Apple sets June date for WWDC 2026, teasing ‘AI advancements’",
+          "link": "https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/",
+          "description": "Apple will host its next Worldwide Developers Conference the week of June 8. The company is expected to announce major updates to Siri with advanced AI capabilities.",
+          "pubDate": "Mon, 23 Mar 2026 18:00:45 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 4,
-          "category": "company"
+          "relevanceScore": 5,
+          "category": "industry"
         },
         {
-          "title": "NVIDIA Unveils Faster AI Chips Sooner Than Expected",
-          "link": "https://www.wsj.com/tech/ai/nvidia-unveils-faster-ai-chips-sooner-than-expected-626154a5",
+          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
+          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
           "description": "Wall Street Journal",
-          "pubDate": "Fri, 09 Jan 2026 22:54:00 GMT",
+          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
           "source": "nvidianews.nvidia.com",
           "type": "rss",
           "relevanceScore": 4,
-          "category": "company"
+          "category": "funding"
+        },
+        {
+          "title": "Our latest investment in open source security for the AI era",
+          "link": "https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/25367___BRS___Aspen_Security_Fo.max-600x600.format-webp_J9uPoFt.webp\">Google is making new investments, building new tools and developing code security to improve open source security.",
+          "pubDate": "Tue, 17 Mar 2026 16:00:00 +0000",
+          "source": "blog.google",
+          "type": "rss",
+          "relevanceScore": 3,
+          "category": "funding"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-03-17",
-        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
-        "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-03-24",
+        "subject": "La settimana in robotica — Edizione #1",
+        "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Memories AI is building the visual memory layer for wearables and robotics",
-          "description": "Memories.ai is building a large visual memory model that can index and retrieve video-recorded memories for physical AI. ..."
+          "title": "Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way",
+          "description": "Gimlet Labs just raised an $80 million Series A for tech that lets AI run across NVIDIA, AMD, Intel, ARM, Cerebras and d-Matrix chips, simultaneously...."
         },
         "news": [
           {
-            "title": "Nvidia’s version of OpenClaw could solve its biggest problem: security",
-            "description": "Nvidia announced an open enterprise AI agent platform, called NemoClaw, that is built off of viral OpenClaw. ...",
-            "category": "company",
-            "link": "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/"
+            "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
+            "description": "Lovable's founder said the fast-growing vibe-coding startup is looking for startups and teams to join its company....",
+            "category": "market",
+            "link": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/"
           },
           {
-            "title": "Jensen Huang just put Nvidia’s Blackwell and Vera Rubin sales projections into the $1 trillion stratosphere",
-            "description": "Nvidia CEO Jensen Huang said he expects $1 trillion worth of orders for the chips. ...",
+            "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
+            "description": "London’s Air Street Capital has raised a large Fund III with eyes locked on backing early-stage European and North American AI companies....",
             "category": "funding",
-            "link": "https://techcrunch.com/2026/03/16/jensen-just-put-nvidias-blackwell-and-vera-rubin-sales-projections-into-the-1-trillion-stratosphere/"
+            "link": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/"
           },
           {
-            "title": "Picsart now allows creators to ‘hire’ AI assistants through agent marketplace",
-            "description": "Picsart's AI agent marketplace will launch with four agents, then add more agents each week....",
-            "category": "product",
-            "link": "https://techcrunch.com/2026/03/16/picsart-now-allows-creators-to-hire-ai-assistants-through-agent-marketplace/"
+            "title": "Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great",
+            "description": "Sen. Bernie Sanders thinks he's tricked Claude into revealing the AI industry's secrets, but he really just exposed how agreeable chatbots can become. ...",
+            "category": "industry",
+            "link": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/"
           }
         ],
         "stat": {
