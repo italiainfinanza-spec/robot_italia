@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1774335739628",
-  "subject": "La settimana in robotica — Edizione #1",
-  "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
+  "runId": "run-1774941116069",
+  "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
+  "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way",
-    "description": "Gimlet Labs just raised an $80 million Series A for tech that lets AI run across NVIDIA, AMD, Intel, ARM, Cerebras and d-Matrix chips, simultaneously...."
+    "title": "15% of Americans say they’d be willing to work for an AI boss, according to new poll",
+    "description": "According to a Quinnipiac University poll, 15% of Americans say they'd be willing to have a job where their direct supervisor was an AI program that assigned tasks and set schedules. ..."
   },
   "news": [
     {
-      "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
-      "description": "Lovable's founder said the fast-growing vibe-coding startup is looking for startups and teams to join its company....",
-      "category": "market",
-      "link": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/"
-    },
-    {
-      "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
-      "description": "London’s Air Street Capital has raised a large Fund III with eyes locked on backing early-stage European and North American AI companies....",
-      "category": "funding",
-      "link": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/"
-    },
-    {
-      "title": "Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great",
-      "description": "Sen. Bernie Sanders thinks he's tricked Claude into revealing the AI industry's secrets, but he really just exposed how agreeable chatbots can become. ...",
+      "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
+      "description": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week....",
       "category": "industry",
-      "link": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/"
+      "link": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/"
+    },
+    {
+      "title": "As more Americans adopt AI tools, fewer say they can trust the results",
+      "description": "AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac poll....",
+      "category": "product",
+      "link": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/"
+    },
+    {
+      "title": "Mantis Biotech is making ‘digital twins’ of humans to help solve medicine’s data availability problem",
+      "description": "Mantis takes disparate sources of data to make synthetic datasets that can be used to build so-called \"digital twins\" of the human body, representing anatomy, physiology and behavior. ...",
+      "category": "industry",
+      "link": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-03-24T07:02:21.617Z",
+  "generatedAt": "2026-03-31T07:11:58.659Z",
   "html": "<!-- Template not found -->"
 }
