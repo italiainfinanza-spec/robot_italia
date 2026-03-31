@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1774335807584",
+    "id": "run-1774941116069",
     "edition": 1,
-    "date": "2026-03-24T07:03:27.584Z",
+    "date": "2026-03-31T07:11:56.069Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-03-24T07:03:27.589Z",
-        "completedAt": "2026-03-24T07:03:28.567Z"
+        "startedAt": "2026-03-31T07:11:56.074Z",
+        "completedAt": "2026-03-31T07:11:57.790Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-03-24T07:03:45.811Z",
-        "completedAt": "2026-03-24T07:03:45.820Z"
+        "startedAt": "2026-03-31T07:11:57.856Z",
+        "completedAt": "2026-03-31T07:11:58.026Z"
       },
       "review": {
         "status": "pending",
@@ -30,54 +30,54 @@
     "data": {
       "researchResults": [
         {
-          "title": "Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way",
-          "link": "https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/",
-          "description": "Gimlet Labs just raised an $80 million Series A for tech that lets AI run across NVIDIA, AMD, Intel, ARM, Cerebras and d-Matrix chips, simultaneously.",
-          "pubDate": "Mon, 23 Mar 2026 16:00:00 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 7,
-          "category": "funding"
-        },
-        {
-          "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
-          "link": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
-          "description": "Lovable's founder said the fast-growing vibe-coding startup is looking for startups and teams to join its company.",
-          "pubDate": "Mon, 23 Mar 2026 18:22:04 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 6,
-          "category": "market"
-        },
-        {
-          "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
-          "link": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
-          "description": "London’s Air Street Capital has raised a large Fund III with eyes locked on backing early-stage European and North American AI companies.",
-          "pubDate": "Mon, 23 Mar 2026 22:36:39 +0000",
+          "title": "15% of Americans say they’d be willing to work for an AI boss, according to new poll",
+          "link": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
+          "description": "According to a Quinnipiac University poll, 15% of Americans say they'd be willing to have a job where their direct supervisor was an AI program that assigned tasks and set schedules. ",
+          "pubDate": "Mon, 30 Mar 2026 23:41:48 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "funding"
+          "category": "product"
         },
         {
-          "title": "Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great",
-          "link": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/",
-          "description": "Sen. Bernie Sanders thinks he's tricked Claude into revealing the AI industry's secrets, but he really just exposed how agreeable chatbots can become. ",
-          "pubDate": "Mon, 23 Mar 2026 20:15:59 +0000",
+          "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
+          "link": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
+          "description": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.",
+          "pubDate": "Mon, 30 Mar 2026 23:08:12 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Apple sets June date for WWDC 2026, teasing ‘AI advancements’",
-          "link": "https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/",
-          "description": "Apple will host its next Worldwide Developers Conference the week of June 8. The company is expected to announce major updates to Siri with advanced AI capabilities.",
-          "pubDate": "Mon, 23 Mar 2026 18:00:45 +0000",
+          "title": "As more Americans adopt AI tools, fewer say they can trust the results",
+          "link": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
+          "description": "AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac poll.",
+          "pubDate": "Mon, 30 Mar 2026 20:24:53 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "product"
+        },
+        {
+          "title": "Mantis Biotech is making ‘digital twins’ of humans to help solve medicine’s data availability problem",
+          "link": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/",
+          "description": "Mantis takes disparate sources of data to make synthetic datasets that can be used to build so-called \"digital twins\" of the human body, representing anatomy, physiology and behavior. ",
+          "pubDate": "Mon, 30 Mar 2026 14:30:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
+        },
+        {
+          "title": "ScaleOps raises $130M to improve computing efficiency amid AI demand",
+          "link": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
+          "description": "ScaleOps just raised $130M to tackle GPU shortages and soaring AI cloud costs by automating infrastructure in real time.",
+          "pubDate": "Mon, 30 Mar 2026 13:52:02 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "funding"
         },
         {
           "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
@@ -88,46 +88,36 @@
           "type": "rss",
           "relevanceScore": 4,
           "category": "funding"
-        },
-        {
-          "title": "Our latest investment in open source security for the AI era",
-          "link": "https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/",
-          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/25367___BRS___Aspen_Security_Fo.max-600x600.format-webp_J9uPoFt.webp\">Google is making new investments, building new tools and developing code security to improve open source security.",
-          "pubDate": "Tue, 17 Mar 2026 16:00:00 +0000",
-          "source": "blog.google",
-          "type": "rss",
-          "relevanceScore": 3,
-          "category": "funding"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-03-24",
-        "subject": "Startup Gimlet Labs is solving the AI in... | Robotica Weekly #1",
-        "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-03-31",
+        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
+        "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way",
-          "description": "Gimlet Labs just raised an $80 million Series A for tech that lets AI run across NVIDIA, AMD, Intel, ARM, Cerebras and d-Matrix chips, simultaneously...."
+          "title": "15% of Americans say they’d be willing to work for an AI boss, according to new poll",
+          "description": "According to a Quinnipiac University poll, 15% of Americans say they'd be willing to have a job where their direct supervisor was an AI program that assigned tasks and set schedules. ..."
         },
         "news": [
           {
-            "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
-            "description": "Lovable's founder said the fast-growing vibe-coding startup is looking for startups and teams to join its company....",
-            "category": "market",
-            "link": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/"
-          },
-          {
-            "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
-            "description": "London’s Air Street Capital has raised a large Fund III with eyes locked on backing early-stage European and North American AI companies....",
-            "category": "funding",
-            "link": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/"
-          },
-          {
-            "title": "Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great",
-            "description": "Sen. Bernie Sanders thinks he's tricked Claude into revealing the AI industry's secrets, but he really just exposed how agreeable chatbots can become. ...",
+            "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
+            "description": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week....",
             "category": "industry",
-            "link": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/"
+            "link": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/"
+          },
+          {
+            "title": "As more Americans adopt AI tools, fewer say they can trust the results",
+            "description": "AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac poll....",
+            "category": "product",
+            "link": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/"
+          },
+          {
+            "title": "Mantis Biotech is making ‘digital twins’ of humans to help solve medicine’s data availability problem",
+            "description": "Mantis takes disparate sources of data to make synthetic datasets that can be used to build so-called \"digital twins\" of the human body, representing anatomy, physiology and behavior. ...",
+            "category": "industry",
+            "link": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/"
           }
         ],
         "stat": {
