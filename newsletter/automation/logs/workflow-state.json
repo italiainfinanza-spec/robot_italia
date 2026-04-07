@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1774941211604",
+    "id": "run-1775546034574",
     "edition": 1,
-    "date": "2026-03-31T07:13:31.604Z",
+    "date": "2026-04-07T07:13:54.574Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-03-31T07:13:31.781Z",
-        "completedAt": "2026-03-31T07:13:33.832Z"
+        "startedAt": "2026-04-07T07:13:54.615Z",
+        "completedAt": "2026-04-07T07:13:56.360Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-03-31T07:13:49.409Z",
-        "completedAt": "2026-03-31T07:13:49.418Z"
+        "startedAt": "2026-04-07T07:13:56.424Z",
+        "completedAt": "2026-04-07T07:13:56.669Z"
       },
       "review": {
         "status": "pending",
@@ -30,94 +30,134 @@
     "data": {
       "researchResults": [
         {
-          "title": "15% of Americans say they’d be willing to work for an AI boss, according to new poll",
-          "link": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
-          "description": "According to a Quinnipiac University poll, 15% of Americans say they'd be willing to have a job where their direct supervisor was an AI program that assigned tasks and set schedules. ",
-          "pubDate": "Mon, 30 Mar 2026 23:41:48 +0000",
+          "title": "Learn to build warehouse robots people enjoy working with at the Robotics Summit",
+          "link": "https://www.therobotreport.com/learn-to-build-warehouse-robots-people-enjoy-working-with-at-the-robotics-summit/",
+          "description": "<p>At the Robotics Summit &#038; Expo, Anthony Jules, Robust.AI, will explore what it takes to bring automation into complex warehouse environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-to-build-warehouse-robots-people-enjoy-working-with-at-the-robotics-summit/\">Learn to build warehouse robots people enjoy working with at the Robotics Summit</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sat, 04 Apr 2026 13:00:04 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 11,
+          "category": "industry"
+        },
+        {
+          "title": "Tennibot launches Partner V2, its latest robotic tennis ball machine",
+          "link": "https://www.therobotreport.com/tennibot-launches-partner-v2-latest-robotic-tennis-ball-machine/",
+          "description": "<p>Attendees at the Robotics Summit &#038; Expo in Boston will get a chance to interact with Tennibot's technology firsthand.</p>\n<p>The post <a href=\"https://www.therobotreport.com/tennibot-launches-partner-v2-latest-robotic-tennis-ball-machine/\">Tennibot launches Partner V2, its latest robotic tennis ball machine</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 06 Apr 2026 23:39:40 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 9,
+          "category": "product"
+        },
+        {
+          "title": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
+          "link": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
+          "description": "OpenAI proposes taxes on AI profits, public wealth funds, and expanded safety nets to address job loss and inequality, blending redistribution with capitalism as policymakers debate AI’s economic impact.",
+          "pubDate": "Mon, 06 Apr 2026 15:55:55 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "funding"
+        },
+        {
+          "title": "Faraday Future’s Aegis quadruped passes compliance certification for U.S. sales",
+          "link": "https://www.therobotreport.com/faraday-futures-aegis-quadruped-passes-compliance-certification-u-s-sales/",
+          "description": "<p>The tests ensure that Aegis robots are fully compliant with all applicable safety, security, and spectrum standards.</p>\n<p>The post <a href=\"https://www.therobotreport.com/faraday-futures-aegis-quadruped-passes-compliance-certification-u-s-sales/\">Faraday Future&#8217;s Aegis quadruped passes compliance certification for U.S. sales</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 06 Apr 2026 17:21:08 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 6,
+          "category": "industry"
+        },
+        {
+          "title": "AES Maximo robot installs 100 megawatts of solar capacity",
+          "link": "https://www.therobotreport.com/aes-maximo-robot-installs-100-megawatts-of-solar-capacity/",
+          "description": "<p>Maximo, a robotics startup incubated by energy company AES, has successfully deployed its solar panel installation robots at a site in California.</p>\n<p>The post <a href=\"https://www.therobotreport.com/aes-maximo-robot-installs-100-megawatts-of-solar-capacity/\">AES Maximo robot installs 100 megawatts of solar capacity</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Fri, 03 Apr 2026 21:19:05 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 6,
+          "category": "industry"
+        },
+        {
+          "title": "AI startup Rocket offers vibe McKinsey-style reports at a fraction of the cost",
+          "link": "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
+          "description": "Rocket's new AI platform combines strategy, product building, and competitive intelligence, aiming to move beyond code generation.",
+          "pubDate": "Tue, 07 Apr 2026 05:30:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "product"
         },
         {
-          "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
-          "link": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
-          "description": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.",
-          "pubDate": "Mon, 30 Mar 2026 23:08:12 +0000",
+          "title": "OpenAI alums have been quietly investing from a new, potentially $100M fund ",
+          "link": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
+          "description": "Zero Shot, a new venture capital fund with deep ties to OpenAI, is aiming to raise $100 million for its first fund. It has already written some checks.",
+          "pubDate": "Mon, 06 Apr 2026 21:54:26 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "industry"
+          "category": "funding"
         },
         {
-          "title": "As more Americans adopt AI tools, fewer say they can trust the results",
-          "link": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
-          "description": "AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac poll.",
-          "pubDate": "Mon, 30 Mar 2026 20:24:53 +0000",
+          "title": "Google quietly launched an AI dictation app that works offline",
+          "link": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+          "description": "Google's new offline-first dictation app uses Gemma AI models to take on the apps like Wispr Flow.",
+          "pubDate": "Mon, 06 Apr 2026 18:54:33 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "product"
         },
         {
-          "title": "Mantis Biotech is making ‘digital twins’ of humans to help solve medicine’s data availability problem",
-          "link": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/",
-          "description": "Mantis takes disparate sources of data to make synthetic datasets that can be used to build so-called \"digital twins\" of the human body, representing anatomy, physiology and behavior. ",
-          "pubDate": "Mon, 30 Mar 2026 14:30:00 +0000",
+          "title": "Iran threatens ‘Stargate’ AI data centers",
+          "link": "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
+          "description": "Iran said it will target U.S.-linked data centers with new missile strikes, as the war between the U.S. and Iran escalates. ",
+          "pubDate": "Mon, 06 Apr 2026 18:06:28 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "industry"
+          "category": "product"
         },
         {
-          "title": "ScaleOps raises $130M to improve computing efficiency amid AI demand",
-          "link": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
-          "description": "ScaleOps just raised $130M to tackle GPU shortages and soaring AI cloud costs by automating infrastructure in real time.",
-          "pubDate": "Mon, 30 Mar 2026 13:52:02 +0000",
-          "source": "techcrunch.com",
+          "title": "NORD Drivesystems launches industrial gear units for the mining industry",
+          "link": "https://www.therobotreport.com/nord-drivesystems-launches-industrial-gear-units-for-the-mining-industry/",
+          "description": "<p>NORD designed the MAXXDRIVE series with a one-piece UNICASE housing that ensures high structural rigidity and leak protection.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nord-drivesystems-launches-industrial-gear-units-for-the-mining-industry/\">NORD Drivesystems launches industrial gear units for the mining industry</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 05 Apr 2026 13:00:02 +0000",
+          "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "funding"
-        },
-        {
-          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
-          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
-          "description": "Wall Street Journal",
-          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
-          "source": "nvidianews.nvidia.com",
-          "type": "rss",
-          "relevanceScore": 4,
-          "category": "funding"
+          "category": "product"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-03-31",
-        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
+        "date": "2026-04-07",
+        "subject": "Learn to build warehouse robots people e... | Robotica Weekly #1",
         "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "15% of Americans say they’d be willing to work for an AI boss, according to new poll",
-          "description": "According to a Quinnipiac University poll, 15% of Americans say they'd be willing to have a job where their direct supervisor was an AI program that assigned tasks and set schedules. ..."
+          "title": "Learn to build warehouse robots people enjoy working with at the Robotics Summit",
+          "description": "<p>At the Robotics Summit &#038; Expo, Anthony Jules, Robust.AI, will explore what it takes to bring automation into complex warehouse environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-to-build-warehouse-robots-people-enjoy-working-with-at-the-robotics-summit/\">Learn to bui..."
         },
         "news": [
           {
-            "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
-            "description": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week....",
-            "category": "industry",
-            "link": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/"
-          },
-          {
-            "title": "As more Americans adopt AI tools, fewer say they can trust the results",
-            "description": "AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac poll....",
+            "title": "Tennibot launches Partner V2, its latest robotic tennis ball machine",
+            "description": "<p>Attendees at the Robotics Summit &#038; Expo in Boston will get a chance to interact with Tennibot's technology firsthand.</p>\n<p>The post <a href=\"https://www.therobotreport.com/tennibot-launches-partner-v2-latest-robotic-tennis-ball-machine/\">Te...",
             "category": "product",
-            "link": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/"
+            "link": "https://www.therobotreport.com/tennibot-launches-partner-v2-latest-robotic-tennis-ball-machine/"
           },
           {
-            "title": "Mantis Biotech is making ‘digital twins’ of humans to help solve medicine’s data availability problem",
-            "description": "Mantis takes disparate sources of data to make synthetic datasets that can be used to build so-called \"digital twins\" of the human body, representing anatomy, physiology and behavior. ...",
+            "title": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
+            "description": "OpenAI proposes taxes on AI profits, public wealth funds, and expanded safety nets to address job loss and inequality, blending redistribution with capitalism as policymakers debate AI’s economic impact....",
+            "category": "funding",
+            "link": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/"
+          },
+          {
+            "title": "Faraday Future’s Aegis quadruped passes compliance certification for U.S. sales",
+            "description": "<p>The tests ensure that Aegis robots are fully compliant with all applicable safety, security, and spectrum standards.</p>\n<p>The post <a href=\"https://www.therobotreport.com/faraday-futures-aegis-quadruped-passes-compliance-certification-u-s-sales/...",
             "category": "industry",
-            "link": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/"
+            "link": "https://www.therobotreport.com/faraday-futures-aegis-quadruped-passes-compliance-certification-u-s-sales/"
           }
         ],
         "stat": {
