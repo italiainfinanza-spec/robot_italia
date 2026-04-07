@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1774941116069",
-  "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
+  "runId": "run-1775546034574",
+  "subject": "Learn to build warehouse robots people e... | Robotica Weekly #1",
   "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "15% of Americans say they’d be willing to work for an AI boss, according to new poll",
-    "description": "According to a Quinnipiac University poll, 15% of Americans say they'd be willing to have a job where their direct supervisor was an AI program that assigned tasks and set schedules. ..."
+    "title": "Learn to build warehouse robots people enjoy working with at the Robotics Summit",
+    "description": "<p>At the Robotics Summit &#038; Expo, Anthony Jules, Robust.AI, will explore what it takes to bring automation into complex warehouse environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-to-build-warehouse-robots-people-enjoy-working-with-at-the-robotics-summit/\">Learn to bui..."
   },
   "news": [
     {
-      "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
-      "description": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week....",
-      "category": "industry",
-      "link": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/"
-    },
-    {
-      "title": "As more Americans adopt AI tools, fewer say they can trust the results",
-      "description": "AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac poll....",
+      "title": "Tennibot launches Partner V2, its latest robotic tennis ball machine",
+      "description": "<p>Attendees at the Robotics Summit &#038; Expo in Boston will get a chance to interact with Tennibot's technology firsthand.</p>\n<p>The post <a href=\"https://www.therobotreport.com/tennibot-launches-partner-v2-latest-robotic-tennis-ball-machine/\">Te...",
       "category": "product",
-      "link": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/"
+      "link": "https://www.therobotreport.com/tennibot-launches-partner-v2-latest-robotic-tennis-ball-machine/"
     },
     {
-      "title": "Mantis Biotech is making ‘digital twins’ of humans to help solve medicine’s data availability problem",
-      "description": "Mantis takes disparate sources of data to make synthetic datasets that can be used to build so-called \"digital twins\" of the human body, representing anatomy, physiology and behavior. ...",
+      "title": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
+      "description": "OpenAI proposes taxes on AI profits, public wealth funds, and expanded safety nets to address job loss and inequality, blending redistribution with capitalism as policymakers debate AI’s economic impact....",
+      "category": "funding",
+      "link": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/"
+    },
+    {
+      "title": "Faraday Future’s Aegis quadruped passes compliance certification for U.S. sales",
+      "description": "<p>The tests ensure that Aegis robots are fully compliant with all applicable safety, security, and spectrum standards.</p>\n<p>The post <a href=\"https://www.therobotreport.com/faraday-futures-aegis-quadruped-passes-compliance-certification-u-s-sales/...",
       "category": "industry",
-      "link": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/"
+      "link": "https://www.therobotreport.com/faraday-futures-aegis-quadruped-passes-compliance-certification-u-s-sales/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-03-31T07:11:58.659Z",
+  "generatedAt": "2026-04-07T07:13:57.350Z",
   "html": "<!-- Template not found -->"
 }
