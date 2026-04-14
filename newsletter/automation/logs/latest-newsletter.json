@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1775546034574",
-  "subject": "Learn to build warehouse robots people e... | Robotica Weekly #1",
-  "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
+  "runId": "run-1776151730851",
+  "subject": "Pickle Robot to share lessons learned fr... | Robotica Weekly #1",
+  "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "Learn to build warehouse robots people enjoy working with at the Robotics Summit",
-    "description": "<p>At the Robotics Summit &#038; Expo, Anthony Jules, Robust.AI, will explore what it takes to bring automation into complex warehouse environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-to-build-warehouse-robots-people-enjoy-working-with-at-the-robotics-summit/\">Learn to bui..."
+    "title": "Pickle Robot to share lessons learned from taking robots out of the lab and into the field",
+    "description": "<p>At the Robotics Summit, Pickle Robot's founder and CTO  will break down the lessons it learned in making warehouse robots commercially viable.</p>\n<p>The post <a href=\"https://www.therobotreport.com/pickle-robot-to-share-lessons-learned-from-taking-robots-out-of-the-lab-and-into-the-field/\">Pickl..."
   },
   "news": [
     {
-      "title": "Tennibot launches Partner V2, its latest robotic tennis ball machine",
-      "description": "<p>Attendees at the Robotics Summit &#038; Expo in Boston will get a chance to interact with Tennibot's technology firsthand.</p>\n<p>The post <a href=\"https://www.therobotreport.com/tennibot-launches-partner-v2-latest-robotic-tennis-ball-machine/\">Te...",
-      "category": "product",
-      "link": "https://www.therobotreport.com/tennibot-launches-partner-v2-latest-robotic-tennis-ball-machine/"
-    },
-    {
-      "title": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
-      "description": "OpenAI proposes taxes on AI profits, public wealth funds, and expanded safety nets to address job loss and inequality, blending redistribution with capitalism as policymakers debate AI’s economic impact....",
-      "category": "funding",
-      "link": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/"
-    },
-    {
-      "title": "Faraday Future’s Aegis quadruped passes compliance certification for U.S. sales",
-      "description": "<p>The tests ensure that Aegis robots are fully compliant with all applicable safety, security, and spectrum standards.</p>\n<p>The post <a href=\"https://www.therobotreport.com/faraday-futures-aegis-quadruped-passes-compliance-certification-u-s-sales/...",
+      "title": "Transitive Robotics announces Transitive 2.0 open-source robotics framework",
+      "description": "<p>Transitive 2.0 adds ClickHouse, Grafana, and Alertmanager, offering advanced storage and monitoring to help scale growing robot fleets.</p>\n<p>The post <a href=\"https://www.therobotreport.com/transitive-robotics-announces-transitive-2-0-open-sourc...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/faraday-futures-aegis-quadruped-passes-compliance-certification-u-s-sales/"
+      "link": "https://www.therobotreport.com/transitive-robotics-announces-transitive-2-0-open-source-robotics-framework/"
+    },
+    {
+      "title": "Locus Robotics launches Locus Array for fully autonomous fulfillment",
+      "description": "<p>Locus Array is designed to complete fulfillment workflows without manual intervention and is already in use at DHL and other customers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/locus-robotics-launches-locus-array-for-fully-autonomou...",
+      "category": "product",
+      "link": "https://www.therobotreport.com/locus-robotics-launches-locus-array-for-fully-autonomous-fulfillment/"
+    },
+    {
+      "title": "AGIBOT launches Genie Studio Agent zero-code application platform for robots",
+      "description": "<p>AGIBOT said it designed Genie Studio Agent to provide a full lifecycle software infrastructure, from development to deployment.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agibot-launches-genie-studio-agent-zero-code-application-platfo...",
+      "category": "product",
+      "link": "https://www.therobotreport.com/agibot-launches-genie-studio-agent-zero-code-application-platform-for-robots/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-04-07T07:13:57.350Z",
+  "generatedAt": "2026-04-14T07:28:53.519Z",
   "html": "<!-- Template not found -->"
 }
