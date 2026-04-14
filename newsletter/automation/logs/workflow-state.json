@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1776151730851",
+    "id": "run-1776152662316",
     "edition": 1,
-    "date": "2026-04-14T07:28:50.851Z",
+    "date": "2026-04-14T07:44:22.316Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-04-14T07:28:50.855Z",
-        "completedAt": "2026-04-14T07:28:52.125Z"
+        "startedAt": "2026-04-14T07:44:22.321Z",
+        "completedAt": "2026-04-14T07:44:23.451Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-04-14T07:28:52.189Z",
-        "completedAt": "2026-04-14T07:28:52.621Z"
+        "startedAt": "2026-04-14T07:44:41.442Z",
+        "completedAt": "2026-04-14T07:44:41.451Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-04-14",
-        "subject": "Pickle Robot to share lessons learned fr... | Robotica Weekly #1",
+        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
         "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "Pickle Robot to share lessons learned from taking robots out of the lab and into the field",
