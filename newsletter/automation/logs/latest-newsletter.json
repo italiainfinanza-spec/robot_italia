@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1776151730851",
-  "subject": "Pickle Robot to share lessons learned fr... | Robotica Weekly #1",
-  "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
+  "runId": "run-1776757636756",
+  "subject": "La settimana in robotica — Edizione #1",
+  "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "Pickle Robot to share lessons learned from taking robots out of the lab and into the field",
-    "description": "<p>At the Robotics Summit, Pickle Robot's founder and CTO  will break down the lessons it learned in making warehouse robots commercially viable.</p>\n<p>The post <a href=\"https://www.therobotreport.com/pickle-robot-to-share-lessons-learned-from-taking-robots-out-of-the-lab-and-into-the-field/\">Pickl..."
+    "title": "Drones & Robotics AI Summit 2026: Entering the quantum era of autonomy",
+    "description": "<p>Heven AeroTech founder and CEO Bentzion Levinson explains how his startup has addressed drone navigation and communications in GPS-denied environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/drones-robotics-ai-summit-2026-entering-quantum-era-autonomy/\">Drones &#038; Robotics AI ..."
   },
   "news": [
     {
-      "title": "Transitive Robotics announces Transitive 2.0 open-source robotics framework",
-      "description": "<p>Transitive 2.0 adds ClickHouse, Grafana, and Alertmanager, offering advanced storage and monitoring to help scale growing robot fleets.</p>\n<p>The post <a href=\"https://www.therobotreport.com/transitive-robotics-announces-transitive-2-0-open-sourc...",
+      "title": "RBR50 Gala returns in the 2026 Robotics Summit & Expo",
+      "description": "<p>The RBR50 gala at the 2026 Robotics Summit &#038; Expo offers a chance to honor and connect with the world’s leading robotics innovators.</p>\n<p>The post <a href=\"https://www.therobotreport.com/rbr50-gala-returns-2026-robotics-summit-expo/\">RBR50 ...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/transitive-robotics-announces-transitive-2-0-open-source-robotics-framework/"
+      "link": "https://www.therobotreport.com/rbr50-gala-returns-2026-robotics-summit-expo/"
     },
     {
-      "title": "Locus Robotics launches Locus Array for fully autonomous fulfillment",
-      "description": "<p>Locus Array is designed to complete fulfillment workflows without manual intervention and is already in use at DHL and other customers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/locus-robotics-launches-locus-array-for-fully-autonomou...",
-      "category": "product",
-      "link": "https://www.therobotreport.com/locus-robotics-launches-locus-array-for-fully-autonomous-fulfillment/"
+      "title": "Fail fast, fail small, fail safe: A practical model for robotic automation",
+      "description": "<p>In testing robotic systems, developers can fail and learn, as long as they control risk, explains Bullen Ultrasonics' research and early innovation manager.</p>\n<p>The post <a href=\"https://www.therobotreport.com/fail-fast-fail-small-fail-safe-a-p...",
+      "category": "industry",
+      "link": "https://www.therobotreport.com/fail-fast-fail-small-fail-safe-a-practical-model-for-robotic-automation/"
     },
     {
-      "title": "AGIBOT launches Genie Studio Agent zero-code application platform for robots",
-      "description": "<p>AGIBOT said it designed Genie Studio Agent to provide a full lifecycle software infrastructure, from development to deployment.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agibot-launches-genie-studio-agent-zero-code-application-platfo...",
-      "category": "product",
-      "link": "https://www.therobotreport.com/agibot-launches-genie-studio-agent-zero-code-application-platform-for-robots/"
+      "title": "Improving mobile robot stability on uneven terrain through vibration monitoring techniques",
+      "description": "<p>Vibration sensors can aid in stability and navigation, particularly for field robots in varied terrain, writes a columnist.</p>\n<p>The post <a href=\"https://www.therobotreport.com/improving-mobile-robot-stability-on-uneven-terrain-through-vibratio...",
+      "category": "industry",
+      "link": "https://www.therobotreport.com/improving-mobile-robot-stability-on-uneven-terrain-through-vibration-monitoring-techniques/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-04-14T07:28:53.519Z",
+  "generatedAt": "2026-04-21T07:47:19.740Z",
   "html": "<!-- Template not found -->"
 }
