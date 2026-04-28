@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1777364586994",
+    "id": "run-1777364638264",
     "edition": 1,
-    "date": "2026-04-28T08:23:06.994Z",
+    "date": "2026-04-28T08:23:58.264Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-04-28T08:23:06.999Z",
-        "completedAt": "2026-04-28T08:23:08.724Z"
+        "startedAt": "2026-04-28T08:23:58.269Z",
+        "completedAt": "2026-04-28T08:23:59.177Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-04-28T08:23:08.791Z",
-        "completedAt": "2026-04-28T08:23:09.085Z"
+        "startedAt": "2026-04-28T08:24:17.041Z",
+        "completedAt": "2026-04-28T08:24:17.050Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-04-28",
-        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
         "preheader": "6 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "SquareMind raises $18M for robotic dermatology platform",
