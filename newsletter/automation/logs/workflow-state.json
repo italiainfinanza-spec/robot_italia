@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1776757737441",
+    "id": "run-1777364586994",
     "edition": 1,
-    "date": "2026-04-21T07:48:57.441Z",
+    "date": "2026-04-28T08:23:06.994Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-04-21T07:48:57.446Z",
-        "completedAt": "2026-04-21T07:48:59.144Z"
+        "startedAt": "2026-04-28T08:23:06.999Z",
+        "completedAt": "2026-04-28T08:23:08.724Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-04-21T07:49:16.509Z",
-        "completedAt": "2026-04-21T07:49:16.516Z"
+        "startedAt": "2026-04-28T08:23:08.791Z",
+        "completedAt": "2026-04-28T08:23:09.085Z"
       },
       "review": {
         "status": "pending",
@@ -30,134 +30,134 @@
     "data": {
       "researchResults": [
         {
-          "title": "Drones & Robotics AI Summit 2026: Entering the quantum era of autonomy",
-          "link": "https://www.therobotreport.com/drones-robotics-ai-summit-2026-entering-quantum-era-autonomy/",
-          "description": "<p>Heven AeroTech founder and CEO Bentzion Levinson explains how his startup has addressed drone navigation and communications in GPS-denied environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/drones-robotics-ai-summit-2026-entering-quantum-era-autonomy/\">Drones &#038; Robotics AI Summit 2026: Entering the quantum era of autonomy</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 20 Apr 2026 12:13:13 +0000",
+          "title": "SquareMind raises $18M for robotic dermatology platform",
+          "link": "https://www.therobotreport.com/squaremind-raises-18m-dermatology-robotics-platform/",
+          "description": "<p>Squaremind has raised funding to launch Swan, a robotic platform that automates full-body skin imaging for early cancer detection.</p>\n<p>The post <a href=\"https://www.therobotreport.com/squaremind-raises-18m-dermatology-robotics-platform/\">SquareMind raises $18M for robotic dermatology platform</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 27 Apr 2026 21:05:25 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 12,
+          "category": "funding"
+        },
+        {
+          "title": "Learn about the latest advances in physical AI at the Robotics Summit",
+          "link": "https://www.therobotreport.com/learn-about-latest-advances-physical-ai-robotics-summit/",
+          "description": "<p>The Robotics Summit &#038; Expo will have an entire track of sessions focusing on how to apply artificial intelligence to robotics. </p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-about-latest-advances-physical-ai-robotics-summit/\">Learn about the latest advances in physical AI at the Robotics Summit</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 27 Apr 2026 20:28:38 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 11,
           "category": "industry"
         },
         {
-          "title": "RBR50 Gala returns in the 2026 Robotics Summit & Expo",
-          "link": "https://www.therobotreport.com/rbr50-gala-returns-2026-robotics-summit-expo/",
-          "description": "<p>The RBR50 gala at the 2026 Robotics Summit &#038; Expo offers a chance to honor and connect with the world’s leading robotics innovators.</p>\n<p>The post <a href=\"https://www.therobotreport.com/rbr50-gala-returns-2026-robotics-summit-expo/\">RBR50 Gala returns in the 2026 Robotics Summit &#038; Expo</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 20 Apr 2026 16:19:28 +0000",
+          "title": "Sereact gets Series B funding to expand Cortex 2.0 robot brain, enter U.S. market",
+          "link": "https://www.therobotreport.com/sereact-gets-series-b-funding-expand-cortex-2-robot-brain-enter-u-s-market/",
+          "description": "<p>Sereact plans to expand Cortex 2.0 from bin picking to tasks such as assembly and kitting, and it is opening a Boston office.</p>\n<p>The post <a href=\"https://www.therobotreport.com/sereact-gets-series-b-funding-expand-cortex-2-robot-brain-enter-u-s-market/\">Sereact gets Series B funding to expand Cortex 2.0 robot brain, enter U.S. market</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 27 Apr 2026 16:52:14 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 9,
-          "category": "industry"
+          "category": "funding"
         },
         {
-          "title": "Fail fast, fail small, fail safe: A practical model for robotic automation",
-          "link": "https://www.therobotreport.com/fail-fast-fail-small-fail-safe-a-practical-model-for-robotic-automation/",
-          "description": "<p>In testing robotic systems, developers can fail and learn, as long as they control risk, explains Bullen Ultrasonics' research and early innovation manager.</p>\n<p>The post <a href=\"https://www.therobotreport.com/fail-fast-fail-small-fail-safe-a-practical-model-for-robotic-automation/\">Fail fast, fail small, fail safe: A practical model for robotic automation</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sat, 18 Apr 2026 16:05:06 +0000",
+          "title": "Look back on 10 years of legged robots with Ghost Robotics at the Robotics Summit",
+          "link": "https://www.therobotreport.com/look-back-on-10-years-of-legged-robots-with-ghost-robotics-at-the-robotics-summit/",
+          "description": "<p>At the summit, Gavin Kenneally, CEO and co-founder of Ghost Robotics, will share lessons from 10 years of deploying quadruped robots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/look-back-on-10-years-of-legged-robots-with-ghost-robotics-at-the-robotics-summit/\">Look back on 10 years of legged robots with Ghost Robotics at the Robotics Summit</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 26 Apr 2026 13:00:00 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 8,
           "category": "industry"
         },
         {
-          "title": "Improving mobile robot stability on uneven terrain through vibration monitoring techniques",
-          "link": "https://www.therobotreport.com/improving-mobile-robot-stability-on-uneven-terrain-through-vibration-monitoring-techniques/",
-          "description": "<p>Vibration sensors can aid in stability and navigation, particularly for field robots in varied terrain, writes a columnist.</p>\n<p>The post <a href=\"https://www.therobotreport.com/improving-mobile-robot-stability-on-uneven-terrain-through-vibration-monitoring-techniques/\">Improving mobile robot stability on uneven terrain through vibration monitoring techniques</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 19 Apr 2026 13:21:45 +0000",
+          "title": "ABB Robotics launches PoWa cobot family targeting industrial tasks",
+          "link": "https://www.therobotreport.com/abb-robotics-launches-powa-cobot-family-targeting-industrial-tasks/",
+          "description": "<p>ABB Robotics said its new PoWa family of cobots addresses a long‑standing gap in the market between traditional cobots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/abb-robotics-launches-powa-cobot-family-targeting-industrial-tasks/\">ABB Robotics launches PoWa cobot family targeting industrial tasks</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sat, 25 Apr 2026 13:00:56 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 7,
-          "category": "industry"
+          "relevanceScore": 8,
+          "category": "product"
         },
         {
-          "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
-          "link": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
-          "description": "Amazon has made another circular AI deal: It's investing another $5 billion in Anthropic. Anthropic has agreed to spend $100 billion on AWS in return.",
-          "pubDate": "Mon, 20 Apr 2026 23:10:27 +0000",
+          "title": "DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data",
+          "link": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+          "description": "Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion.",
+          "pubDate": "Mon, 27 Apr 2026 17:24:21 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 6,
+          "category": "funding"
+        },
+        {
+          "title": "China blocks Meta’s $2B Manus deal after months-long probe",
+          "link": "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/",
+          "description": "China has ordered Meta to unwind its multibillion-dollar Manus acquisition, dealing a potential setback to Zuckerberg’s push into AI agents.",
+          "pubDate": "Mon, 27 Apr 2026 13:16:55 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 6,
+          "category": "funding"
+        },
+        {
+          "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
+          "link": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+          "description": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft gets more cash in a revenue-share agreement. ",
+          "pubDate": "Mon, 27 Apr 2026 17:40:38 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "funding"
         },
         {
-          "title": "It’s not just one thing — it’s another thing",
-          "link": "https://techcrunch.com/2026/04/20/ai-writing-its-not-just-this-its-that-barrons/",
-          "description": "This sentence construction (\"It's not just this — it's that\") has become so common in AI-generated writing that it's no longer just a clue that a piece of writing may be synthetic — it's almost a guarantee.",
-          "pubDate": "Mon, 20 Apr 2026 19:37:07 +0000",
+          "title": "Investors back Skye’s AI home screen app for iPhone ahead of launch",
+          "link": "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/",
+          "description": "Skye's new AI app attracted investors before it even launched — a sign of interest in a more AI-aware iPhone.",
+          "pubDate": "Mon, 27 Apr 2026 16:13:02 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud",
-          "link": "https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/",
-          "description": "NSA is said to be using Anthropic's restricted Mythos AI model.",
-          "pubDate": "Mon, 20 Apr 2026 16:06:21 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "CEO and CFO suddenly depart AI nuclear power upstart Fermi",
-          "link": "https://techcrunch.com/2026/04/20/fermi-ceo-and-cfo-depart-texas-nuclear-power-ai/",
-          "description": "The startup, co-founded by former U.S. Energy Secretary Rick Perry, has faced headwinds with its AI campus in Texas. ",
-          "pubDate": "Mon, 20 Apr 2026 15:30:19 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "MODEX 2026 recap",
-          "link": "https://www.therobotreport.com/modex-2026-recap/",
-          "description": "<p>Missed MODEX? Hear what you missed through the eyes of editors Gene Demaitre and Sarah Wynn.</p>\n<p>The post <a href=\"https://www.therobotreport.com/modex-2026-recap/\">MODEX 2026 recap</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Fri, 17 Apr 2026 23:20:32 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
-          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
-          "description": "Wall Street Journal",
-          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
-          "source": "nvidianews.nvidia.com",
-          "type": "rss",
-          "relevanceScore": 4,
           "category": "funding"
+        },
+        {
+          "title": "OpenAI could be making a phone with AI agents replacing apps",
+          "link": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
+          "description": "There have been plenty of rumors about OpenAI's hardware plans, which involve launching a pair of earbuds. A new note from industry analyst Ming-Chi Kuo suggests that the AI company might be working on a phone in collaboration with MediaTek, Qualcomm, and Luxshare.",
+          "pubDate": "Mon, 27 Apr 2026 13:08:59 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "product"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-04-21",
-        "subject": "La settimana in robotica — Edizione #1",
-        "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-04-28",
+        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "preheader": "6 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Drones & Robotics AI Summit 2026: Entering the quantum era of autonomy",
-          "description": "<p>Heven AeroTech founder and CEO Bentzion Levinson explains how his startup has addressed drone navigation and communications in GPS-denied environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/drones-robotics-ai-summit-2026-entering-quantum-era-autonomy/\">Drones &#038; Robotics AI ..."
+          "title": "SquareMind raises $18M for robotic dermatology platform",
+          "description": "<p>Squaremind has raised funding to launch Swan, a robotic platform that automates full-body skin imaging for early cancer detection.</p>\n<p>The post <a href=\"https://www.therobotreport.com/squaremind-raises-18m-dermatology-robotics-platform/\">SquareMind raises $18M for robotic dermatology platform<..."
         },
         "news": [
           {
-            "title": "RBR50 Gala returns in the 2026 Robotics Summit & Expo",
-            "description": "<p>The RBR50 gala at the 2026 Robotics Summit &#038; Expo offers a chance to honor and connect with the world’s leading robotics innovators.</p>\n<p>The post <a href=\"https://www.therobotreport.com/rbr50-gala-returns-2026-robotics-summit-expo/\">RBR50 ...",
+            "title": "Learn about the latest advances in physical AI at the Robotics Summit",
+            "description": "<p>The Robotics Summit &#038; Expo will have an entire track of sessions focusing on how to apply artificial intelligence to robotics. </p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-about-latest-advances-physical-ai-robotics-summit/\">...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/rbr50-gala-returns-2026-robotics-summit-expo/"
+            "link": "https://www.therobotreport.com/learn-about-latest-advances-physical-ai-robotics-summit/"
           },
           {
-            "title": "Fail fast, fail small, fail safe: A practical model for robotic automation",
-            "description": "<p>In testing robotic systems, developers can fail and learn, as long as they control risk, explains Bullen Ultrasonics' research and early innovation manager.</p>\n<p>The post <a href=\"https://www.therobotreport.com/fail-fast-fail-small-fail-safe-a-p...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/fail-fast-fail-small-fail-safe-a-practical-model-for-robotic-automation/"
+            "title": "Sereact gets Series B funding to expand Cortex 2.0 robot brain, enter U.S. market",
+            "description": "<p>Sereact plans to expand Cortex 2.0 from bin picking to tasks such as assembly and kitting, and it is opening a Boston office.</p>\n<p>The post <a href=\"https://www.therobotreport.com/sereact-gets-series-b-funding-expand-cortex-2-robot-brain-enter-u...",
+            "category": "funding",
+            "link": "https://www.therobotreport.com/sereact-gets-series-b-funding-expand-cortex-2-robot-brain-enter-u-s-market/"
           },
           {
-            "title": "Improving mobile robot stability on uneven terrain through vibration monitoring techniques",
-            "description": "<p>Vibration sensors can aid in stability and navigation, particularly for field robots in varied terrain, writes a columnist.</p>\n<p>The post <a href=\"https://www.therobotreport.com/improving-mobile-robot-stability-on-uneven-terrain-through-vibratio...",
+            "title": "Look back on 10 years of legged robots with Ghost Robotics at the Robotics Summit",
+            "description": "<p>At the summit, Gavin Kenneally, CEO and co-founder of Ghost Robotics, will share lessons from 10 years of deploying quadruped robots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/look-back-on-10-years-of-legged-robots-with-ghost-robotic...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/improving-mobile-robot-stability-on-uneven-terrain-through-vibration-monitoring-techniques/"
+            "link": "https://www.therobotreport.com/look-back-on-10-years-of-legged-robots-with-ghost-robotics-at-the-robotics-summit/"
           }
         ],
         "stat": {
