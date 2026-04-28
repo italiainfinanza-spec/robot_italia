@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1776757636756",
-  "subject": "La settimana in robotica — Edizione #1",
-  "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
+  "runId": "run-1777364586994",
+  "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+  "preheader": "6 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "Drones & Robotics AI Summit 2026: Entering the quantum era of autonomy",
-    "description": "<p>Heven AeroTech founder and CEO Bentzion Levinson explains how his startup has addressed drone navigation and communications in GPS-denied environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/drones-robotics-ai-summit-2026-entering-quantum-era-autonomy/\">Drones &#038; Robotics AI ..."
+    "title": "SquareMind raises $18M for robotic dermatology platform",
+    "description": "<p>Squaremind has raised funding to launch Swan, a robotic platform that automates full-body skin imaging for early cancer detection.</p>\n<p>The post <a href=\"https://www.therobotreport.com/squaremind-raises-18m-dermatology-robotics-platform/\">SquareMind raises $18M for robotic dermatology platform<..."
   },
   "news": [
     {
-      "title": "RBR50 Gala returns in the 2026 Robotics Summit & Expo",
-      "description": "<p>The RBR50 gala at the 2026 Robotics Summit &#038; Expo offers a chance to honor and connect with the world’s leading robotics innovators.</p>\n<p>The post <a href=\"https://www.therobotreport.com/rbr50-gala-returns-2026-robotics-summit-expo/\">RBR50 ...",
+      "title": "Learn about the latest advances in physical AI at the Robotics Summit",
+      "description": "<p>The Robotics Summit &#038; Expo will have an entire track of sessions focusing on how to apply artificial intelligence to robotics. </p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-about-latest-advances-physical-ai-robotics-summit/\">...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/rbr50-gala-returns-2026-robotics-summit-expo/"
+      "link": "https://www.therobotreport.com/learn-about-latest-advances-physical-ai-robotics-summit/"
     },
     {
-      "title": "Fail fast, fail small, fail safe: A practical model for robotic automation",
-      "description": "<p>In testing robotic systems, developers can fail and learn, as long as they control risk, explains Bullen Ultrasonics' research and early innovation manager.</p>\n<p>The post <a href=\"https://www.therobotreport.com/fail-fast-fail-small-fail-safe-a-p...",
-      "category": "industry",
-      "link": "https://www.therobotreport.com/fail-fast-fail-small-fail-safe-a-practical-model-for-robotic-automation/"
+      "title": "Sereact gets Series B funding to expand Cortex 2.0 robot brain, enter U.S. market",
+      "description": "<p>Sereact plans to expand Cortex 2.0 from bin picking to tasks such as assembly and kitting, and it is opening a Boston office.</p>\n<p>The post <a href=\"https://www.therobotreport.com/sereact-gets-series-b-funding-expand-cortex-2-robot-brain-enter-u...",
+      "category": "funding",
+      "link": "https://www.therobotreport.com/sereact-gets-series-b-funding-expand-cortex-2-robot-brain-enter-u-s-market/"
     },
     {
-      "title": "Improving mobile robot stability on uneven terrain through vibration monitoring techniques",
-      "description": "<p>Vibration sensors can aid in stability and navigation, particularly for field robots in varied terrain, writes a columnist.</p>\n<p>The post <a href=\"https://www.therobotreport.com/improving-mobile-robot-stability-on-uneven-terrain-through-vibratio...",
+      "title": "Look back on 10 years of legged robots with Ghost Robotics at the Robotics Summit",
+      "description": "<p>At the summit, Gavin Kenneally, CEO and co-founder of Ghost Robotics, will share lessons from 10 years of deploying quadruped robots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/look-back-on-10-years-of-legged-robots-with-ghost-robotic...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/improving-mobile-robot-stability-on-uneven-terrain-through-vibration-monitoring-techniques/"
+      "link": "https://www.therobotreport.com/look-back-on-10-years-of-legged-robots-with-ghost-robotics-at-the-robotics-summit/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-04-21T07:47:19.740Z",
+  "generatedAt": "2026-04-28T08:23:10.277Z",
   "html": "<!-- Template not found -->"
 }
