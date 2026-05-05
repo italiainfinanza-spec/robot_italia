@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1777364586994",
-  "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
-  "preheader": "6 nuovi round di funding, trend AI e opportunità di investimento",
+  "runId": "run-1777968401341",
+  "subject": "ABB Robotics launches OmniVance autonomo... | Robotica Weekly #1",
+  "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "SquareMind raises $18M for robotic dermatology platform",
-    "description": "<p>Squaremind has raised funding to launch Swan, a robotic platform that automates full-body skin imaging for early cancer detection.</p>\n<p>The post <a href=\"https://www.therobotreport.com/squaremind-raises-18m-dermatology-robotics-platform/\">SquareMind raises $18M for robotic dermatology platform<..."
+    "title": "ABB Robotics launches OmniVance autonomous surface finishing cell",
+    "description": "<p>ABB Robotics said its new OmniVance Collaborative Surface Finishing Cell automates repetitive sanding and polishing tasks</p>\n<p>The post <a href=\"https://www.therobotreport.com/abb-robotics-launches-omnivance-autonomous-surface-finishing-cell/\">ABB Robotics launches OmniVance autonomous surface ..."
   },
   "news": [
     {
-      "title": "Learn about the latest advances in physical AI at the Robotics Summit",
-      "description": "<p>The Robotics Summit &#038; Expo will have an entire track of sessions focusing on how to apply artificial intelligence to robotics. </p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-about-latest-advances-physical-ai-robotics-summit/\">...",
+      "title": "Why physical AI is the real manufacturing revolution",
+      "description": "<p>Physical AI promises to transform manufacturing, but only if robotics developers and integrators avoid hype and address real scaling challenges, writes Fictiv.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-physical-ai-is-real-manufac...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/learn-about-latest-advances-physical-ai-robotics-summit/"
+      "link": "https://www.therobotreport.com/why-physical-ai-is-real-manufacturing-revolution/"
     },
     {
-      "title": "Sereact gets Series B funding to expand Cortex 2.0 robot brain, enter U.S. market",
-      "description": "<p>Sereact plans to expand Cortex 2.0 from bin picking to tasks such as assembly and kitting, and it is opening a Boston office.</p>\n<p>The post <a href=\"https://www.therobotreport.com/sereact-gets-series-b-funding-expand-cortex-2-robot-brain-enter-u...",
-      "category": "funding",
-      "link": "https://www.therobotreport.com/sereact-gets-series-b-funding-expand-cortex-2-robot-brain-enter-u-s-market/"
+      "title": "As workers worry about AI, Nvidia’s Jensen Huang says AI is ‘creating an enormous number of jobs’",
+      "description": "The Nvidia CEO seems to feel that claims of AI's job-killing potential have been greatly exaggerated. ...",
+      "category": "company",
+      "link": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/"
     },
     {
-      "title": "Look back on 10 years of legged robots with Ghost Robotics at the Robotics Summit",
-      "description": "<p>At the summit, Gavin Kenneally, CEO and co-founder of Ghost Robotics, will share lessons from 10 years of deploying quadruped robots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/look-back-on-10-years-of-legged-robots-with-ghost-robotic...",
+      "title": "Closing the latency gap: Why physical AI requires edge-first architectures",
+      "description": "<p>Madhu Gaganam, founder and CEO of Cogniedge.ai, said the industry’s shift toward true cobots demands more than safer cages or slower speeds.</p>\n<p>The post <a href=\"https://www.therobotreport.com/closing-latency-gap-why-physical-ai-requires-edge-...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/look-back-on-10-years-of-legged-robots-with-ghost-robotics-at-the-robotics-summit/"
+      "link": "https://www.therobotreport.com/closing-latency-gap-why-physical-ai-requires-edge-first-architectures/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-04-28T08:23:10.277Z",
+  "generatedAt": "2026-05-05T08:06:43.921Z",
   "html": "<!-- Template not found -->"
 }
