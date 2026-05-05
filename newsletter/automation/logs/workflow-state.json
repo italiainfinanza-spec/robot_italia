@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1777364638264",
+    "id": "run-1777968401341",
     "edition": 1,
-    "date": "2026-04-28T08:23:58.264Z",
+    "date": "2026-05-05T08:06:41.341Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-04-28T08:23:58.269Z",
-        "completedAt": "2026-04-28T08:23:59.177Z"
+        "startedAt": "2026-05-05T08:06:41.346Z",
+        "completedAt": "2026-05-05T08:06:42.625Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-04-28T08:24:17.041Z",
-        "completedAt": "2026-04-28T08:24:17.050Z"
+        "startedAt": "2026-05-05T08:06:42.692Z",
+        "completedAt": "2026-05-05T08:06:42.927Z"
       },
       "review": {
         "status": "pending",
@@ -30,134 +30,134 @@
     "data": {
       "researchResults": [
         {
-          "title": "SquareMind raises $18M for robotic dermatology platform",
-          "link": "https://www.therobotreport.com/squaremind-raises-18m-dermatology-robotics-platform/",
-          "description": "<p>Squaremind has raised funding to launch Swan, a robotic platform that automates full-body skin imaging for early cancer detection.</p>\n<p>The post <a href=\"https://www.therobotreport.com/squaremind-raises-18m-dermatology-robotics-platform/\">SquareMind raises $18M for robotic dermatology platform</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 27 Apr 2026 21:05:25 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 12,
-          "category": "funding"
-        },
-        {
-          "title": "Learn about the latest advances in physical AI at the Robotics Summit",
-          "link": "https://www.therobotreport.com/learn-about-latest-advances-physical-ai-robotics-summit/",
-          "description": "<p>The Robotics Summit &#038; Expo will have an entire track of sessions focusing on how to apply artificial intelligence to robotics. </p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-about-latest-advances-physical-ai-robotics-summit/\">Learn about the latest advances in physical AI at the Robotics Summit</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 27 Apr 2026 20:28:38 +0000",
+          "title": "ABB Robotics launches OmniVance autonomous surface finishing cell",
+          "link": "https://www.therobotreport.com/abb-robotics-launches-omnivance-autonomous-surface-finishing-cell/",
+          "description": "<p>ABB Robotics said its new OmniVance Collaborative Surface Finishing Cell automates repetitive sanding and polishing tasks</p>\n<p>The post <a href=\"https://www.therobotreport.com/abb-robotics-launches-omnivance-autonomous-surface-finishing-cell/\">ABB Robotics launches OmniVance autonomous surface finishing cell</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 04 May 2026 17:03:38 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 11,
-          "category": "industry"
-        },
-        {
-          "title": "Sereact gets Series B funding to expand Cortex 2.0 robot brain, enter U.S. market",
-          "link": "https://www.therobotreport.com/sereact-gets-series-b-funding-expand-cortex-2-robot-brain-enter-u-s-market/",
-          "description": "<p>Sereact plans to expand Cortex 2.0 from bin picking to tasks such as assembly and kitting, and it is opening a Boston office.</p>\n<p>The post <a href=\"https://www.therobotreport.com/sereact-gets-series-b-funding-expand-cortex-2-robot-brain-enter-u-s-market/\">Sereact gets Series B funding to expand Cortex 2.0 robot brain, enter U.S. market</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 27 Apr 2026 16:52:14 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 9,
-          "category": "funding"
-        },
-        {
-          "title": "Look back on 10 years of legged robots with Ghost Robotics at the Robotics Summit",
-          "link": "https://www.therobotreport.com/look-back-on-10-years-of-legged-robots-with-ghost-robotics-at-the-robotics-summit/",
-          "description": "<p>At the summit, Gavin Kenneally, CEO and co-founder of Ghost Robotics, will share lessons from 10 years of deploying quadruped robots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/look-back-on-10-years-of-legged-robots-with-ghost-robotics-at-the-robotics-summit/\">Look back on 10 years of legged robots with Ghost Robotics at the Robotics Summit</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 26 Apr 2026 13:00:00 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 8,
-          "category": "industry"
-        },
-        {
-          "title": "ABB Robotics launches PoWa cobot family targeting industrial tasks",
-          "link": "https://www.therobotreport.com/abb-robotics-launches-powa-cobot-family-targeting-industrial-tasks/",
-          "description": "<p>ABB Robotics said its new PoWa family of cobots addresses a long‑standing gap in the market between traditional cobots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/abb-robotics-launches-powa-cobot-family-targeting-industrial-tasks/\">ABB Robotics launches PoWa cobot family targeting industrial tasks</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sat, 25 Apr 2026 13:00:56 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 8,
           "category": "product"
         },
         {
-          "title": "DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data",
-          "link": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
-          "description": "Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion.",
-          "pubDate": "Mon, 27 Apr 2026 17:24:21 +0000",
+          "title": "Why physical AI is the real manufacturing revolution",
+          "link": "https://www.therobotreport.com/why-physical-ai-is-real-manufacturing-revolution/",
+          "description": "<p>Physical AI promises to transform manufacturing, but only if robotics developers and integrators avoid hype and address real scaling challenges, writes Fictiv.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-physical-ai-is-real-manufacturing-revolution/\">Why physical AI is the real manufacturing revolution</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 03 May 2026 12:45:29 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 10,
+          "category": "industry"
+        },
+        {
+          "title": "As workers worry about AI, Nvidia’s Jensen Huang says AI is ‘creating an enormous number of jobs’",
+          "link": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/",
+          "description": "The Nvidia CEO seems to feel that claims of AI's job-killing potential have been greatly exaggerated. ",
+          "pubDate": "Tue, 05 May 2026 03:31:54 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 7,
+          "category": "company"
+        },
+        {
+          "title": "Closing the latency gap: Why physical AI requires edge-first architectures",
+          "link": "https://www.therobotreport.com/closing-latency-gap-why-physical-ai-requires-edge-first-architectures/",
+          "description": "<p>Madhu Gaganam, founder and CEO of Cogniedge.ai, said the industry’s shift toward true cobots demands more than safer cages or slower speeds.</p>\n<p>The post <a href=\"https://www.therobotreport.com/closing-latency-gap-why-physical-ai-requires-edge-first-architectures/\">Closing the latency gap: Why physical AI requires edge-first architectures</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 03 May 2026 12:00:44 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 7,
+          "category": "industry"
+        },
+        {
+          "title": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO",
+          "link": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+          "description": "AI chip maker Cerebras is heading for a blockbuster IPO that could value it at $26.6 billion or more. Its relationship with OpenAI is deep and rich.",
+          "pubDate": "Mon, 04 May 2026 21:53:21 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 6,
           "category": "funding"
         },
         {
-          "title": "China blocks Meta’s $2B Manus deal after months-long probe",
-          "link": "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/",
-          "description": "China has ordered Meta to unwind its multibillion-dollar Manus acquisition, dealing a potential setback to Zuckerberg’s push into AI agents.",
-          "pubDate": "Mon, 27 Apr 2026 13:16:55 +0000",
-          "source": "techcrunch.com",
+          "title": "Inside Colin Angle’s bid to build companion robots with Familiar Machines & Magic",
+          "link": "https://www.therobotreport.com/inside-colin-angle-bid-build-companion-robots-familiar/",
+          "description": "<p>Familiar Machines &#038; Magic, Colin Angle's new robot startup, is developing a quadruped 'familiar' to succeed in a challenging category.</p>\n<p>The post <a href=\"https://www.therobotreport.com/inside-colin-angle-bid-build-companion-robots-familiar/\">Inside Colin Angle’s bid to build companion robots with Familiar Machines &#038; Magic</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 04 May 2026 17:00:33 +0000",
+          "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 6,
-          "category": "funding"
+          "category": "product"
         },
         {
-          "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
-          "link": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
-          "description": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft gets more cash in a revenue-share agreement. ",
-          "pubDate": "Mon, 27 Apr 2026 17:40:38 +0000",
-          "source": "techcrunch.com",
+          "title": "Ouster releases REV8 OS sensor family with native-color lidar",
+          "link": "https://www.therobotreport.com/ouster-releases-rev8-os-family-native-color-lidar-sensors/",
+          "description": "<p>Ouster says its Rev8 OS sensors are the first to have native color and include the OS1 Max with double the range and resolution of Rev7.</p>\n<p>The post <a href=\"https://www.therobotreport.com/ouster-releases-rev8-os-family-native-color-lidar-sensors/\">Ouster releases REV8 OS sensor family with native-color lidar</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 04 May 2026 10:01:51 +0000",
+          "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 5,
-          "category": "funding"
+          "relevanceScore": 6,
+          "category": "industry"
         },
         {
-          "title": "Investors back Skye’s AI home screen app for iPhone ahead of launch",
-          "link": "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/",
-          "description": "Skye's new AI app attracted investors before it even launched — a sign of interest in a more AI-aware iPhone.",
-          "pubDate": "Mon, 27 Apr 2026 16:13:02 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "funding"
-        },
-        {
-          "title": "OpenAI could be making a phone with AI agents replacing apps",
-          "link": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
-          "description": "There have been plenty of rumors about OpenAI's hardware plans, which involve launching a pair of earbuds. A new note from industry analyst Ming-Chi Kuo suggests that the AI company might be working on a phone in collaboration with MediaTek, Qualcomm, and Luxshare.",
-          "pubDate": "Mon, 27 Apr 2026 13:08:59 +0000",
+          "title": "Image AI models now drive app growth, beating chatbot upgrades",
+          "link": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
+          "description": "Appfigures finds visual model launches generate 6.5x more downloads — but most don’t convert that spike into revenue.",
+          "pubDate": "Mon, 04 May 2026 19:12:49 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "product"
+        },
+        {
+          "title": "Elon Musk’s only AI expert witness at the OpenAI trial fears an AGI arms race",
+          "link": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
+          "description": "Stuart Russell is a long-time AI researcher who thinks governments need to restrain frontier labs. ",
+          "pubDate": "Mon, 04 May 2026 16:57:47 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "Sierra raises $950M as the race to own enterprise AI gets serious",
+          "link": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+          "description": "The raise gives Sierra more than $1 billion to work with — capital the company says it will use to become the \"global standard\" for AI-powered customer experiences.",
+          "pubDate": "Mon, 04 May 2026 16:45:55 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "funding"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-04-28",
-        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
-        "preheader": "6 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-05-05",
+        "subject": "ABB Robotics launches OmniVance autonomo... | Robotica Weekly #1",
+        "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "SquareMind raises $18M for robotic dermatology platform",
-          "description": "<p>Squaremind has raised funding to launch Swan, a robotic platform that automates full-body skin imaging for early cancer detection.</p>\n<p>The post <a href=\"https://www.therobotreport.com/squaremind-raises-18m-dermatology-robotics-platform/\">SquareMind raises $18M for robotic dermatology platform<..."
+          "title": "ABB Robotics launches OmniVance autonomous surface finishing cell",
+          "description": "<p>ABB Robotics said its new OmniVance Collaborative Surface Finishing Cell automates repetitive sanding and polishing tasks</p>\n<p>The post <a href=\"https://www.therobotreport.com/abb-robotics-launches-omnivance-autonomous-surface-finishing-cell/\">ABB Robotics launches OmniVance autonomous surface ..."
         },
         "news": [
           {
-            "title": "Learn about the latest advances in physical AI at the Robotics Summit",
-            "description": "<p>The Robotics Summit &#038; Expo will have an entire track of sessions focusing on how to apply artificial intelligence to robotics. </p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-about-latest-advances-physical-ai-robotics-summit/\">...",
+            "title": "Why physical AI is the real manufacturing revolution",
+            "description": "<p>Physical AI promises to transform manufacturing, but only if robotics developers and integrators avoid hype and address real scaling challenges, writes Fictiv.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-physical-ai-is-real-manufac...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/learn-about-latest-advances-physical-ai-robotics-summit/"
+            "link": "https://www.therobotreport.com/why-physical-ai-is-real-manufacturing-revolution/"
           },
           {
-            "title": "Sereact gets Series B funding to expand Cortex 2.0 robot brain, enter U.S. market",
-            "description": "<p>Sereact plans to expand Cortex 2.0 from bin picking to tasks such as assembly and kitting, and it is opening a Boston office.</p>\n<p>The post <a href=\"https://www.therobotreport.com/sereact-gets-series-b-funding-expand-cortex-2-robot-brain-enter-u...",
-            "category": "funding",
-            "link": "https://www.therobotreport.com/sereact-gets-series-b-funding-expand-cortex-2-robot-brain-enter-u-s-market/"
+            "title": "As workers worry about AI, Nvidia’s Jensen Huang says AI is ‘creating an enormous number of jobs’",
+            "description": "The Nvidia CEO seems to feel that claims of AI's job-killing potential have been greatly exaggerated. ...",
+            "category": "company",
+            "link": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/"
           },
           {
-            "title": "Look back on 10 years of legged robots with Ghost Robotics at the Robotics Summit",
-            "description": "<p>At the summit, Gavin Kenneally, CEO and co-founder of Ghost Robotics, will share lessons from 10 years of deploying quadruped robots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/look-back-on-10-years-of-legged-robots-with-ghost-robotic...",
+            "title": "Closing the latency gap: Why physical AI requires edge-first architectures",
+            "description": "<p>Madhu Gaganam, founder and CEO of Cogniedge.ai, said the industry’s shift toward true cobots demands more than safer cages or slower speeds.</p>\n<p>The post <a href=\"https://www.therobotreport.com/closing-latency-gap-why-physical-ai-requires-edge-...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/look-back-on-10-years-of-legged-robots-with-ghost-robotics-at-the-robotics-summit/"
+            "link": "https://www.therobotreport.com/closing-latency-gap-why-physical-ai-requires-edge-first-architectures/"
           }
         ],
         "stat": {
