@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1777968401341",
+    "id": "run-1777968481277",
     "edition": 1,
-    "date": "2026-05-05T08:06:41.341Z",
+    "date": "2026-05-05T08:08:01.277Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-05-05T08:06:41.346Z",
-        "completedAt": "2026-05-05T08:06:42.625Z"
+        "startedAt": "2026-05-05T08:08:01.283Z",
+        "completedAt": "2026-05-05T08:08:05.689Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-05-05T08:06:42.692Z",
-        "completedAt": "2026-05-05T08:06:42.927Z"
+        "startedAt": "2026-05-05T08:08:30.085Z",
+        "completedAt": "2026-05-05T08:08:30.094Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-05-05",
-        "subject": "ABB Robotics launches OmniVance autonomo... | Robotica Weekly #1",
+        "subject": "La settimana in robotica — Edizione #1",
         "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "ABB Robotics launches OmniVance autonomous surface finishing cell",
