@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1778575037327",
-  "subject": "RLWRLD releases RLDX-1, a dexterity-firs... | Robotica Weekly #1",
-  "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
+  "runId": "run-1779183552822",
+  "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
+  "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "RLWRLD releases RLDX-1, a dexterity-first foundation model for robot hands",
-    "description": "<p>RLWRLD said with RLDX-1, it aimed to include things like context memorization or force sensing, which existing models often lack.</p>\n<p>The post <a href=\"https://www.therobotreport.com/rlwrld-releases-rldx-1-a-dexterity-first-foundation-model-for-robot-hands/\">RLWRLD releases RLDX-1, a dexterity..."
+    "title": "SandboxAQ brings its drug discovery models to Claude — no PhD in computing required",
+    "description": "Other venture-backed companies like Chai Discovery and Isomorphic Labs have raced to build better models. SandboxAQ is betting that access is the bigger obstacle and that Claude solves it. ..."
   },
   "news": [
     {
-      "title": "Cognex releases fully integrated AI-powered vision system for robotics",
-      "description": "<p>The system combines Cognex-developed edge AI, advanced AI, and rule-based vision tools with a high-performance embedded compute.</p>\n<p>The post <a href=\"https://www.therobotreport.com/cognex-releases-fully-integrated-ai-powered-vision-system-robo...",
-      "category": "industry",
-      "link": "https://www.therobotreport.com/cognex-releases-fully-integrated-ai-powered-vision-system-robotics/"
+      "title": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
+      "description": "Stainless, a New York-based startup, founded in 2022, rose to prominence in the emerging AI industry for automating the creation and maintenance of software development kits, or SDKs — the libraries developers use to interact with APIs....",
+      "category": "product",
+      "link": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/"
     },
     {
-      "title": "Why traditional robotics data collection is obsolete and what replaces it",
-      "description": "<p>Eric Chan discusses Rhoda AI's innovative approach to robotics using video data for scalable, efficient learning.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-traditional-robotics-data-collection-is-obsolete-and-what-replaces-it/\">W...",
+      "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+      "description": "Elon Musk's claim that he was mistreated by his OpenAI co-founders failed after nine California jurors decided in a unanimous verdict that his lawsuits had been filed too late....",
       "category": "industry",
-      "link": "https://www.therobotreport.com/why-traditional-robotics-data-collection-is-obsolete-and-what-replaces-it/"
+      "link": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/"
     },
     {
-      "title": "Riding an AI rally, Robinhood preps second retail venture IPO",
-      "description": "Robinhood files confidentially for its second venture fund, this time targeting growth and early-stage startups....",
-      "category": "funding",
-      "link": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/"
+      "title": "Amazon’s new Alexa+ powered feature can generate podcast episodes",
+      "description": "Amazon’s Alexa+ can now generate custom AI podcasts on demand, as the company expands its assistant into a personalized AI content platform....",
+      "category": "product",
+      "link": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-05-12T08:37:21.349Z",
+  "generatedAt": "2026-05-19T09:39:16.666Z",
   "html": "<!-- Template not found -->"
 }
