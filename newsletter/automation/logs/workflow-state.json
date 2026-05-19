@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1778575111123",
+    "id": "run-1779183552822",
     "edition": 1,
-    "date": "2026-05-12T08:38:31.123Z",
+    "date": "2026-05-19T09:39:12.822Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-05-12T08:38:31.128Z",
-        "completedAt": "2026-05-12T08:38:32.377Z"
+        "startedAt": "2026-05-19T09:39:12.827Z",
+        "completedAt": "2026-05-19T09:39:14.922Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-05-12T08:38:48.747Z",
-        "completedAt": "2026-05-12T08:38:48.759Z"
+        "startedAt": "2026-05-19T09:39:14.983Z",
+        "completedAt": "2026-05-19T09:39:15.249Z"
       },
       "review": {
         "status": "pending",
@@ -30,134 +30,94 @@
     "data": {
       "researchResults": [
         {
-          "title": "RLWRLD releases RLDX-1, a dexterity-first foundation model for robot hands",
-          "link": "https://www.therobotreport.com/rlwrld-releases-rldx-1-a-dexterity-first-foundation-model-for-robot-hands/",
-          "description": "<p>RLWRLD said with RLDX-1, it aimed to include things like context memorization or force sensing, which existing models often lack.</p>\n<p>The post <a href=\"https://www.therobotreport.com/rlwrld-releases-rldx-1-a-dexterity-first-foundation-model-for-robot-hands/\">RLWRLD releases RLDX-1, a dexterity-first foundation model for robot hands</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 11 May 2026 18:37:20 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 8,
-          "category": "industry"
-        },
-        {
-          "title": "Cognex releases fully integrated AI-powered vision system for robotics",
-          "link": "https://www.therobotreport.com/cognex-releases-fully-integrated-ai-powered-vision-system-robotics/",
-          "description": "<p>The system combines Cognex-developed edge AI, advanced AI, and rule-based vision tools with a high-performance embedded compute.</p>\n<p>The post <a href=\"https://www.therobotreport.com/cognex-releases-fully-integrated-ai-powered-vision-system-robotics/\">Cognex releases fully integrated AI-powered vision system for robotics</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sat, 09 May 2026 12:30:37 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 8,
-          "category": "industry"
-        },
-        {
-          "title": "Why traditional robotics data collection is obsolete and what replaces it",
-          "link": "https://www.therobotreport.com/why-traditional-robotics-data-collection-is-obsolete-and-what-replaces-it/",
-          "description": "<p>Eric Chan discusses Rhoda AI's innovative approach to robotics using video data for scalable, efficient learning.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-traditional-robotics-data-collection-is-obsolete-and-what-replaces-it/\">Why traditional robotics data collection is obsolete and what replaces it</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Fri, 08 May 2026 22:40:04 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 8,
-          "category": "industry"
-        },
-        {
-          "title": "Riding an AI rally, Robinhood preps second retail venture IPO",
-          "link": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
-          "description": "Robinhood files confidentially for its second venture fund, this time targeting growth and early-stage startups.",
-          "pubDate": "Tue, 12 May 2026 00:09:01 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 6,
-          "category": "funding"
-        },
-        {
-          "title": "Learn how to successfully design hospital logistics robots at the Robotics Summit",
-          "link": "https://www.therobotreport.com/learn-how-to-successfully-design-hospital-logistics-robots-2026-robotics-summit/",
-          "description": "<p>Experts from Rovex Technologies, SKA Robotics, and ST Engineering Aethon will discuss design considerations for hospital robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-how-to-successfully-design-hospital-logistics-robots-2026-robotics-summit/\">Learn how to successfully design hospital logistics robots at the Robotics Summit</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Fri, 08 May 2026 19:34:03 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 6,
-          "category": "industry"
-        },
-        {
-          "title": "Thinking Machines wants to build an AI that actually listens while it talks",
-          "link": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
-          "description": "Right now, every AI model you've ever used works the same way. You talk, it listens. It responds, you listen. Thinking Machines is trying to change that by building a model that processes your input and generates a response at the same time, so it's more like a phone call than a text chain.",
-          "pubDate": "Tue, 12 May 2026 04:52:35 +0000",
+          "title": "SandboxAQ brings its drug discovery models to Claude — no PhD in computing required",
+          "link": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
+          "description": "Other venture-backed companies like Chai Discovery and Isomorphic Labs have raced to build better models. SandboxAQ is betting that access is the bigger obstacle and that Claude solves it. ",
+          "pubDate": "Mon, 18 May 2026 21:29:31 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
-          "link": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
-          "description": "Some of the positions focus on AI-native development, data engineering and analytics, cloud-based engineering, and agent and model development as well as prompt engineering and new AI workflows.",
-          "pubDate": "Mon, 11 May 2026 23:04:10 +0000",
+          "title": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
+          "link": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
+          "description": "Stainless, a New York-based startup, founded in 2022, rose to prominence in the emerging AI industry for automating the creation and maintenance of software development kits, or SDKs — the libraries developers use to interact with APIs.",
+          "pubDate": "Mon, 18 May 2026 19:27:52 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "product"
         },
         {
-          "title": "Digg tries again, this time as an AI news aggregator",
-          "link": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
-          "description": "In an email to beta testers, the company said the site's goal is to \"track the most influential voices in a space\" and to surface the news that's actually worth \"paying attention to.\" ",
-          "pubDate": "Mon, 11 May 2026 17:02:35 +0000",
+          "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+          "link": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+          "description": "Elon Musk's claim that he was mistreated by his OpenAI co-founders failed after nine California jurors decided in a unanimous verdict that his lawsuits had been filed too late.",
+          "pubDate": "Mon, 18 May 2026 17:34:43 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "Amazon’s new Alexa+ powered feature can generate podcast episodes",
+          "link": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/",
+          "description": "Amazon’s Alexa+ can now generate custom AI podcasts on demand, as the company expands its assistant into a personalized AI content platform.",
+          "pubDate": "Mon, 18 May 2026 14:56:47 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "product"
         },
         {
-          "title": "There aren’t enough rockets for space data centers — Cowboy Space raised $275M to build them",
-          "link": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
-          "description": "The apparently insatiable demand for AI compute has data center entrepreneurs looking to the stars. There's a key problem: There aren't enough rockets to put data centers in orbit around Earth, and they're too expensive.",
-          "pubDate": "Mon, 11 May 2026 13:00:00 +0000",
+          "title": "South Korea’s LetinAR is building optics behind AI glasses",
+          "link": "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
+          "description": "A lens the size of a thumbnail — and the South Korean startup that makes it — could become the optical backbone of the AI glasses era.",
+          "pubDate": "Mon, 18 May 2026 11:00:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "funding"
+          "category": "industry"
         },
         {
-          "title": "How to engineer robot tracks and 7th axis systems for real-world environments",
-          "link": "https://www.therobotreport.com/how-to-engineer-robot-tracks-7th-axis-systems-real-world-environments/",
-          "description": "<p>Experts from Güdel will focus on how harsh and dirty environments impact robot tracks and long-axis linear motion systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-to-engineer-robot-tracks-7th-axis-systems-real-world-environments/\">How to engineer robot tracks and 7th axis systems for real-world environments</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 10 May 2026 12:30:40 +0000",
-          "source": "www.therobotreport.com",
+          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
+          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
+          "description": "Wall Street Journal",
+          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
+          "source": "nvidianews.nvidia.com",
           "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
+          "relevanceScore": 4,
+          "category": "funding"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-05-12",
-        "subject": "RLWRLD releases RLDX-1, a dexterity-firs... | Robotica Weekly #1",
-        "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-05-19",
+        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
+        "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "RLWRLD releases RLDX-1, a dexterity-first foundation model for robot hands",
-          "description": "<p>RLWRLD said with RLDX-1, it aimed to include things like context memorization or force sensing, which existing models often lack.</p>\n<p>The post <a href=\"https://www.therobotreport.com/rlwrld-releases-rldx-1-a-dexterity-first-foundation-model-for-robot-hands/\">RLWRLD releases RLDX-1, a dexterity..."
+          "title": "SandboxAQ brings its drug discovery models to Claude — no PhD in computing required",
+          "description": "Other venture-backed companies like Chai Discovery and Isomorphic Labs have raced to build better models. SandboxAQ is betting that access is the bigger obstacle and that Claude solves it. ..."
         },
         "news": [
           {
-            "title": "Cognex releases fully integrated AI-powered vision system for robotics",
-            "description": "<p>The system combines Cognex-developed edge AI, advanced AI, and rule-based vision tools with a high-performance embedded compute.</p>\n<p>The post <a href=\"https://www.therobotreport.com/cognex-releases-fully-integrated-ai-powered-vision-system-robo...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/cognex-releases-fully-integrated-ai-powered-vision-system-robotics/"
+            "title": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
+            "description": "Stainless, a New York-based startup, founded in 2022, rose to prominence in the emerging AI industry for automating the creation and maintenance of software development kits, or SDKs — the libraries developers use to interact with APIs....",
+            "category": "product",
+            "link": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/"
           },
           {
-            "title": "Why traditional robotics data collection is obsolete and what replaces it",
-            "description": "<p>Eric Chan discusses Rhoda AI's innovative approach to robotics using video data for scalable, efficient learning.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-traditional-robotics-data-collection-is-obsolete-and-what-replaces-it/\">W...",
+            "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+            "description": "Elon Musk's claim that he was mistreated by his OpenAI co-founders failed after nine California jurors decided in a unanimous verdict that his lawsuits had been filed too late....",
             "category": "industry",
-            "link": "https://www.therobotreport.com/why-traditional-robotics-data-collection-is-obsolete-and-what-replaces-it/"
+            "link": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/"
           },
           {
-            "title": "Riding an AI rally, Robinhood preps second retail venture IPO",
-            "description": "Robinhood files confidentially for its second venture fund, this time targeting growth and early-stage startups....",
-            "category": "funding",
-            "link": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/"
+            "title": "Amazon’s new Alexa+ powered feature can generate podcast episodes",
+            "description": "Amazon’s Alexa+ can now generate custom AI podcasts on demand, as the company expands its assistant into a personalized AI content platform....",
+            "category": "product",
+            "link": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/"
           }
         ],
         "stat": {
