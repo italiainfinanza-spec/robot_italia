@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1779183631431",
+    "id": "run-1779789170095",
     "edition": 1,
-    "date": "2026-05-19T09:40:31.431Z",
+    "date": "2026-05-26T09:52:50.095Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-05-19T09:40:31.436Z",
-        "completedAt": "2026-05-19T09:40:32.530Z"
+        "startedAt": "2026-05-26T09:52:50.100Z",
+        "completedAt": "2026-05-26T09:52:51.357Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-05-19T09:40:47.704Z",
-        "completedAt": "2026-05-19T09:40:47.713Z"
+        "startedAt": "2026-05-26T09:52:51.420Z",
+        "completedAt": "2026-05-26T09:52:51.894Z"
       },
       "review": {
         "status": "pending",
@@ -30,53 +30,93 @@
     "data": {
       "researchResults": [
         {
-          "title": "SandboxAQ brings its drug discovery models to Claude — no PhD in computing required",
-          "link": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
-          "description": "Other venture-backed companies like Chai Discovery and Isomorphic Labs have raced to build better models. SandboxAQ is betting that access is the bigger obstacle and that Claude solves it. ",
-          "pubDate": "Mon, 18 May 2026 21:29:31 +0000",
+          "title": "Simulation vs. digital twin: A strategic lens on virtual manufacturing",
+          "link": "https://www.therobotreport.com/simulation-versus-digital-twin-strategic-lens-on-virtual-manufacturing/",
+          "description": "<p>Digital twins and simulation provide distinct benefits for manufacturers designing and integrating systems including automation, explains Visual Components.</p>\n<p>The post <a href=\"https://www.therobotreport.com/simulation-versus-digital-twin-strategic-lens-on-virtual-manufacturing/\">Simulation vs. digital twin: A strategic lens on virtual manufacturing</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 25 May 2026 14:23:45 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 11,
+          "category": "industry"
+        },
+        {
+          "title": "The future of physical AI isn’t humanoid; it’s task-specific and cost-efficient",
+          "link": "https://www.therobotreport.com/future-high-scale-robotics-isnt-humanoid-its-task-specific-cost-efficient-ai/",
+          "description": "<p>The vice president of physical AI at Hailo explains why the next wave of AI will run locally on specialized machines designed for real-world tasks.</p>\n<p>The post <a href=\"https://www.therobotreport.com/future-high-scale-robotics-isnt-humanoid-its-task-specific-cost-efficient-ai/\">The future of physical AI isn&#8217;t humanoid; it&#8217;s task-specific and cost-efficient</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sat, 23 May 2026 12:30:44 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 11,
+          "category": "industry"
+        },
+        {
+          "title": "Exploring PLC and robot integration with YRG Robotics’ Chris Elston",
+          "link": "https://www.therobotreport.com/exploring-plc-and-robot-integration-with-yrg-robotics-chris-elston/",
+          "description": "<p>Chris Elston discusses PLC integration, Yamaha Robotics, and AI's role in advancing automation accessibility and innovation.</p>\n<p>The post <a href=\"https://www.therobotreport.com/exploring-plc-and-robot-integration-with-yrg-robotics-chris-elston/\">Exploring PLC and robot integration with YRG Robotics&#8217; Chris Elston</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sat, 23 May 2026 00:17:49 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 11,
+          "category": "industry"
+        },
+        {
+          "title": "Robotics Summit keynote to present open foundation for AI-powered robots",
+          "link": "https://www.therobotreport.com/robotics-summit-keynote-present-open-robotics-ai-foundation/",
+          "description": "<p>Brian Gerkey of Open Robotics will explain how the open-source community is ushering in the age of robots and AI at the Robotics Summit.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robotics-summit-keynote-present-open-robotics-ai-foundation/\">Robotics Summit keynote to present open foundation for AI-powered robots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Fri, 22 May 2026 18:49:17 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "industry"
+        },
+        {
+          "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+          "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp\">A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
+          "pubDate": "Fri, 22 May 2026 18:00:00 +0000",
+          "source": "blog.google",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "industry"
+        },
+        {
+          "title": "Sortera uses physical AI to double capacity in a Tennessee sorting facility",
+          "link": "https://www.therobotreport.com/sortera-uses-physical-ai-to-double-capacity-in-a-tennessee-sorting-facility/",
+          "description": "<p>With the new facility, Sortera has increased its annual processing capacity to an estimated 240 million lbs.</p>\n<p>The post <a href=\"https://www.therobotreport.com/sortera-uses-physical-ai-to-double-capacity-in-a-tennessee-sorting-facility/\">Sortera uses physical AI to double capacity in a Tennessee sorting facility</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 24 May 2026 12:25:35 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 7,
+          "category": "funding"
+        },
+        {
+          "title": "What ClickUp’s mass layoff tells us about the future of work",
+          "link": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/",
+          "description": "The nine-year-old startup is replacing hundreds of employees with thousands of AI agents.",
+          "pubDate": "Mon, 25 May 2026 16:00:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
-          "link": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
-          "description": "Stainless, a New York-based startup, founded in 2022, rose to prominence in the emerging AI industry for automating the creation and maintenance of software development kits, or SDKs — the libraries developers use to interact with APIs.",
-          "pubDate": "Mon, 18 May 2026 19:27:52 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
-        },
-        {
-          "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
-          "link": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
-          "description": "Elon Musk's claim that he was mistreated by his OpenAI co-founders failed after nine California jurors decided in a unanimous verdict that his lawsuits had been filed too late.",
-          "pubDate": "Mon, 18 May 2026 17:34:43 +0000",
+          "title": "The pope’s AI encyclical isn’t really about AI",
+          "link": "https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/",
+          "description": "Pope Leo XIV's first encyclical uses AI as a lens to diagnose older problems: concentrated power, eroding democracy, and a tech elite that shapes the world to its own advantage.",
+          "pubDate": "Mon, 25 May 2026 15:09:41 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Amazon’s new Alexa+ powered feature can generate podcast episodes",
-          "link": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/",
-          "description": "Amazon’s Alexa+ can now generate custom AI podcasts on demand, as the company expands its assistant into a personalized AI content platform.",
-          "pubDate": "Mon, 18 May 2026 14:56:47 +0000",
+          "title": "Everyone is navigating AI security in real time — even Google",
+          "link": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
+          "description": "We're in the transition period -- all of us.",
+          "pubDate": "Sun, 24 May 2026 21:39:21 +0000",
           "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
-        },
-        {
-          "title": "South Korea’s LetinAR is building optics behind AI glasses",
-          "link": "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
-          "description": "A lens the size of a thumbnail — and the South Korean startup that makes it — could become the optical backbone of the AI glasses era.",
-          "pubDate": "Mon, 18 May 2026 11:00:00 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
+          "relevanceScore": 4,
           "category": "industry"
         },
         {
@@ -93,31 +133,31 @@
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-05-19",
-        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
-        "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-05-26",
+        "subject": "La settimana in robotica — Edizione #1",
+        "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "SandboxAQ brings its drug discovery models to Claude — no PhD in computing required",
-          "description": "Other venture-backed companies like Chai Discovery and Isomorphic Labs have raced to build better models. SandboxAQ is betting that access is the bigger obstacle and that Claude solves it. ..."
+          "title": "Simulation vs. digital twin: A strategic lens on virtual manufacturing",
+          "description": "<p>Digital twins and simulation provide distinct benefits for manufacturers designing and integrating systems including automation, explains Visual Components.</p>\n<p>The post <a href=\"https://www.therobotreport.com/simulation-versus-digital-twin-strategic-lens-on-virtual-manufacturing/\">Simulation ..."
         },
         "news": [
           {
-            "title": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
-            "description": "Stainless, a New York-based startup, founded in 2022, rose to prominence in the emerging AI industry for automating the creation and maintenance of software development kits, or SDKs — the libraries developers use to interact with APIs....",
-            "category": "product",
-            "link": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/"
-          },
-          {
-            "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
-            "description": "Elon Musk's claim that he was mistreated by his OpenAI co-founders failed after nine California jurors decided in a unanimous verdict that his lawsuits had been filed too late....",
+            "title": "The future of physical AI isn’t humanoid; it’s task-specific and cost-efficient",
+            "description": "<p>The vice president of physical AI at Hailo explains why the next wave of AI will run locally on specialized machines designed for real-world tasks.</p>\n<p>The post <a href=\"https://www.therobotreport.com/future-high-scale-robotics-isnt-humanoid-it...",
             "category": "industry",
-            "link": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/"
+            "link": "https://www.therobotreport.com/future-high-scale-robotics-isnt-humanoid-its-task-specific-cost-efficient-ai/"
           },
           {
-            "title": "Amazon’s new Alexa+ powered feature can generate podcast episodes",
-            "description": "Amazon’s Alexa+ can now generate custom AI podcasts on demand, as the company expands its assistant into a personalized AI content platform....",
-            "category": "product",
-            "link": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/"
+            "title": "Exploring PLC and robot integration with YRG Robotics’ Chris Elston",
+            "description": "<p>Chris Elston discusses PLC integration, Yamaha Robotics, and AI's role in advancing automation accessibility and innovation.</p>\n<p>The post <a href=\"https://www.therobotreport.com/exploring-plc-and-robot-integration-with-yrg-robotics-chris-elston...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/exploring-plc-and-robot-integration-with-yrg-robotics-chris-elston/"
+          },
+          {
+            "title": "Robotics Summit keynote to present open foundation for AI-powered robots",
+            "description": "<p>Brian Gerkey of Open Robotics will explain how the open-source community is ushering in the age of robots and AI at the Robotics Summit.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robotics-summit-keynote-present-open-robotics-ai-found...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/robotics-summit-keynote-present-open-robotics-ai-foundation/"
           }
         ],
         "stat": {
