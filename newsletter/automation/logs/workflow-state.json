@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1780395598172",
+    "id": "run-1780395718300",
     "edition": 1,
-    "date": "2026-06-02T10:19:58.172Z",
+    "date": "2026-06-02T10:21:58.300Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-06-02T10:19:58.177Z",
-        "completedAt": "2026-06-02T10:20:00.175Z"
+        "startedAt": "2026-06-02T10:21:58.306Z",
+        "completedAt": "2026-06-02T10:21:59.335Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-06-02T10:20:00.235Z",
-        "completedAt": "2026-06-02T10:20:00.476Z"
+        "startedAt": "2026-06-02T10:22:12.015Z",
+        "completedAt": "2026-06-02T10:22:12.024Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-06-02",
-        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
         "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "ANSCER Robotics closes Series A round for industrial material handling",
