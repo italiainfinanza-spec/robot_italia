@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1779789301757",
+    "id": "run-1780395598172",
     "edition": 1,
-    "date": "2026-05-26T09:55:01.757Z",
+    "date": "2026-06-02T10:19:58.172Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-05-26T09:55:01.761Z",
-        "completedAt": "2026-05-26T09:55:03.019Z"
+        "startedAt": "2026-06-02T10:19:58.177Z",
+        "completedAt": "2026-06-02T10:20:00.175Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-05-26T09:55:17.336Z",
-        "completedAt": "2026-05-26T09:55:17.345Z"
+        "startedAt": "2026-06-02T10:20:00.235Z",
+        "completedAt": "2026-06-02T10:20:00.476Z"
       },
       "review": {
         "status": "pending",
@@ -30,134 +30,134 @@
     "data": {
       "researchResults": [
         {
-          "title": "Simulation vs. digital twin: A strategic lens on virtual manufacturing",
-          "link": "https://www.therobotreport.com/simulation-versus-digital-twin-strategic-lens-on-virtual-manufacturing/",
-          "description": "<p>Digital twins and simulation provide distinct benefits for manufacturers designing and integrating systems including automation, explains Visual Components.</p>\n<p>The post <a href=\"https://www.therobotreport.com/simulation-versus-digital-twin-strategic-lens-on-virtual-manufacturing/\">Simulation vs. digital twin: A strategic lens on virtual manufacturing</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 25 May 2026 14:23:45 +0000",
+          "title": "ANSCER Robotics closes Series A round for industrial material handling",
+          "link": "https://www.therobotreport.com/anscer-robotics-closes-series-a-round-industrial-material-handling/",
+          "description": "<p>ANSCER Robotics has raised $5.4 million to scale its hybrid industrial automation robots in North America and globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/anscer-robotics-closes-series-a-round-industrial-material-handling/\">ANSCER Robotics closes Series A round for industrial material handling</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 01 Jun 2026 19:55:18 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 11,
+          "relevanceScore": 14,
+          "category": "funding"
+        },
+        {
+          "title": "NVIDIA releases new and updated tools for physical AI developers",
+          "link": "https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/",
+          "description": "<p>NVIDIA has released open-source physical AI agent skills and tools, as well as an Isaac GR00T humanoid reference robot.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/\">NVIDIA releases new and updated tools for physical AI developers</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 01 Jun 2026 21:27:16 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 13,
+          "category": "company"
+        },
+        {
+          "title": "Top 10 robotics stories of May 2026",
+          "link": "https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/",
+          "description": "<p>May 2026 was a busy month full of robotics news, and it was topped off by the Robotics Summit &#038; Expo in Boston.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/\">Top 10 robotics stories of May 2026</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 01 Jun 2026 18:04:55 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 9,
+          "category": "product"
+        },
+        {
+          "title": "Learn about advances in robotic case and each picking",
+          "link": "https://www.therobotreport.com/learn-about-advances-robotic-case-each-picking-webinar/",
+          "description": "<p>Experts from Locus Robotics, Nomagic, and RightHand Robotics will discuss progress in piece picking in this week's webinar.</p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-about-advances-robotic-case-each-picking-webinar/\">Learn about advances in robotic case and each picking</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 01 Jun 2026 15:24:45 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 9,
           "category": "industry"
         },
         {
-          "title": "The future of physical AI isn’t humanoid; it’s task-specific and cost-efficient",
-          "link": "https://www.therobotreport.com/future-high-scale-robotics-isnt-humanoid-its-task-specific-cost-efficient-ai/",
-          "description": "<p>The vice president of physical AI at Hailo explains why the next wave of AI will run locally on specialized machines designed for real-world tasks.</p>\n<p>The post <a href=\"https://www.therobotreport.com/future-high-scale-robotics-isnt-humanoid-its-task-specific-cost-efficient-ai/\">The future of physical AI isn&#8217;t humanoid; it&#8217;s task-specific and cost-efficient</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sat, 23 May 2026 12:30:44 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 11,
-          "category": "industry"
-        },
-        {
-          "title": "Exploring PLC and robot integration with YRG Robotics’ Chris Elston",
-          "link": "https://www.therobotreport.com/exploring-plc-and-robot-integration-with-yrg-robotics-chris-elston/",
-          "description": "<p>Chris Elston discusses PLC integration, Yamaha Robotics, and AI's role in advancing automation accessibility and innovation.</p>\n<p>The post <a href=\"https://www.therobotreport.com/exploring-plc-and-robot-integration-with-yrg-robotics-chris-elston/\">Exploring PLC and robot integration with YRG Robotics&#8217; Chris Elston</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sat, 23 May 2026 00:17:49 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 11,
-          "category": "industry"
-        },
-        {
-          "title": "Robotics Summit keynote to present open foundation for AI-powered robots",
-          "link": "https://www.therobotreport.com/robotics-summit-keynote-present-open-robotics-ai-foundation/",
-          "description": "<p>Brian Gerkey of Open Robotics will explain how the open-source community is ushering in the age of robots and AI at the Robotics Summit.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robotics-summit-keynote-present-open-robotics-ai-foundation/\">Robotics Summit keynote to present open foundation for AI-powered robots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Fri, 22 May 2026 18:49:17 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 8,
-          "category": "industry"
-        },
-        {
-          "title": "Catch up on the Dialogues stage at Google I/O 2026.",
-          "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
-          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp\">A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
-          "pubDate": "Fri, 22 May 2026 18:00:00 +0000",
-          "source": "blog.google",
-          "type": "rss",
-          "relevanceScore": 8,
-          "category": "industry"
-        },
-        {
-          "title": "Sortera uses physical AI to double capacity in a Tennessee sorting facility",
-          "link": "https://www.therobotreport.com/sortera-uses-physical-ai-to-double-capacity-in-a-tennessee-sorting-facility/",
-          "description": "<p>With the new facility, Sortera has increased its annual processing capacity to an estimated 240 million lbs.</p>\n<p>The post <a href=\"https://www.therobotreport.com/sortera-uses-physical-ai-to-double-capacity-in-a-tennessee-sorting-facility/\">Sortera uses physical AI to double capacity in a Tennessee sorting facility</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 24 May 2026 12:25:35 +0000",
-          "source": "www.therobotreport.com",
+          "title": "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP",
+          "link": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
+          "description": "If Nvidia has cracked a way to bring AI agents easily, safely, and usefully to the masses, it could — and should — be big.",
+          "pubDate": "Mon, 01 Jun 2026 21:35:00 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 7,
           "category": "funding"
         },
         {
-          "title": "What ClickUp’s mass layoff tells us about the future of work",
-          "link": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/",
-          "description": "The nine-year-old startup is replacing hundreds of employees with thousands of AI agents.",
-          "pubDate": "Mon, 25 May 2026 16:00:00 +0000",
+          "title": "Alphabet plans to raise $80B to pay for AI buildout",
+          "link": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+          "description": "\"The company is experiencing strong demand for its AI solutions and services from enterprises and consumers, at levels that are exceeding the company’s available supply,\" Alphabet said in its statement. ",
+          "pubDate": "Mon, 01 Jun 2026 22:55:09 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "The pope’s AI encyclical isn’t really about AI",
-          "link": "https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/",
-          "description": "Pope Leo XIV's first encyclical uses AI as a lens to diagnose older problems: concentrated power, eroding democracy, and a tech elite that shapes the world to its own advantage.",
-          "pubDate": "Mon, 25 May 2026 15:09:41 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "Everyone is navigating AI security in real time — even Google",
-          "link": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
-          "description": "We're in the transition period -- all of us.",
-          "pubDate": "Sun, 24 May 2026 21:39:21 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 4,
-          "category": "industry"
-        },
-        {
-          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
-          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
-          "description": "Wall Street Journal",
-          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
-          "source": "nvidianews.nvidia.com",
-          "type": "rss",
-          "relevanceScore": 4,
           "category": "funding"
+        },
+        {
+          "title": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
+          "link": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
+          "description": "The lawsuit partially revolves around a shooting at Florida State University last year, and ChatGPT's alleged role in the incident. ",
+          "pubDate": "Mon, 01 Jun 2026 20:03:40 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "Anthropic files to go public",
+          "link": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+          "description": "Anthropic, now an AI powerhouse that has landed top-tier enterprise customers, was once considered an underdog in the emerging world of large language models. ",
+          "pubDate": "Mon, 01 Jun 2026 16:36:55 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "Why robotic arms are now being integrated with CNC machines",
+          "link": "https://www.therobotreport.com/why-robotic-arms-are-now-being-integrated-cnc-machines/",
+          "description": "<p>Robotic CNC machine tending is becoming more flexible as leading suppliers bring new software and integration to industry.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-robotic-arms-are-now-being-integrated-cnc-machines/\">Why robotic arms are now being integrated with CNC machines</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 31 May 2026 12:30:16 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "product"
+        },
+        {
+          "title": "How we used Gemini to build Google I/O 2026",
+          "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp\">Learn how Googlers used AI to produce Google I/O 2026.",
+          "pubDate": "Mon, 01 Jun 2026 16:00:00 +0000",
+          "source": "blog.google",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-05-26",
-        "subject": "La settimana in robotica — Edizione #1",
-        "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-06-02",
+        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Simulation vs. digital twin: A strategic lens on virtual manufacturing",
-          "description": "<p>Digital twins and simulation provide distinct benefits for manufacturers designing and integrating systems including automation, explains Visual Components.</p>\n<p>The post <a href=\"https://www.therobotreport.com/simulation-versus-digital-twin-strategic-lens-on-virtual-manufacturing/\">Simulation ..."
+          "title": "ANSCER Robotics closes Series A round for industrial material handling",
+          "description": "<p>ANSCER Robotics has raised $5.4 million to scale its hybrid industrial automation robots in North America and globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/anscer-robotics-closes-series-a-round-industrial-material-handling/\">ANSCER Robotics closes Series A round for industrial..."
         },
         "news": [
           {
-            "title": "The future of physical AI isn’t humanoid; it’s task-specific and cost-efficient",
-            "description": "<p>The vice president of physical AI at Hailo explains why the next wave of AI will run locally on specialized machines designed for real-world tasks.</p>\n<p>The post <a href=\"https://www.therobotreport.com/future-high-scale-robotics-isnt-humanoid-it...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/future-high-scale-robotics-isnt-humanoid-its-task-specific-cost-efficient-ai/"
+            "title": "NVIDIA releases new and updated tools for physical AI developers",
+            "description": "<p>NVIDIA has released open-source physical AI agent skills and tools, as well as an Isaac GR00T humanoid reference robot.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/\">NVI...",
+            "category": "company",
+            "link": "https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/"
           },
           {
-            "title": "Exploring PLC and robot integration with YRG Robotics’ Chris Elston",
-            "description": "<p>Chris Elston discusses PLC integration, Yamaha Robotics, and AI's role in advancing automation accessibility and innovation.</p>\n<p>The post <a href=\"https://www.therobotreport.com/exploring-plc-and-robot-integration-with-yrg-robotics-chris-elston...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/exploring-plc-and-robot-integration-with-yrg-robotics-chris-elston/"
+            "title": "Top 10 robotics stories of May 2026",
+            "description": "<p>May 2026 was a busy month full of robotics news, and it was topped off by the Robotics Summit &#038; Expo in Boston.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/\">Top 10 robotics stories of May 2026<...",
+            "category": "product",
+            "link": "https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/"
           },
           {
-            "title": "Robotics Summit keynote to present open foundation for AI-powered robots",
-            "description": "<p>Brian Gerkey of Open Robotics will explain how the open-source community is ushering in the age of robots and AI at the Robotics Summit.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robotics-summit-keynote-present-open-robotics-ai-found...",
+            "title": "Learn about advances in robotic case and each picking",
+            "description": "<p>Experts from Locus Robotics, Nomagic, and RightHand Robotics will discuss progress in piece picking in this week's webinar.</p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-about-advances-robotic-case-each-picking-webinar/\">Learn abou...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/robotics-summit-keynote-present-open-robotics-ai-foundation/"
+            "link": "https://www.therobotreport.com/learn-about-advances-robotic-case-each-picking-webinar/"
           }
         ],
         "stat": {
