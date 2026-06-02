@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1779789170095",
-  "subject": "La settimana in robotica — Edizione #1",
-  "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
+  "runId": "run-1780395598172",
+  "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+  "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "Simulation vs. digital twin: A strategic lens on virtual manufacturing",
-    "description": "<p>Digital twins and simulation provide distinct benefits for manufacturers designing and integrating systems including automation, explains Visual Components.</p>\n<p>The post <a href=\"https://www.therobotreport.com/simulation-versus-digital-twin-strategic-lens-on-virtual-manufacturing/\">Simulation ..."
+    "title": "ANSCER Robotics closes Series A round for industrial material handling",
+    "description": "<p>ANSCER Robotics has raised $5.4 million to scale its hybrid industrial automation robots in North America and globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/anscer-robotics-closes-series-a-round-industrial-material-handling/\">ANSCER Robotics closes Series A round for industrial..."
   },
   "news": [
     {
-      "title": "The future of physical AI isn’t humanoid; it’s task-specific and cost-efficient",
-      "description": "<p>The vice president of physical AI at Hailo explains why the next wave of AI will run locally on specialized machines designed for real-world tasks.</p>\n<p>The post <a href=\"https://www.therobotreport.com/future-high-scale-robotics-isnt-humanoid-it...",
-      "category": "industry",
-      "link": "https://www.therobotreport.com/future-high-scale-robotics-isnt-humanoid-its-task-specific-cost-efficient-ai/"
+      "title": "NVIDIA releases new and updated tools for physical AI developers",
+      "description": "<p>NVIDIA has released open-source physical AI agent skills and tools, as well as an Isaac GR00T humanoid reference robot.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/\">NVI...",
+      "category": "company",
+      "link": "https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/"
     },
     {
-      "title": "Exploring PLC and robot integration with YRG Robotics’ Chris Elston",
-      "description": "<p>Chris Elston discusses PLC integration, Yamaha Robotics, and AI's role in advancing automation accessibility and innovation.</p>\n<p>The post <a href=\"https://www.therobotreport.com/exploring-plc-and-robot-integration-with-yrg-robotics-chris-elston...",
-      "category": "industry",
-      "link": "https://www.therobotreport.com/exploring-plc-and-robot-integration-with-yrg-robotics-chris-elston/"
+      "title": "Top 10 robotics stories of May 2026",
+      "description": "<p>May 2026 was a busy month full of robotics news, and it was topped off by the Robotics Summit &#038; Expo in Boston.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/\">Top 10 robotics stories of May 2026<...",
+      "category": "product",
+      "link": "https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/"
     },
     {
-      "title": "Robotics Summit keynote to present open foundation for AI-powered robots",
-      "description": "<p>Brian Gerkey of Open Robotics will explain how the open-source community is ushering in the age of robots and AI at the Robotics Summit.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robotics-summit-keynote-present-open-robotics-ai-found...",
+      "title": "Learn about advances in robotic case and each picking",
+      "description": "<p>Experts from Locus Robotics, Nomagic, and RightHand Robotics will discuss progress in piece picking in this week's webinar.</p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-about-advances-robotic-case-each-picking-webinar/\">Learn abou...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/robotics-summit-keynote-present-open-robotics-ai-foundation/"
+      "link": "https://www.therobotreport.com/learn-about-advances-robotic-case-each-picking-webinar/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-05-26T09:52:52.967Z",
+  "generatedAt": "2026-06-02T10:20:01.510Z",
   "html": "<!-- Template not found -->"
 }
