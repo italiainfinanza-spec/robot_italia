@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1780395718300",
+    "id": "run-1780997979226",
     "edition": 1,
-    "date": "2026-06-02T10:21:58.300Z",
+    "date": "2026-06-09T09:39:39.226Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-06-02T10:21:58.306Z",
-        "completedAt": "2026-06-02T10:21:59.335Z"
+        "startedAt": "2026-06-09T09:39:39.231Z",
+        "completedAt": "2026-06-09T09:39:40.954Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-06-02T10:22:12.015Z",
-        "completedAt": "2026-06-02T10:22:12.024Z"
+        "startedAt": "2026-06-09T09:39:41.015Z",
+        "completedAt": "2026-06-09T09:39:41.232Z"
       },
       "review": {
         "status": "pending",
@@ -30,134 +30,134 @@
     "data": {
       "researchResults": [
         {
-          "title": "ANSCER Robotics closes Series A round for industrial material handling",
-          "link": "https://www.therobotreport.com/anscer-robotics-closes-series-a-round-industrial-material-handling/",
-          "description": "<p>ANSCER Robotics has raised $5.4 million to scale its hybrid industrial automation robots in North America and globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/anscer-robotics-closes-series-a-round-industrial-material-handling/\">ANSCER Robotics closes Series A round for industrial material handling</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 01 Jun 2026 19:55:18 +0000",
+          "title": "Daimon Robotics and Galbot jointly launches RobOmni for benchmarking tactile perception and dexterous manipulation",
+          "link": "https://www.therobotreport.com/daimon-robotics-and-galbot-jointly-launches-robomni-for-benchmarking-tactile-perception-and-dexterous-manipulation/",
+          "description": "<p>Embodied AI is evolving from vision-centric perception toward Physical AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/daimon-robotics-and-galbot-jointly-launches-robomni-for-benchmarking-tactile-perception-and-dexterous-manipulation/\">Daimon Robotics and Galbot jointly launches RobOmni for benchmarking tactile perception and dexterous manipulation</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 08 Jun 2026 14:16:34 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 14,
-          "category": "funding"
-        },
-        {
-          "title": "NVIDIA releases new and updated tools for physical AI developers",
-          "link": "https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/",
-          "description": "<p>NVIDIA has released open-source physical AI agent skills and tools, as well as an Isaac GR00T humanoid reference robot.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/\">NVIDIA releases new and updated tools for physical AI developers</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 01 Jun 2026 21:27:16 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 13,
-          "category": "company"
-        },
-        {
-          "title": "Top 10 robotics stories of May 2026",
-          "link": "https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/",
-          "description": "<p>May 2026 was a busy month full of robotics news, and it was topped off by the Robotics Summit &#038; Expo in Boston.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/\">Top 10 robotics stories of May 2026</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 01 Jun 2026 18:04:55 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 9,
+          "relevanceScore": 11,
           "category": "product"
         },
         {
-          "title": "Learn about advances in robotic case and each picking",
-          "link": "https://www.therobotreport.com/learn-about-advances-robotic-case-each-picking-webinar/",
-          "description": "<p>Experts from Locus Robotics, Nomagic, and RightHand Robotics will discuss progress in piece picking in this week's webinar.</p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-about-advances-robotic-case-each-picking-webinar/\">Learn about advances in robotic case and each picking</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 01 Jun 2026 15:24:45 +0000",
+          "title": "ACS raises $200M to scale autonomous counter-drone system",
+          "link": "https://www.therobotreport.com/allen-control-systems-raises-200m-for-autonomous-weapons-stations/",
+          "description": "<p>Allen Control Systems will use the funding to scale manufacturing and accelerate deployment of its autonomous weapon station, Bullfrog.</p>\n<p>The post <a href=\"https://www.therobotreport.com/allen-control-systems-raises-200m-for-autonomous-weapons-stations/\">ACS raises $200M to scale autonomous counter-drone system</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 08 Jun 2026 17:02:42 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 9,
+          "category": "funding"
+        },
+        {
+          "title": "Robots can enhance manufacturing workers rather than replace them",
+          "link": "https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-replace-them/",
+          "description": "<p>With the right AI, teleoperation, and safeguards, robotics can augment manufacturing opportunities, says one to ONE Holdings' president.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-replace-them/\">Robots can enhance manufacturing workers rather than replace them</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sat, 06 Jun 2026 12:30:12 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
           "category": "industry"
         },
         {
-          "title": "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP",
-          "link": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
-          "description": "If Nvidia has cracked a way to bring AI agents easily, safely, and usefully to the masses, it could — and should — be big.",
-          "pubDate": "Mon, 01 Jun 2026 21:35:00 +0000",
-          "source": "techcrunch.com",
+          "title": "Why deterministic real-time systems are more critical than ever in robotics",
+          "link": "https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robotics/",
+          "description": "<p>Winston Leung discusses the role of QNX role in robotics and AI, focusing on safety, innovation, and industry trends.</p>\n<p>The post <a href=\"https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robotics/\">Why deterministic real-time systems are more critical than ever in robotics</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Fri, 05 Jun 2026 18:49:11 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "industry"
+        },
+        {
+          "title": "AGIBOT holds World Challenge 2026 to see how AI models perform on real tasks",
+          "link": "https://www.therobotreport.com/agibot-holds-world-challenge-2026-see-how-ai-models-perform-real-tasks/",
+          "description": "<p>AGIBOT said the industry is moving beyond simulation scores toward closed-loop testing on real robots with real tasks.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agibot-holds-world-challenge-2026-see-how-ai-models-perform-real-tasks/\">AGIBOT holds World Challenge 2026 to see how AI models perform on real tasks</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 07 Jun 2026 12:30:50 +0000",
+          "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 7,
-          "category": "funding"
-        },
-        {
-          "title": "Alphabet plans to raise $80B to pay for AI buildout",
-          "link": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
-          "description": "\"The company is experiencing strong demand for its AI solutions and services from enterprises and consumers, at levels that are exceeding the company’s available supply,\" Alphabet said in its statement. ",
-          "pubDate": "Mon, 01 Jun 2026 22:55:09 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "funding"
-        },
-        {
-          "title": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
-          "link": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
-          "description": "The lawsuit partially revolves around a shooting at Florida State University last year, and ChatGPT's alleged role in the incident. ",
-          "pubDate": "Mon, 01 Jun 2026 20:03:40 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Anthropic files to go public",
-          "link": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
-          "description": "Anthropic, now an AI powerhouse that has landed top-tier enterprise customers, was once considered an underdog in the emerging world of large language models. ",
-          "pubDate": "Mon, 01 Jun 2026 16:36:55 +0000",
+          "title": "As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says",
+          "link": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+          "description": "Tools for Humanity, Sam Altman's identity verification company, is reportedly struggling to generate revenue and will downsize its staff.",
+          "pubDate": "Mon, 08 Jun 2026 22:41:45 +0000",
           "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
+          "relevanceScore": 6,
+          "category": "market"
         },
         {
-          "title": "Why robotic arms are now being integrated with CNC machines",
-          "link": "https://www.therobotreport.com/why-robotic-arms-are-now-being-integrated-cnc-machines/",
-          "description": "<p>Robotic CNC machine tending is becoming more flexible as leading suppliers bring new software and integration to industry.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-robotic-arms-are-now-being-integrated-cnc-machines/\">Why robotic arms are now being integrated with CNC machines</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 31 May 2026 12:30:16 +0000",
-          "source": "www.therobotreport.com",
+          "title": "OpenAI files confidentially for IPO, following Anthropic",
+          "link": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+          "description": "The filing comes a little more than a week after its main rival, Anthropic, also filed to go public, ramping up the race between the two AI firms.",
+          "pubDate": "Mon, 08 Jun 2026 21:29:57 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 6,
+          "category": "market"
+        },
+        {
+          "title": "Why Apple’s slow-and-steady AI bet is starting to look pretty smart",
+          "link": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
+          "description": "Can Apple's new AI glow up put to bed accusations that it's losing an all-important industry race? ",
+          "pubDate": "Tue, 09 Jun 2026 01:56:48 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "product"
         },
         {
-          "title": "How we used Gemini to build Google I/O 2026",
-          "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp\">Learn how Googlers used AI to produce Google I/O 2026.",
-          "pubDate": "Mon, 01 Jun 2026 16:00:00 +0000",
-          "source": "blog.google",
+          "title": "Apple’s WWDC AI demos looked more real after $250M false ad settlement",
+          "link": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
+          "description": "The vibe of Apple's 2026 WWDC keynote felt like a spouse proudly listing all the honey-do-list items tackled. One subtle example: the many AI demos of someone standing, phone in hand.",
+          "pubDate": "Mon, 08 Jun 2026 22:39:57 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "industry"
+          "category": "funding"
+        },
+        {
+          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
+          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
+          "description": "Wall Street Journal",
+          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
+          "source": "nvidianews.nvidia.com",
+          "type": "rss",
+          "relevanceScore": 4,
+          "category": "funding"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-06-02",
-        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
+        "date": "2026-06-09",
+        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
         "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "ANSCER Robotics closes Series A round for industrial material handling",
-          "description": "<p>ANSCER Robotics has raised $5.4 million to scale its hybrid industrial automation robots in North America and globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/anscer-robotics-closes-series-a-round-industrial-material-handling/\">ANSCER Robotics closes Series A round for industrial..."
+          "title": "Daimon Robotics and Galbot jointly launches RobOmni for benchmarking tactile perception and dexterous manipulation",
+          "description": "<p>Embodied AI is evolving from vision-centric perception toward Physical AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/daimon-robotics-and-galbot-jointly-launches-robomni-for-benchmarking-tactile-perception-and-dexterous-manipulation/\">Daimon Robotics and Galbot jointly launches RobOm..."
         },
         "news": [
           {
-            "title": "NVIDIA releases new and updated tools for physical AI developers",
-            "description": "<p>NVIDIA has released open-source physical AI agent skills and tools, as well as an Isaac GR00T humanoid reference robot.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/\">NVI...",
-            "category": "company",
-            "link": "https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/"
+            "title": "ACS raises $200M to scale autonomous counter-drone system",
+            "description": "<p>Allen Control Systems will use the funding to scale manufacturing and accelerate deployment of its autonomous weapon station, Bullfrog.</p>\n<p>The post <a href=\"https://www.therobotreport.com/allen-control-systems-raises-200m-for-autonomous-weapon...",
+            "category": "funding",
+            "link": "https://www.therobotreport.com/allen-control-systems-raises-200m-for-autonomous-weapons-stations/"
           },
           {
-            "title": "Top 10 robotics stories of May 2026",
-            "description": "<p>May 2026 was a busy month full of robotics news, and it was topped off by the Robotics Summit &#038; Expo in Boston.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/\">Top 10 robotics stories of May 2026<...",
-            "category": "product",
-            "link": "https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/"
-          },
-          {
-            "title": "Learn about advances in robotic case and each picking",
-            "description": "<p>Experts from Locus Robotics, Nomagic, and RightHand Robotics will discuss progress in piece picking in this week's webinar.</p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-about-advances-robotic-case-each-picking-webinar/\">Learn abou...",
+            "title": "Robots can enhance manufacturing workers rather than replace them",
+            "description": "<p>With the right AI, teleoperation, and safeguards, robotics can augment manufacturing opportunities, says one to ONE Holdings' president.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-r...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/learn-about-advances-robotic-case-each-picking-webinar/"
+            "link": "https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-replace-them/"
+          },
+          {
+            "title": "Why deterministic real-time systems are more critical than ever in robotics",
+            "description": "<p>Winston Leung discusses the role of QNX role in robotics and AI, focusing on safety, innovation, and industry trends.</p>\n<p>The post <a href=\"https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robot...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robotics/"
           }
         ],
         "stat": {
