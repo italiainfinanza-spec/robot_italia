@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1780997979226",
+    "id": "run-1780998053913",
     "edition": 1,
-    "date": "2026-06-09T09:39:39.226Z",
+    "date": "2026-06-09T09:40:53.913Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-06-09T09:39:39.231Z",
-        "completedAt": "2026-06-09T09:39:40.954Z"
+        "startedAt": "2026-06-09T09:40:53.918Z",
+        "completedAt": "2026-06-09T09:40:54.793Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-06-09T09:39:41.015Z",
-        "completedAt": "2026-06-09T09:39:41.232Z"
+        "startedAt": "2026-06-09T09:41:08.335Z",
+        "completedAt": "2026-06-09T09:41:08.344Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-06-09",
-        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "subject": "Daimon Robotics and Galbot jointly launc... | Robotica Weekly #1",
         "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "Daimon Robotics and Galbot jointly launches RobOmni for benchmarking tactile perception and dexterous manipulation",
