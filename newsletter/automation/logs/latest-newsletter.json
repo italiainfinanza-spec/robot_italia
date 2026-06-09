@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1780395598172",
+  "runId": "run-1780997979226",
   "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
   "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "ANSCER Robotics closes Series A round for industrial material handling",
-    "description": "<p>ANSCER Robotics has raised $5.4 million to scale its hybrid industrial automation robots in North America and globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/anscer-robotics-closes-series-a-round-industrial-material-handling/\">ANSCER Robotics closes Series A round for industrial..."
+    "title": "Daimon Robotics and Galbot jointly launches RobOmni for benchmarking tactile perception and dexterous manipulation",
+    "description": "<p>Embodied AI is evolving from vision-centric perception toward Physical AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/daimon-robotics-and-galbot-jointly-launches-robomni-for-benchmarking-tactile-perception-and-dexterous-manipulation/\">Daimon Robotics and Galbot jointly launches RobOm..."
   },
   "news": [
     {
-      "title": "NVIDIA releases new and updated tools for physical AI developers",
-      "description": "<p>NVIDIA has released open-source physical AI agent skills and tools, as well as an Isaac GR00T humanoid reference robot.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/\">NVI...",
-      "category": "company",
-      "link": "https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/"
+      "title": "ACS raises $200M to scale autonomous counter-drone system",
+      "description": "<p>Allen Control Systems will use the funding to scale manufacturing and accelerate deployment of its autonomous weapon station, Bullfrog.</p>\n<p>The post <a href=\"https://www.therobotreport.com/allen-control-systems-raises-200m-for-autonomous-weapon...",
+      "category": "funding",
+      "link": "https://www.therobotreport.com/allen-control-systems-raises-200m-for-autonomous-weapons-stations/"
     },
     {
-      "title": "Top 10 robotics stories of May 2026",
-      "description": "<p>May 2026 was a busy month full of robotics news, and it was topped off by the Robotics Summit &#038; Expo in Boston.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/\">Top 10 robotics stories of May 2026<...",
-      "category": "product",
-      "link": "https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/"
-    },
-    {
-      "title": "Learn about advances in robotic case and each picking",
-      "description": "<p>Experts from Locus Robotics, Nomagic, and RightHand Robotics will discuss progress in piece picking in this week's webinar.</p>\n<p>The post <a href=\"https://www.therobotreport.com/learn-about-advances-robotic-case-each-picking-webinar/\">Learn abou...",
+      "title": "Robots can enhance manufacturing workers rather than replace them",
+      "description": "<p>With the right AI, teleoperation, and safeguards, robotics can augment manufacturing opportunities, says one to ONE Holdings' president.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-r...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/learn-about-advances-robotic-case-each-picking-webinar/"
+      "link": "https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-replace-them/"
+    },
+    {
+      "title": "Why deterministic real-time systems are more critical than ever in robotics",
+      "description": "<p>Winston Leung discusses the role of QNX role in robotics and AI, focusing on safety, innovation, and industry trends.</p>\n<p>The post <a href=\"https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robot...",
+      "category": "industry",
+      "link": "https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robotics/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-06-02T10:20:01.510Z",
+  "generatedAt": "2026-06-09T09:39:42.293Z",
   "html": "<!-- Template not found -->"
 }
