@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1780998053913",
+    "id": "run-1781608025205",
     "edition": 1,
-    "date": "2026-06-09T09:40:53.913Z",
+    "date": "2026-06-16T11:07:05.205Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-06-09T09:40:53.918Z",
-        "completedAt": "2026-06-09T09:40:54.793Z"
+        "startedAt": "2026-06-16T11:07:05.210Z",
+        "completedAt": "2026-06-16T11:07:06.346Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-06-09T09:41:08.335Z",
-        "completedAt": "2026-06-09T09:41:08.344Z"
+        "startedAt": "2026-06-16T11:07:06.404Z",
+        "completedAt": "2026-06-16T11:07:06.628Z"
       },
       "review": {
         "status": "pending",
@@ -30,134 +30,134 @@
     "data": {
       "researchResults": [
         {
-          "title": "Daimon Robotics and Galbot jointly launches RobOmni for benchmarking tactile perception and dexterous manipulation",
-          "link": "https://www.therobotreport.com/daimon-robotics-and-galbot-jointly-launches-robomni-for-benchmarking-tactile-perception-and-dexterous-manipulation/",
-          "description": "<p>Embodied AI is evolving from vision-centric perception toward Physical AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/daimon-robotics-and-galbot-jointly-launches-robomni-for-benchmarking-tactile-perception-and-dexterous-manipulation/\">Daimon Robotics and Galbot jointly launches RobOmni for benchmarking tactile perception and dexterous manipulation</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 08 Jun 2026 14:16:34 +0000",
+          "title": "Modernizing the global economy with industrial robotics is needed but not inevitable",
+          "link": "https://www.therobotreport.com/modernizing-global-economy-industrial-robotics-needed-not-inevitable/",
+          "description": "<p>While service robotics adoption grows, industrial automation faces greater demand and bigger obstacles, notes a columnist.</p>\n<p>The post <a href=\"https://www.therobotreport.com/modernizing-global-economy-industrial-robotics-needed-not-inevitable/\">Modernizing the global economy with industrial robotics is needed but not inevitable</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 14 Jun 2026 14:30:31 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 11,
-          "category": "product"
+          "category": "industry"
         },
         {
-          "title": "ACS raises $200M to scale autonomous counter-drone system",
-          "link": "https://www.therobotreport.com/allen-control-systems-raises-200m-for-autonomous-weapons-stations/",
-          "description": "<p>Allen Control Systems will use the funding to scale manufacturing and accelerate deployment of its autonomous weapon station, Bullfrog.</p>\n<p>The post <a href=\"https://www.therobotreport.com/allen-control-systems-raises-200m-for-autonomous-weapons-stations/\">ACS raises $200M to scale autonomous counter-drone system</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 08 Jun 2026 17:02:42 +0000",
+          "title": "PSYONIC partners with ABB Robotics to apply human touch to robot dexterity",
+          "link": "https://www.therobotreport.com/psyonic-abb-robotics-partner-apply-human-touch-data-robot-dexterity/",
+          "description": "<p>PSYONIC is combining its Ability Hand with ABB Robotics' GoFa cobot arm to apply data from prosthetics users to robotic grasping.</p>\n<p>The post <a href=\"https://www.therobotreport.com/psyonic-abb-robotics-partner-apply-human-touch-data-robot-dexterity/\">PSYONIC partners with ABB Robotics to apply human touch to robot dexterity</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Tue, 16 Jun 2026 04:01:53 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 9,
+          "category": "industry"
+        },
+        {
+          "title": "Windows for robots: Edge AI expands usability",
+          "link": "https://www.therobotreport.com/computers-software-windows-utility-robots/",
+          "description": "<p>Before Windows, only engineers and computer scientists could work with computers. Edge AI is causing a similar accessibility shift for robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/computers-software-windows-utility-robots/\">Windows for robots: Edge AI expands usability</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sat, 13 Jun 2026 12:30:52 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "industry"
+        },
+        {
+          "title": "Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions",
+          "link": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
+          "description": "Respond.io, one of Malaysia startups to watch, uses AI agents to handle high volumes of customer inquiries and charges per convo, not per seat.  ",
+          "pubDate": "Tue, 16 Jun 2026 06:59:00 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 6,
           "category": "funding"
         },
         {
-          "title": "Robots can enhance manufacturing workers rather than replace them",
-          "link": "https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-replace-them/",
-          "description": "<p>With the right AI, teleoperation, and safeguards, robotics can augment manufacturing opportunities, says one to ONE Holdings' president.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-replace-them/\">Robots can enhance manufacturing workers rather than replace them</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sat, 06 Jun 2026 12:30:12 +0000",
+          "title": "Autonomous freight developer Einride goes public via SPAC",
+          "link": "https://www.therobotreport.com/autonomous-freight-developer-einride-goes-public-via-spac/",
+          "description": "<p>Stockholm-based Einride operates a fleet of heavy-duty electric trucks servicing Global Fortune 500 companies across the U.S. and Europe.</p>\n<p>The post <a href=\"https://www.therobotreport.com/autonomous-freight-developer-einride-goes-public-via-spac/\">Autonomous freight developer Einride goes public via SPAC</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 15 Jun 2026 17:27:57 +0000",
           "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 8,
-          "category": "industry"
-        },
-        {
-          "title": "Why deterministic real-time systems are more critical than ever in robotics",
-          "link": "https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robotics/",
-          "description": "<p>Winston Leung discusses the role of QNX role in robotics and AI, focusing on safety, innovation, and industry trends.</p>\n<p>The post <a href=\"https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robotics/\">Why deterministic real-time systems are more critical than ever in robotics</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Fri, 05 Jun 2026 18:49:11 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 8,
-          "category": "industry"
-        },
-        {
-          "title": "AGIBOT holds World Challenge 2026 to see how AI models perform on real tasks",
-          "link": "https://www.therobotreport.com/agibot-holds-world-challenge-2026-see-how-ai-models-perform-real-tasks/",
-          "description": "<p>AGIBOT said the industry is moving beyond simulation scores toward closed-loop testing on real robots with real tasks.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agibot-holds-world-challenge-2026-see-how-ai-models-perform-real-tasks/\">AGIBOT holds World Challenge 2026 to see how AI models perform on real tasks</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 07 Jun 2026 12:30:50 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 7,
-          "category": "industry"
-        },
-        {
-          "title": "As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says",
-          "link": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
-          "description": "Tools for Humanity, Sam Altman's identity verification company, is reportedly struggling to generate revenue and will downsize its staff.",
-          "pubDate": "Mon, 08 Jun 2026 22:41:45 +0000",
-          "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 6,
-          "category": "market"
+          "category": "industry"
         },
         {
-          "title": "OpenAI files confidentially for IPO, following Anthropic",
-          "link": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
-          "description": "The filing comes a little more than a week after its main rival, Anthropic, also filed to go public, ramping up the race between the two AI firms.",
-          "pubDate": "Mon, 08 Jun 2026 21:29:57 +0000",
+          "title": "Sundar Pichai faces boos, walkout at Stanford graduation ceremony over Google’s Israel, ICE ties",
+          "link": "https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/",
+          "description": "AI is once again at the heart of a college graduation protest — this time for the technology's use in Google's defense contracts. ",
+          "pubDate": "Mon, 15 Jun 2026 23:51:44 +0000",
           "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 6,
-          "category": "market"
+          "relevanceScore": 5,
+          "category": "industry"
         },
         {
-          "title": "Why Apple’s slow-and-steady AI bet is starting to look pretty smart",
-          "link": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
-          "description": "Can Apple's new AI glow up put to bed accusations that it's losing an all-important industry race? ",
-          "pubDate": "Tue, 09 Jun 2026 01:56:48 +0000",
+          "title": "The US government’s Anthropic models ban was never about an AI jailbreak",
+          "link": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+          "description": "The Trump administration's decision that forced Anthropic to pull its latest cybersecurity models could be reactionary, retaliatory, or both, but the message is clear: The AI industry isn't immune from U.S. government interference.",
+          "pubDate": "Mon, 15 Jun 2026 21:50:21 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "Meta’s new ‘AI Mode’ on Facebook pulls from public info across its platforms",
+          "link": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+          "description": "Meta announced Monday that it's rolling out a wave of new AI features on Facebook, the latest sign of the company's effort to catch up in the AI race and keep users more engaged on the platform.",
+          "pubDate": "Mon, 15 Jun 2026 18:30:58 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "product"
         },
         {
-          "title": "Apple’s WWDC AI demos looked more real after $250M false ad settlement",
-          "link": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
-          "description": "The vibe of Apple's 2026 WWDC keynote felt like a spouse proudly listing all the honey-do-list items tackled. One subtle example: the many AI demos of someone standing, phone in hand.",
-          "pubDate": "Mon, 08 Jun 2026 22:39:57 +0000",
-          "source": "techcrunch.com",
+          "title": "Burro introduces Grande 44 with proven outdoor autonomy built for heavy industry",
+          "link": "https://www.therobotreport.com/burro-introduces-grande-44-with-proven-outdoor-autonomy-built-for-heavy-industry/",
+          "description": "<p>The 44 hp Burro Grande brings more than 1 million hours of real-world experience to industrial towing, site logistics, and facilities operations.</p>\n<p>The post <a href=\"https://www.therobotreport.com/burro-introduces-grande-44-with-proven-outdoor-autonomy-built-for-heavy-industry/\">Burro introduces Grande 44 with proven outdoor autonomy built for heavy industry</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 15 Jun 2026 09:59:26 +0000",
+          "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "funding"
         },
         {
-          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
-          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
-          "description": "Wall Street Journal",
-          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
-          "source": "nvidianews.nvidia.com",
+          "title": "SpaceX is public: Everything you need to know post-IPO",
+          "link": "https://techcrunch.com/2026/06/15/spacex-is-public-everything-you-need-to-know-post-ipo/",
+          "description": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document. ",
+          "pubDate": "Mon, 15 Jun 2026 18:30:34 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 4,
-          "category": "funding"
+          "category": "market"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-06-09",
-        "subject": "Daimon Robotics and Galbot jointly launc... | Robotica Weekly #1",
-        "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-06-16",
+        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
+        "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Daimon Robotics and Galbot jointly launches RobOmni for benchmarking tactile perception and dexterous manipulation",
-          "description": "<p>Embodied AI is evolving from vision-centric perception toward Physical AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/daimon-robotics-and-galbot-jointly-launches-robomni-for-benchmarking-tactile-perception-and-dexterous-manipulation/\">Daimon Robotics and Galbot jointly launches RobOm..."
+          "title": "Modernizing the global economy with industrial robotics is needed but not inevitable",
+          "description": "<p>While service robotics adoption grows, industrial automation faces greater demand and bigger obstacles, notes a columnist.</p>\n<p>The post <a href=\"https://www.therobotreport.com/modernizing-global-economy-industrial-robotics-needed-not-inevitable/\">Modernizing the global economy with industrial ..."
         },
         "news": [
           {
-            "title": "ACS raises $200M to scale autonomous counter-drone system",
-            "description": "<p>Allen Control Systems will use the funding to scale manufacturing and accelerate deployment of its autonomous weapon station, Bullfrog.</p>\n<p>The post <a href=\"https://www.therobotreport.com/allen-control-systems-raises-200m-for-autonomous-weapon...",
+            "title": "PSYONIC partners with ABB Robotics to apply human touch to robot dexterity",
+            "description": "<p>PSYONIC is combining its Ability Hand with ABB Robotics' GoFa cobot arm to apply data from prosthetics users to robotic grasping.</p>\n<p>The post <a href=\"https://www.therobotreport.com/psyonic-abb-robotics-partner-apply-human-touch-data-robot-dex...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/psyonic-abb-robotics-partner-apply-human-touch-data-robot-dexterity/"
+          },
+          {
+            "title": "Windows for robots: Edge AI expands usability",
+            "description": "<p>Before Windows, only engineers and computer scientists could work with computers. Edge AI is causing a similar accessibility shift for robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/computers-software-windows-utility-robots/\">Wi...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/computers-software-windows-utility-robots/"
+          },
+          {
+            "title": "Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions",
+            "description": "Respond.io, one of Malaysia startups to watch, uses AI agents to handle high volumes of customer inquiries and charges per convo, not per seat.  ...",
             "category": "funding",
-            "link": "https://www.therobotreport.com/allen-control-systems-raises-200m-for-autonomous-weapons-stations/"
-          },
-          {
-            "title": "Robots can enhance manufacturing workers rather than replace them",
-            "description": "<p>With the right AI, teleoperation, and safeguards, robotics can augment manufacturing opportunities, says one to ONE Holdings' president.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-r...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-replace-them/"
-          },
-          {
-            "title": "Why deterministic real-time systems are more critical than ever in robotics",
-            "description": "<p>Winston Leung discusses the role of QNX role in robotics and AI, focusing on safety, innovation, and industry trends.</p>\n<p>The post <a href=\"https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robot...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robotics/"
+            "link": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/"
           }
         ],
         "stat": {
