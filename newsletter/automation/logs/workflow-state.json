@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1781608025205",
+    "id": "run-1781608102585",
     "edition": 1,
-    "date": "2026-06-16T11:07:05.205Z",
+    "date": "2026-06-16T11:08:22.585Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-06-16T11:07:05.210Z",
-        "completedAt": "2026-06-16T11:07:06.346Z"
+        "startedAt": "2026-06-16T11:08:22.590Z",
+        "completedAt": "2026-06-16T11:08:23.555Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-06-16T11:07:06.404Z",
-        "completedAt": "2026-06-16T11:07:06.628Z"
+        "startedAt": "2026-06-16T11:08:40.212Z",
+        "completedAt": "2026-06-16T11:08:40.221Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-06-16",
-        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
+        "subject": "La settimana in robotica — Edizione #1",
         "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "Modernizing the global economy with industrial robotics is needed but not inevitable",
