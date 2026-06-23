@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1781608025205",
+  "runId": "run-1782207315312",
   "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
-  "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
+  "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "Modernizing the global economy with industrial robotics is needed but not inevitable",
-    "description": "<p>While service robotics adoption grows, industrial automation faces greater demand and bigger obstacles, notes a columnist.</p>\n<p>The post <a href=\"https://www.therobotreport.com/modernizing-global-economy-industrial-robotics-needed-not-inevitable/\">Modernizing the global economy with industrial ..."
+    "title": "Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities",
+    "description": "<p>Kinisi's KR1 humanoid robot, its Bristol-based engineering team, and its physical AI capabilities will be integrated into Bear Robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/bear-robotics-acquires-kinisi-robotics-to-boost-its-physical-ai-capabilities/\">Bear Robotics acquires Ki..."
   },
   "news": [
     {
-      "title": "PSYONIC partners with ABB Robotics to apply human touch to robot dexterity",
-      "description": "<p>PSYONIC is combining its Ability Hand with ABB Robotics' GoFa cobot arm to apply data from prosthetics users to robotic grasping.</p>\n<p>The post <a href=\"https://www.therobotreport.com/psyonic-abb-robotics-partner-apply-human-touch-data-robot-dex...",
-      "category": "industry",
-      "link": "https://www.therobotreport.com/psyonic-abb-robotics-partner-apply-human-touch-data-robot-dexterity/"
+      "title": "FORT and NVIDIA launch AI-driven Outside-In Safety blueprint",
+      "description": "<p>FORT Robotics and NVIDIA launch Outside-In Safety, using external sensors to improve autonomous robot productivity and worker safety.</p>\n<p>The post <a href=\"https://www.therobotreport.com/fort-and-nvidia-launch-ai-driven-outside-in-safety-bluepr...",
+      "category": "company",
+      "link": "https://www.therobotreport.com/fort-and-nvidia-launch-ai-driven-outside-in-safety-blueprint/"
     },
     {
-      "title": "Windows for robots: Edge AI expands usability",
-      "description": "<p>Before Windows, only engineers and computer scientists could work with computers. Edge AI is causing a similar accessibility shift for robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/computers-software-windows-utility-robots/\">Wi...",
-      "category": "industry",
-      "link": "https://www.therobotreport.com/computers-software-windows-utility-robots/"
+      "title": "NVIDIA releases Halos, a full-stack safety system for robotics",
+      "description": "<p>NVIDIA said Halos connects AI compute, system software, sensor data, safety applications, and inspection for robotic systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/\">N...",
+      "category": "company",
+      "link": "https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/"
     },
     {
-      "title": "Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions",
-      "description": "Respond.io, one of Malaysia startups to watch, uses AI agents to handle high volumes of customer inquiries and charges per convo, not per seat.  ...",
-      "category": "funding",
-      "link": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/"
+      "title": "How Intrinsic eliminates manual robot coding",
+      "description": "<p>Alphabet’s Intrinsic has debuted its AI-powered \"Intelligence Cell\" to simplify factory automation and eliminate complex robot programming.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/\">How ...",
+      "category": "industry",
+      "link": "https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-06-16T11:07:07.641Z",
+  "generatedAt": "2026-06-23T09:35:18.796Z",
   "html": "<!-- Template not found -->"
 }
