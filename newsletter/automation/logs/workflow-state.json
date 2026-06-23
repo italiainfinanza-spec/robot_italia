@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1782207315312",
+    "id": "run-1782207380939",
     "edition": 1,
-    "date": "2026-06-23T09:35:15.312Z",
+    "date": "2026-06-23T09:36:20.939Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-06-23T09:35:15.317Z",
-        "completedAt": "2026-06-23T09:35:17.122Z"
+        "startedAt": "2026-06-23T09:36:20.944Z",
+        "completedAt": "2026-06-23T09:36:23.782Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-06-23T09:35:17.181Z",
-        "completedAt": "2026-06-23T09:35:17.412Z"
+        "startedAt": "2026-06-23T09:36:41.061Z",
+        "completedAt": "2026-06-23T09:36:41.070Z"
       },
       "review": {
         "status": "pending",
@@ -29,56 +29,6 @@
     },
     "data": {
       "researchResults": [
-        {
-          "title": "Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities",
-          "link": "https://www.therobotreport.com/bear-robotics-acquires-kinisi-robotics-to-boost-its-physical-ai-capabilities/",
-          "description": "<p>Kinisi's KR1 humanoid robot, its Bristol-based engineering team, and its physical AI capabilities will be integrated into Bear Robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/bear-robotics-acquires-kinisi-robotics-to-boost-its-physical-ai-capabilities/\">Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 22 Jun 2026 19:13:14 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 14,
-          "category": "industry"
-        },
-        {
-          "title": "FORT and NVIDIA launch AI-driven Outside-In Safety blueprint",
-          "link": "https://www.therobotreport.com/fort-and-nvidia-launch-ai-driven-outside-in-safety-blueprint/",
-          "description": "<p>FORT Robotics and NVIDIA launch Outside-In Safety, using external sensors to improve autonomous robot productivity and worker safety.</p>\n<p>The post <a href=\"https://www.therobotreport.com/fort-and-nvidia-launch-ai-driven-outside-in-safety-blueprint/\">FORT and NVIDIA launch AI-driven Outside-In Safety blueprint</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 22 Jun 2026 22:38:31 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 13,
-          "category": "company"
-        },
-        {
-          "title": "NVIDIA releases Halos, a full-stack safety system for robotics",
-          "link": "https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/",
-          "description": "<p>NVIDIA said Halos connects AI compute, system software, sensor data, safety applications, and inspection for robotic systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/\">NVIDIA releases Halos, a full-stack safety system for robotics</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 22 Jun 2026 15:01:24 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 13,
-          "category": "company"
-        },
-        {
-          "title": "How Intrinsic eliminates manual robot coding",
-          "link": "https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/",
-          "description": "<p>Alphabet’s Intrinsic has debuted its AI-powered \"Intelligence Cell\" to simplify factory automation and eliminate complex robot programming.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/\">How Intrinsic eliminates manual robot coding</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 22 Jun 2026 19:17:05 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 11,
-          "category": "industry"
-        },
-        {
-          "title": "Eclipse Automation launches RealitySync simulation platform",
-          "link": "https://www.therobotreport.com/eclipse-automation-launches-realitysync-simulation-platform/",
-          "description": "<p>Eclipse said its new RealitySync platform allows manufacturers to step into their future factory before it’s built.</p>\n<p>The post <a href=\"https://www.therobotreport.com/eclipse-automation-launches-realitysync-simulation-platform/\">Eclipse Automation launches RealitySync simulation platform</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 22 Jun 2026 18:42:47 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 11,
-          "category": "product"
-        },
         {
           "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal",
           "link": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
@@ -128,36 +78,46 @@
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
+        },
+        {
+          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
+          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
+          "description": "Wall Street Journal",
+          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
+          "source": "nvidianews.nvidia.com",
+          "type": "rss",
+          "relevanceScore": 4,
+          "category": "funding"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
         "date": "2026-06-23",
-        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
-        "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
+        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
+        "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities",
-          "description": "<p>Kinisi's KR1 humanoid robot, its Bristol-based engineering team, and its physical AI capabilities will be integrated into Bear Robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/bear-robotics-acquires-kinisi-robotics-to-boost-its-physical-ai-capabilities/\">Bear Robotics acquires Ki..."
+          "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal",
+          "description": "What does an AI company do after one of those not-acqui-hire deals? Groq raised money, is leaning into its neocloud business, and is hiring new execs...."
         },
         "news": [
           {
-            "title": "FORT and NVIDIA launch AI-driven Outside-In Safety blueprint",
-            "description": "<p>FORT Robotics and NVIDIA launch Outside-In Safety, using external sensors to improve autonomous robot productivity and worker safety.</p>\n<p>The post <a href=\"https://www.therobotreport.com/fort-and-nvidia-launch-ai-driven-outside-in-safety-bluepr...",
+            "title": "Nvidia wants to cut data center water use, but that’s not the same as fixing AI’s water problem",
+            "description": "Nvidia announced a new cooling system that cuts water use inside the data center. But it does nothing to address AI's biggest water use — fossil fuel power plants....",
             "category": "company",
-            "link": "https://www.therobotreport.com/fort-and-nvidia-launch-ai-driven-outside-in-safety-blueprint/"
+            "link": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/"
           },
           {
-            "title": "NVIDIA releases Halos, a full-stack safety system for robotics",
-            "description": "<p>NVIDIA said Halos connects AI compute, system software, sensor data, safety applications, and inspection for robotic systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/\">N...",
-            "category": "company",
-            "link": "https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/"
-          },
-          {
-            "title": "How Intrinsic eliminates manual robot coding",
-            "description": "<p>Alphabet’s Intrinsic has debuted its AI-powered \"Intelligence Cell\" to simplify factory automation and eliminate complex robot programming.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/\">How ...",
+            "title": "The running list: major tech layoffs in 2026 where employers cited AI",
+            "description": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor....",
             "category": "industry",
-            "link": "https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/"
+            "link": "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/"
+          },
+          {
+            "title": "OpenAI launches new initiative to help find and patch open source bugs",
+            "description": "OpenAI is using AI to help the open source community better protect itself....",
+            "category": "product",
+            "link": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/"
           }
         ],
         "stat": {
