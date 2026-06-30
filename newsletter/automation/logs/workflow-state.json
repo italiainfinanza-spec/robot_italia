@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1782207380939",
+    "id": "run-1782811864293",
     "edition": 1,
-    "date": "2026-06-23T09:36:20.939Z",
+    "date": "2026-06-30T09:31:04.293Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-06-23T09:36:20.944Z",
-        "completedAt": "2026-06-23T09:36:23.782Z"
+        "startedAt": "2026-06-30T09:31:04.299Z",
+        "completedAt": "2026-06-30T09:31:06.051Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-06-23T09:36:41.061Z",
-        "completedAt": "2026-06-23T09:36:41.070Z"
+        "startedAt": "2026-06-30T09:31:06.123Z",
+        "completedAt": "2026-06-30T09:31:06.533Z"
       },
       "review": {
         "status": "pending",
@@ -30,99 +30,139 @@
     "data": {
       "researchResults": [
         {
-          "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal",
-          "link": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
-          "description": "What does an AI company do after one of those not-acqui-hire deals? Groq raised money, is leaning into its neocloud business, and is hiring new execs.",
-          "pubDate": "Mon, 22 Jun 2026 20:13:58 +0000",
-          "source": "techcrunch.com",
+          "title": "Insights behind Kinisi’s acquisition by Bear Robotics",
+          "link": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/",
+          "description": "<p>Brennand Pierce, founder and CEO of Kinisi Robotics, discusses the company's approach to physical AI and its acquisition by Bear Robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/\">Insights behind Kinisi’s acquisition by Bear Robotics</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 29 Jun 2026 22:29:11 +0000",
+          "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 7,
-          "category": "funding"
+          "relevanceScore": 12,
+          "category": "market"
         },
         {
-          "title": "Nvidia wants to cut data center water use, but that’s not the same as fixing AI’s water problem",
-          "link": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
-          "description": "Nvidia announced a new cooling system that cuts water use inside the data center. But it does nothing to address AI's biggest water use — fossil fuel power plants.",
-          "pubDate": "Mon, 22 Jun 2026 20:08:15 +0000",
-          "source": "techcrunch.com",
+          "title": "MBody AI expands service robotics operations to eleven states and Canada",
+          "link": "https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/",
+          "description": "<p>MBody AI has deployed its hardware-agnostic Orchestrator platform to Florida and California, with a pilot in Ontario.</p>\n<p>The post <a href=\"https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/\">MBody AI expands service robotics operations to eleven states and Canada</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 29 Jun 2026 15:41:42 +0000",
+          "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 7,
-          "category": "company"
+          "relevanceScore": 11,
+          "category": "industry"
         },
         {
-          "title": "The running list: major tech layoffs in 2026 where employers cited AI",
-          "link": "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
-          "description": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
-          "pubDate": "Tue, 23 Jun 2026 01:27:55 +0000",
+          "title": "BMW Group deploys Figure 03 humanoid after tests with previous version",
+          "link": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/",
+          "description": "<p>The Figure 02 robot supported the production of more than 30,000 BMW X3 vehicles over 11 months in South Carolina.</p>\n<p>The post <a href=\"https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/\">BMW Group deploys Figure 03 humanoid after tests with previous version</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 29 Jun 2026 17:45:53 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 9,
+          "category": "industry"
+        },
+        {
+          "title": "AGIBOT produces 15,000th robot, marking a milestone in embodied AI deployment",
+          "link": "https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/",
+          "description": "<p>AGIBOT has rolled out 15,000 wheeled semi-humanoid robots as it moves from embodied AI from development and production to deployment.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/\">AGIBOT produces 15,000th robot, marking a milestone in embodied AI deployment</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 28 Jun 2026 09:00:12 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "industry"
+        },
+        {
+          "title": "Advantages of hypoid gearing over worm, bevel and bevel-planetary",
+          "link": "https://www.therobotreport.com/advantages-of-hypoid-gearing-over-worm-bevel-and-bevel-planetary/",
+          "description": "<p>Right-angle gearing often requires engineers to compromise between torque capacity and mechanical efficiency. Hypoid gearing offers a balance of mechanical efficiency, load-carrying capability, and single-stage ratio range.</p>\n<p>The post <a href=\"https://www.therobotreport.com/advantages-of-hypoid-gearing-over-worm-bevel-and-bevel-planetary/\">Advantages of hypoid gearing over worm, bevel and bevel-planetary</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 29 Jun 2026 15:36:18 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 6,
+          "category": "industry"
+        },
+        {
+          "title": "Crypto exchange OKX wants AI agents to hire and pay each other",
+          "link": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+          "description": "OKX is bringing together payments, identity and reputation into a marketplace for AI agents.",
+          "pubDate": "Tue, 30 Jun 2026 09:00:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "OpenAI launches new initiative to help find and patch open source bugs",
-          "link": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
-          "description": "OpenAI is using AI to help the open source community better protect itself.",
-          "pubDate": "Tue, 23 Jun 2026 00:11:31 +0000",
+          "title": "The AI jobs debate just got messier",
+          "link": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+          "description": "A new report finds \"high-intensity AI adopters” saw headcount increase 10.2%. Among those companies, entry-level headcount rose by 12%, countering the rhetoric that AI kills junior jobs. ",
+          "pubDate": "Tue, 30 Jun 2026 04:01:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "product"
         },
         {
-          "title": "The AI world is getting ‘loopy’",
-          "link": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
-          "description": "The loop takes agentic AI a step further by authorizing a swarm of agents to work continuously in the background, endlessly. ",
-          "pubDate": "Mon, 22 Jun 2026 20:53:11 +0000",
+          "title": "Vibe coding platform Base44 launches own model as AI startups seek defensibility",
+          "link": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+          "description": "Wix-owned vibe coding platform Base44 has started rolling out its own AI model — with hopes that it will eventually outperform frontier models.",
+          "pubDate": "Tue, 30 Jun 2026 02:28:41 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "product"
+        },
+        {
+          "title": "Gemini’s personalized AI image generation is now free for US users",
+          "link": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+          "description": "Google is expanding Gemini’s personalized AI image generation to eligible free users in the U.S., allowing the chatbot to create images based on your interests and data from connected Google apps.",
+          "pubDate": "Mon, 29 Jun 2026 20:12:59 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
-          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
-          "description": "Wall Street Journal",
-          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
-          "source": "nvidianews.nvidia.com",
+          "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
+          "link": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+          "description": "As Anthropic forges a closer relationship with the state of California, the federal government has made an enemy out of the OpenAI rival.",
+          "pubDate": "Mon, 29 Jun 2026 18:10:26 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 4,
-          "category": "funding"
+          "relevanceScore": 5,
+          "category": "product"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-06-23",
-        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
-        "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-06-30",
+        "subject": "La settimana in robotica — Edizione #1",
+        "preheader": "Le notizie più importanti dalla robotica questa settimana",
         "headline": {
-          "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal",
-          "description": "What does an AI company do after one of those not-acqui-hire deals? Groq raised money, is leaning into its neocloud business, and is hiring new execs...."
+          "title": "Insights behind Kinisi’s acquisition by Bear Robotics",
+          "description": "<p>Brennand Pierce, founder and CEO of Kinisi Robotics, discusses the company's approach to physical AI and its acquisition by Bear Robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/\">Insights behind Kinisi’s acquisition by Bear Rob..."
         },
         "news": [
           {
-            "title": "Nvidia wants to cut data center water use, but that’s not the same as fixing AI’s water problem",
-            "description": "Nvidia announced a new cooling system that cuts water use inside the data center. But it does nothing to address AI's biggest water use — fossil fuel power plants....",
-            "category": "company",
-            "link": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/"
-          },
-          {
-            "title": "The running list: major tech layoffs in 2026 where employers cited AI",
-            "description": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor....",
+            "title": "MBody AI expands service robotics operations to eleven states and Canada",
+            "description": "<p>MBody AI has deployed its hardware-agnostic Orchestrator platform to Florida and California, with a pilot in Ontario.</p>\n<p>The post <a href=\"https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/\">MBody...",
             "category": "industry",
-            "link": "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/"
+            "link": "https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/"
           },
           {
-            "title": "OpenAI launches new initiative to help find and patch open source bugs",
-            "description": "OpenAI is using AI to help the open source community better protect itself....",
-            "category": "product",
-            "link": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/"
+            "title": "BMW Group deploys Figure 03 humanoid after tests with previous version",
+            "description": "<p>The Figure 02 robot supported the production of more than 30,000 BMW X3 vehicles over 11 months in South Carolina.</p>\n<p>The post <a href=\"https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/\">BMW Grou...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/"
+          },
+          {
+            "title": "AGIBOT produces 15,000th robot, marking a milestone in embodied AI deployment",
+            "description": "<p>AGIBOT has rolled out 15,000 wheeled semi-humanoid robots as it moves from embodied AI from development and production to deployment.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/"
           }
         ],
         "stat": {
-          "number": "€4.2B",
-          "context": "Totale investimenti in robotics nel 2025 (+34% YoY)"
+          "number": "2.5M",
+          "context": "Nuovi robot industriali installati nel 2025"
         },
         "html": "<!-- Template not found -->"
       },
