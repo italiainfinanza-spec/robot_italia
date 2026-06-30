@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1782811864293",
+    "id": "run-1782811992440",
     "edition": 1,
-    "date": "2026-06-30T09:31:04.293Z",
+    "date": "2026-06-30T09:33:12.440Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-06-30T09:31:04.299Z",
-        "completedAt": "2026-06-30T09:31:06.051Z"
+        "startedAt": "2026-06-30T09:33:12.445Z",
+        "completedAt": "2026-06-30T09:33:14.163Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-06-30T09:31:06.123Z",
-        "completedAt": "2026-06-30T09:31:06.533Z"
+        "startedAt": "2026-06-30T09:33:28.512Z",
+        "completedAt": "2026-06-30T09:33:28.521Z"
       },
       "review": {
         "status": "pending",
