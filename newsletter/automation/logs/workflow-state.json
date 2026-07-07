@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1782811992440",
+    "id": "run-1783417028185",
     "edition": 1,
-    "date": "2026-06-30T09:33:12.440Z",
+    "date": "2026-07-07T09:37:08.185Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-06-30T09:33:12.445Z",
-        "completedAt": "2026-06-30T09:33:14.163Z"
+        "startedAt": "2026-07-07T09:37:08.190Z",
+        "completedAt": "2026-07-07T09:37:09.737Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-06-30T09:33:28.512Z",
-        "completedAt": "2026-06-30T09:33:28.521Z"
+        "startedAt": "2026-07-07T09:37:09.794Z",
+        "completedAt": "2026-07-07T09:37:10.103Z"
       },
       "review": {
         "status": "pending",
@@ -30,139 +30,139 @@
     "data": {
       "researchResults": [
         {
-          "title": "Insights behind Kinisi’s acquisition by Bear Robotics",
-          "link": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/",
-          "description": "<p>Brennand Pierce, founder and CEO of Kinisi Robotics, discusses the company's approach to physical AI and its acquisition by Bear Robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/\">Insights behind Kinisi’s acquisition by Bear Robotics</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 29 Jun 2026 22:29:11 +0000",
+          "title": "Boston Dynamics brings its legged robots to the FIFA World Cup",
+          "link": "https://www.therobotreport.com/boston-dynamics-brings-its-legged-robots-to-the-fifa-world-cup/",
+          "description": "<p>Around the 2026 FIFA World Cup, Hyundai and Boston Dynamics have taught footwork to the Atlas humanoid, while the Spot robot is on patrol.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-brings-its-legged-robots-to-the-fifa-world-cup/\">Boston Dynamics brings its legged robots to the FIFA World Cup</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 06 Jul 2026 20:45:48 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 12,
-          "category": "market"
+          "relevanceScore": 13,
+          "category": "company"
         },
         {
-          "title": "MBody AI expands service robotics operations to eleven states and Canada",
-          "link": "https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/",
-          "description": "<p>MBody AI has deployed its hardware-agnostic Orchestrator platform to Florida and California, with a pilot in Ontario.</p>\n<p>The post <a href=\"https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/\">MBody AI expands service robotics operations to eleven states and Canada</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 29 Jun 2026 15:41:42 +0000",
+          "title": "Kraken Robotics acquires Covelya Group for $615M",
+          "link": "https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/",
+          "description": "<p>Covelya Group expands Kraken Robotics' product offerings and total addressable market in subsea technology.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/\">Kraken Robotics acquires Covelya Group for $615M</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 06 Jul 2026 21:00:54 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 11,
-          "category": "industry"
+          "relevanceScore": 9,
+          "category": "funding"
         },
         {
-          "title": "BMW Group deploys Figure 03 humanoid after tests with previous version",
-          "link": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/",
-          "description": "<p>The Figure 02 robot supported the production of more than 30,000 BMW X3 vehicles over 11 months in South Carolina.</p>\n<p>The post <a href=\"https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/\">BMW Group deploys Figure 03 humanoid after tests with previous version</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 29 Jun 2026 17:45:53 +0000",
+          "title": "RoboBusiness 2026 call for speakers closes soon",
+          "link": "https://www.therobotreport.com/robobusiness-2026-opens-call-for-speakers/",
+          "description": "<p>RoboBusiness 2026, the premier event for developers of commercial robotics and those building robotics businesses, is seeking expert speakers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robobusiness-2026-opens-call-for-speakers/\">RoboBusiness 2026 call for speakers closes soon</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 06 Jul 2026 13:26:34 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 9,
           "category": "industry"
         },
         {
-          "title": "AGIBOT produces 15,000th robot, marking a milestone in embodied AI deployment",
-          "link": "https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/",
-          "description": "<p>AGIBOT has rolled out 15,000 wheeled semi-humanoid robots as it moves from embodied AI from development and production to deployment.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/\">AGIBOT produces 15,000th robot, marking a milestone in embodied AI deployment</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 28 Jun 2026 09:00:12 +0000",
+          "title": "Quantum Systems raises $1.2B to expand drone production and deployments",
+          "link": "https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/",
+          "description": "<p>Quantum plans to use the proceeds to expand production capacity, strengthen supply chain resilience, and more.</p>\n<p>The post <a href=\"https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/\">Quantum Systems raises $1.2B to expand drone production and deployments</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 06 Jul 2026 18:29:07 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "funding"
+        },
+        {
+          "title": "Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity",
+          "link": "https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/",
+          "description": "<p>Humanoid says its KinetIQ Ascend approach can reach 99.9% manipulation reliability at human speed and beyond for industrial tasks. </p>\n<p>The post <a href=\"https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/\">Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 05 Jul 2026 12:30:20 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 8,
           "category": "industry"
         },
         {
-          "title": "Advantages of hypoid gearing over worm, bevel and bevel-planetary",
-          "link": "https://www.therobotreport.com/advantages-of-hypoid-gearing-over-worm-bevel-and-bevel-planetary/",
-          "description": "<p>Right-angle gearing often requires engineers to compromise between torque capacity and mechanical efficiency. Hypoid gearing offers a balance of mechanical efficiency, load-carrying capability, and single-stage ratio range.</p>\n<p>The post <a href=\"https://www.therobotreport.com/advantages-of-hypoid-gearing-over-worm-bevel-and-bevel-planetary/\">Advantages of hypoid gearing over worm, bevel and bevel-planetary</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 29 Jun 2026 15:36:18 +0000",
-          "source": "www.therobotreport.com",
+          "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
+          "link": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+          "description": "SK Hynix is experiencing a boom credited to AI. It will ride that to a multibillion-dollar U.S. IPO, expected to take place on Friday.",
+          "pubDate": "Mon, 06 Jul 2026 23:21:03 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 6,
-          "category": "industry"
+          "category": "funding"
         },
         {
-          "title": "Crypto exchange OKX wants AI agents to hire and pay each other",
-          "link": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
-          "description": "OKX is bringing together payments, identity and reputation into a marketplace for AI agents.",
-          "pubDate": "Tue, 30 Jun 2026 09:00:00 +0000",
+          "title": "The first American autonomous ground vehicles are fighting in Ukraine",
+          "link": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
+          "description": "Forterra has deployed more than 100  ",
+          "pubDate": "Tue, 07 Jul 2026 09:00:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "The AI jobs debate just got messier",
-          "link": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
-          "description": "A new report finds \"high-intensity AI adopters” saw headcount increase 10.2%. Among those companies, entry-level headcount rose by 12%, countering the rhetoric that AI kills junior jobs. ",
-          "pubDate": "Tue, 30 Jun 2026 04:01:00 +0000",
+          "title": "The ‘first’ AI-run ransomware attack still needed a human",
+          "link": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+          "description": "An AI agent carried out the technical execution of a real-world ransomware attack for the first known time, but new details show a human still chose the victim, set up the infrastructure, and supplied stolen credentials — meaning it wasn't quite the fully autonomous cybercrime debut that last week's headlines suggested.\n",
+          "pubDate": "Mon, 06 Jul 2026 23:56:14 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "product"
         },
         {
-          "title": "Vibe coding platform Base44 launches own model as AI startups seek defensibility",
-          "link": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
-          "description": "Wix-owned vibe coding platform Base44 has started rolling out its own AI model — with hopes that it will eventually outperform frontier models.",
-          "pubDate": "Tue, 30 Jun 2026 02:28:41 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
-        },
-        {
-          "title": "Gemini’s personalized AI image generation is now free for US users",
-          "link": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
-          "description": "Google is expanding Gemini’s personalized AI image generation to eligible free users in the U.S., allowing the chatbot to create images based on your interests and data from connected Google apps.",
-          "pubDate": "Mon, 29 Jun 2026 20:12:59 +0000",
+          "title": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+          "link": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+          "description": "The update is part of Apple's broader effort to make Siri feel more natural and personal, as it rebuilds the assistant around generative AI. ",
+          "pubDate": "Mon, 06 Jul 2026 19:01:59 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
-          "link": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
-          "description": "As Anthropic forges a closer relationship with the state of California, the federal government has made an enemy out of the OpenAI rival.",
-          "pubDate": "Mon, 29 Jun 2026 18:10:26 +0000",
-          "source": "techcrunch.com",
+          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
+          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
+          "description": "Wall Street Journal",
+          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
+          "source": "nvidianews.nvidia.com",
           "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
+          "relevanceScore": 4,
+          "category": "funding"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-06-30",
-        "subject": "La settimana in robotica — Edizione #1",
-        "preheader": "Le notizie più importanti dalla robotica questa settimana",
+        "date": "2026-07-07",
+        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
+        "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Insights behind Kinisi’s acquisition by Bear Robotics",
-          "description": "<p>Brennand Pierce, founder and CEO of Kinisi Robotics, discusses the company's approach to physical AI and its acquisition by Bear Robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/\">Insights behind Kinisi’s acquisition by Bear Rob..."
+          "title": "Boston Dynamics brings its legged robots to the FIFA World Cup",
+          "description": "<p>Around the 2026 FIFA World Cup, Hyundai and Boston Dynamics have taught footwork to the Atlas humanoid, while the Spot robot is on patrol.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-brings-its-legged-robots-to-the-fifa-world-cup/\">Boston Dynamics brings its legged rob..."
         },
         "news": [
           {
-            "title": "MBody AI expands service robotics operations to eleven states and Canada",
-            "description": "<p>MBody AI has deployed its hardware-agnostic Orchestrator platform to Florida and California, with a pilot in Ontario.</p>\n<p>The post <a href=\"https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/\">MBody...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/"
+            "title": "Kraken Robotics acquires Covelya Group for $615M",
+            "description": "<p>Covelya Group expands Kraken Robotics' product offerings and total addressable market in subsea technology.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/\">Kraken Robotics acquires Covelya ...",
+            "category": "funding",
+            "link": "https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/"
           },
           {
-            "title": "BMW Group deploys Figure 03 humanoid after tests with previous version",
-            "description": "<p>The Figure 02 robot supported the production of more than 30,000 BMW X3 vehicles over 11 months in South Carolina.</p>\n<p>The post <a href=\"https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/\">BMW Grou...",
+            "title": "RoboBusiness 2026 call for speakers closes soon",
+            "description": "<p>RoboBusiness 2026, the premier event for developers of commercial robotics and those building robotics businesses, is seeking expert speakers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robobusiness-2026-opens-call-for-speakers/\">Robo...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/"
+            "link": "https://www.therobotreport.com/robobusiness-2026-opens-call-for-speakers/"
           },
           {
-            "title": "AGIBOT produces 15,000th robot, marking a milestone in embodied AI deployment",
-            "description": "<p>AGIBOT has rolled out 15,000 wheeled semi-humanoid robots as it moves from embodied AI from development and production to deployment.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/"
+            "title": "Quantum Systems raises $1.2B to expand drone production and deployments",
+            "description": "<p>Quantum plans to use the proceeds to expand production capacity, strengthen supply chain resilience, and more.</p>\n<p>The post <a href=\"https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/\">Quantum System...",
+            "category": "funding",
+            "link": "https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/"
           }
         ],
         "stat": {
-          "number": "2.5M",
-          "context": "Nuovi robot industriali installati nel 2025"
+          "number": "€4.2B",
+          "context": "Totale investimenti in robotics nel 2025 (+34% YoY)"
         },
         "html": "<!-- Template not found -->"
       },
