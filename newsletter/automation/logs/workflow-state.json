@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1783417028185",
+    "id": "run-1783417108396",
     "edition": 1,
-    "date": "2026-07-07T09:37:08.185Z",
+    "date": "2026-07-07T09:38:28.396Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-07-07T09:37:08.190Z",
-        "completedAt": "2026-07-07T09:37:09.737Z"
+        "startedAt": "2026-07-07T09:38:28.401Z",
+        "completedAt": "2026-07-07T09:38:29.854Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-07-07T09:37:09.794Z",
-        "completedAt": "2026-07-07T09:37:10.103Z"
+        "startedAt": "2026-07-07T09:38:42.938Z",
+        "completedAt": "2026-07-07T09:38:42.947Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-07-07",
-        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
+        "subject": "La settimana in robotica — Edizione #1",
         "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "Boston Dynamics brings its legged robots to the FIFA World Cup",
