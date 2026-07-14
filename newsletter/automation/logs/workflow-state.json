@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1783417108396",
+    "id": "run-1784015999557",
     "edition": 1,
-    "date": "2026-07-07T09:38:28.396Z",
+    "date": "2026-07-14T07:59:59.557Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-07-07T09:38:28.401Z",
-        "completedAt": "2026-07-07T09:38:29.854Z"
+        "startedAt": "2026-07-14T07:59:59.562Z",
+        "completedAt": "2026-07-14T08:00:01.907Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-07-07T09:38:42.938Z",
-        "completedAt": "2026-07-07T09:38:42.947Z"
+        "startedAt": "2026-07-14T08:00:01.967Z",
+        "completedAt": "2026-07-14T08:00:02.241Z"
       },
       "review": {
         "status": "pending",
@@ -30,90 +30,90 @@
     "data": {
       "researchResults": [
         {
-          "title": "Boston Dynamics brings its legged robots to the FIFA World Cup",
-          "link": "https://www.therobotreport.com/boston-dynamics-brings-its-legged-robots-to-the-fifa-world-cup/",
-          "description": "<p>Around the 2026 FIFA World Cup, Hyundai and Boston Dynamics have taught footwork to the Atlas humanoid, while the Spot robot is on patrol.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-brings-its-legged-robots-to-the-fifa-world-cup/\">Boston Dynamics brings its legged robots to the FIFA World Cup</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 06 Jul 2026 20:45:48 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 13,
-          "category": "company"
-        },
-        {
-          "title": "Kraken Robotics acquires Covelya Group for $615M",
-          "link": "https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/",
-          "description": "<p>Covelya Group expands Kraken Robotics' product offerings and total addressable market in subsea technology.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/\">Kraken Robotics acquires Covelya Group for $615M</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 06 Jul 2026 21:00:54 +0000",
-          "source": "www.therobotreport.com",
+          "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+          "link": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+          "description": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
+          "pubDate": "Mon, 13 Jul 2026 23:31:18 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 9,
           "category": "funding"
         },
         {
-          "title": "RoboBusiness 2026 call for speakers closes soon",
-          "link": "https://www.therobotreport.com/robobusiness-2026-opens-call-for-speakers/",
-          "description": "<p>RoboBusiness 2026, the premier event for developers of commercial robotics and those building robotics businesses, is seeking expert speakers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robobusiness-2026-opens-call-for-speakers/\">RoboBusiness 2026 call for speakers closes soon</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 06 Jul 2026 13:26:34 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 9,
-          "category": "industry"
-        },
-        {
-          "title": "Quantum Systems raises $1.2B to expand drone production and deployments",
-          "link": "https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/",
-          "description": "<p>Quantum plans to use the proceeds to expand production capacity, strengthen supply chain resilience, and more.</p>\n<p>The post <a href=\"https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/\">Quantum Systems raises $1.2B to expand drone production and deployments</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 06 Jul 2026 18:29:07 +0000",
-          "source": "www.therobotreport.com",
+          "title": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
+          "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+          "description": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and drivers will actually notice.",
+          "pubDate": "Tue, 14 Jul 2026 00:45:00 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 8,
-          "category": "funding"
-        },
-        {
-          "title": "Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity",
-          "link": "https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/",
-          "description": "<p>Humanoid says its KinetIQ Ascend approach can reach 99.9% manipulation reliability at human speed and beyond for industrial tasks. </p>\n<p>The post <a href=\"https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/\">Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 05 Jul 2026 12:30:20 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 8,
-          "category": "industry"
-        },
-        {
-          "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
-          "link": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
-          "description": "SK Hynix is experiencing a boom credited to AI. It will ride that to a multibillion-dollar U.S. IPO, expected to take place on Friday.",
-          "pubDate": "Mon, 06 Jul 2026 23:21:03 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 6,
-          "category": "funding"
-        },
-        {
-          "title": "The first American autonomous ground vehicles are fighting in Ukraine",
-          "link": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
-          "description": "Forterra has deployed more than 100  ",
-          "pubDate": "Tue, 07 Jul 2026 09:00:00 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "The ‘first’ AI-run ransomware attack still needed a human",
-          "link": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
-          "description": "An AI agent carried out the technical execution of a real-world ransomware attack for the first known time, but new details show a human still chose the victim, set up the infrastructure, and supplied stolen credentials — meaning it wasn't quite the fully autonomous cybercrime debut that last week's headlines suggested.\n",
-          "pubDate": "Mon, 06 Jul 2026 23:56:14 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
           "category": "product"
         },
         {
-          "title": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
-          "link": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
-          "description": "The update is part of Apple's broader effort to make Siri feel more natural and personal, as it rebuilds the assistant around generative AI. ",
-          "pubDate": "Mon, 06 Jul 2026 19:01:59 +0000",
+          "title": "Ondas acquires DZYNE for $875.8M, expanding its defense capabilities",
+          "link": "https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/",
+          "description": "<p>DZYNE Technologies specializes in long-endurance autonomous aircraft, counter-drone systems, and autonomous effects.</p>\n<p>The post <a href=\"https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/\">Ondas acquires DZYNE for $875.8M, expanding its defense capabilities</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 13 Jul 2026 22:16:05 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "funding"
+        },
+        {
+          "title": "Yaskawa America gets information security certification",
+          "link": "https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/",
+          "description": "<p>Yaskawa America said that independent ISO/IEC 27001:2022 certification shows its focus on protecting customer information.</p>\n<p>The post <a href=\"https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/\">Yaskawa America gets information security certification</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 13 Jul 2026 19:55:06 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "industry"
+        },
+        {
+          "title": "STEM education in the classroom, introducing BotBall",
+          "link": "https://www.therobotreport.com/stem-education-classroom-introducing-botball/",
+          "description": "<p>Botball addresses STEM education with autonomous robotics, real coding, and a level playing field driven entirely by students.</p>\n<p>The post <a href=\"https://www.therobotreport.com/stem-education-classroom-introducing-botball/\">STEM education in the classroom, introducing BotBall</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 12 Jul 2026 10:00:26 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "industry"
+        },
+        {
+          "title": "The Robot Report parent company, WTWH Media, rebrands as Arrowfly",
+          "link": "https://www.therobotreport.com/the-robot-report-parent-company-wtwh-media-rebrands-as-arrowfly/",
+          "description": "<p>The Arrowfly name unifies more than 40 brands under a new identity built for the future of B2B content and events.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-robot-report-parent-company-wtwh-media-rebrands-as-arrowfly/\">The Robot Report parent company, WTWH Media, rebrands as Arrowfly</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 13 Jul 2026 12:04:39 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 6,
+          "category": "product"
+        },
+        {
+          "title": "Already rich, already successful, why the last wave of tech winners is grinding again",
+          "link": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/",
+          "description": "They're rolling up their sleeves again, seemingly out of fear of missing AI's defining moment and, presumably, the irresistible allure of making even more money -- potentially a lot more.",
+          "pubDate": "Tue, 14 Jul 2026 02:46:42 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+          "link": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+          "description": "With the cash, the company aims to expand its world model offering and reach customers across geographies.",
+          "pubDate": "Tue, 14 Jul 2026 00:00:00 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "funding"
+        },
+        {
+          "title": "Satya Nadella has issued a shocking warning to companies using AI",
+          "link": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
+          "description": "Of all the debates raging about the potential downsides of AI, there is one worry causing the most hand-wringing among AI enthusiasts in Silicon Valley — that the giant AI labs that sell proprietary models are somehow acting like Trojan horses.",
+          "pubDate": "Mon, 13 Jul 2026 20:59:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
@@ -133,31 +133,31 @@
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-07-07",
-        "subject": "La settimana in robotica — Edizione #1",
+        "date": "2026-07-14",
+        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
         "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Boston Dynamics brings its legged robots to the FIFA World Cup",
-          "description": "<p>Around the 2026 FIFA World Cup, Hyundai and Boston Dynamics have taught footwork to the Atlas humanoid, while the Spot robot is on patrol.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-brings-its-legged-robots-to-the-fifa-world-cup/\">Boston Dynamics brings its legged rob..."
+          "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+          "description": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors...."
         },
         "news": [
           {
-            "title": "Kraken Robotics acquires Covelya Group for $615M",
-            "description": "<p>Covelya Group expands Kraken Robotics' product offerings and total addressable market in subsea technology.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/\">Kraken Robotics acquires Covelya ...",
-            "category": "funding",
-            "link": "https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/"
+            "title": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
+            "description": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and d...",
+            "category": "product",
+            "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/"
           },
           {
-            "title": "RoboBusiness 2026 call for speakers closes soon",
-            "description": "<p>RoboBusiness 2026, the premier event for developers of commercial robotics and those building robotics businesses, is seeking expert speakers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robobusiness-2026-opens-call-for-speakers/\">Robo...",
+            "title": "Ondas acquires DZYNE for $875.8M, expanding its defense capabilities",
+            "description": "<p>DZYNE Technologies specializes in long-endurance autonomous aircraft, counter-drone systems, and autonomous effects.</p>\n<p>The post <a href=\"https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/\">Ondas acq...",
+            "category": "funding",
+            "link": "https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/"
+          },
+          {
+            "title": "Yaskawa America gets information security certification",
+            "description": "<p>Yaskawa America said that independent ISO/IEC 27001:2022 certification shows its focus on protecting customer information.</p>\n<p>The post <a href=\"https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/\">Yaskawa A...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/robobusiness-2026-opens-call-for-speakers/"
-          },
-          {
-            "title": "Quantum Systems raises $1.2B to expand drone production and deployments",
-            "description": "<p>Quantum plans to use the proceeds to expand production capacity, strengthen supply chain resilience, and more.</p>\n<p>The post <a href=\"https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/\">Quantum System...",
-            "category": "funding",
-            "link": "https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/"
+            "link": "https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/"
           }
         ],
         "stat": {
