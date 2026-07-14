@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1784015999557",
+    "id": "run-1784016101910",
     "edition": 1,
-    "date": "2026-07-14T07:59:59.557Z",
+    "date": "2026-07-14T08:01:41.910Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-07-14T07:59:59.562Z",
-        "completedAt": "2026-07-14T08:00:01.907Z"
+        "startedAt": "2026-07-14T08:01:41.915Z",
+        "completedAt": "2026-07-14T08:01:43.035Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-07-14T08:00:01.967Z",
-        "completedAt": "2026-07-14T08:00:02.241Z"
+        "startedAt": "2026-07-14T08:01:58.248Z",
+        "completedAt": "2026-07-14T08:01:58.255Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-07-14",
-        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "subject": "La settimana in robotica — Edizione #1",
         "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
