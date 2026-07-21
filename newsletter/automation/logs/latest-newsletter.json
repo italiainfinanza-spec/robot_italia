@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1784015999557",
-  "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
-  "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
+  "runId": "run-1784622247137",
+  "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
+  "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
-    "description": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors...."
+    "title": "How to avoid the teleoperation trap in robotics development",
+    "description": "<p>Teleoperation is necessary for training humanoid robots, but reinforcement learning and simulation are still necessary, says Flexion's CEO.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/\">How to avoid the teleoperation trap in robotic..."
   },
   "news": [
     {
-      "title": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
-      "description": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and d...",
-      "category": "product",
-      "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/"
-    },
-    {
-      "title": "Ondas acquires DZYNE for $875.8M, expanding its defense capabilities",
-      "description": "<p>DZYNE Technologies specializes in long-endurance autonomous aircraft, counter-drone systems, and autonomous effects.</p>\n<p>The post <a href=\"https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/\">Ondas acq...",
-      "category": "funding",
-      "link": "https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/"
-    },
-    {
-      "title": "Yaskawa America gets information security certification",
-      "description": "<p>Yaskawa America said that independent ISO/IEC 27001:2022 certification shows its focus on protecting customer information.</p>\n<p>The post <a href=\"https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/\">Yaskawa A...",
+      "title": "Building robots for unpredictable, infrastructure-free environments",
+      "description": "<p>Real-world robotics success requires building infrastructure-free systems that thrive in unpredictable, harsh outdoor environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/building-robots-for-unpredictable-infrastructure-free-envir...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/"
+      "link": "https://www.therobotreport.com/building-robots-for-unpredictable-infrastructure-free-environments/"
+    },
+    {
+      "title": "BrainCo demonstrates brain-controlled robot AI platform",
+      "description": "<p>During BrainCo's demo, the mind-controlled robotic arm completed tasks that require precision, such as grasping a cup or picking up an apple.</p>\n<p>The post <a href=\"https://www.therobotreport.com/brainco-demonstrates-brain-controlled-robot-ai-pl...",
+      "category": "industry",
+      "link": "https://www.therobotreport.com/brainco-demonstrates-brain-controlled-robot-ai-platform/"
+    },
+    {
+      "title": "Boston Dynamics to discuss the art behind human-robot interaction",
+      "description": "<p>Boston Dynamics experts will share insights into design considerations for safe human-robot interaction in a webinar.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-discuss-art-behind-human-robot-interaction/\">Boston Dynam...",
+      "category": "company",
+      "link": "https://www.therobotreport.com/boston-dynamics-discuss-art-behind-human-robot-interaction/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-07-14T08:00:03.576Z",
+  "generatedAt": "2026-07-21T08:24:11.272Z",
   "html": "<!-- Template not found -->"
 }
