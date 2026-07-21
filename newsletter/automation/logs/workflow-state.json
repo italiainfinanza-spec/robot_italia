@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1784622247137",
+    "id": "run-1784622349833",
     "edition": 1,
-    "date": "2026-07-21T08:24:07.137Z",
+    "date": "2026-07-21T08:25:49.833Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-07-21T08:24:07.142Z",
-        "completedAt": "2026-07-21T08:24:09.293Z"
+        "startedAt": "2026-07-21T08:25:49.838Z",
+        "completedAt": "2026-07-21T08:25:50.823Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-07-21T08:24:09.387Z",
-        "completedAt": "2026-07-21T08:24:09.889Z"
+        "startedAt": "2026-07-21T08:26:11.279Z",
+        "completedAt": "2026-07-21T08:26:11.288Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-07-21",
-        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
+        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
         "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "How to avoid the teleoperation trap in robotics development",
