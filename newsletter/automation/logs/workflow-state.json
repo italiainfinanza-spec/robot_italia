@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1784016101910",
+    "id": "run-1784622247137",
     "edition": 1,
-    "date": "2026-07-14T08:01:41.910Z",
+    "date": "2026-07-21T08:24:07.137Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-07-14T08:01:41.915Z",
-        "completedAt": "2026-07-14T08:01:43.035Z"
+        "startedAt": "2026-07-21T08:24:07.142Z",
+        "completedAt": "2026-07-21T08:24:09.293Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-07-14T08:01:58.248Z",
-        "completedAt": "2026-07-14T08:01:58.255Z"
+        "startedAt": "2026-07-21T08:24:09.387Z",
+        "completedAt": "2026-07-21T08:24:09.889Z"
       },
       "review": {
         "status": "pending",
@@ -30,134 +30,134 @@
     "data": {
       "researchResults": [
         {
-          "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
-          "link": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
-          "description": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
-          "pubDate": "Mon, 13 Jul 2026 23:31:18 +0000",
-          "source": "techcrunch.com",
+          "title": "How to avoid the teleoperation trap in robotics development",
+          "link": "https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/",
+          "description": "<p>Teleoperation is necessary for training humanoid robots, but reinforcement learning and simulation are still necessary, says Flexion's CEO.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/\">How to avoid the teleoperation trap in robotics development</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 19 Jul 2026 12:30:25 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 13,
+          "category": "industry"
+        },
+        {
+          "title": "Building robots for unpredictable, infrastructure-free environments",
+          "link": "https://www.therobotreport.com/building-robots-for-unpredictable-infrastructure-free-environments/",
+          "description": "<p>Real-world robotics success requires building infrastructure-free systems that thrive in unpredictable, harsh outdoor environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/building-robots-for-unpredictable-infrastructure-free-environments/\">Building robots for unpredictable, infrastructure-free environments</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 20 Jul 2026 18:39:57 +0000",
+          "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 9,
-          "category": "funding"
+          "category": "industry"
         },
         {
-          "title": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
-          "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
-          "description": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and drivers will actually notice.",
-          "pubDate": "Tue, 14 Jul 2026 00:45:00 +0000",
-          "source": "techcrunch.com",
+          "title": "BrainCo demonstrates brain-controlled robot AI platform",
+          "link": "https://www.therobotreport.com/brainco-demonstrates-brain-controlled-robot-ai-platform/",
+          "description": "<p>During BrainCo's demo, the mind-controlled robotic arm completed tasks that require precision, such as grasping a cup or picking up an apple.</p>\n<p>The post <a href=\"https://www.therobotreport.com/brainco-demonstrates-brain-controlled-robot-ai-platform/\">BrainCo demonstrates brain-controlled robot AI platform</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 20 Jul 2026 18:14:11 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "industry"
+        },
+        {
+          "title": "Boston Dynamics to discuss the art behind human-robot interaction",
+          "link": "https://www.therobotreport.com/boston-dynamics-discuss-art-behind-human-robot-interaction/",
+          "description": "<p>Boston Dynamics experts will share insights into design considerations for safe human-robot interaction in a webinar.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-discuss-art-behind-human-robot-interaction/\">Boston Dynamics to discuss the art behind human-robot interaction</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 20 Jul 2026 17:53:58 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "company"
+        },
+        {
+          "title": "AGIBOT unveils four embodied AI products for real-world operations at WAIC",
+          "link": "https://www.therobotreport.com/agibot-unveils-four-embodied-ai-products-real-world-operations-waic/",
+          "description": "<p>AGIBOT said its demoes and industrial deployments show its progress in turning embodied AI capabilities into repeatable workflows.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agibot-unveils-four-embodied-ai-products-real-world-operations-waic/\">AGIBOT unveils four embodied AI products for real-world operations at WAIC</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 20 Jul 2026 15:18:07 +0000",
+          "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 8,
           "category": "product"
         },
         {
-          "title": "Ondas acquires DZYNE for $875.8M, expanding its defense capabilities",
-          "link": "https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/",
-          "description": "<p>DZYNE Technologies specializes in long-endurance autonomous aircraft, counter-drone systems, and autonomous effects.</p>\n<p>The post <a href=\"https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/\">Ondas acquires DZYNE for $875.8M, expanding its defense capabilities</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 13 Jul 2026 22:16:05 +0000",
-          "source": "www.therobotreport.com",
+          "title": "Anthropic’s landmark $1.5B copyright settlement is approved",
+          "link": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+          "description": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models. ",
+          "pubDate": "Tue, 21 Jul 2026 00:12:24 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 8,
+          "relevanceScore": 5,
           "category": "funding"
         },
         {
-          "title": "Yaskawa America gets information security certification",
-          "link": "https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/",
-          "description": "<p>Yaskawa America said that independent ISO/IEC 27001:2022 certification shows its focus on protecting customer information.</p>\n<p>The post <a href=\"https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/\">Yaskawa America gets information security certification</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 13 Jul 2026 19:55:06 +0000",
-          "source": "www.therobotreport.com",
+          "title": "Trump’s latest AI czar has already resigned",
+          "link": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
+          "description": "The director role for the Center for AI Standards and Innovation (CAISI) has become a revolving door since David Sacks left his position as czar.",
+          "pubDate": "Mon, 20 Jul 2026 22:21:04 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 8,
+          "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "STEM education in the classroom, introducing BotBall",
-          "link": "https://www.therobotreport.com/stem-education-classroom-introducing-botball/",
-          "description": "<p>Botball addresses STEM education with autonomous robotics, real coding, and a level playing field driven entirely by students.</p>\n<p>The post <a href=\"https://www.therobotreport.com/stem-education-classroom-introducing-botball/\">STEM education in the classroom, introducing BotBall</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 12 Jul 2026 10:00:26 +0000",
-          "source": "www.therobotreport.com",
+          "title": "Google is working on a new AI chip designed to make Gemini more efficient",
+          "link": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+          "description": "Alphabet, Google's parent company, is reportedly working on a new chip designed to make its Gemini models run much more efficiently. ",
+          "pubDate": "Mon, 20 Jul 2026 21:21:15 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 8,
-          "category": "industry"
-        },
-        {
-          "title": "The Robot Report parent company, WTWH Media, rebrands as Arrowfly",
-          "link": "https://www.therobotreport.com/the-robot-report-parent-company-wtwh-media-rebrands-as-arrowfly/",
-          "description": "<p>The Arrowfly name unifies more than 40 brands under a new identity built for the future of B2B content and events.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-robot-report-parent-company-wtwh-media-rebrands-as-arrowfly/\">The Robot Report parent company, WTWH Media, rebrands as Arrowfly</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 13 Jul 2026 12:04:39 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 6,
+          "relevanceScore": 5,
           "category": "product"
         },
         {
-          "title": "Already rich, already successful, why the last wave of tech winners is grinding again",
-          "link": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/",
-          "description": "They're rolling up their sleeves again, seemingly out of fear of missing AI's defining moment and, presumably, the irresistible allure of making even more money -- potentially a lot more.",
-          "pubDate": "Tue, 14 Jul 2026 02:46:42 +0000",
+          "title": "AI’s most important protocol is getting a little bit easier to use",
+          "link": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
+          "description": "Under the new system, the protocol will take a looser, \"stateless\" approach to session IDs on the server side, similar to how most ordinary websites already work.",
+          "pubDate": "Mon, 20 Jul 2026 20:50:40 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "industry"
+          "category": "product"
         },
         {
-          "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
-          "link": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
-          "description": "With the cash, the company aims to expand its world model offering and reach customers across geographies.",
-          "pubDate": "Tue, 14 Jul 2026 00:00:00 +0000",
+          "title": "X relaunches a rebuilt Android app after year-long effort",
+          "link": "https://techcrunch.com/2026/07/20/x-relaunches-a-rebuilt-android-app-after-year-long-effort/",
+          "description": "X says the rebuilt version of its Android app is now available globally.  ",
+          "pubDate": "Mon, 20 Jul 2026 19:37:39 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "funding"
-        },
-        {
-          "title": "Satya Nadella has issued a shocking warning to companies using AI",
-          "link": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
-          "description": "Of all the debates raging about the potential downsides of AI, there is one worry causing the most hand-wringing among AI enthusiasts in Silicon Valley — that the giant AI labs that sell proprietary models are somehow acting like Trojan horses.",
-          "pubDate": "Mon, 13 Jul 2026 20:59:00 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
-          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
-          "description": "Wall Street Journal",
-          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
-          "source": "nvidianews.nvidia.com",
-          "type": "rss",
-          "relevanceScore": 4,
-          "category": "funding"
+          "category": "product"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-07-14",
-        "subject": "La settimana in robotica — Edizione #1",
-        "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-07-21",
+        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
+        "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
-          "description": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors...."
+          "title": "How to avoid the teleoperation trap in robotics development",
+          "description": "<p>Teleoperation is necessary for training humanoid robots, but reinforcement learning and simulation are still necessary, says Flexion's CEO.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/\">How to avoid the teleoperation trap in robotic..."
         },
         "news": [
           {
-            "title": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
-            "description": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and d...",
-            "category": "product",
-            "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/"
-          },
-          {
-            "title": "Ondas acquires DZYNE for $875.8M, expanding its defense capabilities",
-            "description": "<p>DZYNE Technologies specializes in long-endurance autonomous aircraft, counter-drone systems, and autonomous effects.</p>\n<p>The post <a href=\"https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/\">Ondas acq...",
-            "category": "funding",
-            "link": "https://www.therobotreport.com/ondas-acquires-dzyne-875-8m-expanding-its-defense-capabilities/"
-          },
-          {
-            "title": "Yaskawa America gets information security certification",
-            "description": "<p>Yaskawa America said that independent ISO/IEC 27001:2022 certification shows its focus on protecting customer information.</p>\n<p>The post <a href=\"https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/\">Yaskawa A...",
+            "title": "Building robots for unpredictable, infrastructure-free environments",
+            "description": "<p>Real-world robotics success requires building infrastructure-free systems that thrive in unpredictable, harsh outdoor environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/building-robots-for-unpredictable-infrastructure-free-envir...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/"
+            "link": "https://www.therobotreport.com/building-robots-for-unpredictable-infrastructure-free-environments/"
+          },
+          {
+            "title": "BrainCo demonstrates brain-controlled robot AI platform",
+            "description": "<p>During BrainCo's demo, the mind-controlled robotic arm completed tasks that require precision, such as grasping a cup or picking up an apple.</p>\n<p>The post <a href=\"https://www.therobotreport.com/brainco-demonstrates-brain-controlled-robot-ai-pl...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/brainco-demonstrates-brain-controlled-robot-ai-platform/"
+          },
+          {
+            "title": "Boston Dynamics to discuss the art behind human-robot interaction",
+            "description": "<p>Boston Dynamics experts will share insights into design considerations for safe human-robot interaction in a webinar.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-discuss-art-behind-human-robot-interaction/\">Boston Dynam...",
+            "category": "company",
+            "link": "https://www.therobotreport.com/boston-dynamics-discuss-art-behind-human-robot-interaction/"
           }
         ],
         "stat": {
