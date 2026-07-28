@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1784622247137",
-  "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
-  "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
+  "runId": "run-1785227404771",
+  "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+  "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "How to avoid the teleoperation trap in robotics development",
-    "description": "<p>Teleoperation is necessary for training humanoid robots, but reinforcement learning and simulation are still necessary, says Flexion's CEO.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/\">How to avoid the teleoperation trap in robotic..."
+    "title": "Kraken Technology raises Series B funding for autonomous vessels",
+    "description": "<p>Kraken Technology plans to use its funding to continue developing uncrewed surface vessels and localizing manufacturing around the world.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kraken-technology-raises-series-b-funding-autonomous-vessels/\">Kraken Technology raises Series B fundin..."
   },
   "news": [
     {
-      "title": "Building robots for unpredictable, infrastructure-free environments",
-      "description": "<p>Real-world robotics success requires building infrastructure-free systems that thrive in unpredictable, harsh outdoor environments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/building-robots-for-unpredictable-infrastructure-free-envir...",
+      "title": "NORD expands compact NORDAC VFD family to 200 hp",
+      "description": "<p>NORD Drivesystems said its NORDAC PRO VFDs are adaptable to individual application requirements across industries.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/\">NORD expands compact NORD...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/building-robots-for-unpredictable-infrastructure-free-environments/"
+      "link": "https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/"
     },
     {
-      "title": "BrainCo demonstrates brain-controlled robot AI platform",
-      "description": "<p>During BrainCo's demo, the mind-controlled robotic arm completed tasks that require precision, such as grasping a cup or picking up an apple.</p>\n<p>The post <a href=\"https://www.therobotreport.com/brainco-demonstrates-brain-controlled-robot-ai-pl...",
+      "title": "Magmotor makes motors for a changing world for 150+ years",
+      "description": "<p>Magmotor has been providing motors for demanding use cases for decades and offers custom systems for robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/magmotor-makes-motors-changing-world-150-years/\">Magmotor makes motors for a cha...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/brainco-demonstrates-brain-controlled-robot-ai-platform/"
+      "link": "https://www.therobotreport.com/magmotor-makes-motors-changing-world-150-years/"
     },
     {
-      "title": "Boston Dynamics to discuss the art behind human-robot interaction",
-      "description": "<p>Boston Dynamics experts will share insights into design considerations for safe human-robot interaction in a webinar.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-discuss-art-behind-human-robot-interaction/\">Boston Dynam...",
-      "category": "company",
-      "link": "https://www.therobotreport.com/boston-dynamics-discuss-art-behind-human-robot-interaction/"
+      "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+      "description": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities. ...",
+      "category": "industry",
+      "link": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-07-21T08:24:11.272Z",
+  "generatedAt": "2026-07-28T08:30:08.697Z",
   "html": "<!-- Template not found -->"
 }
