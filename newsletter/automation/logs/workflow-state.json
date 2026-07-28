@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1785227404771",
+    "id": "run-1785227485676",
     "edition": 1,
-    "date": "2026-07-28T08:30:04.771Z",
+    "date": "2026-07-28T08:31:25.676Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-07-28T08:30:04.776Z",
-        "completedAt": "2026-07-28T08:30:06.808Z"
+        "startedAt": "2026-07-28T08:31:25.681Z",
+        "completedAt": "2026-07-28T08:31:27.034Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-07-28T08:30:06.871Z",
-        "completedAt": "2026-07-28T08:30:07.347Z"
+        "startedAt": "2026-07-28T08:31:45.699Z",
+        "completedAt": "2026-07-28T08:31:45.708Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-07-28",
-        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
         "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "Kraken Technology raises Series B funding for autonomous vessels",
