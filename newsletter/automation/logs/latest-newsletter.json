@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1785227404771",
+  "runId": "run-1785832355655",
   "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
-  "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
+  "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "Kraken Technology raises Series B funding for autonomous vessels",
-    "description": "<p>Kraken Technology plans to use its funding to continue developing uncrewed surface vessels and localizing manufacturing around the world.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kraken-technology-raises-series-b-funding-autonomous-vessels/\">Kraken Technology raises Series B fundin..."
+    "title": "igus launches energy chain with 600-degree rotation for industrial robots",
+    "description": "<p>igus says its new twisterchain energy chain provides cable management for challenging industrial robotics applications such as palletizing.</p>\n<p>The post <a href=\"https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/\">igus launches energy chain with 60..."
   },
   "news": [
     {
-      "title": "NORD expands compact NORDAC VFD family to 200 hp",
-      "description": "<p>NORD Drivesystems said its NORDAC PRO VFDs are adaptable to individual application requirements across industries.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/\">NORD expands compact NORD...",
+      "title": "Google DeepMind says Gemini Robotics 2 enables full body control",
+      "description": "<p>Gemini Robotics 2 enables robots to reason through every movement, unlocking a broad range of tasks, DeepMind said. </p>\n<p>The post <a href=\"https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/\">Google ...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/"
+      "link": "https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/"
     },
     {
-      "title": "Magmotor makes motors for a changing world for 150+ years",
-      "description": "<p>Magmotor has been providing motors for demanding use cases for decades and offers custom systems for robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/magmotor-makes-motors-changing-world-150-years/\">Magmotor makes motors for a cha...",
+      "title": "HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators",
+      "description": "<p>This Phase I award is only part of HEBI Robotics' roadmap. The company also plans to continue developing its existing actuation hardware.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniat...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/magmotor-makes-motors-changing-world-150-years/"
+      "link": "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/"
     },
     {
-      "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
-      "description": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities. ...",
-      "category": "industry",
-      "link": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/"
+      "title": "Top 10 robotics stories of July 2026",
+      "description": "<p>In July, large funding rounds, new approaches to robot training, and new robot models drew our readers attention.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-stories-july-2026/\">Top 10 robotics stories of July 2026</a> ...",
+      "category": "funding",
+      "link": "https://www.therobotreport.com/top-10-robotics-stories-july-2026/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-07-28T08:30:08.697Z",
+  "generatedAt": "2026-08-04T08:32:38.845Z",
   "html": "<!-- Template not found -->"
 }
