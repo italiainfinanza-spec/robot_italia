@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1785832355655",
+    "id": "run-1785832417965",
     "edition": 1,
-    "date": "2026-08-04T08:32:35.655Z",
+    "date": "2026-08-04T08:33:37.965Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-08-04T08:32:35.660Z",
-        "completedAt": "2026-08-04T08:32:37.114Z"
+        "startedAt": "2026-08-04T08:33:37.971Z",
+        "completedAt": "2026-08-04T08:33:39.258Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-08-04T08:32:37.177Z",
-        "completedAt": "2026-08-04T08:32:37.404Z"
+        "startedAt": "2026-08-04T08:33:53.476Z",
+        "completedAt": "2026-08-04T08:33:53.485Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-08-04",
-        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
         "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "igus launches energy chain with 600-degree rotation for industrial robots",
