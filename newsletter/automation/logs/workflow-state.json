@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1785227485676",
+    "id": "run-1785832355655",
     "edition": 1,
-    "date": "2026-07-28T08:31:25.676Z",
+    "date": "2026-08-04T08:32:35.655Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-07-28T08:31:25.681Z",
-        "completedAt": "2026-07-28T08:31:27.034Z"
+        "startedAt": "2026-08-04T08:32:35.660Z",
+        "completedAt": "2026-08-04T08:32:37.114Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-07-28T08:31:45.699Z",
-        "completedAt": "2026-07-28T08:31:45.708Z"
+        "startedAt": "2026-08-04T08:32:37.177Z",
+        "completedAt": "2026-08-04T08:32:37.404Z"
       },
       "review": {
         "status": "pending",
@@ -30,84 +30,94 @@
     "data": {
       "researchResults": [
         {
-          "title": "Kraken Technology raises Series B funding for autonomous vessels",
-          "link": "https://www.therobotreport.com/kraken-technology-raises-series-b-funding-autonomous-vessels/",
-          "description": "<p>Kraken Technology plans to use its funding to continue developing uncrewed surface vessels and localizing manufacturing around the world.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kraken-technology-raises-series-b-funding-autonomous-vessels/\">Kraken Technology raises Series B funding for autonomous vessels</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 27 Jul 2026 14:02:10 +0000",
+          "title": "igus launches energy chain with 600-degree rotation for industrial robots",
+          "link": "https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/",
+          "description": "<p>igus says its new twisterchain energy chain provides cable management for challenging industrial robotics applications such as palletizing.</p>\n<p>The post <a href=\"https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/\">igus launches energy chain with 600-degree rotation for industrial robots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 03 Aug 2026 21:06:07 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 11,
+          "category": "product"
+        },
+        {
+          "title": "Google DeepMind says Gemini Robotics 2 enables full body control",
+          "link": "https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/",
+          "description": "<p>Gemini Robotics 2 enables robots to reason through every movement, unlocking a broad range of tasks, DeepMind said. </p>\n<p>The post <a href=\"https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/\">Google DeepMind says Gemini Robotics 2 enables full body control</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 02 Aug 2026 12:31:32 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 10,
+          "category": "industry"
+        },
+        {
+          "title": "HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators",
+          "link": "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/",
+          "description": "<p>This Phase I award is only part of HEBI Robotics' roadmap. The company also plans to continue developing its existing actuation hardware.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/\">HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 03 Aug 2026 17:17:46 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 9,
+          "category": "industry"
+        },
+        {
+          "title": "Top 10 robotics stories of July 2026",
+          "link": "https://www.therobotreport.com/top-10-robotics-stories-july-2026/",
+          "description": "<p>In July, large funding rounds, new approaches to robot training, and new robot models drew our readers attention.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-stories-july-2026/\">Top 10 robotics stories of July 2026</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sat, 01 Aug 2026 12:00:30 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 9,
           "category": "funding"
         },
         {
-          "title": "NORD expands compact NORDAC VFD family to 200 hp",
-          "link": "https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/",
-          "description": "<p>NORD Drivesystems said its NORDAC PRO VFDs are adaptable to individual application requirements across industries.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/\">NORD expands compact NORDAC VFD family to 200 hp</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 27 Jul 2026 17:37:59 +0000",
+          "title": "Reimagine Robotics emerges from stealth with robots that ‘learn on the job’",
+          "link": "https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/",
+          "description": "<p>Reimagine Robotics, founded by former Google DeepMind Applied Robotics leaders, is developing systems that do not require specialized programmers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/\">Reimagine Robotics emerges from stealth with robots that &#8216;learn on the job&#8217;</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 03 Aug 2026 07:00:51 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 8,
           "category": "industry"
         },
         {
-          "title": "Magmotor makes motors for a changing world for 150+ years",
-          "link": "https://www.therobotreport.com/magmotor-makes-motors-changing-world-150-years/",
-          "description": "<p>Magmotor has been providing motors for demanding use cases for decades and offers custom systems for robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/magmotor-makes-motors-changing-world-150-years/\">Magmotor makes motors for a changing world for 150+ years</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 26 Jul 2026 12:30:51 +0000",
-          "source": "www.therobotreport.com",
+          "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+          "link": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+          "description": "After a quarter that delivered $1 billion in profit, Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises.",
+          "pubDate": "Mon, 03 Aug 2026 23:19:50 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 8,
-          "category": "industry"
+          "relevanceScore": 5,
+          "category": "funding"
         },
         {
-          "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
-          "link": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
-          "description": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities. ",
-          "pubDate": "Tue, 28 Jul 2026 00:13:33 +0000",
+          "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
+          "link": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+          "description": "Design Arena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs.",
+          "pubDate": "Mon, 03 Aug 2026 19:28:57 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "funding"
+        },
+        {
+          "title": "Influencers draw backlash for attending OpenAI’s first luxury trip",
+          "link": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
+          "description": "OpenAI’s first-ever influencer brand trip is sparking online backlash as tensions over the use of AI continue. ",
+          "pubDate": "Mon, 03 Aug 2026 19:09:56 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Satya Nadella says companies that trust one AI for everything may not survive",
-          "link": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
-          "description": "Companies without their own models — or without a layer of AI infrastructure known as AI gateways to separate their prompts from the model itself — will be in trouble, Nadella says.",
-          "pubDate": "Mon, 27 Jul 2026 21:17:11 +0000",
+          "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
+          "link": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
+          "description": "Apple’s long-awaited AI overhaul finally makes Siri the assistant it was always supposed to be. Yet it arrives at a moment when simply being a capable AI assistant no longer feels revolutionary.",
+          "pubDate": "Mon, 03 Aug 2026 18:43:43 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
-        },
-        {
-          "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
-          "link": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
-          "description": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform. ",
-          "pubDate": "Mon, 27 Jul 2026 18:32:11 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
-        },
-        {
-          "title": "Generalist’s GEN-1 foundation model now supports a range of robot end effectors",
-          "link": "https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/",
-          "description": "<p>By training GEN-1 to work with new hands, Generalist said a single base model can learn sensorimotor policies on different robots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/\">Generalist&#8217;s GEN-1 foundation model now supports a range of robot end effectors</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Fri, 24 Jul 2026 18:23:42 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
-        },
-        {
-          "title": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
-          "link": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/",
-          "description": "Cursor says India is now its third-largest market globally and plans to expand local hiring and enterprise sales.",
-          "pubDate": "Tue, 28 Jul 2026 04:30:00 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 4,
-          "category": "market"
         },
         {
           "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
@@ -118,46 +128,36 @@
           "type": "rss",
           "relevanceScore": 4,
           "category": "funding"
-        },
-        {
-          "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
-          "link": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
-          "description": "The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
-          "pubDate": "Mon, 27 Jul 2026 20:19:42 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 3,
-          "category": "industry"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-07-28",
-        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
-        "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-08-04",
+        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Kraken Technology raises Series B funding for autonomous vessels",
-          "description": "<p>Kraken Technology plans to use its funding to continue developing uncrewed surface vessels and localizing manufacturing around the world.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kraken-technology-raises-series-b-funding-autonomous-vessels/\">Kraken Technology raises Series B fundin..."
+          "title": "igus launches energy chain with 600-degree rotation for industrial robots",
+          "description": "<p>igus says its new twisterchain energy chain provides cable management for challenging industrial robotics applications such as palletizing.</p>\n<p>The post <a href=\"https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/\">igus launches energy chain with 60..."
         },
         "news": [
           {
-            "title": "NORD expands compact NORDAC VFD family to 200 hp",
-            "description": "<p>NORD Drivesystems said its NORDAC PRO VFDs are adaptable to individual application requirements across industries.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/\">NORD expands compact NORD...",
+            "title": "Google DeepMind says Gemini Robotics 2 enables full body control",
+            "description": "<p>Gemini Robotics 2 enables robots to reason through every movement, unlocking a broad range of tasks, DeepMind said. </p>\n<p>The post <a href=\"https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/\">Google ...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/"
+            "link": "https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/"
           },
           {
-            "title": "Magmotor makes motors for a changing world for 150+ years",
-            "description": "<p>Magmotor has been providing motors for demanding use cases for decades and offers custom systems for robotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/magmotor-makes-motors-changing-world-150-years/\">Magmotor makes motors for a cha...",
+            "title": "HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators",
+            "description": "<p>This Phase I award is only part of HEBI Robotics' roadmap. The company also plans to continue developing its existing actuation hardware.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniat...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/magmotor-makes-motors-changing-world-150-years/"
+            "link": "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/"
           },
           {
-            "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
-            "description": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities. ...",
-            "category": "industry",
-            "link": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/"
+            "title": "Top 10 robotics stories of July 2026",
+            "description": "<p>In July, large funding rounds, new approaches to robot training, and new robot models drew our readers attention.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-stories-july-2026/\">Top 10 robotics stories of July 2026</a> ...",
+            "category": "funding",
+            "link": "https://www.therobotreport.com/top-10-robotics-stories-july-2026/"
           }
         ],
         "stat": {
