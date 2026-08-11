@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1785832417965",
+    "id": "run-1786431763331",
     "edition": 1,
-    "date": "2026-08-04T08:33:37.965Z",
+    "date": "2026-08-11T07:02:43.331Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-08-04T08:33:37.971Z",
-        "completedAt": "2026-08-04T08:33:39.258Z"
+        "startedAt": "2026-08-11T07:02:43.335Z",
+        "completedAt": "2026-08-11T07:02:44.704Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-08-04T08:33:53.476Z",
-        "completedAt": "2026-08-04T08:33:53.485Z"
+        "startedAt": "2026-08-11T07:02:44.748Z",
+        "completedAt": "2026-08-11T07:02:44.994Z"
       },
       "review": {
         "status": "pending",
@@ -30,94 +30,64 @@
     "data": {
       "researchResults": [
         {
-          "title": "igus launches energy chain with 600-degree rotation for industrial robots",
-          "link": "https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/",
-          "description": "<p>igus says its new twisterchain energy chain provides cable management for challenging industrial robotics applications such as palletizing.</p>\n<p>The post <a href=\"https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/\">igus launches energy chain with 600-degree rotation for industrial robots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 03 Aug 2026 21:06:07 +0000",
-          "source": "www.therobotreport.com",
+          "title": "OpenAI reportedly completed a $7 billion employee tender offer",
+          "link": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+          "description": "San Francisco's housing market is in trouble again. ",
+          "pubDate": "Tue, 11 Aug 2026 00:03:18 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 11,
+          "relevanceScore": 5,
+          "category": "funding"
+        },
+        {
+          "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+          "link": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+          "description": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
+          "pubDate": "Mon, 10 Aug 2026 23:56:15 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
           "category": "product"
         },
         {
-          "title": "Google DeepMind says Gemini Robotics 2 enables full body control",
-          "link": "https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/",
-          "description": "<p>Gemini Robotics 2 enables robots to reason through every movement, unlocking a broad range of tasks, DeepMind said. </p>\n<p>The post <a href=\"https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/\">Google DeepMind says Gemini Robotics 2 enables full body control</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 02 Aug 2026 12:31:32 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 10,
-          "category": "industry"
-        },
-        {
-          "title": "HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators",
-          "link": "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/",
-          "description": "<p>This Phase I award is only part of HEBI Robotics' roadmap. The company also plans to continue developing its existing actuation hardware.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/\">HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 03 Aug 2026 17:17:46 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 9,
-          "category": "industry"
-        },
-        {
-          "title": "Top 10 robotics stories of July 2026",
-          "link": "https://www.therobotreport.com/top-10-robotics-stories-july-2026/",
-          "description": "<p>In July, large funding rounds, new approaches to robot training, and new robot models drew our readers attention.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-stories-july-2026/\">Top 10 robotics stories of July 2026</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sat, 01 Aug 2026 12:00:30 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 9,
-          "category": "funding"
-        },
-        {
-          "title": "Reimagine Robotics emerges from stealth with robots that ‘learn on the job’",
-          "link": "https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/",
-          "description": "<p>Reimagine Robotics, founded by former Google DeepMind Applied Robotics leaders, is developing systems that do not require specialized programmers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/\">Reimagine Robotics emerges from stealth with robots that &#8216;learn on the job&#8217;</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 03 Aug 2026 07:00:51 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 8,
-          "category": "industry"
-        },
-        {
-          "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
-          "link": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
-          "description": "After a quarter that delivered $1 billion in profit, Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises.",
-          "pubDate": "Mon, 03 Aug 2026 23:19:50 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "funding"
-        },
-        {
-          "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
-          "link": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
-          "description": "Design Arena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs.",
-          "pubDate": "Mon, 03 Aug 2026 19:28:57 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "funding"
-        },
-        {
-          "title": "Influencers draw backlash for attending OpenAI’s first luxury trip",
-          "link": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
-          "description": "OpenAI’s first-ever influencer brand trip is sparking online backlash as tensions over the use of AI continue. ",
-          "pubDate": "Mon, 03 Aug 2026 19:09:56 +0000",
+          "title": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
+          "link": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+          "description": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building. ",
+          "pubDate": "Mon, 10 Aug 2026 20:53:02 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
-          "link": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
-          "description": "Apple’s long-awaited AI overhaul finally makes Siri the assistant it was always supposed to be. Yet it arrives at a moment when simply being a capable AI assistant no longer feels revolutionary.",
-          "pubDate": "Mon, 03 Aug 2026 18:43:43 +0000",
+          "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+          "link": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+          "description": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice.",
+          "pubDate": "Mon, 10 Aug 2026 20:04:24 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
+        },
+        {
+          "title": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
+          "link": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
+          "description": "Meta’s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg’s personal superintelligence vision, as well as  the emerging divide between AI users can own and access.",
+          "pubDate": "Mon, 10 Aug 2026 16:20:13 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "product"
+        },
+        {
+          "title": "Evolve your marketing with new AI tools",
+          "link": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Advisor_Header.max-600x600.format-webp.webp\">Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
+          "pubDate": "Mon, 10 Aug 2026 14:30:00 +0000",
+          "source": "blog.google",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "product"
         },
         {
           "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
@@ -133,31 +103,31 @@
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-08-04",
-        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
-        "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-08-11",
+        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "igus launches energy chain with 600-degree rotation for industrial robots",
-          "description": "<p>igus says its new twisterchain energy chain provides cable management for challenging industrial robotics applications such as palletizing.</p>\n<p>The post <a href=\"https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/\">igus launches energy chain with 60..."
+          "title": "OpenAI reportedly completed a $7 billion employee tender offer",
+          "description": "San Francisco's housing market is in trouble again. ..."
         },
         "news": [
           {
-            "title": "Google DeepMind says Gemini Robotics 2 enables full body control",
-            "description": "<p>Gemini Robotics 2 enables robots to reason through every movement, unlocking a broad range of tasks, DeepMind said. </p>\n<p>The post <a href=\"https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/\">Google ...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/"
+            "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+            "description": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it....",
+            "category": "product",
+            "link": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/"
           },
           {
-            "title": "HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators",
-            "description": "<p>This Phase I award is only part of HEBI Robotics' roadmap. The company also plans to continue developing its existing actuation hardware.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniat...",
+            "title": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
+            "description": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building. ...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/"
+            "link": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/"
           },
           {
-            "title": "Top 10 robotics stories of July 2026",
-            "description": "<p>In July, large funding rounds, new approaches to robot training, and new robot models drew our readers attention.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-stories-july-2026/\">Top 10 robotics stories of July 2026</a> ...",
-            "category": "funding",
-            "link": "https://www.therobotreport.com/top-10-robotics-stories-july-2026/"
+            "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+            "description": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice....",
+            "category": "industry",
+            "link": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/"
           }
         ],
         "stat": {
