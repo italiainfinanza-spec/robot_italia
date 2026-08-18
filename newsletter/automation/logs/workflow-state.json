@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1786431851138",
+    "id": "run-1787035112754",
     "edition": 1,
-    "date": "2026-08-11T07:04:11.138Z",
+    "date": "2026-08-18T06:38:32.754Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-08-11T07:04:11.143Z",
-        "completedAt": "2026-08-11T07:04:12.466Z"
+        "startedAt": "2026-08-18T06:38:32.759Z",
+        "completedAt": "2026-08-18T06:38:33.982Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-08-11T07:04:27.039Z",
-        "completedAt": "2026-08-11T07:04:27.048Z"
+        "startedAt": "2026-08-18T06:38:34.056Z",
+        "completedAt": "2026-08-18T06:38:34.294Z"
       },
       "review": {
         "status": "pending",
@@ -30,134 +30,134 @@
     "data": {
       "researchResults": [
         {
-          "title": "Analog Devices returns as strategic sponsor to aid MassRobotics startups",
-          "link": "https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/",
-          "description": "<p>Analog Devices Inc. is supporting MassRobotics startups with Analog Garage and participating in events including RoboBusiness.</p>\n<p>The post <a href=\"https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/\">Analog Devices returns as strategic sponsor to aid MassRobotics startups</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 09 Aug 2026 12:30:42 +0000",
+          "title": "Gravis Robotics raises $200M for autonomous construction",
+          "link": "https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/",
+          "description": "<p>Gravis Robotics has designed autonomy AI and hardware for a wide range of excavators and construction equipment and plans to scale globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/\">Gravis Robotics raises $200M for autonomous construction</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 17 Aug 2026 13:00:16 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 11,
+          "category": "funding"
+        },
+        {
+          "title": "How robotics is revolutionizing stroke rehabilitation",
+          "link": "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/",
+          "description": "<p>Eyal Samuel Shachar, the CEO of Bioxtreme, says the growing synergy of robotics, AI, and human-centered care will improve patient outcomes.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/\">How robotics is revolutionizing stroke rehabilitation</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 16 Aug 2026 12:30:18 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 10,
           "category": "industry"
         },
         {
-          "title": "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing",
-          "link": "https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/",
-          "description": "<p>The raise values Hadrian at $7.87 billion. It is Hadrian's second funding round this year, following a round in January 2026.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/\">Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 10 Aug 2026 22:33:12 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 9,
-          "category": "funding"
-        },
-        {
-          "title": "Tate deploys 58 Hirebotics cobot welders across multiple facilities",
-          "link": "https://www.therobotreport.com/tate-deploys-58-hirebotics-cobot-welders-across-multiple-facilities/",
-          "description": "<p>Tate decided to move from traditional hand welding to an agile, cloud-connected automation network powered by Hirebotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/tate-deploys-58-hirebotics-cobot-welders-across-multiple-facilities/\">Tate deploys 58 Hirebotics cobot welders across multiple facilities</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 10 Aug 2026 18:46:22 +0000",
+          "title": "Five years of operation shape Diligent Robotics rollout of Moxi 2.0",
+          "link": "https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi-2-0/",
+          "description": "<p>Diligent is now rolling out Moxi 2.0 to health systems including Endeavor Health Edward Hospital and Children’s Hospital Los Angeles.</p>\n<p>The post <a href=\"https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi-2-0/\">Five years of operation shape Diligent Robotics rollout of Moxi 2.0</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 17 Aug 2026 21:15:46 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 9,
           "category": "industry"
         },
         {
-          "title": "VicOne releases free NVIDIA Isaac Sim cybersecurity extension based on DEF CON 34 research",
-          "link": "https://www.therobotreport.com/vicone-releases-free-nviida-isaac-sim-cybersecurity-extension-based-def-con-34-research/",
-          "description": "<p>VicOne says its free Radeis Extension for NVIDIA Isaac Sim enables developers to test robot cyber safety before deployment.</p>\n<p>The post <a href=\"https://www.therobotreport.com/vicone-releases-free-nviida-isaac-sim-cybersecurity-extension-based-def-con-34-research/\">VicOne releases free NVIDIA Isaac Sim cybersecurity extension based on DEF CON 34 research</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 10 Aug 2026 17:07:10 +0000",
+          "title": "How Generalist uses human demonstration data for robot learning",
+          "link": "https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-learning/",
+          "description": "<p>Research around the Universal Manipulation Interface is enabling Generalist, Walden Robotics, and others to turn data into robot behaviors.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-learning/\">How Generalist uses human demonstration data for robot learning</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 17 Aug 2026 19:32:31 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 8,
-          "category": "company"
+          "relevanceScore": 9,
+          "category": "industry"
         },
         {
-          "title": "RoboStore launches Robo Inc. to help U.S. organizations deploy robots",
-          "link": "https://www.therobotreport.com/robostore-launches-robo-inc-to-help-u-s-organizations-deploy-robots/",
-          "description": "<p>RoboStore, a distributor of Unitree's legged robots, has launched Robo Inc. to serve as a U.S.-based manufacturer and integrator.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robostore-launches-robo-inc-to-help-u-s-organizations-deploy-robots/\">RoboStore launches Robo Inc. to help U.S. organizations deploy robots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 10 Aug 2026 23:40:18 +0000",
+          "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+          "link": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+          "description": "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,\" Jacob Bank, Relay founder and CEO, said.",
+          "pubDate": "Mon, 17 Aug 2026 21:27:05 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "industry"
+        },
+        {
+          "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+          "link": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+          "description": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
+          "pubDate": "Mon, 17 Aug 2026 15:16:24 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "funding"
+        },
+        {
+          "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+          "link": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+          "description": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
+          "pubDate": "Mon, 17 Aug 2026 16:15:12 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 7,
+          "category": "funding"
+        },
+        {
+          "title": "Surgeons use da Vinci surgical robot to perform common cardiac surgery",
+          "link": "https://www.therobotreport.com/surgeons-use-da-vinci-surgical-robot-perform-common-cardiac-surgery/",
+          "description": "<p>At the El Camino Health Heart and Vascular Institute, surgeons are now performing cardiac procedures with Intuitive's da Vinci robot.</p>\n<p>The post <a href=\"https://www.therobotreport.com/surgeons-use-da-vinci-surgical-robot-perform-common-cardiac-surgery/\">Surgeons use da Vinci surgical robot to perform common cardiac surgery</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 17 Aug 2026 20:56:21 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 6,
-          "category": "product"
+          "category": "industry"
         },
         {
-          "title": "OpenAI reportedly completed a $7 billion employee tender offer",
-          "link": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
-          "description": "San Francisco's housing market is in trouble again. ",
-          "pubDate": "Tue, 11 Aug 2026 00:03:18 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "funding"
-        },
-        {
-          "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
-          "link": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
-          "description": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
-          "pubDate": "Mon, 10 Aug 2026 23:56:15 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
-        },
-        {
-          "title": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
-          "link": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
-          "description": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building. ",
-          "pubDate": "Mon, 10 Aug 2026 20:53:02 +0000",
+          "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+          "link": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+          "description": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
+          "pubDate": "Mon, 17 Aug 2026 16:38:44 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
-          "link": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
-          "description": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice.",
-          "pubDate": "Mon, 10 Aug 2026 20:04:24 +0000",
-          "source": "techcrunch.com",
+          "title": "Get closer to the game with Gemini and Pixel",
+          "link": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp\">Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and  Smartphone Technology.",
+          "pubDate": "Mon, 17 Aug 2026 08:00:00 +0000",
+          "source": "blog.google",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
-        },
-        {
-          "title": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
-          "link": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
-          "description": "Meta’s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg’s personal superintelligence vision, as well as  the emerging divide between AI users can own and access.",
-          "pubDate": "Mon, 10 Aug 2026 16:20:13 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-08-11",
-        "subject": "La settimana in robotica — Edizione #1",
-        "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-08-18",
+        "subject": "Gravis Robotics raises $200M for autonom... | Robotica Weekly #1",
+        "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Analog Devices returns as strategic sponsor to aid MassRobotics startups",
-          "description": "<p>Analog Devices Inc. is supporting MassRobotics startups with Analog Garage and participating in events including RoboBusiness.</p>\n<p>The post <a href=\"https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/\">Analog Devices returns as strategic sponsor t..."
+          "title": "Gravis Robotics raises $200M for autonomous construction",
+          "description": "<p>Gravis Robotics has designed autonomy AI and hardware for a wide range of excavators and construction equipment and plans to scale globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/\">Gravis Robotics raises $200M for autonomous co..."
         },
         "news": [
           {
-            "title": "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing",
-            "description": "<p>The raise values Hadrian at $7.87 billion. It is Hadrian's second funding round this year, following a round in January 2026.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/\">Hadrian raise...",
-            "category": "funding",
-            "link": "https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/"
-          },
-          {
-            "title": "Tate deploys 58 Hirebotics cobot welders across multiple facilities",
-            "description": "<p>Tate decided to move from traditional hand welding to an agile, cloud-connected automation network powered by Hirebotics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/tate-deploys-58-hirebotics-cobot-welders-across-multiple-facilities/\"...",
+            "title": "How robotics is revolutionizing stroke rehabilitation",
+            "description": "<p>Eyal Samuel Shachar, the CEO of Bioxtreme, says the growing synergy of robotics, AI, and human-centered care will improve patient outcomes.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitati...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/tate-deploys-58-hirebotics-cobot-welders-across-multiple-facilities/"
+            "link": "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/"
           },
           {
-            "title": "VicOne releases free NVIDIA Isaac Sim cybersecurity extension based on DEF CON 34 research",
-            "description": "<p>VicOne says its free Radeis Extension for NVIDIA Isaac Sim enables developers to test robot cyber safety before deployment.</p>\n<p>The post <a href=\"https://www.therobotreport.com/vicone-releases-free-nviida-isaac-sim-cybersecurity-extension-based...",
-            "category": "company",
-            "link": "https://www.therobotreport.com/vicone-releases-free-nviida-isaac-sim-cybersecurity-extension-based-def-con-34-research/"
+            "title": "Five years of operation shape Diligent Robotics rollout of Moxi 2.0",
+            "description": "<p>Diligent is now rolling out Moxi 2.0 to health systems including Endeavor Health Edward Hospital and Children’s Hospital Los Angeles.</p>\n<p>The post <a href=\"https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi-2-0/"
+          },
+          {
+            "title": "How Generalist uses human demonstration data for robot learning",
+            "description": "<p>Research around the Universal Manipulation Interface is enabling Generalist, Walden Robotics, and others to turn data into robot behaviors.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-learning/"
           }
         ],
         "stat": {
