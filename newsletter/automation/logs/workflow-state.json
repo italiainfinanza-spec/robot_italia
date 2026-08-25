@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1787035180554",
+    "id": "run-1787640076718",
     "edition": 1,
-    "date": "2026-08-18T06:39:40.554Z",
+    "date": "2026-08-25T06:41:16.718Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-08-18T06:39:40.558Z",
-        "completedAt": "2026-08-18T06:39:42.126Z"
+        "startedAt": "2026-08-25T06:41:16.723Z",
+        "completedAt": "2026-08-25T06:41:18.836Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-08-18T06:39:55.589Z",
-        "completedAt": "2026-08-18T06:39:55.598Z"
+        "startedAt": "2026-08-25T06:41:18.899Z",
+        "completedAt": "2026-08-25T06:41:19.309Z"
       },
       "review": {
         "status": "pending",
@@ -30,134 +30,94 @@
     "data": {
       "researchResults": [
         {
-          "title": "Gravis Robotics raises $200M for autonomous construction",
-          "link": "https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/",
-          "description": "<p>Gravis Robotics has designed autonomy AI and hardware for a wide range of excavators and construction equipment and plans to scale globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/\">Gravis Robotics raises $200M for autonomous construction</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 17 Aug 2026 13:00:16 +0000",
-          "source": "www.therobotreport.com",
+          "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+          "link": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+          "description": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six.",
+          "pubDate": "Mon, 24 Aug 2026 15:24:18 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 11,
           "category": "funding"
         },
         {
-          "title": "How robotics is revolutionizing stroke rehabilitation",
-          "link": "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/",
-          "description": "<p>Eyal Samuel Shachar, the CEO of Bioxtreme, says the growing synergy of robotics, AI, and human-centered care will improve patient outcomes.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/\">How robotics is revolutionizing stroke rehabilitation</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 16 Aug 2026 12:30:18 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 10,
-          "category": "industry"
-        },
-        {
-          "title": "Five years of operation shape Diligent Robotics rollout of Moxi 2.0",
-          "link": "https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi-2-0/",
-          "description": "<p>Diligent is now rolling out Moxi 2.0 to health systems including Endeavor Health Edward Hospital and Children’s Hospital Los Angeles.</p>\n<p>The post <a href=\"https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi-2-0/\">Five years of operation shape Diligent Robotics rollout of Moxi 2.0</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 17 Aug 2026 21:15:46 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 9,
-          "category": "industry"
-        },
-        {
-          "title": "How Generalist uses human demonstration data for robot learning",
-          "link": "https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-learning/",
-          "description": "<p>Research around the Universal Manipulation Interface is enabling Generalist, Walden Robotics, and others to turn data into robot behaviors.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-learning/\">How Generalist uses human demonstration data for robot learning</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 17 Aug 2026 19:32:31 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 9,
-          "category": "industry"
-        },
-        {
-          "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
-          "link": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
-          "description": "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,\" Jacob Bank, Relay founder and CEO, said.",
-          "pubDate": "Mon, 17 Aug 2026 21:27:05 +0000",
+          "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
+          "link": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
+          "description": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"",
+          "pubDate": "Tue, 25 Aug 2026 00:23:12 +0000",
           "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 8,
-          "category": "industry"
-        },
-        {
-          "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
-          "link": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
-          "description": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
-          "pubDate": "Mon, 17 Aug 2026 15:16:24 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 8,
+          "relevanceScore": 5,
           "category": "funding"
         },
         {
-          "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
-          "link": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
-          "description": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
-          "pubDate": "Mon, 17 Aug 2026 16:15:12 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 7,
-          "category": "funding"
-        },
-        {
-          "title": "Surgeons use da Vinci surgical robot to perform common cardiac surgery",
-          "link": "https://www.therobotreport.com/surgeons-use-da-vinci-surgical-robot-perform-common-cardiac-surgery/",
-          "description": "<p>At the El Camino Health Heart and Vascular Institute, surgeons are now performing cardiac procedures with Intuitive's da Vinci robot.</p>\n<p>The post <a href=\"https://www.therobotreport.com/surgeons-use-da-vinci-surgical-robot-perform-common-cardiac-surgery/\">Surgeons use da Vinci surgical robot to perform common cardiac surgery</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 17 Aug 2026 20:56:21 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 6,
-          "category": "industry"
-        },
-        {
-          "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
-          "link": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
-          "description": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
-          "pubDate": "Mon, 17 Aug 2026 16:38:44 +0000",
+          "title": "Instinct’s powerful AI assistant is raising privacy and security concerns",
+          "link": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+          "description": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.",
+          "pubDate": "Mon, 24 Aug 2026 18:03:55 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Get closer to the game with Gemini and Pixel",
-          "link": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp\">Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and  Smartphone Technology.",
-          "pubDate": "Mon, 17 Aug 2026 08:00:00 +0000",
-          "source": "blog.google",
+          "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
+          "link": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
+          "description": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.",
+          "pubDate": "Mon, 24 Aug 2026 21:24:17 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 5,
+          "relevanceScore": 4,
+          "category": "funding"
+        },
+        {
+          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
+          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
+          "description": "Wall Street Journal",
+          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
+          "source": "nvidianews.nvidia.com",
+          "type": "rss",
+          "relevanceScore": 4,
+          "category": "funding"
+        },
+        {
+          "title": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026 ",
+          "link": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/",
+          "description": "At TechCrunch Disrupt 2026, Replit CEO Amjad Masad will share his perspective on the future of programming and Replit's role in developing it.",
+          "pubDate": "Mon, 24 Aug 2026 19:54:19 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 3,
           "category": "industry"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-08-18",
-        "subject": "Gravis Robotics raises $200M for autonom... | Robotica Weekly #1",
-        "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-08-25",
+        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Gravis Robotics raises $200M for autonomous construction",
-          "description": "<p>Gravis Robotics has designed autonomy AI and hardware for a wide range of excavators and construction equipment and plans to scale globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/\">Gravis Robotics raises $200M for autonomous co..."
+          "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+          "description": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six...."
         },
         "news": [
           {
-            "title": "How robotics is revolutionizing stroke rehabilitation",
-            "description": "<p>Eyal Samuel Shachar, the CEO of Bioxtreme, says the growing synergy of robotics, AI, and human-centered care will improve patient outcomes.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitati...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/"
+            "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
+            "description": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"...",
+            "category": "funding",
+            "link": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/"
           },
           {
-            "title": "Five years of operation shape Diligent Robotics rollout of Moxi 2.0",
-            "description": "<p>Diligent is now rolling out Moxi 2.0 to health systems including Endeavor Health Edward Hospital and Children’s Hospital Los Angeles.</p>\n<p>The post <a href=\"https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi...",
+            "title": "Instinct’s powerful AI assistant is raising privacy and security concerns",
+            "description": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs....",
             "category": "industry",
-            "link": "https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi-2-0/"
+            "link": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/"
           },
           {
-            "title": "How Generalist uses human demonstration data for robot learning",
-            "description": "<p>Research around the Universal Manipulation Interface is enabling Generalist, Walden Robotics, and others to turn data into robot behaviors.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-learning/"
+            "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
+            "description": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135....",
+            "category": "funding",
+            "link": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/"
           }
         ],
         "stat": {
