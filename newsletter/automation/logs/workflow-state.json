@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1787640076718",
+    "id": "run-1787640166341",
     "edition": 1,
-    "date": "2026-08-25T06:41:16.718Z",
+    "date": "2026-08-25T06:42:46.341Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-08-25T06:41:16.723Z",
-        "completedAt": "2026-08-25T06:41:18.836Z"
+        "startedAt": "2026-08-25T06:42:46.346Z",
+        "completedAt": "2026-08-25T06:42:48.388Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-08-25T06:41:18.899Z",
-        "completedAt": "2026-08-25T06:41:19.309Z"
+        "startedAt": "2026-08-25T06:43:07.323Z",
+        "completedAt": "2026-08-25T06:43:07.330Z"
       },
       "review": {
         "status": "pending",
@@ -40,6 +40,36 @@
           "category": "funding"
         },
         {
+          "title": "The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn",
+          "link": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/",
+          "description": "<p>For agricultural and construction equipment makers to stay relevant as workforces dwindle, they need to add AI, says Agtonomy's founder.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/\">The next big AI play isn&#8217;t apps or humanoids; it&#8217;s machines with brains and brawn</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 24 Aug 2026 22:53:33 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 11,
+          "category": "industry"
+        },
+        {
+          "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
+          "link": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
+          "description": "<p>Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale.</p>\n<p>The post <a href=\"https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/\">XPeng Motors humanoid robot unit Dogotix raises $900M</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 24 Aug 2026 20:07:09 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 11,
+          "category": "funding"
+        },
+        {
+          "title": "Use a digital twin to explore automation before committing capital",
+          "link": "https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital/",
+          "description": "<p>While a digital twin does not necessarily replace a systems integrator, it can help manufacturers evaluate robots and plan applications, says RoboDK.</p>\n<p>The post <a href=\"https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital/\">Use a digital twin to explore automation before committing capital</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 23 Aug 2026 12:30:14 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "industry"
+        },
+        {
           "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
           "link": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
           "description": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"",
@@ -55,6 +85,26 @@
           "description": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.",
           "pubDate": "Mon, 24 Aug 2026 18:03:55 +0000",
           "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "Robots don’t run themselves: The workforce powering physical AI",
+          "link": "https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/",
+          "description": "<p>The addition of physical AI to the workforce requires more key performance indicators than throughput, according to the president of HireArt.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/\">Robots don&#8217;t run themselves: The workforce powering physical AI</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sat, 22 Aug 2026 14:30:21 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "The technology that could bring robot mowers to one in two American lawns",
+          "link": "https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/",
+          "description": "<p>Improvements in AI, satellite navigation, and machine vision are helping robotic lawn mowers spread in the U.S., writes Sunseeker's founder.</p>\n<p>The post <a href=\"https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/\">The technology that could bring robot mowers to one in two American lawns</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sat, 22 Aug 2026 12:30:08 +0000",
+          "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
@@ -78,46 +128,36 @@
           "type": "rss",
           "relevanceScore": 4,
           "category": "funding"
-        },
-        {
-          "title": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026 ",
-          "link": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/",
-          "description": "At TechCrunch Disrupt 2026, Replit CEO Amjad Masad will share his perspective on the future of programming and Replit's role in developing it.",
-          "pubDate": "Mon, 24 Aug 2026 19:54:19 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 3,
-          "category": "industry"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
         "date": "2026-08-25",
-        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
-        "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
+        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
+        "preheader": "5 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
           "description": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six...."
         },
         "news": [
           {
-            "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
-            "description": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"...",
-            "category": "funding",
-            "link": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/"
-          },
-          {
-            "title": "Instinct’s powerful AI assistant is raising privacy and security concerns",
-            "description": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs....",
+            "title": "The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn",
+            "description": "<p>For agricultural and construction equipment makers to stay relevant as workforces dwindle, they need to add AI, says Agtonomy's founder.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machin...",
             "category": "industry",
-            "link": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/"
+            "link": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/"
           },
           {
-            "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
-            "description": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135....",
+            "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
+            "description": "<p>Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale.</p>\n<p>The post <a href=\"https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/\">XPeng Motor...",
             "category": "funding",
-            "link": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/"
+            "link": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/"
+          },
+          {
+            "title": "Use a digital twin to explore automation before committing capital",
+            "description": "<p>While a digital twin does not necessarily replace a systems integrator, it can help manufacturers evaluate robots and plan applications, says RoboDK.</p>\n<p>The post <a href=\"https://www.therobotreport.com/use-digital-twin-explore-automation-befor...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital/"
           }
         ],
         "stat": {
