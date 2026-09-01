@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1787640166341",
+    "id": "run-1788260758685",
     "edition": 1,
-    "date": "2026-08-25T06:42:46.341Z",
+    "date": "2026-09-01T11:05:58.685Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-08-25T06:42:46.346Z",
-        "completedAt": "2026-08-25T06:42:48.388Z"
+        "startedAt": "2026-09-01T11:05:58.690Z",
+        "completedAt": "2026-09-01T11:05:59.844Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-08-25T06:43:07.323Z",
-        "completedAt": "2026-08-25T06:43:07.330Z"
+        "startedAt": "2026-09-01T11:05:59.904Z",
+        "completedAt": "2026-09-01T11:06:00.329Z"
       },
       "review": {
         "status": "pending",
@@ -30,134 +30,134 @@
     "data": {
       "researchResults": [
         {
-          "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
-          "link": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
-          "description": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six.",
-          "pubDate": "Mon, 24 Aug 2026 15:24:18 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 11,
-          "category": "funding"
-        },
-        {
-          "title": "The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn",
-          "link": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/",
-          "description": "<p>For agricultural and construction equipment makers to stay relevant as workforces dwindle, they need to add AI, says Agtonomy's founder.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/\">The next big AI play isn&#8217;t apps or humanoids; it&#8217;s machines with brains and brawn</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 24 Aug 2026 22:53:33 +0000",
+          "title": "Skild AI unveils S1 flagship robot foundation model",
+          "link": "https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/",
+          "description": "<p>Skild AI says its S1 robot foundation model enables robots to learn new tasks just by seeing a video of it being performed.</p>\n<p>The post <a href=\"https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/\">Skild AI unveils S1 flagship robot foundation model</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 31 Aug 2026 21:14:08 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 11,
-          "category": "industry"
+          "relevanceScore": 8,
+          "category": "product"
         },
         {
-          "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
-          "link": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
-          "description": "<p>Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale.</p>\n<p>The post <a href=\"https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/\">XPeng Motors humanoid robot unit Dogotix raises $900M</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 24 Aug 2026 20:07:09 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 11,
-          "category": "funding"
-        },
-        {
-          "title": "Use a digital twin to explore automation before committing capital",
-          "link": "https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital/",
-          "description": "<p>While a digital twin does not necessarily replace a systems integrator, it can help manufacturers evaluate robots and plan applications, says RoboDK.</p>\n<p>The post <a href=\"https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital/\">Use a digital twin to explore automation before committing capital</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 23 Aug 2026 12:30:14 +0000",
+          "title": "How better grippers can unlock physical AI",
+          "link": "https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/",
+          "description": "<p>Physical AI depends on smarter grippers to give robots the dexterity, sensing and adaptability needed to handle real-world tasks.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/\">How better grippers can unlock physical AI</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 31 Aug 2026 20:20:25 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 8,
           "category": "industry"
         },
         {
-          "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
-          "link": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
-          "description": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"",
-          "pubDate": "Tue, 25 Aug 2026 00:23:12 +0000",
+          "title": "Reframe Systems raises $40M to scale its robotic microfactories for home building",
+          "link": "https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/",
+          "description": "<p>Reframe Systems aims to build a network of automated microfactories near communities where homes are needed.</p>\n<p>The post <a href=\"https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/\">Reframe Systems raises $40M to scale its robotic microfactories for home building</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 31 Aug 2026 18:46:48 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "funding"
+        },
+        {
+          "title": "The edge AI wall: Why embodied AI requires new mathematics",
+          "link": "https://www.therobotreport.com/edge-ai-wall-why-embodied-ai-requires-new-mathematics/",
+          "description": "<p>Computational overload is not a bug of a specific planner, but an edge AI wall limiting physical and embodied AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/edge-ai-wall-why-embodied-ai-requires-new-mathematics/\">The edge AI wall: Why embodied AI requires new mathematics</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 30 Aug 2026 12:45:51 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 7,
+          "category": "product"
+        },
+        {
+          "title": "Early bird pricing for RoboBusiness 2026 ends August 31",
+          "link": "https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/",
+          "description": "<p>Early bird pricing for RoboBusiness 2026, which saves attendees $200 on full conference passes, will end Aug. 31.</p>\n<p>The post <a href=\"https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/\">Early bird pricing for RoboBusiness 2026 ends August 31</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 31 Aug 2026 12:41:56 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 6,
+          "category": "funding"
+        },
+        {
+          "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+          "link": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+          "description": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
+          "pubDate": "Tue, 01 Sep 2026 00:13:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "funding"
         },
         {
-          "title": "Instinct’s powerful AI assistant is raising privacy and security concerns",
-          "link": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
-          "description": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.",
-          "pubDate": "Mon, 24 Aug 2026 18:03:55 +0000",
+          "title": "The Pentagon now has its own version of ChatGPT and Grok",
+          "link": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+          "description": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
+          "pubDate": "Mon, 31 Aug 2026 20:13:45 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Robots don’t run themselves: The workforce powering physical AI",
-          "link": "https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/",
-          "description": "<p>The addition of physical AI to the workforce requires more key performance indicators than throughput, according to the president of HireArt.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/\">Robots don&#8217;t run themselves: The workforce powering physical AI</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sat, 22 Aug 2026 14:30:21 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "The technology that could bring robot mowers to one in two American lawns",
-          "link": "https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/",
-          "description": "<p>Improvements in AI, satellite navigation, and machine vision are helping robotic lawn mowers spread in the U.S., writes Sunseeker's founder.</p>\n<p>The post <a href=\"https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/\">The technology that could bring robot mowers to one in two American lawns</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sat, 22 Aug 2026 12:30:08 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
-          "link": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
-          "description": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.",
-          "pubDate": "Mon, 24 Aug 2026 21:24:17 +0000",
+          "title": "Instagram puts new limits on undisclosed AI profiles",
+          "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
+          "description": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
+          "pubDate": "Mon, 31 Aug 2026 19:16:59 +0000",
           "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 4,
+          "relevanceScore": 5,
+          "category": "product"
+        },
+        {
+          "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
+          "link": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+          "description": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can't access on the public internet. ",
+          "pubDate": "Mon, 31 Aug 2026 18:35:11 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
           "category": "funding"
         },
         {
-          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
-          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
-          "description": "Wall Street Journal",
-          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
-          "source": "nvidianews.nvidia.com",
+          "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
+          "link": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
+          "description": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
+          "pubDate": "Mon, 31 Aug 2026 16:00:00 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 4,
+          "relevanceScore": 5,
           "category": "funding"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-08-25",
-        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
+        "date": "2026-09-01",
+        "subject": "Skild AI unveils S1 flagship robot found... | Robotica Weekly #1",
         "preheader": "5 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
-          "description": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six...."
+          "title": "Skild AI unveils S1 flagship robot foundation model",
+          "description": "<p>Skild AI says its S1 robot foundation model enables robots to learn new tasks just by seeing a video of it being performed.</p>\n<p>The post <a href=\"https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/\">Skild AI unveils S1 flagship robot foundation model</a> appeare..."
         },
         "news": [
           {
-            "title": "The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn",
-            "description": "<p>For agricultural and construction equipment makers to stay relevant as workforces dwindle, they need to add AI, says Agtonomy's founder.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machin...",
+            "title": "How better grippers can unlock physical AI",
+            "description": "<p>Physical AI depends on smarter grippers to give robots the dexterity, sensing and adaptability needed to handle real-world tasks.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/\">How better gripp...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/"
+            "link": "https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/"
           },
           {
-            "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
-            "description": "<p>Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale.</p>\n<p>The post <a href=\"https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/\">XPeng Motor...",
+            "title": "Reframe Systems raises $40M to scale its robotic microfactories for home building",
+            "description": "<p>Reframe Systems aims to build a network of automated microfactories near communities where homes are needed.</p>\n<p>The post <a href=\"https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/\">Reframe Sy...",
             "category": "funding",
-            "link": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/"
+            "link": "https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/"
           },
           {
-            "title": "Use a digital twin to explore automation before committing capital",
-            "description": "<p>While a digital twin does not necessarily replace a systems integrator, it can help manufacturers evaluate robots and plan applications, says RoboDK.</p>\n<p>The post <a href=\"https://www.therobotreport.com/use-digital-twin-explore-automation-befor...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital/"
+            "title": "The edge AI wall: Why embodied AI requires new mathematics",
+            "description": "<p>Computational overload is not a bug of a specific planner, but an edge AI wall limiting physical and embodied AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/edge-ai-wall-why-embodied-ai-requires-new-mathematics/\">The edge AI wall: Why...",
+            "category": "product",
+            "link": "https://www.therobotreport.com/edge-ai-wall-why-embodied-ai-requires-new-mathematics/"
           }
         ],
         "stat": {
