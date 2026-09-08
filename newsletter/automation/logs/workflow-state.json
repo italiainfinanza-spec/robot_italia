@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1788260904324",
+    "id": "run-1788863677595",
     "edition": 1,
-    "date": "2026-09-01T11:08:24.324Z",
+    "date": "2026-09-08T10:34:37.595Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-09-01T11:08:24.329Z",
-        "completedAt": "2026-09-01T11:08:25.580Z"
+        "startedAt": "2026-09-08T10:34:37.600Z",
+        "completedAt": "2026-09-08T10:34:39.363Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-09-01T11:08:40.588Z",
-        "completedAt": "2026-09-01T11:08:40.597Z"
+        "startedAt": "2026-09-08T10:34:39.423Z",
+        "completedAt": "2026-09-08T10:34:39.653Z"
       },
       "review": {
         "status": "pending",
@@ -30,134 +30,124 @@
     "data": {
       "researchResults": [
         {
-          "title": "Skild AI unveils S1 flagship robot foundation model",
-          "link": "https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/",
-          "description": "<p>Skild AI says its S1 robot foundation model enables robots to learn new tasks just by seeing a video of it being performed.</p>\n<p>The post <a href=\"https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/\">Skild AI unveils S1 flagship robot foundation model</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 31 Aug 2026 21:14:08 +0000",
+          "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
+          "link": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
+          "description": "<p>Agility Robotics’ S-4 filing reveals $1.8 million in 2025 revenue, a $140 million operating loss and plans to scale its Digit humanoid robot business.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/\">Agility Robotics reports $1.8M revenue ahead of humanoid SPAC</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 07 Sep 2026 13:17:45 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 8,
+          "relevanceScore": 12,
+          "category": "funding"
+        },
+        {
+          "title": "MassRobotics shares member survey results around FCC restrictions",
+          "link": "https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/",
+          "description": "<p>MassRobotics has found that companies were split on the FCC ban on new foreign-produced mobile robots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/\">MassRobotics shares member survey results around FCC restrictions</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 07 Sep 2026 12:30:16 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 9,
           "category": "product"
         },
         {
-          "title": "How better grippers can unlock physical AI",
-          "link": "https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/",
-          "description": "<p>Physical AI depends on smarter grippers to give robots the dexterity, sensing and adaptability needed to handle real-world tasks.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/\">How better grippers can unlock physical AI</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 31 Aug 2026 20:20:25 +0000",
+          "title": "Inbolt to discuss physical AI’s deployment problem at RoboBusiness",
+          "link": "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/",
+          "description": "<p>Rudy Cohen, the co-founder and CEO of Inbolt, will reframe where physical AI pays off at RoboBusiness this fall.</p>\n<p>The post <a href=\"https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/\">Inbolt to discuss physical AI&#8217;s deployment problem at RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 07 Sep 2026 14:00:13 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 8,
           "category": "industry"
         },
         {
-          "title": "Reframe Systems raises $40M to scale its robotic microfactories for home building",
-          "link": "https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/",
-          "description": "<p>Reframe Systems aims to build a network of automated microfactories near communities where homes are needed.</p>\n<p>The post <a href=\"https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/\">Reframe Systems raises $40M to scale its robotic microfactories for home building</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 31 Aug 2026 18:46:48 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 8,
-          "category": "funding"
-        },
-        {
-          "title": "The edge AI wall: Why embodied AI requires new mathematics",
-          "link": "https://www.therobotreport.com/edge-ai-wall-why-embodied-ai-requires-new-mathematics/",
-          "description": "<p>Computational overload is not a bug of a specific planner, but an edge AI wall limiting physical and embodied AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/edge-ai-wall-why-embodied-ai-requires-new-mathematics/\">The edge AI wall: Why embodied AI requires new mathematics</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 30 Aug 2026 12:45:51 +0000",
-          "source": "www.therobotreport.com",
+          "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+          "link": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+          "description": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
+          "pubDate": "Sun, 06 Sep 2026 16:45:00 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 7,
-          "category": "product"
+          "category": "industry"
         },
         {
-          "title": "Early bird pricing for RoboBusiness 2026 ends August 31",
-          "link": "https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/",
-          "description": "<p>Early bird pricing for RoboBusiness 2026, which saves attendees $200 on full conference passes, will end Aug. 31.</p>\n<p>The post <a href=\"https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/\">Early bird pricing for RoboBusiness 2026 ends August 31</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 31 Aug 2026 12:41:56 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 6,
-          "category": "funding"
-        },
-        {
-          "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
-          "link": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
-          "description": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
-          "pubDate": "Tue, 01 Sep 2026 00:13:00 +0000",
+          "title": "Opaque recurrence, and other AI terms that you should probably know",
+          "link": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+          "description": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+          "pubDate": "Mon, 07 Sep 2026 19:24:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "funding"
+          "category": "product"
         },
         {
-          "title": "The Pentagon now has its own version of ChatGPT and Grok",
-          "link": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
-          "description": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
-          "pubDate": "Mon, 31 Aug 2026 20:13:45 +0000",
-          "source": "techcrunch.com",
+          "title": "Eric Sivertson discusses FPGAs and robot security",
+          "link": "https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/",
+          "description": "<p>An interview with Eric Sivertson of Lattice Semiconductor about FPGAs and how they can improve robot safety and security.</p>\n<p>The post <a href=\"https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/\">Eric Sivertson discusses FPGAs and robot security</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 06 Sep 2026 14:30:01 +0000",
+          "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Instagram puts new limits on undisclosed AI profiles",
-          "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
-          "description": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
-          "pubDate": "Mon, 31 Aug 2026 19:16:59 +0000",
-          "source": "techcrunch.com",
+          "title": "Pressure sensors can help improve robotic gripping accuracy",
+          "link": "https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/",
+          "description": "<p>From first contact through surface deformation, load distribution, and final stable hold, pressure sensors can improve robotic bin picking.</p>\n<p>The post <a href=\"https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/\">Pressure sensors can help improve robotic gripping accuracy</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 06 Sep 2026 12:30:17 +0000",
+          "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "product"
+          "category": "industry"
         },
         {
-          "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
-          "link": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
-          "description": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can't access on the public internet. ",
-          "pubDate": "Mon, 31 Aug 2026 18:35:11 +0000",
+          "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+          "link": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+          "description": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
+          "pubDate": "Sun, 06 Sep 2026 20:47:37 +0000",
           "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 5,
-          "category": "funding"
+          "relevanceScore": 4,
+          "category": "industry"
         },
         {
-          "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
-          "link": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
-          "description": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
-          "pubDate": "Mon, 31 Aug 2026 16:00:00 +0000",
-          "source": "techcrunch.com",
+          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
+          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
+          "description": "Wall Street Journal",
+          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
+          "source": "nvidianews.nvidia.com",
           "type": "rss",
-          "relevanceScore": 5,
+          "relevanceScore": 4,
           "category": "funding"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-09-01",
-        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
-        "preheader": "5 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-09-08",
+        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
+        "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Skild AI unveils S1 flagship robot foundation model",
-          "description": "<p>Skild AI says its S1 robot foundation model enables robots to learn new tasks just by seeing a video of it being performed.</p>\n<p>The post <a href=\"https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/\">Skild AI unveils S1 flagship robot foundation model</a> appeare..."
+          "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
+          "description": "<p>Agility Robotics’ S-4 filing reveals $1.8 million in 2025 revenue, a $140 million operating loss and plans to scale its Digit humanoid robot business.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/\">Agility Robotics reports $1...."
         },
         "news": [
           {
-            "title": "How better grippers can unlock physical AI",
-            "description": "<p>Physical AI depends on smarter grippers to give robots the dexterity, sensing and adaptability needed to handle real-world tasks.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/\">How better gripp...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/"
-          },
-          {
-            "title": "Reframe Systems raises $40M to scale its robotic microfactories for home building",
-            "description": "<p>Reframe Systems aims to build a network of automated microfactories near communities where homes are needed.</p>\n<p>The post <a href=\"https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/\">Reframe Sy...",
-            "category": "funding",
-            "link": "https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/"
-          },
-          {
-            "title": "The edge AI wall: Why embodied AI requires new mathematics",
-            "description": "<p>Computational overload is not a bug of a specific planner, but an edge AI wall limiting physical and embodied AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/edge-ai-wall-why-embodied-ai-requires-new-mathematics/\">The edge AI wall: Why...",
+            "title": "MassRobotics shares member survey results around FCC restrictions",
+            "description": "<p>MassRobotics has found that companies were split on the FCC ban on new foreign-produced mobile robots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/\">MassRobotics shares ...",
             "category": "product",
-            "link": "https://www.therobotreport.com/edge-ai-wall-why-embodied-ai-requires-new-mathematics/"
+            "link": "https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/"
+          },
+          {
+            "title": "Inbolt to discuss physical AI’s deployment problem at RoboBusiness",
+            "description": "<p>Rudy Cohen, the co-founder and CEO of Inbolt, will reframe where physical AI pays off at RoboBusiness this fall.</p>\n<p>The post <a href=\"https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/\">Inbolt...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/"
+          },
+          {
+            "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+            "description": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"...",
+            "category": "industry",
+            "link": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/"
           }
         ],
         "stat": {
