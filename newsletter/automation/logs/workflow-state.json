@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1788863677595",
+    "id": "run-1788863854591",
     "edition": 1,
-    "date": "2026-09-08T10:34:37.595Z",
+    "date": "2026-09-08T10:37:34.591Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-09-08T10:34:37.600Z",
-        "completedAt": "2026-09-08T10:34:39.363Z"
+        "startedAt": "2026-09-08T10:37:34.596Z",
+        "completedAt": "2026-09-08T10:37:36.351Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-09-08T10:34:39.423Z",
-        "completedAt": "2026-09-08T10:34:39.653Z"
+        "startedAt": "2026-09-08T10:37:49.836Z",
+        "completedAt": "2026-09-08T10:37:49.845Z"
       },
       "review": {
         "status": "pending",
@@ -124,7 +124,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-09-08",
-        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
+        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
         "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
