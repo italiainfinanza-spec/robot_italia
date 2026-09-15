@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1788863677595",
-  "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
+  "runId": "run-1789470279064",
+  "subject": "La settimana in robotica — Edizione #1",
   "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
-    "description": "<p>Agility Robotics’ S-4 filing reveals $1.8 million in 2025 revenue, a $140 million operating loss and plans to scale its Digit humanoid robot business.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/\">Agility Robotics reports $1...."
+    "title": "Report covers advances in surgical robots, deploying warehouse automation in the real world",
+    "description": "<p>Learn from a surgical robotics case study and a discussion of how to best deploy mobile robots in the warehouse in this issue.</p>\n<p>The post <a href=\"https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/\">Report covers advances in surgic..."
   },
   "news": [
     {
-      "title": "MassRobotics shares member survey results around FCC restrictions",
-      "description": "<p>MassRobotics has found that companies were split on the FCC ban on new foreign-produced mobile robots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/\">MassRobotics shares ...",
+      "title": "Why RaaS needs more than a subscription model ",
+      "description": "<p>At RoboBusiness 2026, a panel of robotics business leaders will examine the practical playbook behind Robots-as-a-Service or RaaS offerings. </p>\n<p>The post <a href=\"https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/\">W...",
+      "category": "industry",
+      "link": "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/"
+    },
+    {
+      "title": "Arm to discuss scaling physical AI at RoboBusiness",
+      "description": "<p>Dermot O'Driscoll, the VP of go-to-market for physical AI at Arm, will examine key compute principles behind trusted physical AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/\">Arm to d...",
+      "category": "industry",
+      "link": "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/"
+    },
+    {
+      "title": "Universal Robots launches its seventh generation robot platform at IMTS",
+      "description": "<p>Universal Robots has released three new robot arms, a rebuilt core controller, a new AI-ready tool flange, and more. </p>\n<p>The post <a href=\"https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/\"...",
       "category": "product",
-      "link": "https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/"
-    },
-    {
-      "title": "Inbolt to discuss physical AI’s deployment problem at RoboBusiness",
-      "description": "<p>Rudy Cohen, the co-founder and CEO of Inbolt, will reframe where physical AI pays off at RoboBusiness this fall.</p>\n<p>The post <a href=\"https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/\">Inbolt...",
-      "category": "industry",
-      "link": "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/"
-    },
-    {
-      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
-      "description": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"...",
-      "category": "industry",
-      "link": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/"
+      "link": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-09-08T10:34:41.230Z",
+  "generatedAt": "2026-09-15T11:04:42.360Z",
   "html": "<!-- Template not found -->"
 }
