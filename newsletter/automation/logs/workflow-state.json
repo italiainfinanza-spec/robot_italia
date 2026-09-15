@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1788863854591",
+    "id": "run-1789470279064",
     "edition": 1,
-    "date": "2026-09-08T10:37:34.591Z",
+    "date": "2026-09-15T11:04:39.064Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-09-08T10:37:34.596Z",
-        "completedAt": "2026-09-08T10:37:36.351Z"
+        "startedAt": "2026-09-15T11:04:39.069Z",
+        "completedAt": "2026-09-15T11:04:40.452Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-09-08T10:37:49.836Z",
-        "completedAt": "2026-09-08T10:37:49.845Z"
+        "startedAt": "2026-09-15T11:04:40.522Z",
+        "completedAt": "2026-09-15T11:04:40.820Z"
       },
       "review": {
         "status": "pending",
@@ -30,83 +30,93 @@
     "data": {
       "researchResults": [
         {
-          "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
-          "link": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
-          "description": "<p>Agility Robotics’ S-4 filing reveals $1.8 million in 2025 revenue, a $140 million operating loss and plans to scale its Digit humanoid robot business.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/\">Agility Robotics reports $1.8M revenue ahead of humanoid SPAC</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 07 Sep 2026 13:17:45 +0000",
+          "title": "Report covers advances in surgical robots, deploying warehouse automation in the real world",
+          "link": "https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/",
+          "description": "<p>Learn from a surgical robotics case study and a discussion of how to best deploy mobile robots in the warehouse in this issue.</p>\n<p>The post <a href=\"https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/\">Report covers advances in surgical robots, deploying warehouse automation in the real world</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 14 Sep 2026 21:01:59 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 12,
-          "category": "funding"
+          "category": "industry"
         },
         {
-          "title": "MassRobotics shares member survey results around FCC restrictions",
-          "link": "https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/",
-          "description": "<p>MassRobotics has found that companies were split on the FCC ban on new foreign-produced mobile robots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/\">MassRobotics shares member survey results around FCC restrictions</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 07 Sep 2026 12:30:16 +0000",
+          "title": "Why RaaS needs more than a subscription model ",
+          "link": "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/",
+          "description": "<p>At RoboBusiness 2026, a panel of robotics business leaders will examine the practical playbook behind Robots-as-a-Service or RaaS offerings. </p>\n<p>The post <a href=\"https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/\">Why RaaS needs more than a subscription model </a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 14 Sep 2026 21:45:57 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 9,
-          "category": "product"
+          "category": "industry"
         },
         {
-          "title": "Inbolt to discuss physical AI’s deployment problem at RoboBusiness",
-          "link": "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/",
-          "description": "<p>Rudy Cohen, the co-founder and CEO of Inbolt, will reframe where physical AI pays off at RoboBusiness this fall.</p>\n<p>The post <a href=\"https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/\">Inbolt to discuss physical AI&#8217;s deployment problem at RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 07 Sep 2026 14:00:13 +0000",
+          "title": "Arm to discuss scaling physical AI at RoboBusiness",
+          "link": "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/",
+          "description": "<p>Dermot O'Driscoll, the VP of go-to-market for physical AI at Arm, will examine key compute principles behind trusted physical AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/\">Arm to discuss scaling physical AI at RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 14 Sep 2026 16:09:27 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 8,
           "category": "industry"
         },
         {
-          "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
-          "link": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
-          "description": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
-          "pubDate": "Sun, 06 Sep 2026 16:45:00 +0000",
-          "source": "techcrunch.com",
+          "title": "Universal Robots launches its seventh generation robot platform at IMTS",
+          "link": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
+          "description": "<p>Universal Robots has released three new robot arms, a rebuilt core controller, a new AI-ready tool flange, and more. </p>\n<p>The post <a href=\"https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/\">Universal Robots launches its seventh generation robot platform at IMTS</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 14 Sep 2026 13:25:40 +0000",
+          "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 7,
-          "category": "industry"
-        },
-        {
-          "title": "Opaque recurrence, and other AI terms that you should probably know",
-          "link": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-          "description": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-          "pubDate": "Mon, 07 Sep 2026 19:24:00 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
+          "relevanceScore": 8,
           "category": "product"
         },
         {
-          "title": "Eric Sivertson discusses FPGAs and robot security",
-          "link": "https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/",
-          "description": "<p>An interview with Eric Sivertson of Lattice Semiconductor about FPGAs and how they can improve robot safety and security.</p>\n<p>The post <a href=\"https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/\">Eric Sivertson discusses FPGAs and robot security</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 06 Sep 2026 14:30:01 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "Pressure sensors can help improve robotic gripping accuracy",
-          "link": "https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/",
-          "description": "<p>From first contact through surface deformation, load distribution, and final stable hold, pressure sensors can improve robotic bin picking.</p>\n<p>The post <a href=\"https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/\">Pressure sensors can help improve robotic gripping accuracy</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 06 Sep 2026 12:30:17 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
-          "link": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-          "description": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
-          "pubDate": "Sun, 06 Sep 2026 20:47:37 +0000",
+          "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
+          "link": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
+          "description": "Though Elon Musk and Sam Altman have supported Dario Amodei's calls to slow the pace of AI development, Jensen Huang seems to feel differently.",
+          "pubDate": "Mon, 14 Sep 2026 21:51:02 +0000",
           "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 4,
+          "relevanceScore": 7,
+          "category": "company"
+        },
+        {
+          "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+          "link": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+          "description": "Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode. ",
+          "pubDate": "Mon, 14 Sep 2026 20:44:14 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "funding"
+        },
+        {
+          "title": "With iOS 27, I’m actually using Siri again",
+          "link": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
+          "description": "Apple’s long-delayed Siri overhaul is finally here with iOS 27, and it changes how useful the assistant feels day to day.",
+          "pubDate": "Mon, 14 Sep 2026 17:10:30 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "How autonomous fleets are changing what’s possible in American agriculture",
+          "link": "https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/",
+          "description": "<p>Autonomous tractors can help American agriculture, as exemplified in ASI's collaboration with U.S. Sugar and Everglades Equipment.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/\">How autonomous fleets are changing what&#8217;s possible in American agriculture</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 13 Sep 2026 12:45:12 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "DevFest is back",
+          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/DevFest.max-600x600.format-webp.webp\">DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+          "pubDate": "Mon, 14 Sep 2026 16:00:00 +0000",
+          "source": "blog.google",
+          "type": "rss",
+          "relevanceScore": 5,
           "category": "industry"
         },
         {
@@ -123,31 +133,31 @@
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-09-08",
-        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "date": "2026-09-15",
+        "subject": "La settimana in robotica — Edizione #1",
         "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
-          "description": "<p>Agility Robotics’ S-4 filing reveals $1.8 million in 2025 revenue, a $140 million operating loss and plans to scale its Digit humanoid robot business.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/\">Agility Robotics reports $1...."
+          "title": "Report covers advances in surgical robots, deploying warehouse automation in the real world",
+          "description": "<p>Learn from a surgical robotics case study and a discussion of how to best deploy mobile robots in the warehouse in this issue.</p>\n<p>The post <a href=\"https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/\">Report covers advances in surgic..."
         },
         "news": [
           {
-            "title": "MassRobotics shares member survey results around FCC restrictions",
-            "description": "<p>MassRobotics has found that companies were split on the FCC ban on new foreign-produced mobile robots.</p>\n<p>The post <a href=\"https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/\">MassRobotics shares ...",
+            "title": "Why RaaS needs more than a subscription model ",
+            "description": "<p>At RoboBusiness 2026, a panel of robotics business leaders will examine the practical playbook behind Robots-as-a-Service or RaaS offerings. </p>\n<p>The post <a href=\"https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/\">W...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/"
+          },
+          {
+            "title": "Arm to discuss scaling physical AI at RoboBusiness",
+            "description": "<p>Dermot O'Driscoll, the VP of go-to-market for physical AI at Arm, will examine key compute principles behind trusted physical AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/\">Arm to d...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/"
+          },
+          {
+            "title": "Universal Robots launches its seventh generation robot platform at IMTS",
+            "description": "<p>Universal Robots has released three new robot arms, a rebuilt core controller, a new AI-ready tool flange, and more. </p>\n<p>The post <a href=\"https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/\"...",
             "category": "product",
-            "link": "https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/"
-          },
-          {
-            "title": "Inbolt to discuss physical AI’s deployment problem at RoboBusiness",
-            "description": "<p>Rudy Cohen, the co-founder and CEO of Inbolt, will reframe where physical AI pays off at RoboBusiness this fall.</p>\n<p>The post <a href=\"https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/\">Inbolt...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/"
-          },
-          {
-            "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
-            "description": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"...",
-            "category": "industry",
-            "link": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/"
+            "link": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/"
           }
         ],
         "stat": {
