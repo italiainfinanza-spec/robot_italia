@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1789470459861",
+    "id": "run-1790074701182",
     "edition": 1,
-    "date": "2026-09-15T11:07:39.862Z",
+    "date": "2026-09-22T10:58:21.182Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-09-15T11:07:39.865Z",
-        "completedAt": "2026-09-15T11:07:41.426Z"
+        "startedAt": "2026-09-22T10:58:21.187Z",
+        "completedAt": "2026-09-22T10:58:22.534Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-09-15T11:07:58.222Z",
-        "completedAt": "2026-09-15T11:07:58.232Z"
+        "startedAt": "2026-09-22T10:58:22.609Z",
+        "completedAt": "2026-09-22T10:58:22.964Z"
       },
       "review": {
         "status": "pending",
@@ -30,91 +30,41 @@
     "data": {
       "researchResults": [
         {
-          "title": "Report covers advances in surgical robots, deploying warehouse automation in the real world",
-          "link": "https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/",
-          "description": "<p>Learn from a surgical robotics case study and a discussion of how to best deploy mobile robots in the warehouse in this issue.</p>\n<p>The post <a href=\"https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/\">Report covers advances in surgical robots, deploying warehouse automation in the real world</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 14 Sep 2026 21:01:59 +0000",
-          "source": "www.therobotreport.com",
+          "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+          "link": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+          "description": "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people.",
+          "pubDate": "Mon, 21 Sep 2026 23:44:28 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 12,
+          "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Why RaaS needs more than a subscription model ",
-          "link": "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/",
-          "description": "<p>At RoboBusiness 2026, a panel of robotics business leaders will examine the practical playbook behind Robots-as-a-Service or RaaS offerings. </p>\n<p>The post <a href=\"https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/\">Why RaaS needs more than a subscription model </a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 14 Sep 2026 21:45:57 +0000",
-          "source": "www.therobotreport.com",
+          "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+          "link": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+          "description": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research.",
+          "pubDate": "Mon, 21 Sep 2026 20:15:58 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 9,
+          "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Arm to discuss scaling physical AI at RoboBusiness",
-          "link": "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/",
-          "description": "<p>Dermot O'Driscoll, the VP of go-to-market for physical AI at Arm, will examine key compute principles behind trusted physical AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/\">Arm to discuss scaling physical AI at RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 14 Sep 2026 16:09:27 +0000",
-          "source": "www.therobotreport.com",
+          "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
+          "link": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+          "description": "Meta’s new AI agent Muse has racked up more downloads and daily active users in the U.S. and Canada than ChatGPT did over the same period after its mobile debut, according to new estimates from Appfigures.",
+          "pubDate": "Mon, 21 Sep 2026 19:19:21 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 8,
-          "category": "industry"
-        },
-        {
-          "title": "Universal Robots launches its seventh generation robot platform at IMTS",
-          "link": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
-          "description": "<p>Universal Robots has released three new robot arms, a rebuilt core controller, a new AI-ready tool flange, and more. </p>\n<p>The post <a href=\"https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/\">Universal Robots launches its seventh generation robot platform at IMTS</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 14 Sep 2026 13:25:40 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 8,
+          "relevanceScore": 5,
           "category": "product"
         },
         {
-          "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
-          "link": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
-          "description": "Though Elon Musk and Sam Altman have supported Dario Amodei's calls to slow the pace of AI development, Jensen Huang seems to feel differently.",
-          "pubDate": "Mon, 14 Sep 2026 21:51:02 +0000",
+          "title": "Meta’s AI agent has been blocked from using Amazon.com",
+          "link": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+          "description": "Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet. As long as they're under no legal obligation to open the doors to Muse, why would they?",
+          "pubDate": "Mon, 21 Sep 2026 17:55:18 +0000",
           "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 7,
-          "category": "company"
-        },
-        {
-          "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
-          "link": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
-          "description": "Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode. ",
-          "pubDate": "Mon, 14 Sep 2026 20:44:14 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "funding"
-        },
-        {
-          "title": "With iOS 27, I’m actually using Siri again",
-          "link": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
-          "description": "Apple’s long-delayed Siri overhaul is finally here with iOS 27, and it changes how useful the assistant feels day to day.",
-          "pubDate": "Mon, 14 Sep 2026 17:10:30 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "How autonomous fleets are changing what’s possible in American agriculture",
-          "link": "https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/",
-          "description": "<p>Autonomous tractors can help American agriculture, as exemplified in ASI's collaboration with U.S. Sugar and Everglades Equipment.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/\">How autonomous fleets are changing what&#8217;s possible in American agriculture</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 13 Sep 2026 12:45:12 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "DevFest is back",
-          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/DevFest.max-600x600.format-webp.webp\">DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-          "pubDate": "Mon, 14 Sep 2026 16:00:00 +0000",
-          "source": "blog.google",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
@@ -128,36 +78,46 @@
           "type": "rss",
           "relevanceScore": 4,
           "category": "funding"
+        },
+        {
+          "title": "Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket",
+          "link": "https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026/",
+          "description": "Five days left to save up to $200 on your TechCrunch Disrupt 2026 pass + 50% off a second one. Join 10,000+ founders, investors, and operators at San Francisco’s Moscone West, October 13-15. Grab your ticket savings before prices go up on September 25 at 11:59 p.m. PT.",
+          "pubDate": "Mon, 21 Sep 2026 19:25:00 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 3,
+          "category": "funding"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-09-15",
-        "subject": "La settimana in robotica — Edizione #1",
+        "date": "2026-09-22",
+        "subject": "The man who built Apple’s stores doesn’t... | Robotica Weekly #1",
         "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Report covers advances in surgical robots, deploying warehouse automation in the real world",
-          "description": "<p>Learn from a surgical robotics case study and a discussion of how to best deploy mobile robots in the warehouse in this issue.</p>\n<p>The post <a href=\"https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/\">Report covers advances in surgic..."
+          "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+          "description": "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people...."
         },
         "news": [
           {
-            "title": "Why RaaS needs more than a subscription model ",
-            "description": "<p>At RoboBusiness 2026, a panel of robotics business leaders will examine the practical playbook behind Robots-as-a-Service or RaaS offerings. </p>\n<p>The post <a href=\"https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/\">W...",
+            "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+            "description": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research....",
             "category": "industry",
-            "link": "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/"
+            "link": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/"
           },
           {
-            "title": "Arm to discuss scaling physical AI at RoboBusiness",
-            "description": "<p>Dermot O'Driscoll, the VP of go-to-market for physical AI at Arm, will examine key compute principles behind trusted physical AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/\">Arm to d...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/"
-          },
-          {
-            "title": "Universal Robots launches its seventh generation robot platform at IMTS",
-            "description": "<p>Universal Robots has released three new robot arms, a rebuilt core controller, a new AI-ready tool flange, and more. </p>\n<p>The post <a href=\"https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/\"...",
+            "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
+            "description": "Meta’s new AI agent Muse has racked up more downloads and daily active users in the U.S. and Canada than ChatGPT did over the same period after its mobile debut, according to new estimates from Appfigures....",
             "category": "product",
-            "link": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/"
+            "link": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/"
+          },
+          {
+            "title": "Meta’s AI agent has been blocked from using Amazon.com",
+            "description": "Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet. As long as they're under no legal obligation to open the doors to Muse, why would they?...",
+            "category": "industry",
+            "link": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/"
           }
         ],
         "stat": {
