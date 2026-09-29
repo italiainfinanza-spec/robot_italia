@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1790683678530",
+    "id": "run-1790683833406",
     "edition": 1,
-    "date": "2026-09-29T12:07:58.530Z",
+    "date": "2026-09-29T12:10:33.406Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-09-29T12:07:58.535Z",
-        "completedAt": "2026-09-29T12:07:59.854Z"
+        "startedAt": "2026-09-29T12:10:33.412Z",
+        "completedAt": "2026-09-29T12:10:34.820Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-09-29T12:07:59.911Z",
-        "completedAt": "2026-09-29T12:08:00.413Z"
+        "startedAt": "2026-09-29T12:10:51.372Z",
+        "completedAt": "2026-09-29T12:10:51.381Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-09-29",
-        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
         "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids",
