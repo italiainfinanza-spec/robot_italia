@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1790074808114",
+    "id": "run-1790683678530",
     "edition": 1,
-    "date": "2026-09-22T11:00:08.114Z",
+    "date": "2026-09-29T12:07:58.530Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-09-22T11:00:08.119Z",
-        "completedAt": "2026-09-22T11:00:09.871Z"
+        "startedAt": "2026-09-29T12:07:58.535Z",
+        "completedAt": "2026-09-29T12:07:59.854Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-09-22T11:00:24.598Z",
-        "completedAt": "2026-09-22T11:00:24.607Z"
+        "startedAt": "2026-09-29T12:07:59.911Z",
+        "completedAt": "2026-09-29T12:08:00.413Z"
       },
       "review": {
         "status": "pending",
@@ -30,101 +30,101 @@
     "data": {
       "researchResults": [
         {
-          "title": "Boston Dynamics opens Metaplant Application Center to train Atlas humanoids",
-          "link": "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/",
-          "description": "<p>The new Robotics Metaplant Application Center is training humanoids as part of Hyundai's Metaplant America in Georgia.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/\">Boston Dynamics opens Metaplant Application Center to train Atlas humanoids</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 21 Sep 2026 12:59:00 +0000",
+          "title": "Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids",
+          "link": "https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/",
+          "description": "<p>Economics is both a robotics impetus and a constraint, as systems make deliveries on streets or do chores in households.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/\">Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 28 Sep 2026 13:56:56 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 16,
+          "relevanceScore": 14,
+          "category": "industry"
+        },
+        {
+          "title": "Gecko Robotics works with NVIDIA to add AI agent security and control",
+          "link": "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/",
+          "description": "<p>Gecko Robotics is using the new NVIDIA Open Agent Safety Platform to ensure the secure autonomous control of systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/\">Gecko Robotics works with NVIDIA to add AI agent security and control</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 28 Sep 2026 17:41:32 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 13,
           "category": "company"
         },
         {
-          "title": "The picks-and-shovels strategy behind the robotics boom",
-          "link": "https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/",
-          "description": "<p>The real robotics opportunity isn’t a humanoid in every home—it’s packaging robots for the jobs businesses need done today.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/\">The picks-and-shovels strategy behind the robotics boom</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Fri, 18 Sep 2026 18:57:36 +0000",
+          "title": "Raise Robotics to discuss scaling field robots at RoboBusiness",
+          "link": "https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/",
+          "description": "<p>Raise Robotics said attendees will learn a decision rule for allocating engineering capacity and a vocabulary for two hidden failure modes.</p>\n<p>The post <a href=\"https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/\">Raise Robotics to discuss scaling field robots at RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 28 Sep 2026 13:22:53 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 9,
+          "relevanceScore": 11,
           "category": "industry"
         },
         {
-          "title": "What do you do with a humanoid robot when it breaks down?",
-          "link": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
-          "description": "<p>Decommissioning a humanoid robot is not a matter of traditional scrapping. It's a highly technical, high-stakes surgical endeavor.</p>\n<p>The post <a href=\"https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/\">What do you do with a humanoid robot when it breaks down?</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 20 Sep 2026 12:45:45 +0000",
+          "title": "Asimov’s laws are not enough to keep robotics and AI safe",
+          "link": "https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/",
+          "description": "<p>Asimov's fictional Three Laws of Robotics famously set safeguards, and tech observers today raise similar concerns about AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/\">Asimov&#8217;s laws are not enough to keep robotics and AI safe</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 27 Sep 2026 12:26:44 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 8,
+          "relevanceScore": 10,
           "category": "industry"
         },
         {
-          "title": "IAC completes autonomous racing event at Laguna Seca",
-          "link": "https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/",
-          "description": "<p>At Laguna Seca, Unimore Racing won the Indy Autonomous Challenge, marking the IAC's first autonomous car overtakes on a road course.</p>\n<p>The post <a href=\"https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/\">IAC completes autonomous racing event at Laguna Seca</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 21 Sep 2026 18:02:09 +0000",
-          "source": "www.therobotreport.com",
+          "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+          "link": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+          "description": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",
+          "pubDate": "Tue, 29 Sep 2026 05:13:43 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 6,
-          "category": "industry"
+          "relevanceScore": 5,
+          "category": "funding"
         },
         {
-          "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
-          "link": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
-          "description": "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people.",
-          "pubDate": "Mon, 21 Sep 2026 23:44:28 +0000",
+          "title": "OpenAI reportedly ditches model over safety concerns",
+          "link": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+          "description": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.  ",
+          "pubDate": "Mon, 28 Sep 2026 23:39:20 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
-          "link": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
-          "description": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research.",
-          "pubDate": "Mon, 21 Sep 2026 20:15:58 +0000",
+          "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
+          "link": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
+          "description": "The new financing is expected to more than triples the AI infrastructure startup's valuation from just four months ago.",
+          "pubDate": "Mon, 28 Sep 2026 21:29:18 +0000",
           "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "funding"
+        },
+        {
+          "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+          "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\">Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+          "pubDate": "Mon, 28 Sep 2026 19:00:00 +0000",
+          "source": "blog.google",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
-          "link": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
-          "description": "Meta’s new AI agent Muse has racked up more downloads and daily active users in the U.S. and Canada than ChatGPT did over the same period after its mobile debut, according to new estimates from Appfigures.",
-          "pubDate": "Mon, 21 Sep 2026 19:19:21 +0000",
+          "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
+          "link": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
+          "description": "Thirteen of the 18 startups in Peak XV’s latest Surge cohort are targeting global markets, while more than half are based in India.",
+          "pubDate": "Tue, 29 Sep 2026 00:30:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
+          "relevanceScore": 4,
+          "category": "funding"
         },
         {
-          "title": "Meta’s AI agent has been blocked from using Amazon.com",
-          "link": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
-          "description": "Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet. As long as they're under no legal obligation to open the doors to Muse, why would they?",
-          "pubDate": "Mon, 21 Sep 2026 17:55:18 +0000",
+          "title": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion",
+          "link": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+          "description": "The acquisition will see World Labs founder Fei-Fei Li join AMD as executive vice president and chief scientist. ",
+          "pubDate": "Mon, 28 Sep 2026 20:39:33 +0000",
           "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
-          "link": "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
-          "description": "<p>Hirebotics said these new capabilities extend the working range of the cobots, giving manufacturers greater flexibility.</p>\n<p>The post <a href=\"https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/\">Hirebotics adds line tracking and linear rail capabilities to its cobots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sat, 19 Sep 2026 12:40:50 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
-        },
-        {
-          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
-          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
-          "description": "Wall Street Journal",
-          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
-          "source": "nvidianews.nvidia.com",
           "type": "rss",
           "relevanceScore": 4,
           "category": "funding"
@@ -133,31 +133,31 @@
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-09-22",
-        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
-        "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-09-29",
+        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Boston Dynamics opens Metaplant Application Center to train Atlas humanoids",
-          "description": "<p>The new Robotics Metaplant Application Center is training humanoids as part of Hyundai's Metaplant America in Georgia.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/\">Boston Dynamics opens Metaplant Applicati..."
+          "title": "Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids",
+          "description": "<p>Economics is both a robotics impetus and a constraint, as systems make deliveries on streets or do chores in households.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/\">Robonomics on the threshold: Economic autonomy, smart ci..."
         },
         "news": [
           {
-            "title": "The picks-and-shovels strategy behind the robotics boom",
-            "description": "<p>The real robotics opportunity isn’t a humanoid in every home—it’s packaging robots for the jobs businesses need done today.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/\">The picks...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/"
+            "title": "Gecko Robotics works with NVIDIA to add AI agent security and control",
+            "description": "<p>Gecko Robotics is using the new NVIDIA Open Agent Safety Platform to ensure the secure autonomous control of systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/\">Gec...",
+            "category": "company",
+            "link": "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/"
           },
           {
-            "title": "What do you do with a humanoid robot when it breaks down?",
-            "description": "<p>Decommissioning a humanoid robot is not a matter of traditional scrapping. It's a highly technical, high-stakes surgical endeavor.</p>\n<p>The post <a href=\"https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/\">W...",
+            "title": "Raise Robotics to discuss scaling field robots at RoboBusiness",
+            "description": "<p>Raise Robotics said attendees will learn a decision rule for allocating engineering capacity and a vocabulary for two hidden failure modes.</p>\n<p>The post <a href=\"https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobus...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/"
+            "link": "https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/"
           },
           {
-            "title": "IAC completes autonomous racing event at Laguna Seca",
-            "description": "<p>At Laguna Seca, Unimore Racing won the Indy Autonomous Challenge, marking the IAC's first autonomous car overtakes on a road course.</p>\n<p>The post <a href=\"https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/\">IAC...",
+            "title": "Asimov’s laws are not enough to keep robotics and AI safe",
+            "description": "<p>Asimov's fictional Three Laws of Robotics famously set safeguards, and tech observers today raise similar concerns about AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/\">Asimov&#8217;s...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/"
+            "link": "https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/"
           }
         ],
         "stat": {
