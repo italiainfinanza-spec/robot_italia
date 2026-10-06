@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1790683678530",
-  "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
-  "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
+  "runId": "run-1791290716192",
+  "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
+  "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids",
-    "description": "<p>Economics is both a robotics impetus and a constraint, as systems make deliveries on streets or do chores in households.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/\">Robonomics on the threshold: Economic autonomy, smart ci..."
+    "title": "Teradyne invests in Bright Machines to bring robotics to AI infrastructure manufacturing",
+    "description": "<p>The companies plan to integrate Teradyne robotics and test technologies with the Bright Machines manufacturing platform. </p>\n<p>The post <a href=\"https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/\">Teradyne invests in Bright Machines..."
   },
   "news": [
     {
-      "title": "Gecko Robotics works with NVIDIA to add AI agent security and control",
-      "description": "<p>Gecko Robotics is using the new NVIDIA Open Agent Safety Platform to ensure the secure autonomous control of systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/\">Gec...",
-      "category": "company",
-      "link": "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/"
+      "title": "How robotics and physical AI can responsibly tackle key physical security challenges",
+      "description": "<p>Cyber and physical security threats are rapidly evolving, but robotics and AI can evolve to meet them, writes a columnist.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-robotics-physical-ai-can-responsibly-tackle-key-physical-securit...",
+      "category": "industry",
+      "link": "https://www.therobotreport.com/how-robotics-physical-ai-can-responsibly-tackle-key-physical-security-challenges/"
     },
     {
-      "title": "Raise Robotics to discuss scaling field robots at RoboBusiness",
-      "description": "<p>Raise Robotics said attendees will learn a decision rule for allocating engineering capacity and a vocabulary for two hidden failure modes.</p>\n<p>The post <a href=\"https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobus...",
+      "title": "FCC robot restrictions could accelerate shift to local AI",
+      "description": "<p>Companies deploying physical AI today need to decide which AI workloads belong on the robot, what can remain in the cloud, and whether the underlying technology stack can meet rising expectations for security, safety, and supply-chain transparency...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/"
+      "link": "https://www.therobotreport.com/fcc-robot-restrictions-could-accelerate-shift-to-local-ai/"
     },
     {
-      "title": "Asimov’s laws are not enough to keep robotics and AI safe",
-      "description": "<p>Asimov's fictional Three Laws of Robotics famously set safeguards, and tech observers today raise similar concerns about AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/\">Asimov&#8217;s...",
+      "title": "The physical AI race will be won in the patent office",
+      "description": "<p>Patent protection is important for robotics startups, but they should be strategic in determining what IP is important, says Lightbringer.</p>\n<p>The post <a href=\"https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/\">The ...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/"
+      "link": "https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-09-29T12:08:02.044Z",
+  "generatedAt": "2026-10-06T12:45:19.664Z",
   "html": "<!-- Template not found -->"
 }
