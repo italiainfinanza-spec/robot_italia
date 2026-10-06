@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1790683833406",
+    "id": "run-1791290716192",
     "edition": 1,
-    "date": "2026-09-29T12:10:33.406Z",
+    "date": "2026-10-06T12:45:16.192Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-09-29T12:10:33.412Z",
-        "completedAt": "2026-09-29T12:10:34.820Z"
+        "startedAt": "2026-10-06T12:45:16.197Z",
+        "completedAt": "2026-10-06T12:45:17.493Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-09-29T12:10:51.372Z",
-        "completedAt": "2026-09-29T12:10:51.381Z"
+        "startedAt": "2026-10-06T12:45:17.549Z",
+        "completedAt": "2026-10-06T12:45:17.932Z"
       },
       "review": {
         "status": "pending",
@@ -30,134 +30,134 @@
     "data": {
       "researchResults": [
         {
-          "title": "Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids",
-          "link": "https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/",
-          "description": "<p>Economics is both a robotics impetus and a constraint, as systems make deliveries on streets or do chores in households.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/\">Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 28 Sep 2026 13:56:56 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 14,
-          "category": "industry"
-        },
-        {
-          "title": "Gecko Robotics works with NVIDIA to add AI agent security and control",
-          "link": "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/",
-          "description": "<p>Gecko Robotics is using the new NVIDIA Open Agent Safety Platform to ensure the secure autonomous control of systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/\">Gecko Robotics works with NVIDIA to add AI agent security and control</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 28 Sep 2026 17:41:32 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 13,
-          "category": "company"
-        },
-        {
-          "title": "Raise Robotics to discuss scaling field robots at RoboBusiness",
-          "link": "https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/",
-          "description": "<p>Raise Robotics said attendees will learn a decision rule for allocating engineering capacity and a vocabulary for two hidden failure modes.</p>\n<p>The post <a href=\"https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/\">Raise Robotics to discuss scaling field robots at RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 28 Sep 2026 13:22:53 +0000",
+          "title": "Teradyne invests in Bright Machines to bring robotics to AI infrastructure manufacturing",
+          "link": "https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/",
+          "description": "<p>The companies plan to integrate Teradyne robotics and test technologies with the Bright Machines manufacturing platform. </p>\n<p>The post <a href=\"https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/\">Teradyne invests in Bright Machines to bring robotics to AI infrastructure manufacturing</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 05 Oct 2026 23:34:35 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 11,
-          "category": "industry"
+          "category": "funding"
         },
         {
-          "title": "Asimov’s laws are not enough to keep robotics and AI safe",
-          "link": "https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/",
-          "description": "<p>Asimov's fictional Three Laws of Robotics famously set safeguards, and tech observers today raise similar concerns about AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/\">Asimov&#8217;s laws are not enough to keep robotics and AI safe</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 27 Sep 2026 12:26:44 +0000",
+          "title": "How robotics and physical AI can responsibly tackle key physical security challenges",
+          "link": "https://www.therobotreport.com/how-robotics-physical-ai-can-responsibly-tackle-key-physical-security-challenges/",
+          "description": "<p>Cyber and physical security threats are rapidly evolving, but robotics and AI can evolve to meet them, writes a columnist.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-robotics-physical-ai-can-responsibly-tackle-key-physical-security-challenges/\">How robotics and physical AI can responsibly tackle key physical security challenges</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 04 Oct 2026 12:52:11 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 10,
           "category": "industry"
         },
         {
-          "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
-          "link": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
-          "description": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",
-          "pubDate": "Tue, 29 Sep 2026 05:13:43 +0000",
-          "source": "techcrunch.com",
+          "title": "FCC robot restrictions could accelerate shift to local AI",
+          "link": "https://www.therobotreport.com/fcc-robot-restrictions-could-accelerate-shift-to-local-ai/",
+          "description": "<p>Companies deploying physical AI today need to decide which AI workloads belong on the robot, what can remain in the cloud, and whether the underlying technology stack can meet rising expectations for security, safety, and supply-chain transparency.</p>\n<p>The post <a href=\"https://www.therobotreport.com/fcc-robot-restrictions-could-accelerate-shift-to-local-ai/\">FCC robot restrictions could accelerate shift to local AI</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 05 Oct 2026 17:30:12 +0000",
+          "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 5,
-          "category": "funding"
+          "relevanceScore": 8,
+          "category": "industry"
         },
         {
-          "title": "OpenAI reportedly ditches model over safety concerns",
-          "link": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
-          "description": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.  ",
-          "pubDate": "Mon, 28 Sep 2026 23:39:20 +0000",
+          "title": "The physical AI race will be won in the patent office",
+          "link": "https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/",
+          "description": "<p>Patent protection is important for robotics startups, but they should be strategic in determining what IP is important, says Lightbringer.</p>\n<p>The post <a href=\"https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/\">The physical AI race will be won in the patent office</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sat, 03 Oct 2026 14:30:07 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "industry"
+        },
+        {
+          "title": "Inside Omron’s next-generation LD mobile robots",
+          "link": "https://www.therobotreport.com/inside-omrons-next-generation-ld-mobile-robots/",
+          "description": "<p>In mobile robotics, software, safety, and fleet management are becoming just as important as the robot itself, according to an OMROM project manager.</p>\n<p>The post <a href=\"https://www.therobotreport.com/inside-omrons-next-generation-ld-mobile-robots/\">Inside Omron’s next-generation LD mobile robots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Fri, 02 Oct 2026 23:01:36 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 6,
+          "category": "industry"
+        },
+        {
+          "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+          "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+          "description": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+          "pubDate": "Mon, 05 Oct 2026 20:36:48 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
-          "link": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
-          "description": "The new financing is expected to more than triples the AI infrastructure startup's valuation from just four months ago.",
-          "pubDate": "Mon, 28 Sep 2026 21:29:18 +0000",
+          "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+          "link": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+          "description": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data.",
+          "pubDate": "Mon, 05 Oct 2026 19:33:53 +0000",
           "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "funding"
-        },
-        {
-          "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-          "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\">Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-          "pubDate": "Mon, 28 Sep 2026 19:00:00 +0000",
-          "source": "blog.google",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
-          "link": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
-          "description": "Thirteen of the 18 startups in Peak XV’s latest Surge cohort are targeting global markets, while more than half are based in India.",
-          "pubDate": "Tue, 29 Sep 2026 00:30:00 +0000",
+          "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+          "link": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+          "description": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action.",
+          "pubDate": "Mon, 05 Oct 2026 18:54:30 +0000",
           "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 4,
-          "category": "funding"
+          "relevanceScore": 5,
+          "category": "product"
         },
         {
-          "title": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion",
-          "link": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
-          "description": "The acquisition will see World Labs founder Fei-Fei Li join AMD as executive vice president and chief scientist. ",
-          "pubDate": "Mon, 28 Sep 2026 20:39:33 +0000",
+          "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+          "link": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+          "description": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.",
+          "pubDate": "Mon, 05 Oct 2026 18:29:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 4,
-          "category": "funding"
+          "relevanceScore": 5,
+          "category": "product"
+        },
+        {
+          "title": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
+          "link": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
+          "description": "Founded by two sisters, Hot Girl Hotline uses AI to give young women personalized dating and relationship advice, with an emphasis on safety and avoiding emotional dependency.",
+          "pubDate": "Mon, 05 Oct 2026 17:29:22 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-09-29",
-        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
-        "preheader": "4 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-10-06",
+        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
+        "preheader": "1 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids",
-          "description": "<p>Economics is both a robotics impetus and a constraint, as systems make deliveries on streets or do chores in households.</p>\n<p>The post <a href=\"https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/\">Robonomics on the threshold: Economic autonomy, smart ci..."
+          "title": "Teradyne invests in Bright Machines to bring robotics to AI infrastructure manufacturing",
+          "description": "<p>The companies plan to integrate Teradyne robotics and test technologies with the Bright Machines manufacturing platform. </p>\n<p>The post <a href=\"https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/\">Teradyne invests in Bright Machines..."
         },
         "news": [
           {
-            "title": "Gecko Robotics works with NVIDIA to add AI agent security and control",
-            "description": "<p>Gecko Robotics is using the new NVIDIA Open Agent Safety Platform to ensure the secure autonomous control of systems.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/\">Gec...",
-            "category": "company",
-            "link": "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/"
+            "title": "How robotics and physical AI can responsibly tackle key physical security challenges",
+            "description": "<p>Cyber and physical security threats are rapidly evolving, but robotics and AI can evolve to meet them, writes a columnist.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-robotics-physical-ai-can-responsibly-tackle-key-physical-securit...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/how-robotics-physical-ai-can-responsibly-tackle-key-physical-security-challenges/"
           },
           {
-            "title": "Raise Robotics to discuss scaling field robots at RoboBusiness",
-            "description": "<p>Raise Robotics said attendees will learn a decision rule for allocating engineering capacity and a vocabulary for two hidden failure modes.</p>\n<p>The post <a href=\"https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobus...",
+            "title": "FCC robot restrictions could accelerate shift to local AI",
+            "description": "<p>Companies deploying physical AI today need to decide which AI workloads belong on the robot, what can remain in the cloud, and whether the underlying technology stack can meet rising expectations for security, safety, and supply-chain transparency...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/"
+            "link": "https://www.therobotreport.com/fcc-robot-restrictions-could-accelerate-shift-to-local-ai/"
           },
           {
-            "title": "Asimov’s laws are not enough to keep robotics and AI safe",
-            "description": "<p>Asimov's fictional Three Laws of Robotics famously set safeguards, and tech observers today raise similar concerns about AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/\">Asimov&#8217;s...",
+            "title": "The physical AI race will be won in the patent office",
+            "description": "<p>Patent protection is important for robotics startups, but they should be strategic in determining what IP is important, says Lightbringer.</p>\n<p>The post <a href=\"https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/\">The ...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/"
+            "link": "https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/"
           }
         ],
         "stat": {
