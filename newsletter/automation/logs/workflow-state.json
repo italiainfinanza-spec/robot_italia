@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1791898475075",
+    "id": "run-1791898602859",
     "edition": 1,
-    "date": "2026-10-13T13:34:35.075Z",
+    "date": "2026-10-13T13:36:42.859Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-10-13T13:34:35.078Z",
-        "completedAt": "2026-10-13T13:34:36.565Z"
+        "startedAt": "2026-10-13T13:36:42.864Z",
+        "completedAt": "2026-10-13T13:36:47.455Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-10-13T13:34:36.610Z",
-        "completedAt": "2026-10-13T13:34:36.954Z"
+        "startedAt": "2026-10-13T13:37:01.860Z",
+        "completedAt": "2026-10-13T13:37:01.869Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-10-13",
-        "subject": "Promise Robotics partners with D.R. Hort... | Robotica Weekly #1",
+        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
         "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "Promise Robotics partners with D.R. Horton on physical AI for homebuilding",
