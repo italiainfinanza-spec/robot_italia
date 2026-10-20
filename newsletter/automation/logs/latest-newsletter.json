@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1791898475075",
-  "subject": "Promise Robotics partners with D.R. Hort... | Robotica Weekly #1",
+  "runId": "run-1792493747968",
+  "subject": "Unleash AI Innovation: The Power of NVID... | Robotica Weekly #1",
   "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "Promise Robotics partners with D.R. Horton on physical AI for homebuilding",
-    "description": "<p>Promise Robotics has signed a multi-year partnership with America's largest homebuilder by volume to bring physical AI to construction.</p>\n<p>The post <a href=\"https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/\">Promise Robotics partners with D.R. Horto..."
+    "title": "Unleash AI Innovation: The Power of NVIDIA RTX PRO 6000 Blackwell Workstation Edition Fueled by PNY-Supplied GPUs",
+    "description": "<p>As robotics systems grow more capable — faster, more precise, and increasingly reliant on AI-driven vision and control — the humble interconnect is being asked to do more than ever.</p>\n<p>The post <a href=\"https://www.therobotreport.com/unleash-ai-innovation-the-power-of-nvidia-rtx-pro-6000-blac..."
   },
   "news": [
     {
-      "title": "Closing the reality gap: Why real-time execution has become the new competitive advantage",
-      "description": "<p>Daifuku's Cecile Dick-Calmes said success is no longer measured solely by automation density or equipment utilization.</p>\n<p>The post <a href=\"https://www.therobotreport.com/closing-reality-gap-why-real-time-execution-has-become-new-competitive-a...",
-      "category": "product",
-      "link": "https://www.therobotreport.com/closing-reality-gap-why-real-time-execution-has-become-new-competitive-advantage/"
+      "title": "Gecko Robotics secures $300M contract with the U.S. Navy",
+      "description": "<p>Gecko claimed this signals the Pentagon’s confidence that it is a core military capability that is delivering results.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/\">Gecko Robotics se...",
+      "category": "funding",
+      "link": "https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/"
     },
     {
-      "title": "Why humanoid robot demos still fail the generalization test",
-      "description": "<p>How better data and human judgment can help robots move beyond demos toward reliable real-world performance.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/\">Why humanoid robot d...",
+      "title": "Daimon Robotics building the infrastructure layer for tactile intelligence ",
+      "description": "<p>The company is connecting tactile sensing, real-world data collection, simulation, and AI models to help robots perform physical tasks more reliably.</p>\n<p>The post <a href=\"https://www.therobotreport.com/daimon-robotics-building-the-infrastructu...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/"
+      "link": "https://www.therobotreport.com/daimon-robotics-building-the-infrastructure-layer-for-tactile-intelligence/"
     },
     {
-      "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
-      "description": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows....",
-      "category": "product",
-      "link": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/"
+      "title": "Kodama raises $7M to bring robotics to forestry",
+      "description": "<p>Kodama is working on automating forestry and logging equipment, starting with teleoperation and collecting valuable data on the way.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/\">Kodama raises $...",
+      "category": "funding",
+      "link": "https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-10-13T13:34:38.347Z",
+  "generatedAt": "2026-10-20T10:55:51.323Z",
   "html": "<!-- Template not found -->"
 }
