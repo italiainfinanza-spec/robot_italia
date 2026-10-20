@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1792493747968",
+    "id": "run-1792493833840",
     "edition": 1,
-    "date": "2026-10-20T10:55:47.968Z",
+    "date": "2026-10-20T10:57:13.841Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-10-20T10:55:47.979Z",
-        "completedAt": "2026-10-20T10:55:49.416Z"
+        "startedAt": "2026-10-20T10:57:13.846Z",
+        "completedAt": "2026-10-20T10:57:16.067Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-10-20T10:55:49.462Z",
-        "completedAt": "2026-10-20T10:55:49.808Z"
+        "startedAt": "2026-10-20T10:57:32.712Z",
+        "completedAt": "2026-10-20T10:57:32.721Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-10-20",
-        "subject": "Unleash AI Innovation: The Power of NVID... | Robotica Weekly #1",
+        "subject": "La settimana in robotica — Edizione #1",
         "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "Unleash AI Innovation: The Power of NVIDIA RTX PRO 6000 Blackwell Workstation Edition Fueled by PNY-Supplied GPUs",
