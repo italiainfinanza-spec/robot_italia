@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1791898602859",
+    "id": "run-1792493747968",
     "edition": 1,
-    "date": "2026-10-13T13:36:42.859Z",
+    "date": "2026-10-20T10:55:47.968Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-10-13T13:36:42.864Z",
-        "completedAt": "2026-10-13T13:36:47.455Z"
+        "startedAt": "2026-10-20T10:55:47.979Z",
+        "completedAt": "2026-10-20T10:55:49.416Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-10-13T13:37:01.860Z",
-        "completedAt": "2026-10-13T13:37:01.869Z"
+        "startedAt": "2026-10-20T10:55:49.462Z",
+        "completedAt": "2026-10-20T10:55:49.808Z"
       },
       "review": {
         "status": "pending",
@@ -30,91 +30,91 @@
     "data": {
       "researchResults": [
         {
-          "title": "Promise Robotics partners with D.R. Horton on physical AI for homebuilding",
-          "link": "https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/",
-          "description": "<p>Promise Robotics has signed a multi-year partnership with America's largest homebuilder by volume to bring physical AI to construction.</p>\n<p>The post <a href=\"https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/\">Promise Robotics partners with D.R. Horton on physical AI for homebuilding</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Tue, 13 Oct 2026 13:00:05 +0000",
+          "title": "Unleash AI Innovation: The Power of NVIDIA RTX PRO 6000 Blackwell Workstation Edition Fueled by PNY-Supplied GPUs",
+          "link": "https://www.therobotreport.com/unleash-ai-innovation-the-power-of-nvidia-rtx-pro-6000-blackwell-workstation-edition-fueled-by-pny-supplied-gpus/",
+          "description": "<p>As robotics systems grow more capable — faster, more precise, and increasingly reliant on AI-driven vision and control — the humble interconnect is being asked to do more than ever.</p>\n<p>The post <a href=\"https://www.therobotreport.com/unleash-ai-innovation-the-power-of-nvidia-rtx-pro-6000-blackwell-workstation-edition-fueled-by-pny-supplied-gpus/\">Unleash AI Innovation: The Power of NVIDIA RTX PRO 6000 Blackwell Workstation Edition Fueled by PNY-Supplied GPUs</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 19 Oct 2026 17:38:13 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 13,
+          "category": "company"
+        },
+        {
+          "title": "Gecko Robotics secures $300M contract with the U.S. Navy",
+          "link": "https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/",
+          "description": "<p>Gecko claimed this signals the Pentagon’s confidence that it is a core military capability that is delivering results.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/\">Gecko Robotics secures $300M contract with the U.S. Navy</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Tue, 20 Oct 2026 10:25:47 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 11,
+          "category": "funding"
+        },
+        {
+          "title": "Daimon Robotics building the infrastructure layer for tactile intelligence ",
+          "link": "https://www.therobotreport.com/daimon-robotics-building-the-infrastructure-layer-for-tactile-intelligence/",
+          "description": "<p>The company is connecting tactile sensing, real-world data collection, simulation, and AI models to help robots perform physical tasks more reliably.</p>\n<p>The post <a href=\"https://www.therobotreport.com/daimon-robotics-building-the-infrastructure-layer-for-tactile-intelligence/\">Daimon Robotics building the infrastructure layer for tactile intelligence </a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 19 Oct 2026 17:07:52 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 11,
           "category": "industry"
         },
         {
-          "title": "Closing the reality gap: Why real-time execution has become the new competitive advantage",
-          "link": "https://www.therobotreport.com/closing-reality-gap-why-real-time-execution-has-become-new-competitive-advantage/",
-          "description": "<p>Daifuku's Cecile Dick-Calmes said success is no longer measured solely by automation density or equipment utilization.</p>\n<p>The post <a href=\"https://www.therobotreport.com/closing-reality-gap-why-real-time-execution-has-become-new-competitive-advantage/\">Closing the reality gap: Why real-time execution has become the new competitive advantage</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 12 Oct 2026 14:30:33 +0000",
+          "title": "Kodama raises $7M to bring robotics to forestry",
+          "link": "https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/",
+          "description": "<p>Kodama is working on automating forestry and logging equipment, starting with teleoperation and collecting valuable data on the way.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/\">Kodama raises $7M to bring robotics to forestry</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 19 Oct 2026 15:55:12 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 11,
-          "category": "product"
-        },
-        {
-          "title": "Why humanoid robot demos still fail the generalization test",
-          "link": "https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/",
-          "description": "<p>How better data and human judgment can help robots move beyond demos toward reliable real-world performance.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/\">Why humanoid robot demos still fail the generalization test</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Fri, 09 Oct 2026 19:28:41 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 8,
-          "category": "industry"
-        },
-        {
-          "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
-          "link": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
-          "description": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.",
-          "pubDate": "Tue, 13 Oct 2026 13:00:00 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
-        },
-        {
-          "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
-          "link": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-          "description": "The startup will sell some of its assets to Disney for $20 million.",
-          "pubDate": "Tue, 13 Oct 2026 12:23:42 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
           "category": "funding"
         },
         {
-          "title": "Meta releases its first frontier model, Muse Wonder",
-          "link": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-          "description": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
-          "pubDate": "Mon, 12 Oct 2026 17:56:56 +0000",
+          "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+          "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+          "description": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
+          "pubDate": "Mon, 19 Oct 2026 20:09:24 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 7,
+          "category": "company"
+        },
+        {
+          "title": "A guide to everything happening at RoboBusiness 2026",
+          "link": "https://www.therobotreport.com/a-guide-to-everything-happening-at-robobusiness-2026/",
+          "description": "<p>RoboBusiness 2026 will start tomorrow, so we're putting together an overview of everything happening at the show over the next two days.</p>\n<p>The post <a href=\"https://www.therobotreport.com/a-guide-to-everything-happening-at-robobusiness-2026/\">A guide to everything happening at RoboBusiness 2026</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 19 Oct 2026 12:00:34 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 6,
+          "category": "industry"
+        },
+        {
+          "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+          "link": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+          "description": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+          "pubDate": "Tue, 20 Oct 2026 01:27:03 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "product"
+        },
+        {
+          "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+          "link": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+          "description": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology. ",
+          "pubDate": "Mon, 19 Oct 2026 22:49:27 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
-          "link": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
-          "description": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
-          "pubDate": "Mon, 12 Oct 2026 17:19:14 +0000",
+          "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+          "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+          "description": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+          "pubDate": "Mon, 19 Oct 2026 22:04:28 +0000",
           "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "funding"
-        },
-        {
-          "title": "Will ‘boring’ robots win in the real world? Why robotic form should follow workflow",
-          "link": "https://www.therobotreport.com/will-boring-robots-win-in-the-real-world-why-robotic-form-should-follow-workflow/",
-          "description": "<p>If we want to move physical AI from social media feeds to a sustained commercial level, we must reverse our current approach.</p>\n<p>The post <a href=\"https://www.therobotreport.com/will-boring-robots-win-in-the-real-world-why-robotic-form-should-follow-workflow/\">Will &#8216;boring&#8217; robots win in the real world? Why robotic form should follow workflow</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 11 Oct 2026 12:36:24 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "Why dexterity is physical AI’s real bottleneck",
-          "link": "https://www.therobotreport.com/why-dexterity-is-physical-ai-real-bottleneck/",
-          "description": "<p>The next major challenge in robotic dexterity is making the entire system reliable enough to turn capabilities into useful work.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-dexterity-is-physical-ai-real-bottleneck/\">Why dexterity is physical AI&#8217;s real bottleneck</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sat, 10 Oct 2026 12:45:15 +0000",
-          "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
@@ -133,31 +133,31 @@
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-10-13",
-        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "date": "2026-10-20",
+        "subject": "Unleash AI Innovation: The Power of NVID... | Robotica Weekly #1",
         "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Promise Robotics partners with D.R. Horton on physical AI for homebuilding",
-          "description": "<p>Promise Robotics has signed a multi-year partnership with America's largest homebuilder by volume to bring physical AI to construction.</p>\n<p>The post <a href=\"https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/\">Promise Robotics partners with D.R. Horto..."
+          "title": "Unleash AI Innovation: The Power of NVIDIA RTX PRO 6000 Blackwell Workstation Edition Fueled by PNY-Supplied GPUs",
+          "description": "<p>As robotics systems grow more capable — faster, more precise, and increasingly reliant on AI-driven vision and control — the humble interconnect is being asked to do more than ever.</p>\n<p>The post <a href=\"https://www.therobotreport.com/unleash-ai-innovation-the-power-of-nvidia-rtx-pro-6000-blac..."
         },
         "news": [
           {
-            "title": "Closing the reality gap: Why real-time execution has become the new competitive advantage",
-            "description": "<p>Daifuku's Cecile Dick-Calmes said success is no longer measured solely by automation density or equipment utilization.</p>\n<p>The post <a href=\"https://www.therobotreport.com/closing-reality-gap-why-real-time-execution-has-become-new-competitive-a...",
-            "category": "product",
-            "link": "https://www.therobotreport.com/closing-reality-gap-why-real-time-execution-has-become-new-competitive-advantage/"
+            "title": "Gecko Robotics secures $300M contract with the U.S. Navy",
+            "description": "<p>Gecko claimed this signals the Pentagon’s confidence that it is a core military capability that is delivering results.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/\">Gecko Robotics se...",
+            "category": "funding",
+            "link": "https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/"
           },
           {
-            "title": "Why humanoid robot demos still fail the generalization test",
-            "description": "<p>How better data and human judgment can help robots move beyond demos toward reliable real-world performance.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/\">Why humanoid robot d...",
+            "title": "Daimon Robotics building the infrastructure layer for tactile intelligence ",
+            "description": "<p>The company is connecting tactile sensing, real-world data collection, simulation, and AI models to help robots perform physical tasks more reliably.</p>\n<p>The post <a href=\"https://www.therobotreport.com/daimon-robotics-building-the-infrastructu...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/"
+            "link": "https://www.therobotreport.com/daimon-robotics-building-the-infrastructure-layer-for-tactile-intelligence/"
           },
           {
-            "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
-            "description": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows....",
-            "category": "product",
-            "link": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/"
+            "title": "Kodama raises $7M to bring robotics to forestry",
+            "description": "<p>Kodama is working on automating forestry and logging equipment, starting with teleoperation and collecting valuable data on the way.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/\">Kodama raises $...",
+            "category": "funding",
+            "link": "https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/"
           }
         ],
         "stat": {
