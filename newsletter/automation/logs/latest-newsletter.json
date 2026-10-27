@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1792493747968",
-  "subject": "Unleash AI Innovation: The Power of NVID... | Robotica Weekly #1",
+  "runId": "run-1793100958394",
+  "subject": "La settimana in robotica — Edizione #1",
   "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "Unleash AI Innovation: The Power of NVIDIA RTX PRO 6000 Blackwell Workstation Edition Fueled by PNY-Supplied GPUs",
-    "description": "<p>As robotics systems grow more capable — faster, more precise, and increasingly reliant on AI-driven vision and control — the humble interconnect is being asked to do more than ever.</p>\n<p>The post <a href=\"https://www.therobotreport.com/unleash-ai-innovation-the-power-of-nvidia-rtx-pro-6000-blac..."
+    "title": "OMRON to acquire OnLogic to address edge AI applications",
+    "description": "<p>OMRON will add industrial computing from OnLogic to its industrial automation expertise to serve data- and AI-intensive applications.</p>\n<p>The post <a href=\"https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/\">OMRON to acquire OnLogic to address edge AI applicati..."
   },
   "news": [
     {
-      "title": "Gecko Robotics secures $300M contract with the U.S. Navy",
-      "description": "<p>Gecko claimed this signals the Pentagon’s confidence that it is a core military capability that is delivering results.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/\">Gecko Robotics se...",
+      "title": "Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges",
+      "description": "<p>Bedrock Robotics has secured $600 million to scale autonomous heavy equipment and combat construction labor shortages.</p>\n<p>The post <a href=\"https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heav...",
       "category": "funding",
-      "link": "https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/"
+      "link": "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/"
     },
     {
-      "title": "Daimon Robotics building the infrastructure layer for tactile intelligence ",
-      "description": "<p>The company is connecting tactile sensing, real-world data collection, simulation, and AI models to help robots perform physical tasks more reliably.</p>\n<p>The post <a href=\"https://www.therobotreport.com/daimon-robotics-building-the-infrastructu...",
+      "title": "Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics",
+      "description": "<p>Sereact and Teradyne have already shipped hundreds of UR robots in dual-arm systems to live customer sites across Europe.</p>\n<p>The post <a href=\"https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/daimon-robotics-building-the-infrastructure-layer-for-tactile-intelligence/"
+      "link": "https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/"
     },
     {
-      "title": "Kodama raises $7M to bring robotics to forestry",
-      "description": "<p>Kodama is working on automating forestry and logging equipment, starting with teleoperation and collecting valuable data on the way.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/\">Kodama raises $...",
-      "category": "funding",
-      "link": "https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/"
+      "title": "Agility and GXO Logistics plan expanded deployment of Digit humanoid",
+      "description": "<p>GXO Logistics, which has tested humanoid robots from multiple companies, will deploy Agility's Digit at two more sites.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/\">Agility...",
+      "category": "industry",
+      "link": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-10-20T10:55:51.323Z",
+  "generatedAt": "2026-10-27T11:36:02.124Z",
   "html": "<!-- Template not found -->"
 }
