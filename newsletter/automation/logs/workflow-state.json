@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1792493833840",
+    "id": "run-1793100958394",
     "edition": 1,
-    "date": "2026-10-20T10:57:13.841Z",
+    "date": "2026-10-27T11:35:58.394Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-10-20T10:57:13.846Z",
-        "completedAt": "2026-10-20T10:57:16.067Z"
+        "startedAt": "2026-10-27T11:35:58.397Z",
+        "completedAt": "2026-10-27T11:36:00.216Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-10-20T10:57:32.712Z",
-        "completedAt": "2026-10-20T10:57:32.721Z"
+        "startedAt": "2026-10-27T11:36:00.264Z",
+        "completedAt": "2026-10-27T11:36:00.563Z"
       },
       "review": {
         "status": "pending",
@@ -30,134 +30,134 @@
     "data": {
       "researchResults": [
         {
-          "title": "Unleash AI Innovation: The Power of NVIDIA RTX PRO 6000 Blackwell Workstation Edition Fueled by PNY-Supplied GPUs",
-          "link": "https://www.therobotreport.com/unleash-ai-innovation-the-power-of-nvidia-rtx-pro-6000-blackwell-workstation-edition-fueled-by-pny-supplied-gpus/",
-          "description": "<p>As robotics systems grow more capable — faster, more precise, and increasingly reliant on AI-driven vision and control — the humble interconnect is being asked to do more than ever.</p>\n<p>The post <a href=\"https://www.therobotreport.com/unleash-ai-innovation-the-power-of-nvidia-rtx-pro-6000-blackwell-workstation-edition-fueled-by-pny-supplied-gpus/\">Unleash AI Innovation: The Power of NVIDIA RTX PRO 6000 Blackwell Workstation Edition Fueled by PNY-Supplied GPUs</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 19 Oct 2026 17:38:13 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 13,
-          "category": "company"
-        },
-        {
-          "title": "Gecko Robotics secures $300M contract with the U.S. Navy",
-          "link": "https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/",
-          "description": "<p>Gecko claimed this signals the Pentagon’s confidence that it is a core military capability that is delivering results.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/\">Gecko Robotics secures $300M contract with the U.S. Navy</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Tue, 20 Oct 2026 10:25:47 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 11,
-          "category": "funding"
-        },
-        {
-          "title": "Daimon Robotics building the infrastructure layer for tactile intelligence ",
-          "link": "https://www.therobotreport.com/daimon-robotics-building-the-infrastructure-layer-for-tactile-intelligence/",
-          "description": "<p>The company is connecting tactile sensing, real-world data collection, simulation, and AI models to help robots perform physical tasks more reliably.</p>\n<p>The post <a href=\"https://www.therobotreport.com/daimon-robotics-building-the-infrastructure-layer-for-tactile-intelligence/\">Daimon Robotics building the infrastructure layer for tactile intelligence </a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 19 Oct 2026 17:07:52 +0000",
+          "title": "OMRON to acquire OnLogic to address edge AI applications",
+          "link": "https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/",
+          "description": "<p>OMRON will add industrial computing from OnLogic to its industrial automation expertise to serve data- and AI-intensive applications.</p>\n<p>The post <a href=\"https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/\">OMRON to acquire OnLogic to address edge AI applications</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 26 Oct 2026 20:13:13 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 11,
           "category": "industry"
         },
         {
-          "title": "Kodama raises $7M to bring robotics to forestry",
-          "link": "https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/",
-          "description": "<p>Kodama is working on automating forestry and logging equipment, starting with teleoperation and collecting valuable data on the way.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/\">Kodama raises $7M to bring robotics to forestry</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 19 Oct 2026 15:55:12 +0000",
+          "title": "Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges",
+          "link": "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/",
+          "description": "<p>Bedrock Robotics has secured $600 million to scale autonomous heavy equipment and combat construction labor shortages.</p>\n<p>The post <a href=\"https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/\">Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 26 Oct 2026 21:15:00 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 11,
+          "relevanceScore": 10,
           "category": "funding"
         },
         {
-          "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
-          "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
-          "description": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
-          "pubDate": "Mon, 19 Oct 2026 20:09:24 +0000",
+          "title": "Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics",
+          "link": "https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/",
+          "description": "<p>Sereact and Teradyne have already shipped hundreds of UR robots in dual-arm systems to live customer sites across Europe.</p>\n<p>The post <a href=\"https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/\">Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sun, 25 Oct 2026 12:35:33 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 10,
+          "category": "industry"
+        },
+        {
+          "title": "Agility and GXO Logistics plan expanded deployment of Digit humanoid",
+          "link": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/",
+          "description": "<p>GXO Logistics, which has tested humanoid robots from multiple companies, will deploy Agility's Digit at two more sites.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/\">Agility and GXO Logistics plan expanded deployment of Digit humanoid</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 26 Oct 2026 14:05:21 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 9,
+          "category": "industry"
+        },
+        {
+          "title": "Eka Robotics raises $150M to scale its vision-force-action model for robots",
+          "link": "https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/",
+          "description": "<p>Eka Robotics is building a vision-force-action, or VFA, model to develop an intuition of physics through reinforcement learning at scale.</p>\n<p>The post <a href=\"https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/\">Eka Robotics raises $150M to scale its vision-force-action model for robots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sat, 24 Oct 2026 12:34:27 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "funding"
+        },
+        {
+          "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+          "link": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+          "description": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
+          "pubDate": "Tue, 27 Oct 2026 11:00:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 7,
           "category": "company"
         },
         {
-          "title": "A guide to everything happening at RoboBusiness 2026",
-          "link": "https://www.therobotreport.com/a-guide-to-everything-happening-at-robobusiness-2026/",
-          "description": "<p>RoboBusiness 2026 will start tomorrow, so we're putting together an overview of everything happening at the show over the next two days.</p>\n<p>The post <a href=\"https://www.therobotreport.com/a-guide-to-everything-happening-at-robobusiness-2026/\">A guide to everything happening at RoboBusiness 2026</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 19 Oct 2026 12:00:34 +0000",
-          "source": "www.therobotreport.com",
+          "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+          "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+          "description": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent. ",
+          "pubDate": "Tue, 27 Oct 2026 02:00:00 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 6,
+          "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
-          "link": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
-          "description": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
-          "pubDate": "Tue, 20 Oct 2026 01:27:03 +0000",
+          "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+          "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+          "description": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.\n",
+          "pubDate": "Tue, 27 Oct 2026 01:12:21 +0000",
           "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+          "link": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+          "description": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
+          "pubDate": "Mon, 26 Oct 2026 16:46:36 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "funding"
+        },
+        {
+          "title": "Our newest AI Quest: Mapping the human brain",
+          "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_sharing_updated.max-600x600.format-webp.webp\">Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+          "pubDate": "Mon, 26 Oct 2026 16:00:00 +0000",
+          "source": "blog.google",
           "type": "rss",
           "relevanceScore": 5,
           "category": "product"
-        },
-        {
-          "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
-          "link": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
-          "description": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology. ",
-          "pubDate": "Mon, 19 Oct 2026 22:49:27 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
-          "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
-          "description": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
-          "pubDate": "Mon, 19 Oct 2026 22:04:28 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
-          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
-          "description": "Wall Street Journal",
-          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
-          "source": "nvidianews.nvidia.com",
-          "type": "rss",
-          "relevanceScore": 4,
-          "category": "funding"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-10-20",
+        "date": "2026-10-27",
         "subject": "La settimana in robotica — Edizione #1",
         "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Unleash AI Innovation: The Power of NVIDIA RTX PRO 6000 Blackwell Workstation Edition Fueled by PNY-Supplied GPUs",
-          "description": "<p>As robotics systems grow more capable — faster, more precise, and increasingly reliant on AI-driven vision and control — the humble interconnect is being asked to do more than ever.</p>\n<p>The post <a href=\"https://www.therobotreport.com/unleash-ai-innovation-the-power-of-nvidia-rtx-pro-6000-blac..."
+          "title": "OMRON to acquire OnLogic to address edge AI applications",
+          "description": "<p>OMRON will add industrial computing from OnLogic to its industrial automation expertise to serve data- and AI-intensive applications.</p>\n<p>The post <a href=\"https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/\">OMRON to acquire OnLogic to address edge AI applicati..."
         },
         "news": [
           {
-            "title": "Gecko Robotics secures $300M contract with the U.S. Navy",
-            "description": "<p>Gecko claimed this signals the Pentagon’s confidence that it is a core military capability that is delivering results.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/\">Gecko Robotics se...",
+            "title": "Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges",
+            "description": "<p>Bedrock Robotics has secured $600 million to scale autonomous heavy equipment and combat construction labor shortages.</p>\n<p>The post <a href=\"https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heav...",
             "category": "funding",
-            "link": "https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/"
+            "link": "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/"
           },
           {
-            "title": "Daimon Robotics building the infrastructure layer for tactile intelligence ",
-            "description": "<p>The company is connecting tactile sensing, real-world data collection, simulation, and AI models to help robots perform physical tasks more reliably.</p>\n<p>The post <a href=\"https://www.therobotreport.com/daimon-robotics-building-the-infrastructu...",
+            "title": "Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics",
+            "description": "<p>Sereact and Teradyne have already shipped hundreds of UR robots in dual-arm systems to live customer sites across Europe.</p>\n<p>The post <a href=\"https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/daimon-robotics-building-the-infrastructure-layer-for-tactile-intelligence/"
+            "link": "https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/"
           },
           {
-            "title": "Kodama raises $7M to bring robotics to forestry",
-            "description": "<p>Kodama is working on automating forestry and logging equipment, starting with teleoperation and collecting valuable data on the way.</p>\n<p>The post <a href=\"https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/\">Kodama raises $...",
-            "category": "funding",
-            "link": "https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/"
+            "title": "Agility and GXO Logistics plan expanded deployment of Digit humanoid",
+            "description": "<p>GXO Logistics, which has tested humanoid robots from multiple companies, will deploy Agility's Digit at two more sites.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/\">Agility...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/"
           }
         ],
         "stat": {
