@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1793713082946",
+    "id": "run-1793713192424",
     "edition": 1,
-    "date": "2026-11-03T13:38:02.946Z",
+    "date": "2026-11-03T13:39:52.424Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-11-03T13:38:02.949Z",
-        "completedAt": "2026-11-03T13:38:04.890Z"
+        "startedAt": "2026-11-03T13:39:52.430Z",
+        "completedAt": "2026-11-03T13:39:53.442Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-11-03T13:38:04.934Z",
-        "completedAt": "2026-11-03T13:38:05.308Z"
+        "startedAt": "2026-11-03T13:40:06.310Z",
+        "completedAt": "2026-11-03T13:40:06.319Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-11-03",
-        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
+        "subject": "Churchill Capital XI shareholders approv... | Robotica Weekly #1",
         "preheader": "5 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
