@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1793101074733",
+    "id": "run-1793713082946",
     "edition": 1,
-    "date": "2026-10-27T11:37:54.734Z",
+    "date": "2026-11-03T13:38:02.946Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-10-27T11:37:54.739Z",
-        "completedAt": "2026-10-27T11:37:56.416Z"
+        "startedAt": "2026-11-03T13:38:02.949Z",
+        "completedAt": "2026-11-03T13:38:04.890Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-10-27T11:38:12.981Z",
-        "completedAt": "2026-10-27T11:38:12.988Z"
+        "startedAt": "2026-11-03T13:38:04.934Z",
+        "completedAt": "2026-11-03T13:38:05.308Z"
       },
       "review": {
         "status": "pending",
@@ -30,134 +30,134 @@
     "data": {
       "researchResults": [
         {
-          "title": "OMRON to acquire OnLogic to address edge AI applications",
-          "link": "https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/",
-          "description": "<p>OMRON will add industrial computing from OnLogic to its industrial automation expertise to serve data- and AI-intensive applications.</p>\n<p>The post <a href=\"https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/\">OMRON to acquire OnLogic to address edge AI applications</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 26 Oct 2026 20:13:13 +0000",
+          "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
+          "link": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/",
+          "description": "<p>Deal is expected to provide approximately $465 million in gross capital as Agility expands deployments of its Digit humanoid with industrial customers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/\">Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Tue, 03 Nov 2026 00:15:39 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 11,
-          "category": "industry"
-        },
-        {
-          "title": "Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges",
-          "link": "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/",
-          "description": "<p>Bedrock Robotics has secured $600 million to scale autonomous heavy equipment and combat construction labor shortages.</p>\n<p>The post <a href=\"https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/\">Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 26 Oct 2026 21:15:00 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 10,
+          "relevanceScore": 12,
           "category": "funding"
         },
         {
-          "title": "Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics",
-          "link": "https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/",
-          "description": "<p>Sereact and Teradyne have already shipped hundreds of UR robots in dual-arm systems to live customer sites across Europe.</p>\n<p>The post <a href=\"https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/\">Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sun, 25 Oct 2026 12:35:33 +0000",
+          "title": "Tutor Intelligence raises Series B to scale model training, robot deployments",
+          "link": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/",
+          "description": "<p>Tutor Intelligence has raised funding to further develop its picking robots, networked intelligence, and commercial deployments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/\">Tutor Intelligence raises Series B to scale model training, robot deployments</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 02 Nov 2026 19:25:59 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 10,
-          "category": "industry"
+          "relevanceScore": 9,
+          "category": "funding"
         },
         {
-          "title": "Agility and GXO Logistics plan expanded deployment of Digit humanoid",
-          "link": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/",
-          "description": "<p>GXO Logistics, which has tested humanoid robots from multiple companies, will deploy Agility's Digit at two more sites.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/\">Agility and GXO Logistics plan expanded deployment of Digit humanoid</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 26 Oct 2026 14:05:21 +0000",
+          "title": "Top 10 robotics developments of October 2026",
+          "link": "https://www.therobotreport.com/top-10-robotics-developments-october-2026/",
+          "description": "<p>Last month, we celebrated the 20th anniversary of RoboBusiness, whic is being rebranded to Robotics Summit &#038; Expo West.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-developments-october-2026/\">Top 10 robotics developments of October 2026</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 02 Nov 2026 17:56:42 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 9,
           "category": "industry"
         },
         {
-          "title": "Eka Robotics raises $150M to scale its vision-force-action model for robots",
-          "link": "https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/",
-          "description": "<p>Eka Robotics is building a vision-force-action, or VFA, model to develop an intuition of physics through reinforcement learning at scale.</p>\n<p>The post <a href=\"https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/\">Eka Robotics raises $150M to scale its vision-force-action model for robots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sat, 24 Oct 2026 12:34:27 +0000",
+          "title": "What AgTech founders get wrong about ROI",
+          "link": "https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/",
+          "description": "<p>Connie Bowen, the founding general partner of Farmhand Ventures, discusses the importance of return on investment for AgTech developers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/\">What AgTech founders get wrong about ROI</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 02 Nov 2026 15:30:09 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 8,
-          "category": "funding"
-        },
-        {
-          "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
-          "link": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
-          "description": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
-          "pubDate": "Tue, 27 Oct 2026 11:00:00 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
           "relevanceScore": 7,
-          "category": "company"
-        },
-        {
-          "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-          "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-          "description": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent. ",
-          "pubDate": "Tue, 27 Oct 2026 02:00:00 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-          "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-          "description": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.\n",
-          "pubDate": "Tue, 27 Oct 2026 01:12:21 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "industry"
-        },
-        {
-          "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-          "link": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-          "description": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
-          "pubDate": "Mon, 26 Oct 2026 16:46:36 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
           "category": "funding"
         },
         {
-          "title": "Our newest AI Quest: Mapping the human brain",
-          "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_sharing_updated.max-600x600.format-webp.webp\">Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
-          "pubDate": "Mon, 26 Oct 2026 16:00:00 +0000",
-          "source": "blog.google",
+          "title": "Gentherm designs ThermAffyx to protect, move patients during robotic surgeries",
+          "link": "https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/",
+          "description": "<p>ThermAffyx addresses secure positioning and heating of patients for robot-assisted surgical procedures with a minimal OR footprint.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/\">Gentherm designs ThermAffyx to protect, move patients during robotic surgeries</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 02 Nov 2026 18:06:36 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 6,
+          "category": "industry"
+        },
+        {
+          "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+          "link": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+          "description": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations. ",
+          "pubDate": "Tue, 03 Nov 2026 07:20:00 +0000",
+          "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "product"
+        },
+        {
+          "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+          "link": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+          "description": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+          "pubDate": "Tue, 03 Nov 2026 03:30:00 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+          "link": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+          "description": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call. ",
+          "pubDate": "Tue, 03 Nov 2026 01:49:52 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "industry"
+        },
+        {
+          "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+          "link": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+          "description": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
+          "pubDate": "Tue, 03 Nov 2026 00:35:52 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "funding"
+        },
+        {
+          "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+          "link": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+          "description": "The one-year-old startup is now valued at $300 million.",
+          "pubDate": "Mon, 02 Nov 2026 23:13:53 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "funding"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-10-27",
-        "subject": "La settimana in robotica — Edizione #1",
-        "preheader": "3 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-11-03",
+        "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
+        "preheader": "5 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "OMRON to acquire OnLogic to address edge AI applications",
-          "description": "<p>OMRON will add industrial computing from OnLogic to its industrial automation expertise to serve data- and AI-intensive applications.</p>\n<p>The post <a href=\"https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/\">OMRON to acquire OnLogic to address edge AI applicati..."
+          "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
+          "description": "<p>Deal is expected to provide approximately $465 million in gross capital as Agility expands deployments of its Digit humanoid with industrial customers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/\">Churchill Capital XI shareholde..."
         },
         "news": [
           {
-            "title": "Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges",
-            "description": "<p>Bedrock Robotics has secured $600 million to scale autonomous heavy equipment and combat construction labor shortages.</p>\n<p>The post <a href=\"https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heav...",
+            "title": "Tutor Intelligence raises Series B to scale model training, robot deployments",
+            "description": "<p>Tutor Intelligence has raised funding to further develop its picking robots, networked intelligence, and commercial deployments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-rob...",
             "category": "funding",
-            "link": "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/"
+            "link": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/"
           },
           {
-            "title": "Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics",
-            "description": "<p>Sereact and Teradyne have already shipped hundreds of UR robots in dual-arm systems to live customer sites across Europe.</p>\n<p>The post <a href=\"https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics...",
+            "title": "Top 10 robotics developments of October 2026",
+            "description": "<p>Last month, we celebrated the 20th anniversary of RoboBusiness, whic is being rebranded to Robotics Summit &#038; Expo West.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-developments-october-2026/\">Top 10 robotics develo...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/"
+            "link": "https://www.therobotreport.com/top-10-robotics-developments-october-2026/"
           },
           {
-            "title": "Agility and GXO Logistics plan expanded deployment of Digit humanoid",
-            "description": "<p>GXO Logistics, which has tested humanoid robots from multiple companies, will deploy Agility's Digit at two more sites.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/\">Agility...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/"
+            "title": "What AgTech founders get wrong about ROI",
+            "description": "<p>Connie Bowen, the founding general partner of Farmhand Ventures, discusses the importance of return on investment for AgTech developers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/\">What AgTech...",
+            "category": "funding",
+            "link": "https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/"
           }
         ],
         "stat": {
