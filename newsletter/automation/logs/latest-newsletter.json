@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1793713082946",
-  "subject": "🤖 Weekly Robotics: 💰 Nuovi investimenti",
-  "preheader": "5 nuovi round di funding, trend AI e opportunità di investimento",
+  "runId": "run-1794320387030",
+  "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+  "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
-    "description": "<p>Deal is expected to provide approximately $465 million in gross capital as Agility expands deployments of its Digit humanoid with industrial customers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/\">Churchill Capital XI shareholde..."
+    "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
+    "description": "<p>NVIDIA also gave a look at how its partners, like Ambi Robotics, FieldAI, Flexion, Skild AI, RLWRLD, and more, are using these technologies. </p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/\">NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL</a> ..."
   },
   "news": [
     {
-      "title": "Tutor Intelligence raises Series B to scale model training, robot deployments",
-      "description": "<p>Tutor Intelligence has raised funding to further develop its picking robots, networked intelligence, and commercial deployments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-rob...",
-      "category": "funding",
-      "link": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/"
+      "title": "Boston Dynamics adds wheels to Atlas humanoid to test whole-body control",
+      "description": "<p>Boston Dynamics combines classical motor control with whole-body reinforcement learning to power dynamic, wheeled locomotion for Atlas.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-w...",
+      "category": "company",
+      "link": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/"
     },
     {
-      "title": "Top 10 robotics developments of October 2026",
-      "description": "<p>Last month, we celebrated the 20th anniversary of RoboBusiness, whic is being rebranded to Robotics Summit &#038; Expo West.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-developments-october-2026/\">Top 10 robotics develo...",
+      "title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
+      "description": "<p>The partners plan to bring Skydio drones to public safety agencies across the U.S. as Axon expands its Drone as First Responder program.</p>\n<p>The post <a href=\"https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-publ...",
+      "category": "funding",
+      "link": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/"
+    },
+    {
+      "title": "How to minimize Wi-Fi roaming interruptions for autonomous mobile robots",
+      "description": "<p>Dedicated Wi-Fi scan architectures can improve robot mobility, reliability, and performance, says Synaptics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/\">How to minimiz...",
       "category": "industry",
-      "link": "https://www.therobotreport.com/top-10-robotics-developments-october-2026/"
-    },
-    {
-      "title": "What AgTech founders get wrong about ROI",
-      "description": "<p>Connie Bowen, the founding general partner of Farmhand Ventures, discusses the importance of return on investment for AgTech developers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/\">What AgTech...",
-      "category": "funding",
-      "link": "https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/"
+      "link": "https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-11-03T13:38:06.914Z",
+  "generatedAt": "2026-11-10T14:19:51.141Z",
   "html": "<!-- Template not found -->"
 }
