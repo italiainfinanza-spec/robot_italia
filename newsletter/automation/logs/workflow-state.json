@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1794320387030",
+    "id": "run-1794320556837",
     "edition": 1,
-    "date": "2026-11-10T14:19:47.030Z",
+    "date": "2026-11-10T14:22:36.837Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-11-10T14:19:47.034Z",
-        "completedAt": "2026-11-10T14:19:48.653Z"
+        "startedAt": "2026-11-10T14:22:36.841Z",
+        "completedAt": "2026-11-10T14:22:38.156Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-11-10T14:19:48.699Z",
-        "completedAt": "2026-11-10T14:19:49.019Z"
+        "startedAt": "2026-11-10T14:22:54.157Z",
+        "completedAt": "2026-11-10T14:22:54.166Z"
       },
       "review": {
         "status": "pending",
@@ -134,7 +134,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-11-10",
-        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
         "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
