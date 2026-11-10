@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1793713192424",
+    "id": "run-1794320387030",
     "edition": 1,
-    "date": "2026-11-03T13:39:52.424Z",
+    "date": "2026-11-10T14:19:47.030Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-11-03T13:39:52.430Z",
-        "completedAt": "2026-11-03T13:39:53.442Z"
+        "startedAt": "2026-11-10T14:19:47.034Z",
+        "completedAt": "2026-11-10T14:19:48.653Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-11-03T13:40:06.310Z",
-        "completedAt": "2026-11-03T13:40:06.319Z"
+        "startedAt": "2026-11-10T14:19:48.699Z",
+        "completedAt": "2026-11-10T14:19:49.019Z"
       },
       "review": {
         "status": "pending",
@@ -30,134 +30,134 @@
     "data": {
       "researchResults": [
         {
-          "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
-          "link": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/",
-          "description": "<p>Deal is expected to provide approximately $465 million in gross capital as Agility expands deployments of its Digit humanoid with industrial customers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/\">Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Tue, 03 Nov 2026 00:15:39 +0000",
+          "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
+          "link": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
+          "description": "<p>NVIDIA also gave a look at how its partners, like Ambi Robotics, FieldAI, Flexion, Skild AI, RLWRLD, and more, are using these technologies. </p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/\">NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 09 Nov 2026 21:52:05 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 12,
+          "relevanceScore": 13,
+          "category": "company"
+        },
+        {
+          "title": "Boston Dynamics adds wheels to Atlas humanoid to test whole-body control",
+          "link": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/",
+          "description": "<p>Boston Dynamics combines classical motor control with whole-body reinforcement learning to power dynamic, wheeled locomotion for Atlas.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/\">Boston Dynamics adds wheels to Atlas humanoid to test whole-body control</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 09 Nov 2026 18:34:38 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 11,
+          "category": "company"
+        },
+        {
+          "title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
+          "link": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/",
+          "description": "<p>The partners plan to bring Skydio drones to public safety agencies across the U.S. as Axon expands its Drone as First Responder program.</p>\n<p>The post <a href=\"https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/\">Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Tue, 10 Nov 2026 13:06:58 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 6,
           "category": "funding"
         },
         {
-          "title": "Tutor Intelligence raises Series B to scale model training, robot deployments",
-          "link": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/",
-          "description": "<p>Tutor Intelligence has raised funding to further develop its picking robots, networked intelligence, and commercial deployments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/\">Tutor Intelligence raises Series B to scale model training, robot deployments</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 02 Nov 2026 19:25:59 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 9,
-          "category": "funding"
-        },
-        {
-          "title": "Top 10 robotics developments of October 2026",
-          "link": "https://www.therobotreport.com/top-10-robotics-developments-october-2026/",
-          "description": "<p>Last month, we celebrated the 20th anniversary of RoboBusiness, whic is being rebranded to Robotics Summit &#038; Expo West.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-developments-october-2026/\">Top 10 robotics developments of October 2026</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 02 Nov 2026 17:56:42 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 9,
-          "category": "industry"
-        },
-        {
-          "title": "What AgTech founders get wrong about ROI",
-          "link": "https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/",
-          "description": "<p>Connie Bowen, the founding general partner of Farmhand Ventures, discusses the importance of return on investment for AgTech developers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/\">What AgTech founders get wrong about ROI</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 02 Nov 2026 15:30:09 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 7,
-          "category": "funding"
-        },
-        {
-          "title": "Gentherm designs ThermAffyx to protect, move patients during robotic surgeries",
-          "link": "https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/",
-          "description": "<p>ThermAffyx addresses secure positioning and heating of patients for robot-assisted surgical procedures with a minimal OR footprint.</p>\n<p>The post <a href=\"https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/\">Gentherm designs ThermAffyx to protect, move patients during robotic surgeries</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 02 Nov 2026 18:06:36 +0000",
+          "title": "How to minimize Wi-Fi roaming interruptions for autonomous mobile robots",
+          "link": "https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/",
+          "description": "<p>Dedicated Wi-Fi scan architectures can improve robot mobility, reliability, and performance, says Synaptics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/\">How to minimize Wi-Fi roaming interruptions for autonomous mobile robots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 09 Nov 2026 15:40:41 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 6,
           "category": "industry"
         },
         {
-          "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
-          "link": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
-          "description": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations. ",
-          "pubDate": "Tue, 03 Nov 2026 07:20:00 +0000",
+          "title": "Adobe adds more AI to its products and launches an MCP",
+          "link": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+          "description": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
+          "pubDate": "Tue, 10 Nov 2026 14:05:10 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "product"
         },
         {
-          "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
-          "link": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
-          "description": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
-          "pubDate": "Tue, 03 Nov 2026 03:30:00 +0000",
+          "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
+          "link": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+          "description": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
+          "pubDate": "Tue, 10 Nov 2026 14:00:00 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "product"
+        },
+        {
+          "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+          "link": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+          "description": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
+          "pubDate": "Tue, 10 Nov 2026 14:00:00 +0000",
+          "source": "techcrunch.com",
+          "type": "rss",
+          "relevanceScore": 5,
+          "category": "product"
+        },
+        {
+          "title": "Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns ",
+          "link": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+          "description": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open-source communities valuable to developers worldwide.",
+          "pubDate": "Tue, 10 Nov 2026 13:00:00 +0000",
           "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
-          "link": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
-          "description": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call. ",
-          "pubDate": "Tue, 03 Nov 2026 01:49:52 +0000",
-          "source": "techcrunch.com",
+          "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+          "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp\">Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+          "pubDate": "Tue, 10 Nov 2026 14:00:00 +0000",
+          "source": "blog.google",
           "type": "rss",
           "relevanceScore": 5,
-          "category": "industry"
+          "category": "product"
         },
         {
-          "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
-          "link": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-          "description": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
-          "pubDate": "Tue, 03 Nov 2026 00:35:52 +0000",
+          "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+          "link": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+          "description": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis. ",
+          "pubDate": "Tue, 10 Nov 2026 14:01:39 +0000",
           "source": "techcrunch.com",
           "type": "rss",
-          "relevanceScore": 5,
-          "category": "funding"
-        },
-        {
-          "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-          "link": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
-          "description": "The one-year-old startup is now valued at $300 million.",
-          "pubDate": "Mon, 02 Nov 2026 23:13:53 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
+          "relevanceScore": 4,
           "category": "funding"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-11-03",
-        "subject": "Churchill Capital XI shareholders approv... | Robotica Weekly #1",
-        "preheader": "5 nuovi round di funding, trend AI e opportunità di investimento",
+        "date": "2026-11-10",
+        "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+        "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
-          "description": "<p>Deal is expected to provide approximately $465 million in gross capital as Agility expands deployments of its Digit humanoid with industrial customers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/\">Churchill Capital XI shareholde..."
+          "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
+          "description": "<p>NVIDIA also gave a look at how its partners, like Ambi Robotics, FieldAI, Flexion, Skild AI, RLWRLD, and more, are using these technologies. </p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/\">NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL</a> ..."
         },
         "news": [
           {
-            "title": "Tutor Intelligence raises Series B to scale model training, robot deployments",
-            "description": "<p>Tutor Intelligence has raised funding to further develop its picking robots, networked intelligence, and commercial deployments.</p>\n<p>The post <a href=\"https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-rob...",
-            "category": "funding",
-            "link": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/"
+            "title": "Boston Dynamics adds wheels to Atlas humanoid to test whole-body control",
+            "description": "<p>Boston Dynamics combines classical motor control with whole-body reinforcement learning to power dynamic, wheeled locomotion for Atlas.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-w...",
+            "category": "company",
+            "link": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/"
           },
           {
-            "title": "Top 10 robotics developments of October 2026",
-            "description": "<p>Last month, we celebrated the 20th anniversary of RoboBusiness, whic is being rebranded to Robotics Summit &#038; Expo West.</p>\n<p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-developments-october-2026/\">Top 10 robotics develo...",
+            "title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
+            "description": "<p>The partners plan to bring Skydio drones to public safety agencies across the U.S. as Axon expands its Drone as First Responder program.</p>\n<p>The post <a href=\"https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-publ...",
+            "category": "funding",
+            "link": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/"
+          },
+          {
+            "title": "How to minimize Wi-Fi roaming interruptions for autonomous mobile robots",
+            "description": "<p>Dedicated Wi-Fi scan architectures can improve robot mobility, reliability, and performance, says Synaptics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/\">How to minimiz...",
             "category": "industry",
-            "link": "https://www.therobotreport.com/top-10-robotics-developments-october-2026/"
-          },
-          {
-            "title": "What AgTech founders get wrong about ROI",
-            "description": "<p>Connie Bowen, the founding general partner of Farmhand Ventures, discusses the importance of return on investment for AgTech developers.</p>\n<p>The post <a href=\"https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/\">What AgTech...",
-            "category": "funding",
-            "link": "https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/"
+            "link": "https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/"
           }
         ],
         "stat": {
