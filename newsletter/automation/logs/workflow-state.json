@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1794320556837",
+    "id": "run-1794929364848",
     "edition": 1,
-    "date": "2026-11-10T14:22:36.837Z",
+    "date": "2026-11-17T15:29:24.848Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-11-10T14:22:36.841Z",
-        "completedAt": "2026-11-10T14:22:38.156Z"
+        "startedAt": "2026-11-17T15:29:24.852Z",
+        "completedAt": "2026-11-17T15:29:25.959Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-11-10T14:22:54.157Z",
-        "completedAt": "2026-11-10T14:22:54.166Z"
+        "startedAt": "2026-11-17T15:29:26.005Z",
+        "completedAt": "2026-11-17T15:29:26.307Z"
       },
       "review": {
         "status": "pending",
@@ -30,101 +30,61 @@
     "data": {
       "researchResults": [
         {
-          "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
-          "link": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
-          "description": "<p>NVIDIA also gave a look at how its partners, like Ambi Robotics, FieldAI, Flexion, Skild AI, RLWRLD, and more, are using these technologies. </p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/\">NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 09 Nov 2026 21:52:05 +0000",
+          "title": "The hidden reason most robots fail on the factory floor",
+          "link": "https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/",
+          "description": "<p>Evan Beard explains how AI-native robotics could make automation easier to program and help American manufacturing compete globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/\">The hidden reason most robots fail on the factory floor</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 16 Nov 2026 23:49:56 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 13,
-          "category": "company"
+          "relevanceScore": 14,
+          "category": "industry"
         },
         {
-          "title": "Boston Dynamics adds wheels to Atlas humanoid to test whole-body control",
-          "link": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/",
-          "description": "<p>Boston Dynamics combines classical motor control with whole-body reinforcement learning to power dynamic, wheeled locomotion for Atlas.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/\">Boston Dynamics adds wheels to Atlas humanoid to test whole-body control</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 09 Nov 2026 18:34:38 +0000",
+          "title": "Agile Robots raises $500M to increase production capacity",
+          "link": "https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/",
+          "description": "<p>Agile Robots builds and deploys a range of robots, including humanoids, mobile robots, robotic arms, and robotics hands.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/\">Agile Robots raises $500M to increase production capacity</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 16 Nov 2026 17:47:48 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 14,
+          "category": "funding"
+        },
+        {
+          "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
+          "link": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/",
+          "description": "<p>Boston Dynamics’ Atlas humanoid robot will undergo its first trials outside the automotive industry at a major semiconductor manufacturer in early 2027.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/\">Boston Dynamics’ Atlas humanoid lands first non-automotive trial</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Tue, 17 Nov 2026 14:49:05 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
           "relevanceScore": 11,
           "category": "company"
         },
         {
-          "title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
-          "link": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/",
-          "description": "<p>The partners plan to bring Skydio drones to public safety agencies across the U.S. as Axon expands its Drone as First Responder program.</p>\n<p>The post <a href=\"https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/\">Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Tue, 10 Nov 2026 13:06:58 +0000",
+          "title": "Food robotics 2.0: why this time could be different",
+          "link": "https://www.therobotreport.com/food-robotics-2-0-why-this-time-could-be-different/",
+          "description": "<p>Food robotics is entering a new era as companies shift from consumer-facing robot restaurants to B2B automation that help food manufacturers, restaurants, and grocery retailers improve productivity, reduce labor costs, and scale operations.</p>\n<p>The post <a href=\"https://www.therobotreport.com/food-robotics-2-0-why-this-time-could-be-different/\">Food robotics 2.0: why this time could be different</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sat, 14 Nov 2026 13:00:38 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 6,
-          "category": "funding"
+          "relevanceScore": 11,
+          "category": "product"
         },
         {
-          "title": "How to minimize Wi-Fi roaming interruptions for autonomous mobile robots",
-          "link": "https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/",
-          "description": "<p>Dedicated Wi-Fi scan architectures can improve robot mobility, reliability, and performance, says Synaptics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/\">How to minimize Wi-Fi roaming interruptions for autonomous mobile robots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 09 Nov 2026 15:40:41 +0000",
+          "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
+          "link": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
+          "description": "<p>Four of the six robots pass a performance assessment as the trial puts customer service, retail operations and embodied AI capabilities to the test in a working store.</p>\n<p>The post <a href=\"https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/\">Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Fri, 13 Nov 2026 16:32:58 +0000",
           "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 6,
-          "category": "industry"
-        },
-        {
-          "title": "Adobe adds more AI to its products and launches an MCP",
-          "link": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
-          "description": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
-          "pubDate": "Tue, 10 Nov 2026 14:05:10 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
-        },
-        {
-          "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
-          "link": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
-          "description": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
-          "pubDate": "Tue, 10 Nov 2026 14:00:00 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
-        },
-        {
-          "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
-          "link": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
-          "description": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
-          "pubDate": "Tue, 10 Nov 2026 14:00:00 +0000",
-          "source": "techcrunch.com",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
-        },
-        {
-          "title": "Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns ",
-          "link": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
-          "description": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open-source communities valuable to developers worldwide.",
-          "pubDate": "Tue, 10 Nov 2026 13:00:00 +0000",
-          "source": "techcrunch.com",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
         },
         {
-          "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-          "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp\">Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
-          "pubDate": "Tue, 10 Nov 2026 14:00:00 +0000",
-          "source": "blog.google",
-          "type": "rss",
-          "relevanceScore": 5,
-          "category": "product"
-        },
-        {
-          "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
-          "link": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
-          "description": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis. ",
-          "pubDate": "Tue, 10 Nov 2026 14:01:39 +0000",
-          "source": "techcrunch.com",
+          "title": "NVIDIA's CEO Projects $1 Trillion in AI Chip Sales as New Computing Era Begins",
+          "link": "https://www.wsj.com/tech/ai/nvidias-ceo-projects-1-trillion-in-ai-chip-sales-as-new-computing-era-begins-671b369d?mod=tech_lead_pos2",
+          "description": "Wall Street Journal",
+          "pubDate": "Fri, 20 Mar 2026 17:30:00 GMT",
+          "source": "nvidianews.nvidia.com",
           "type": "rss",
           "relevanceScore": 4,
           "category": "funding"
@@ -133,31 +93,31 @@
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-11-10",
-        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
+        "date": "2026-11-17",
+        "subject": "The hidden reason most robots fail on th... | Robotica Weekly #1",
         "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
-          "description": "<p>NVIDIA also gave a look at how its partners, like Ambi Robotics, FieldAI, Flexion, Skild AI, RLWRLD, and more, are using these technologies. </p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/\">NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL</a> ..."
+          "title": "The hidden reason most robots fail on the factory floor",
+          "description": "<p>Evan Beard explains how AI-native robotics could make automation easier to program and help American manufacturing compete globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/\">The hidden reason most robots fail on the factory ..."
         },
         "news": [
           {
-            "title": "Boston Dynamics adds wheels to Atlas humanoid to test whole-body control",
-            "description": "<p>Boston Dynamics combines classical motor control with whole-body reinforcement learning to power dynamic, wheeled locomotion for Atlas.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-w...",
-            "category": "company",
-            "link": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/"
-          },
-          {
-            "title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
-            "description": "<p>The partners plan to bring Skydio drones to public safety agencies across the U.S. as Axon expands its Drone as First Responder program.</p>\n<p>The post <a href=\"https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-publ...",
+            "title": "Agile Robots raises $500M to increase production capacity",
+            "description": "<p>Agile Robots builds and deploys a range of robots, including humanoids, mobile robots, robotic arms, and robotics hands.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/\">Agile Robot...",
             "category": "funding",
-            "link": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/"
+            "link": "https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/"
           },
           {
-            "title": "How to minimize Wi-Fi roaming interruptions for autonomous mobile robots",
-            "description": "<p>Dedicated Wi-Fi scan architectures can improve robot mobility, reliability, and performance, says Synaptics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/\">How to minimiz...",
-            "category": "industry",
-            "link": "https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/"
+            "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
+            "description": "<p>Boston Dynamics’ Atlas humanoid robot will undergo its first trials outside the automotive industry at a major semiconductor manufacturer in early 2027.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-f...",
+            "category": "company",
+            "link": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/"
+          },
+          {
+            "title": "Food robotics 2.0: why this time could be different",
+            "description": "<p>Food robotics is entering a new era as companies shift from consumer-facing robot restaurants to B2B automation that help food manufacturers, restaurants, and grocery retailers improve productivity, reduce labor costs, and scale operations.</p>\n<p...",
+            "category": "product",
+            "link": "https://www.therobotreport.com/food-robotics-2-0-why-this-time-could-be-different/"
           }
         ],
         "stat": {
