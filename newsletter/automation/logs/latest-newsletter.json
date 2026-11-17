@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1794320387030",
-  "subject": "Physical AI, nuovi funding e trend robotics | Ed. #1",
+  "runId": "run-1794929364848",
+  "subject": "The hidden reason most robots fail on th... | Robotica Weekly #1",
   "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
-    "description": "<p>NVIDIA also gave a look at how its partners, like Ambi Robotics, FieldAI, Flexion, Skild AI, RLWRLD, and more, are using these technologies. </p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/\">NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL</a> ..."
+    "title": "The hidden reason most robots fail on the factory floor",
+    "description": "<p>Evan Beard explains how AI-native robotics could make automation easier to program and help American manufacturing compete globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/\">The hidden reason most robots fail on the factory ..."
   },
   "news": [
     {
-      "title": "Boston Dynamics adds wheels to Atlas humanoid to test whole-body control",
-      "description": "<p>Boston Dynamics combines classical motor control with whole-body reinforcement learning to power dynamic, wheeled locomotion for Atlas.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-w...",
-      "category": "company",
-      "link": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/"
-    },
-    {
-      "title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
-      "description": "<p>The partners plan to bring Skydio drones to public safety agencies across the U.S. as Axon expands its Drone as First Responder program.</p>\n<p>The post <a href=\"https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-publ...",
+      "title": "Agile Robots raises $500M to increase production capacity",
+      "description": "<p>Agile Robots builds and deploys a range of robots, including humanoids, mobile robots, robotic arms, and robotics hands.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/\">Agile Robot...",
       "category": "funding",
-      "link": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/"
+      "link": "https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/"
     },
     {
-      "title": "How to minimize Wi-Fi roaming interruptions for autonomous mobile robots",
-      "description": "<p>Dedicated Wi-Fi scan architectures can improve robot mobility, reliability, and performance, says Synaptics.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/\">How to minimiz...",
-      "category": "industry",
-      "link": "https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/"
+      "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
+      "description": "<p>Boston Dynamics’ Atlas humanoid robot will undergo its first trials outside the automotive industry at a major semiconductor manufacturer in early 2027.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-f...",
+      "category": "company",
+      "link": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/"
+    },
+    {
+      "title": "Food robotics 2.0: why this time could be different",
+      "description": "<p>Food robotics is entering a new era as companies shift from consumer-facing robot restaurants to B2B automation that help food manufacturers, restaurants, and grocery retailers improve productivity, reduce labor costs, and scale operations.</p>\n<p...",
+      "category": "product",
+      "link": "https://www.therobotreport.com/food-robotics-2-0-why-this-time-could-be-different/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-11-10T14:19:51.141Z",
+  "generatedAt": "2026-11-17T15:29:27.941Z",
   "html": "<!-- Template not found -->"
 }
