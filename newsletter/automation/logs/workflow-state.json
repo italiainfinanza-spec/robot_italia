@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1795539454687",
+    "id": "run-1795539543490",
     "edition": 1,
-    "date": "2026-11-24T16:57:34.687Z",
+    "date": "2026-11-24T16:59:03.490Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-11-24T16:57:34.690Z",
-        "completedAt": "2026-11-24T16:57:36.357Z"
+        "startedAt": "2026-11-24T16:59:03.495Z",
+        "completedAt": "2026-11-24T16:59:04.519Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-11-24T16:57:36.405Z",
-        "completedAt": "2026-11-24T16:57:36.627Z"
+        "startedAt": "2026-11-24T16:59:18.321Z",
+        "completedAt": "2026-11-24T16:59:18.334Z"
       },
       "review": {
         "status": "pending",
@@ -114,7 +114,7 @@
         "type": "free",
         "edition": 1,
         "date": "2026-11-24",
-        "subject": "La settimana in robotica — Edizione #1",
+        "subject": "🤖 Weekly Robotics: 🚀 Nuovi prodotti",
         "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
           "title": "Special Report: Engineering Focus on Motion Control",
