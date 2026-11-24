@@ -1,19 +1,19 @@
 {
   "currentRun": {
-    "id": "run-1794929443035",
+    "id": "run-1795539454687",
     "edition": 1,
-    "date": "2026-11-17T15:30:43.035Z",
+    "date": "2026-11-24T16:57:34.687Z",
     "status": "initialized",
     "phases": {
       "research": {
         "status": "completed",
-        "startedAt": "2026-11-17T15:30:43.039Z",
-        "completedAt": "2026-11-17T15:30:43.784Z"
+        "startedAt": "2026-11-24T16:57:34.690Z",
+        "completedAt": "2026-11-24T16:57:36.357Z"
       },
       "draft": {
         "status": "completed",
-        "startedAt": "2026-11-17T15:31:01.453Z",
-        "completedAt": "2026-11-17T15:31:01.459Z"
+        "startedAt": "2026-11-24T16:57:36.405Z",
+        "completedAt": "2026-11-24T16:57:36.627Z"
       },
       "review": {
         "status": "pending",
@@ -30,51 +30,61 @@
     "data": {
       "researchResults": [
         {
-          "title": "The hidden reason most robots fail on the factory floor",
-          "link": "https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/",
-          "description": "<p>Evan Beard explains how AI-native robotics could make automation easier to program and help American manufacturing compete globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/\">The hidden reason most robots fail on the factory floor</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 16 Nov 2026 23:49:56 +0000",
+          "title": "Special Report: Engineering Focus on Motion Control",
+          "link": "https://www.therobotreport.com/special-report-engineering-focus-on-motion-control/",
+          "description": "<p>The Robot Report looks at recent advances in automation for manufacturing, from improvements in technologies and use cases to the potential of humanoids and AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/special-report-engineering-focus-on-motion-control/\">Special Report: Engineering Focus on Motion Control</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 23 Nov 2026 15:16:26 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 14,
+          "relevanceScore": 13,
           "category": "industry"
         },
         {
-          "title": "Agile Robots raises $500M to increase production capacity",
-          "link": "https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/",
-          "description": "<p>Agile Robots builds and deploys a range of robots, including humanoids, mobile robots, robotic arms, and robotics hands.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/\">Agile Robots raises $500M to increase production capacity</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Mon, 16 Nov 2026 17:47:48 +0000",
+          "title": "SoftBank acquires Marc Raibert’s Robotics and AI Institute",
+          "link": "https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/",
+          "description": "<p>SoftBank has completed its acquisition of the Robotics and AI Institute from Hyundai Motor Group, expanding its robotics portfolio as the research organization looks to fill 24 open positions in Massachusetts and Switzerland.</p>\n<p>The post <a href=\"https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/\">SoftBank acquires Marc Raibert&#8217;s Robotics and AI Institute</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Tue, 24 Nov 2026 14:48:57 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 14,
+          "relevanceScore": 12,
+          "category": "market"
+        },
+        {
+          "title": "How does Orchard AI fit into John Deere’s technology portfolio?",
+          "link": "https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/",
+          "description": "<p>John Deere said the deal strengthens its ability to help growers make more informed decisions throughout the growing season.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/\">How does Orchard AI fit into John Deere&#8217;s technology portfolio?</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 23 Nov 2026 20:29:55 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 8,
+          "category": "industry"
+        },
+        {
+          "title": "NVIDIA reinstates Jensen Huang after 11-day absence",
+          "link": "https://www.therobotreport.com/nvidia-reinstates-jensen-huang-after-11-day-absence/",
+          "description": "<p>The NVIDIA board reversed its decision following discussions with Huang and senior U.S. government officials, amid growing pressure from the White House, investors and technology executives.</p>\n<p>The post <a href=\"https://www.therobotreport.com/nvidia-reinstates-jensen-huang-after-11-day-absence/\">NVIDIA reinstates Jensen Huang after 11-day absence</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Mon, 23 Nov 2026 14:20:46 +0000",
+          "source": "www.therobotreport.com",
+          "type": "rss",
+          "relevanceScore": 7,
           "category": "funding"
         },
         {
-          "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
-          "link": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/",
-          "description": "<p>Boston Dynamics’ Atlas humanoid robot will undergo its first trials outside the automotive industry at a major semiconductor manufacturer in early 2027.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/\">Boston Dynamics’ Atlas humanoid lands first non-automotive trial</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Tue, 17 Nov 2026 14:49:05 +0000",
+          "title": "The manufacturing data gap holding back physical AI",
+          "link": "https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/",
+          "description": "<p>Manufacturers looking to deploy autonomous robots must close gaps in industrial data collection, interoperability, and quality feedback to enable reliable decision-making and improve production efficiency.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/\">The manufacturing data gap holding back physical AI</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
+          "pubDate": "Sat, 21 Nov 2026 22:25:35 +0000",
           "source": "www.therobotreport.com",
           "type": "rss",
-          "relevanceScore": 11,
-          "category": "company"
+          "relevanceScore": 5,
+          "category": "industry"
         },
         {
-          "title": "Food robotics 2.0: why this time could be different",
-          "link": "https://www.therobotreport.com/food-robotics-2-0-why-this-time-could-be-different/",
-          "description": "<p>Food robotics is entering a new era as companies shift from consumer-facing robot restaurants to B2B automation that help food manufacturers, restaurants, and grocery retailers improve productivity, reduce labor costs, and scale operations.</p>\n<p>The post <a href=\"https://www.therobotreport.com/food-robotics-2-0-why-this-time-could-be-different/\">Food robotics 2.0: why this time could be different</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Sat, 14 Nov 2026 13:00:38 +0000",
-          "source": "www.therobotreport.com",
-          "type": "rss",
-          "relevanceScore": 11,
-          "category": "product"
-        },
-        {
-          "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
-          "link": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
-          "description": "<p>Four of the six robots pass a performance assessment as the trial puts customer service, retail operations and embodied AI capabilities to the test in a working store.</p>\n<p>The post <a href=\"https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/\">Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>\n",
-          "pubDate": "Fri, 13 Nov 2026 16:32:58 +0000",
-          "source": "www.therobotreport.com",
+          "title": "A more tailored Google Search that’s uniquely yours",
+          "link": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_pContext_Drive_1118.max-600x600.format-webp.webp\">Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+          "pubDate": "Mon, 23 Nov 2026 17:00:00 +0000",
+          "source": "blog.google",
           "type": "rss",
           "relevanceScore": 5,
           "category": "industry"
@@ -88,36 +98,46 @@
           "type": "rss",
           "relevanceScore": 4,
           "category": "funding"
+        },
+        {
+          "title": "How Gemini is changing the game for Golden State's organization and fans.",
+          "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+          "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp\">Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+          "pubDate": "Tue, 24 Nov 2026 16:00:00 +0000",
+          "source": "blog.google",
+          "type": "rss",
+          "relevanceScore": 3,
+          "category": "product"
         }
       ],
       "draftContent": {
         "type": "free",
         "edition": 1,
-        "date": "2026-11-17",
-        "subject": "The hidden reason most robots fail on th... | Robotica Weekly #1",
+        "date": "2026-11-24",
+        "subject": "La settimana in robotica — Edizione #1",
         "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
         "headline": {
-          "title": "The hidden reason most robots fail on the factory floor",
-          "description": "<p>Evan Beard explains how AI-native robotics could make automation easier to program and help American manufacturing compete globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/\">The hidden reason most robots fail on the factory ..."
+          "title": "Special Report: Engineering Focus on Motion Control",
+          "description": "<p>The Robot Report looks at recent advances in automation for manufacturing, from improvements in technologies and use cases to the potential of humanoids and AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/special-report-engineering-focus-on-motion-control/\">Special Report: Engineering..."
         },
         "news": [
           {
-            "title": "Agile Robots raises $500M to increase production capacity",
-            "description": "<p>Agile Robots builds and deploys a range of robots, including humanoids, mobile robots, robotic arms, and robotics hands.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/\">Agile Robot...",
+            "title": "SoftBank acquires Marc Raibert’s Robotics and AI Institute",
+            "description": "<p>SoftBank has completed its acquisition of the Robotics and AI Institute from Hyundai Motor Group, expanding its robotics portfolio as the research organization looks to fill 24 open positions in Massachusetts and Switzerland.</p>\n<p>The post <a hr...",
+            "category": "market",
+            "link": "https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/"
+          },
+          {
+            "title": "How does Orchard AI fit into John Deere’s technology portfolio?",
+            "description": "<p>John Deere said the deal strengthens its ability to help growers make more informed decisions throughout the growing season.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/\">Ho...",
+            "category": "industry",
+            "link": "https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/"
+          },
+          {
+            "title": "NVIDIA reinstates Jensen Huang after 11-day absence",
+            "description": "<p>The NVIDIA board reversed its decision following discussions with Huang and senior U.S. government officials, amid growing pressure from the White House, investors and technology executives.</p>\n<p>The post <a href=\"https://www.therobotreport.com/...",
             "category": "funding",
-            "link": "https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/"
-          },
-          {
-            "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
-            "description": "<p>Boston Dynamics’ Atlas humanoid robot will undergo its first trials outside the automotive industry at a major semiconductor manufacturer in early 2027.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-f...",
-            "category": "company",
-            "link": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/"
-          },
-          {
-            "title": "Food robotics 2.0: why this time could be different",
-            "description": "<p>Food robotics is entering a new era as companies shift from consumer-facing robot restaurants to B2B automation that help food manufacturers, restaurants, and grocery retailers improve productivity, reduce labor costs, and scale operations.</p>\n<p...",
-            "category": "product",
-            "link": "https://www.therobotreport.com/food-robotics-2-0-why-this-time-could-be-different/"
+            "link": "https://www.therobotreport.com/nvidia-reinstates-jensen-huang-after-11-day-absence/"
           }
         ],
         "stat": {
