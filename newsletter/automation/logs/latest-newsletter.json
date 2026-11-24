@@ -1,34 +1,34 @@
 {
   "status": "ready",
   "edition": 1,
-  "runId": "run-1794929364848",
-  "subject": "The hidden reason most robots fail on th... | Robotica Weekly #1",
+  "runId": "run-1795539454687",
+  "subject": "La settimana in robotica — Edizione #1",
   "preheader": "2 nuovi round di funding, trend AI e opportunità di investimento",
   "headline": {
-    "title": "The hidden reason most robots fail on the factory floor",
-    "description": "<p>Evan Beard explains how AI-native robotics could make automation easier to program and help American manufacturing compete globally.</p>\n<p>The post <a href=\"https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/\">The hidden reason most robots fail on the factory ..."
+    "title": "Special Report: Engineering Focus on Motion Control",
+    "description": "<p>The Robot Report looks at recent advances in automation for manufacturing, from improvements in technologies and use cases to the potential of humanoids and AI.</p>\n<p>The post <a href=\"https://www.therobotreport.com/special-report-engineering-focus-on-motion-control/\">Special Report: Engineering..."
   },
   "news": [
     {
-      "title": "Agile Robots raises $500M to increase production capacity",
-      "description": "<p>Agile Robots builds and deploys a range of robots, including humanoids, mobile robots, robotic arms, and robotics hands.</p>\n<p>The post <a href=\"https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/\">Agile Robot...",
+      "title": "SoftBank acquires Marc Raibert’s Robotics and AI Institute",
+      "description": "<p>SoftBank has completed its acquisition of the Robotics and AI Institute from Hyundai Motor Group, expanding its robotics portfolio as the research organization looks to fill 24 open positions in Massachusetts and Switzerland.</p>\n<p>The post <a hr...",
+      "category": "market",
+      "link": "https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/"
+    },
+    {
+      "title": "How does Orchard AI fit into John Deere’s technology portfolio?",
+      "description": "<p>John Deere said the deal strengthens its ability to help growers make more informed decisions throughout the growing season.</p>\n<p>The post <a href=\"https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/\">Ho...",
+      "category": "industry",
+      "link": "https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/"
+    },
+    {
+      "title": "NVIDIA reinstates Jensen Huang after 11-day absence",
+      "description": "<p>The NVIDIA board reversed its decision following discussions with Huang and senior U.S. government officials, amid growing pressure from the White House, investors and technology executives.</p>\n<p>The post <a href=\"https://www.therobotreport.com/...",
       "category": "funding",
-      "link": "https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/"
-    },
-    {
-      "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
-      "description": "<p>Boston Dynamics’ Atlas humanoid robot will undergo its first trials outside the automotive industry at a major semiconductor manufacturer in early 2027.</p>\n<p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-f...",
-      "category": "company",
-      "link": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/"
-    },
-    {
-      "title": "Food robotics 2.0: why this time could be different",
-      "description": "<p>Food robotics is entering a new era as companies shift from consumer-facing robot restaurants to B2B automation that help food manufacturers, restaurants, and grocery retailers improve productivity, reduce labor costs, and scale operations.</p>\n<p...",
-      "category": "product",
-      "link": "https://www.therobotreport.com/food-robotics-2-0-why-this-time-could-be-different/"
+      "link": "https://www.therobotreport.com/nvidia-reinstates-jensen-huang-after-11-day-absence/"
     }
   ],
   "type": "free",
-  "generatedAt": "2026-11-17T15:29:27.941Z",
+  "generatedAt": "2026-11-24T16:57:38.153Z",
   "html": "<!-- Template not found -->"
 }
